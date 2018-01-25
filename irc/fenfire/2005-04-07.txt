@@ -1,0 +1,159 @@
+06:31:09 <tuukkah> here I am, waiting for the lecture :-)
+06:31:45 <ibid> in the auditorium?
+06:32:12 <tuukkah> yes
+06:34:33 <ibid> korppi says there is no reservation of the aud
+06:35:47 <tuukkah> there's some bug in it or something. it showed the same last week and for the following weeks, but if you go see the auditorium reservation list, it's reserved for the course each week
+06:36:04 <ibid> yeah, i just did :)
+06:36:28 <ibid> i suppose it's just a case of the reservation being disconnected from the course in korppi
+06:36:30 <tuukkah> besides, as there isn't another reservation and I was here first ... :-)
+06:36:41 <ibid> matti should be able to correct that
+06:37:56 <tuukkah> unless he has better things to do than fight with the software
+06:38:09 <ibid> that does not alter his ability to do it :)
+06:38:27 <ibid> i suppose i could come down too
+06:39:41 <rubberpaw> rubberpaw has quit
+07:38:17 <rubberpaw> rubberpaw has joined #fenfire
+07:43:29 <benja_> argl, I'm much too late :-(
+07:43:41 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fixes to make CanvasSpatialView work more
+07:43:50 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add check for null key
+07:43:55 <benja_> will be there for last part of lecture
+07:43:58 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, don't thow error when detecting a 'cycle in hashtable' -- not a fix, just hiding a problem, I guess :-(
+07:47:44 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, fixes to CanvasSpatialView, can click to move now but often gives exceptions
+08:19:00 <tuukkah> benja_, no problem, we're doing fine
+08:26:11 <benja_> tuukkah, it's fine, it's fine, I'll just look at the pictures =)
+08:26:31 <tuukkah> oh, we can have a translation service here :-)
+08:26:53 <benja_> ok, so what's janne talking about? :)
+08:27:03 <babel> babel has joined #fenfire
+08:27:17 <babel> babel is now known as babel_janne
+08:27:37 <babel_janne> this is the implementation of jagged edges
+08:28:00 <benja_> took me a moment to understand the name ;-)
+08:28:15 <benja_> so what do the shades of gray mean?
+08:28:18 <babel_janne> we start with a square, then create an irregular shape
+08:28:35 <babel_janne> they are like a 3d height map
+08:28:55 <babel_janne> and some level of grey is choosen to be "water level"
+08:29:05 <babel_janne> lower than that is transparent
+08:29:09 <benja_> ah, I was wondering why I caught a 'vesi' :)
+08:29:21 <babel_janne> and now to last subject...
+08:29:24 <benja_> so how is the map generated?
+08:29:35 <babel_janne> random basicly
+08:30:09 <babel_janne> zigzag structure was more restricted
+08:30:13 <babel_janne> (the zigzag axiom)
+08:30:50 <babel_janne> it meant that nodes had a pretty fixed place in the vie
+08:30:51 <babel_janne> w
+08:31:05 <benja_> hmm
+08:31:17 <babel_janne> so there were complex connections
+08:31:53 <babel_janne> so it can be difficult to see how they go
+08:32:23 <babel_janne> it would be better to layout so that connections don't cross, but in zigzag we couldn't
+08:32:40 <babel_janne> so the solution was fillets
+08:32:56 <babel_janne> and fillet is a term from molding
+08:33:39 <babel_janne> so we did an experiment with several visualisations
+08:35:24 <babel_janne> the subjects were asked to find the irregular connection on screen
+08:35:41 <babel_janne> and with fillets, the amount of nodes didn't affect much the time to do this
+08:36:09 <rubberpaw> rubberpaw has quit
+08:36:15 <babel_janne> but this experiment might have shown more advance than there really is
+08:36:29 <babel_janne> the experiment with arbitrary graphs isn't finished yet
+08:36:36 <benja_> heh, I hadn't seen that demo before
+08:36:42 <benja_> neat =)
+08:38:04 <babel_janne> fillets take a lot of screen space
+08:38:44 <benja_> right...
+08:38:52 <benja_> huh :)
+08:39:28 <babel_janne> I think the other demos on the background are making this slower
+08:39:54 <babel_janne> there are all details that can be smoothed out
+08:40:02 <babel_janne> and there are other effects
+08:40:27 <babel_janne> by accident, you can find interesting things, like this texture
+08:45:11 <babel_janne> so these are related to fenfire so that we needed these technologies for a usable user interface
+08:45:32 <babel_janne> fillets aren't related to identity directly
+08:45:43 <babel_janne> babel_janne is now known as babel_audience
+08:45:52 <babel_audience> ok, now I understand why it looks so bad
+08:45:59 <babel_audience> so it's more usable
+08:46:06 <babel_audience> babel_audience is now known as babel
+08:46:09 <benja_> mv babel_audience babel_matti
+08:47:17 <babel> babel is now known as babel_matti
+08:47:24 <babel_matti> you can try the legos if you want
+08:47:37 <benja_> ah :)
+08:47:45 <babel_matti> (sorry about the lag)
+08:52:24 <vegai> hmm, what looks bad?
+08:52:38 <vegai> the fillets?
+08:57:11 <babel_matti> babel_matti is now known as babel
+08:58:32 <vegai> http://www-128.ibm.com/developerworks/web/library/wa-cranky50.html?ca=dgr-lnxw06BabyDuck
+09:00:42 <babel> the speaker meant the fenpdf user interface as a whole
+09:01:02 <vegai> thank you
+09:01:29 <babel> babel has quit
+09:02:14 <tuukkah> well, the translation service might also be useful for distance learners and for archival purposes :-)
+09:02:56 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, fix
+09:03:19 <tuukkah> although I should ask jvk if the translation matched what he meant and benja_ if it helped follow the situation
+09:03:28 <tuukkah> hmm, one of these really nice commit messages
+09:04:17 <tuukkah> I used luminocity on the lecture to best humppake and his Mac ;-)
+09:04:48 <tuukkah> but, the lecture has transformed into lunch in Piato ->
+09:13:16 <vegai> http://www.ok-cancel.com/archives/week_2003_10_03.html
+09:49:40 <rubberpaw> rubberpaw has joined #fenfire
+09:55:55 <ibid> vegai: which is correct, "you are I" or "you are me"?
+09:56:32 <vegai> you are me
+09:56:35 <ibid> that
+09:56:42 <vegai> or it's a trick question :)
+09:56:43 <ibid> 's what we agreed on :)
+09:56:45 <ibid> thanks :)
+09:56:49 <vegai> yeah, ok
+09:57:01 <ibid> i was just making a joke about URI, and benja said it was ungrammatical :)
+09:57:09 <vegai> ah :)
+09:58:25 <ibid> i am he as you are he as you are me and we are all together
+09:58:46 <vegai> they're both incorrect, since I am not you.
+09:58:52 <vegai> (har har har)
+09:59:31 <ibid> yes, but that's semantic incorrectness, not grammatical :)
+09:59:38 <vegai> yep
+10:03:37 <benja_> ibid, we did agree? nice :-)
+10:04:36 <ibid> :)
+10:04:50 <ibid> i didn't make a big deal out of it
+11:47:18 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add a lob that ignores all key events sent to it
+12:43:12 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, check arguments better, throw exceptions when not acceptable
+12:46:55 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, check argument better, throw exception if not acceptable
+12:47:01 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, remove crud
+12:51:44 <rubberpaw> rubberpaw has quit
+13:50:35 <rubberpaw> rubberpaw has joined #fenfire
+14:08:39 <majukati> b
+14:17:11 <rubberpaw> rubberpaw has quit
+14:26:24 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add third lecture notes.
+14:32:44 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, link to main page
+14:39:02 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, hups, forgot to translate the page.
+14:39:07 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, fix
+15:50:41 <rubberpaw> rubberpaw has joined #fenfire
+18:19:49 <rubberpaw> rubberpaw has quit
+19:51:44 <rubberpaw> rubberpaw has joined #fenfire
+19:55:48 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, implement single checkbox component (a checkbox without a label)
+20:17:36 <vmiklos> vmiklos has joined #fenfire
+20:17:47 <vmiklos> hi
+20:19:30 <vmiklos> Antti-Juhani Kaijanaho suggested me to came here, if i have any comments about your send_darcs_diffs.py script
+20:19:46 <vmiklos> it works fine, but i just discovered a small bug
+20:19:52 <vmiklos> if a patch has been recorded
+20:19:56 <vmiklos> then unrecorded
+20:20:11 <vmiklos> then till i don't delete manually it from _darcs/patches
+20:20:14 <ibid> hi vmiklos :)
+20:20:59 <vmiklos> the script tries to do a darcs diff --match 'hash id'
+20:21:01 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, even if ClickController handles a mouse event, pass it on to the child to see whether it wants to handle it too (then both handle it)
+20:21:17 <vmiklos> but as it's not recorded
+20:21:20 <benja_> vmiklos: I wouldn't call it a bug, but it's not neat :)
+20:21:21 <vmiklos> it will fail
+20:21:35 <benja_> it would be better to use darcs to get the set of patches
+20:21:46 <vmiklos> maybe
+20:22:15 <benja_> I asked on the darcs mailing list what was going on and with help figured out it was an unrecorded patch :)
+20:22:22 <benja_> and they recommended using darcs to get the patchset
+20:22:35 <benja_> haven't felt the need to figure it out, though
+20:22:42 <vmiklos> ofcoz this is only a small notice, if haven't known about it get
+20:22:43 <benja_> because the current way works
+20:22:52 <vmiklos> yet
+20:23:18 <benja_> it just prints out some ugly stuff, but does the right thing ;-)
+20:23:45 <vmiklos> yes, but i debugget half an hour till i figured out that this is only a warning :)
+20:23:51 <vmiklos> debugged
+20:24:02 <benja_> sorry about that :)
+20:24:31 <benja_> 'darcs changes' gives the correct set of changes
+20:24:57 <vmiklos> yes
+20:25:30 <benja_> argh, half past 11 ... should go to bed. cu! :)
+20:25:36 <ibid> * ibid too
+20:25:40 <ibid> night
+20:25:47 <benja_> night
+20:25:54 <vmiklos> bye
+20:25:57 <vmiklos> and thanks :)
+20:26:01 <benja_> welcome :)
+20:26:04 <vmiklos> vmiklos has left #fenfire
+20:26:08 <rubberpaw> rubberpaw has quit
+21:44:31 <tuukkah> kaffe has recently started to get in infinite loop pretty often
+21:51:49 <rubberpaw> rubberpaw has joined #fenfire

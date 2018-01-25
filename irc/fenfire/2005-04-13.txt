@@ -1,0 +1,17 @@
+02:34:39 <tuukkah> tuukkah has quit
+02:43:11 <rubberpaw> rubberpaw has quit
+03:05:05 <rubberpaw> rubberpaw has joined #fenfire
+06:26:01 <majukati> huomenta
+06:43:30 <rubberpaw> rubberpaw has quit
+07:05:22 <rubberpaw> rubberpaw has joined #fenfire
+07:35:19 <majukati> benja_: on today: -jar -javadoc -lecture notes -finish demo code
+07:51:48 <rubberpaw> rubberpaw has quit
+08:10:49 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, pre-notes and fixes
+08:41:33 <benja_> argh
+08:41:38 <benja_> I totally overslept
+08:41:39 <benja_> :(
+08:44:13 <benja_> majukati, where can we find this appendix 3a
+08:44:19 <majukati> i ate already and will go next to work on rathole
+08:44:27 <majukati> tekes.fi
+08:44:47 <benja_> majukati, no, that's only the home page of tekes ;)
+08:46:15 <majukati> i'll be going

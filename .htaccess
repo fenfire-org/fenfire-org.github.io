@@ -1,0 +1,3 @@
+AddDefaultCharset utf-8
+AddType application/x-turtle turtle
+AddType application/rdf+xml rdfxml

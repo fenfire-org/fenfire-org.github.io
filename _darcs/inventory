@@ -1,0 +1,116 @@
+[initial commit with website version from cvs
+Benja Fallenstein <b.fallenstein@gmx.de>**20041210060625] 
+[use python and plain docutils instead of java+jython+navidoc (assumes docutils is installed where debian puts it)
+Benja Fallenstein <b.fallenstein@gmx.de>**20041210083629] 
+[remove Savannah .htaccess
+Benja Fallenstein <b.fallenstein@gmx.de>**20041210083952] 
+[updated documentation pages, added Getting started
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20041214130455] 
+[twids to developer information page, move old stuff to own section
+Benja Fallenstein <b.fallenstein@gmx.de>**20041214140849] 
+[fixed compile order, added info about needed programs
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20041214155037] 
+[current page marked in navbar as non-link
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20041215231627] 
+[fixed navbar to pass xhtml validator
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20041216000354] 
+[fixed navbar links from root dir to root index
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20041218161625] 
+[added doc/java
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050319115014] 
+[updated to work using docutils 0.3.7
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050319120943] 
+[Initial Foundation stuff
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050324134532] 
+[set default charset in .htaccess
+Benja Fallenstein <b.fallenstein@gmx.de>**20050324141117] 
+[Recode reksel.txt as UTF-8
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050324203123] 
+[Add minutes.
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050324205732] 
+[More minutes, constitution
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050324212939] 
+[Fix the displays in joining/liittyminen
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050324220501] 
+[add DOAP (Description of a Project) for Fenfire
+Benja Fallenstein <b.fallenstein@gmx.de>**20050324223523] 
+[change .htaccess to give correct media type for turtle files
+Benja Fallenstein <b.fallenstein@gmx.de>**20050324223741] 
+[tweaked doap
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050327171910] 
+[add LANG=C to to Makefile
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050327174259] 
+[changed affiliation page titles to shorter ones
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050327174456] 
+[renamed Affiliating as Membership
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050327211832] 
+[s/LANG/LC_ALL/
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050329121011] 
+[Membership is better called Joining
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050329121138] 
+[tell about jikes-kaffe
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050329135203] 
+[added benja's newer screenshots
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050406145221] 
+[added front page for 2005/resource
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050406152712] 
+[a URI space for URIs identifying resources specified by a graph given in a query string ;-)
+Benja Fallenstein <benja.fallenstein@gmail.com>**20050406152750] 
+[rewriting to make http://fenfire.org/2005/resource? with a query string redirect to the script
+Benja Fallenstein <benja.fallenstein@gmail.com>**20050406152846] 
+[add an example turtle graph on the resource page
+Benja Fallenstein <b.fallenstein@gmx.de>**20050406153505] 
+[updated Getting started
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050409150136] 
+[added papers for new pages
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050409151731] 
+[linked new irc logs
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050410174903] 
+[add foaf:nicks
+Benja Fallenstein <b.fallenstein@gmx.de>**20050415084432] 
+[2005-03-23 minutes have been approved
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050425144830] 
+[Add public copy of 2005-04-25 EC meeting minutes
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050425144941] 
+[Record secretarial changes in board.
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050425145831] 
+[Correction to minutes.
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050425155106] 
+[Remove draft notice from non-draft minutes
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050425174804] 
+[add foaf:primaryTopic to doap.turtle
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050426102248] 
+[generate an RDF/XML version of the DOAP (by converting from the Turtle version)
+Benja Fallenstein <b.fallenstein@gmx.de>**20050426132915] 
+[add .rdfxml suffix to .htaccess
+Benja Fallenstein <b.fallenstein@gmx.de>**20050426133138] 
+[add a comment about latest dependency
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050427185512] 
+[kaffe-pthreads is now installed automatically with kaffe
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050427190603] 
+[added apps/ and apps/editing
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20050429015257] 
+[link to fenfire.turtle
+Benja Fallenstein <b.fallenstein@gmx.de>**20050429224859] 
+[EC decision
+Antti-Juhani Kaijanaho <antti-juhani@kaijanaho.info>**20050725114727] 
+[convert from iso-8859-15 to utf-8
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20070213174630] 
+[update Makefile to work with recent docutils and darcs
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20070213174749] 
+[add fenfire 0.1 announcement
+Benja Fallenstein <benja.fallenstein@gmail.com>**20070213175754] 
+[fix channel name
+Benja Fallenstein <benja.fallenstein@gmail.com>**20070213184433] 
+[add README and screenshot links to webpage
+Benja Fallenstein <benja.fallenstein@gmail.com>**20070213194611] 
+[fix links to Tuukka and Gzz, update screenshots
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20070213230642] 
+[change add_navbar.py to work with docutils 0.4.1
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20070213233448] 
+[makefile only recompiles files with changed source
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20070213235655] 
+[announce fenfire-hs 0.2
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20080521130502] 
+[change ex-himalia screenshot links
+Tuukka Hastrup <Tuukka.Hastrup@iki.fi>**20080525154442] 

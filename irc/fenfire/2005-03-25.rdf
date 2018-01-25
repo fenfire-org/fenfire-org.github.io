@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:wn="http://xmlns.com/wordnet/1.6/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<foaf:ChatChannel rdf:about="irc://irc.freenode.org/fenfire">
+  <foaf:chatEventList>
+    <rdf:Seq>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T05-46-35">
+        <dc:date>2005-03-25T05:46:35Z</dc:date>
+        <dc:description>humppake has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="humppake"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T05-47-34">
+        <dc:date>2005-03-25T05:47:34Z</dc:date>
+        <dc:description>humppake has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="humppake"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-58-49">
+        <dc:date>2005-03-25T09:58:49Z</dc:date>
+        <dc:description>hmm, could this be good for fenfire: "For example, when you press page down, evince will slightly darken the area on the screen where your page was as it smooth scrolls. That lets your eye track its position much easier, so once the scroll is over you just keep reading without a visual "seek"."</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-18-33">
+        <dc:date>2005-03-25T16:18:33Z</dc:date>
+        <dc:description>gv puts a line where the bottom of the window was for a second or two</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-18-53">
+        <dc:date>2005-03-25T16:18:53Z</dc:date>
+        <dc:description>* ibid apparently slept for 15 hours</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+    </rdf:Seq>
+  </foaf:chatEventList>
+</foaf:ChatChannel>
+</rdf:RDF>

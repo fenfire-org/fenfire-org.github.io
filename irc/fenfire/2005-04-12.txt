@@ -1,0 +1,455 @@
+00:28:11 <rubberpaw> rubberpaw has joined #fenfire
+02:36:28 <tuukkah> oops
+04:36:53 <rubberpaw> rubberpaw has quit
+04:36:56 <rubberpaw> rubberpaw has joined #fenfire
+06:22:59 <majukati> texbook is available as tex but says that it's copyrighted material and only for use to test TeX :)
+06:40:13 <majukati> benja_: i try to do lob visual printter before i come
+06:44:34 <majukati> s/do/construct/
+07:33:50 <benja_> huomenta
+07:33:55 <benja_> majukati, ok
+07:34:06 <benja_> s/construct/write/ :)
+07:34:09 <benja_> or make
+07:34:13 <benja_> perhaps
+07:34:47 <benja_> tuukkah, ?
+07:35:01 <benja_> oops as in, "oops, I'm still awake?" :)
+07:35:06 <majukati> done
+07:35:11 <benja_> :)
+07:35:22 <benja_> where shall we meet?
+07:35:29 <majukati> took 30 minutes more than i expected
+07:35:43 <benja_> I'm on second floor above the door next to the bus station at the moment
+07:38:02 <majukati> ok, it takes like 30 minutes to walk there
+07:38:52 <benja_> ok
+07:43:23 <majukati> pushed
+07:43:57 <benja_> I'll look at it while you come here
+07:47:45 <ibid> wow, another +4 post on slashdot for me :)
+07:49:02 <tuukkah> benja_, yes :-)
+07:49:08 <benja_> =)
+07:49:39 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, add lob's visual printout util to help documentation
+07:49:46 <benja_> "ajk (944)"
+07:49:53 <ibid> yeah, so?:)
+07:50:08 <benja_> nothing :)
+07:50:18 <rubberpaw> rubberpaw has quit
+07:51:53 <benja_> typical that you get your +4 with a correcting post *plants tongue in cheek*
+07:52:51 <ibid> are you saying it was *not* an informative post? ;)
+07:53:45 <benja_> no, and I can't even say it was a +4 Nice Nitpick ;-)
+07:54:00 <ibid> heh
+07:54:43 <vegai> Ian doesn't like Ubuntu very much, does he
+07:55:35 <benja_> Ian?
+07:55:45 <tuukkah> from Debian :-)
+07:56:14 <ibid> DebIAN
+07:56:23 <ibid> murdock
+07:56:57 <tuukkah> (Deb|Ian)Murdock :-)
+07:57:17 <ibid> yeah
+07:58:40 <benja_> *looks at weblog* sounds to me like he's asking for one particular thing (debian compatibility), not saying "Ubuntu is bad"
+07:59:57 <tuukkah> aren't the same packages available for both, just not the same compiled binary packages
+08:00:23 <benja_> tuukkah, I don't know, try reading what he says yourself ;)
+08:00:31 <benja_> http://ianmurdock.com/archives/000244.html
+08:00:50 <tuukkah> yeah, I'm about to
+08:00:58 <benja_> "If you want a glimpse of what will happen, take a look at the RPM world, where software developers and ISVs have to build a different RPM for every RPM-based distro [...]."
+08:02:12 <tuukkah> now, 'to build' here has several meanings
+08:03:05 <tuukkah> to one the solution is source packages, to the other it's the fact that Ubuntu always forks from Sid
+08:06:30 <vegai> speaking of OSes, DragonflyBSD just made a release
+08:55:53 <rubberpaw> rubberpaw has joined #fenfire
+10:03:15 <jvk> majukati, benja: ayh?
+10:08:02 <benja_> jvk: yes
+10:08:03 <benja_> we are
+10:11:47 <rubberpaw> rubberpaw has quit
+10:12:43 <jvk> benja: could we meet before the meeting?
+10:13:49 <benja_> ok, we are at the fireplace room
+10:13:56 <benja_> should we come to your office?
+10:56:03 <rubberpaw> rubberpaw has joined #fenfire
+11:16:39 <tuukkah> i hope the meeting goes fine
+11:25:11 <rubberpaw> rubberpaw has quit
+12:56:10 <rubberpaw> rubberpaw has joined #fenfire
+14:28:06 <benja_> back, btw
+14:29:11 <tuukkah> hello
+14:29:43 <benja_> we need to get forms from teliasonera and kyperjokki, and sort out the rights thing
+14:30:08 <tuukkah> rights?
+14:30:14 <benja_> copyright
+14:30:15 <benja_> s
+14:30:43 <benja_> (who will own the copyrights created by the project and how the association can use them)
+14:31:16 <tuukkah> as in whether the copyright is assigned to persons, the association, or companies
+14:31:33 <benja_> it most likely has to be assigned to the university due to tekes process
+14:31:54 <benja_> and the university can't just give it away due to legal issues
+14:32:04 <tuukkah> -/
+14:32:38 <tuukkah> so how do you go about sorting this out? consult lawyers?
+14:32:45 <benja_> the uni lawyer, yes
+14:33:18 <tuukkah> good. and then you get funding ?-)
+14:33:39 <benja_> then we have a better chance when they decide who gets funding
+14:36:56 <benja_> in a couple of weeks
+14:37:18 <tuukkah> so you're in hurry :-/
+14:37:38 <benja_> well, they said we should have it in 2-3 weeks
+14:38:06 <benja_> that's not a problem except perhaps for the teliasonera part, which is out of our control
+14:38:07 <tuukkah> the sooner the better, I'd assume
+14:38:10 <benja_> y
+14:38:26 <tuukkah> kyperjokki is in fenfire's control ;-)
+14:39:00 <benja_> ;)
+14:39:54 <benja_> the tekes person also mentioned research-to-business funding
+14:40:00 <tuukkah> do you and the uni still have good contacts in teliasonera? then it probably won't take long
+14:40:12 <benja_> tuukkah, the problem is inside teliasonera
+14:40:39 <benja_> matti will ask the contact person there for the status
+14:41:00 <benja_> the research-to-business got us thinking again about business opportunities for the association
+14:41:21 <tuukkah> you are not allowed to think such =)
+14:41:24 <benja_> my opinion is that if we want the association to make money, we have to make that a goal and work for it
+14:41:49 <benja_> tuukkah, certainly we are allowed to consider how the association make money?
+14:41:59 <tuukkah> we have to make a legal business entity
+14:42:17 <tuukkah> ok, if you don't call it "making money"
+14:42:31 <benja_> whatever
+14:42:37 <tuukkah> "fund it's operation"
+14:42:40 <tuukkah> its
+14:44:16 <benja_> the point stands
+14:44:35 <rubberpaw> rubberpaw has quit
+14:45:02 <tuukkah> if we want the association to have money for operation, we have to make that a goal and work for it. ok. :-)
+14:45:16 <benja_> =)
+14:45:48 <benja_> I've been wondering whether we have the interest / energy. whether I do, specifically, since I can't say much about you others =)
+14:46:22 <tuukkah> I suppose anybody is free to propose any kind of operation and budget for the association. then we'll hold a general meeting and decide
+14:47:04 <benja_> tuukkah, true, but that doesn't answer the question. and I think if the decision isn't clear before the general meeting there's no chance it can work anyway ;)
+14:47:19 <benja_> in the sense that it would have to be clear to all the relevant people that we want to do this
+14:47:29 <Tulitar> Tulitar has joined #fenfire
+14:47:30 <tuukkah> sure
+14:47:43 <tuukkah> hello Tulitar :-)
+14:47:43 <Tulitar> en sure.
+14:47:46 <benja_> matti would be willing to work on a business because it might provide a more stable way of getting income...
+14:47:52 <benja_> bonjour, Tulitar 
+14:47:53 <tuukkah> Tulitar, oh, ensure what ?-)
+14:48:19 <Tulitar> bonjour tout le monde
+14:48:31 <benja_> wie gehts
+14:48:41 <Tulitar> benja_, gut, wie immer.
+14:48:42 <tuukkah> danke gut. gleichfalls?
+14:48:53 <benja_> ja, gleichfalls -)
+14:48:55 <Tulitar> benja_, und dir denn?
+14:49:03 <benja_> gut, danke :)
+14:49:14 <tuukkah> ca va?
+14:49:23 <benja_> oui oui, es geht +)
+14:50:01 <tuukkah> ca va ca va!
+14:50:08 <benja_> one idea I was considering was to have a service storing 'backup copies' of people's fenfire data
+14:50:26 <benja_> ('es geht' is like, 'well... ok...')
+14:50:45 <tuukkah> why backup copies in quotes?
+14:50:57 <benja_> because it would also allow them to access it from different computers
+14:51:19 <benja_> which would be as important as the backup functionality
+14:51:31 <tuukkah> hmm, so it would be something like gmail, mymac (?), wikiwikiweb.de
+14:51:37 <benja_> y
+14:52:08 <tuukkah> and the technology would also be googlefs
+14:52:46 <benja_> something like that (it should keep versions though)
+14:53:09 <tuukkah> oh yeah, so just something with storm directly
+14:53:58 <benja_> perhaps -- but that's technical details
+14:54:45 <benja_> my idea is that this way we would be delivering something that is actually interesting to us, as our product
+14:54:53 <tuukkah> I think we should think up scenarios with different kind of operations and respective budgets and ways to balance the budget
+14:55:31 <tuukkah> the technology comes into play when we think if we have enough energy
+14:55:34 <benja_> tuukkah, perhaps, but I think the most important thing is to think up ideas
+14:55:59 <benja_> my point being, I think at this level it is enough to consider "is it feasible," not work out the details...
+14:56:24 <benja_> "is it something that people want", thinking of what graham goes on about ;)
+14:56:44 <tuukkah> where people = we
+14:56:54 <benja_> tuukkah, no, I meant customers
+14:57:05 <benja_> but that question is important too
+14:57:14 <benja_> we need something that works on both of these counts ;)
+14:57:25 <benja_> the rest is implementation details ;) ;)
+14:57:52 <tuukkah> so in what point would there be enough fenfire users for there to be enough interested customers
+14:58:08 <benja_> (the one with the one smiley I meant, the one with the two smileys is tongue-in-cheek)
+14:58:27 <tuukkah> an earlier idea was to license code, right?
+14:58:35 <benja_> tuukkah, can we get enough users for fenfire, to be more precise -- but that's what you meant I think :)
+14:58:39 <benja_> tuukkah, yes
+14:58:57 <benja_> I'm not saying we shouldn't consider that, but I see the problem of enthusiasm for making it work
+14:59:19 <tuukkah> well, I wouldn't still be sure if they want a remote storage. there are such services already, but I don't know if they're popular
+14:59:27 <benja_> I think it would be significant work to make it something that customers (proprietary software companies) want
+15:00:04 <benja_> hm. I think I would strongly want such a thing if it *works*
+15:00:09 <tuukkah> I would expect Fenfire code to be such that no-one wants to re-implement it
+15:00:26 <tuukkah> except all students on the course ;-)
+15:00:53 <tuukkah> so is the case that the current services don't work?
+15:01:29 <benja_> tuukkah, I can't say anything for sure; I haven't used any of them
+15:01:51 <tuukkah> so how would we get people to try out ours?
+15:02:11 <benja_> tuukkah, well, it would be special in that it would be designed to work with fenfire
+15:02:35 <tuukkah> (basicly, I think the idea is a good one, but I don't know anything to say whether it'd work or not)
+15:02:46 <benja_> mhm
+15:02:47 <benja_> ok
+15:03:16 <benja_> let's perhaps not go into it too deeply before also trying to come up with other ideas
+15:03:23 <tuukkah> yes
+15:03:41 <tuukkah> we can start with the list from bylaws
+15:03:44 <benja_> an important question is, who do we want to get to use fenfire?
+15:04:01 <tuukkah> ourselves and our relatives :-)
+15:04:17 <benja_> can't find the english version
+15:04:36 <tuukkah> that would be my problem
+15:05:36 <benja_> I'm not excited about selling to businesses. not at all, I think :-/
+15:05:50 <benja_> selling, erm, not as in for money
+15:05:53 <benja_> as in promoting to them
+15:06:06 <tuukkah> so, there goes licensing and office users
+15:06:26 <benja_> tuukkah, well, I'm not trying to cut anything off, just stating my feelings :)
+15:06:38 <tuukkah> what about researchers?
+15:06:44 <benja_> hmm
+15:06:50 <benja_> more interested in that, perhaps
+15:07:07 <benja_> but I'd really like to 'sell' it to creative people and hobbyists. hmm
+15:07:34 <rubberpaw> rubberpaw has joined #fenfire
+15:07:35 <benja_> well, individuals, basically
+15:07:59 <benja_> perhaps I don't care so much if they use it for their job or whatever
+15:08:18 <tuukkah> what about administrative console like antont thought?
+15:08:31 <benja_> just that I don't really want to make something as company infrastructure and sell to a company
+15:08:55 <benja_> individuals who want to manage information
+15:09:01 <benja_> is what I'm most interested in, I think
+15:09:03 <benja_> how about you?
+15:09:11 <benja_> s/most //, perhaps
+15:10:01 <tuukkah> I don't know if I ever think that far
+15:10:06 <benja_> hmm
+15:10:18 <tuukkah> if I had something myself
+15:10:46 <tuukkah> fenfire is different from free software in general
+15:10:52 <benja_> hm?
+15:11:12 <tuukkah> I'm ready to work to get free software anywhere, I think
+15:11:36 <benja_> mhm
+15:11:43 <benja_> and the difference in Fenfire was? :)
+15:11:44 <tuukkah> the ethical argument is stronger than with fenfire
+15:12:18 <benja_> sorry, not following right now
+15:12:23 <tuukkah> well, perhaps the difference is mostly that I can already use free software in general, but not fenfire in particular
+15:12:41 <tuukkah> so I wouldn't want anyone to use it
+15:13:03 <tuukkah> but what I hope it would help me, I hope it would help people close to me too
+15:13:11 <benja_> hmm
+15:13:26 <tuukkah> programming is something
+15:13:43 <tuukkah> promoting fenfire to developers
+15:14:19 <benja_> I think I see part of the question as, who do we want to make it work for (as those would be the right customers for a potential business)
+15:14:31 <benja_> but hmm
+15:15:21 <tuukkah> apple makes profit by selling simple hardware that everybody can afford and use
+15:15:45 <tuukkah> so that would be one "business model"
+15:15:48 <benja_> ...by tying it to a proprietary os...
+15:16:09 <tuukkah> I don't think that's how they make moneys
+15:16:27 <benja_> tuukkah, in the sense that, to get the usability of the os you have to buy the hardware
+15:16:31 <tuukkah> I think the ipod sale is said to be the lucrative part
+15:16:42 <benja_> hmm
+15:16:54 <benja_> well, ok, it's most important for them now, perhaps
+15:16:56 <tuukkah> mac mini is pretty cheap
+15:17:42 <benja_> so the suggestion was to make fenfire boxes?
+15:17:58 <benja_> (trying to stay on topic;))
+15:18:09 <tuukkah> although that hasn't worked for mac computers, next computers or beos computers
+15:18:27 <benja_> tuukkah, has worked for macs
+15:18:37 <tuukkah> if a fenfire box was cheap enough or built on commodity hardware
+15:18:44 <benja_> (apple's survived on it for decades:))
+15:19:02 <benja_> fenfire pdas might be important at some point
+15:19:05 <benja_> hmmmmm
+15:19:19 <tuukkah> benja_, I think they had to get jobs back and microsoft had to buy them before they've managed this far
+15:19:41 <tuukkah> I think we should think of this oda
+15:19:42 <tuukkah> pda
+15:20:10 <benja_> [can we sell that idea to teliasonera somehow ;)]
+15:20:36 <tuukkah> would it be more like mass storage, app server or mobile terminal
+15:20:48 <benja_> which one?
+15:20:55 <tuukkah> the pda
+15:21:06 <benja_> mobile terminal
+15:21:19 <tuukkah> then teliasonera is related
+15:21:43 <benja_> I mean, addressing the need to enter ideas &c on the road
+15:21:54 <tuukkah> now I'm beginning to regret again that I didn't take a summer job in mobile software prototyping... %-)
+15:22:53 <tuukkah> benja_, ok, perhaps fenfire is designed to blend so that you can't really say which one it is. I mean, I don't think we'd *require* network connection
+15:23:05 <benja_> no
+15:23:15 <benja_> network connection wouldn't be that important
+15:23:19 <tuukkah> so not a dumb terminal by any means
+15:23:21 <benja_> no
+15:23:31 <benja_> mobile 'mini-computer'
+15:23:41 <tuukkah> but not much data storage, as we'd sync mostly
+15:23:42 <benja_> well, much like current pda in a sense
+15:23:59 <tuukkah> and not a pda with apps as it'd be really simple
+15:24:13 <tuukkah> or
+15:24:15 <benja_> it might be interesting to consider running ff from it-as-a-storage-medium, though
+15:24:27 <benja_> (not sure, just another idea)
+15:24:31 <tuukkah> what do you mean?
+15:24:41 <benja_> i.e., the 'usb key with my data so that I can use any computer I find' thing
+15:24:58 <tuukkah> yes, that was one of the ideas
+15:25:16 <tuukkah> but we can also have a simple UI
+15:25:24 <benja_> when I'm on the road, I use the device itself; when I sit down in front of a computer, I run ff from it
+15:25:32 <tuukkah> exactly
+15:26:05 <benja_> ok, idea is clear
+15:26:08 <benja_> I think
+15:26:18 <tuukkah> then we have to think if the connection will be usb storage, wireless etc.
+15:26:31 <tuukkah> yes, what's next
+15:26:39 <benja_> more ideas, if we have ;)
+15:27:14 <benja_> fenfire tutorials... (teaching)
+15:27:59 <benja_> when we have enough ideas, I think the next step would be to ask, which user are they for? Does that user want the thing?
+15:29:26 <benja_> how do we make that user discover that they want this? ;)
+15:29:43 <tuukkah> how much would they be able and willing to pay
+15:30:08 <tuukkah> teaching is something we already have experience of
+15:30:13 <tuukkah> -)
+15:30:24 <benja_> to find out whether it is a feasible business model at all, yes
+15:30:41 <benja_> 'can we make the product for less than we would sell it for'
+15:31:48 <tuukkah> well, customization and integration is something for companies, but could it be practical for individuals with fenfire platform?
+15:32:37 <benja_> hm, what are you getting at?
+15:33:05 <benja_> customization should be feasible since that's part of the point ;)
+15:33:25 <benja_> but of course, spreadsheets allow it in a similar sense
+15:33:52 <tuukkah> I mean, could customization or integration be one business idea?
+15:34:25 <benja_> customization and integration for whom and into what? :)
+15:35:13 <tuukkah> customization to users' needs and integration to their existing platform
+15:36:02 <benja_> tuukkah, I find that too vague still :)
+15:36:05 <benja_> can you give an example?
+15:36:19 <tuukkah> wrt free software it would be interesting to set up a full-service shop
+15:36:32 <tuukkah> with fenfire, could we skip some difficult parts
+15:37:03 <tuukkah> someone orders fenfire, and they get someone to transfer their current data
+15:37:09 <benja_> hmm
+15:37:21 <tuukkah> and it comes in a piano black box ;-)
+15:37:25 <benja_> =)
+15:37:54 <tuukkah> and you can connect it to the services (mail etc.) and appliances (tv etc.) that they have
+15:37:59 <benja_> would my mother be a potential customer? she has hundreds, perhaps thousands of poems in ms word- and oo.o files
+15:38:04 <benja_> and would like to have them in ff
+15:38:26 <tuukkah> so we would try to do a conversion
+15:39:14 <benja_> so would that be a case you'd be interested in working on for a business?
+15:39:20 <benja_> would it be a typical case?
+15:39:26 <benja_> or are you thinking more of corporate users?
+15:40:04 <benja_> (in this case, the solution might be to write a half-automated conversion script)
+15:40:28 <benja_> (which tries to find the right boundaries of the poems in a file etc. and then asks the user whether it got it correctly)
+15:41:34 <tuukkah> I don't know, I was wondering
+15:41:41 <benja_> hmm
+15:41:57 <benja_> it might be interesting, working with individuals who want to use fenfire
+15:42:25 <tuukkah> I think many of these really have a lot in common :-)
+15:42:47 <benja_> many of which? the business ideas? doesn't seems so, to me ;)
+15:42:59 <benja_> but this one is related to the teaching one
+15:43:09 <tuukkah> so in the end, now that we've revolutionized software, next would be it services ;-)
+15:43:24 <benja_> now that we have!
+15:43:26 <benja_> :)
+15:43:55 <benja_> (well, I don't see much revolutionary stuff in the above)
+15:43:59 <tuukkah> well, of course the pda would access the storage
+15:44:23 <benja_> y
+15:44:34 <tuukkah> it's good, users don't like a revolutionary service, they want something that is common but this time it works ;-)
+15:45:20 <benja_> I think the 'customization and integration for end-users' could actually be fascinating work
+15:45:21 <tuukkah> and conversion would work to put old data into storage
+15:45:50 <benja_> but there's the question what we could realistically charge, and if we can deliver on that price
+15:45:56 <tuukkah> benja_, would it be few people like ted who care enough to afford?
+15:46:01 <benja_> hmm
+15:46:30 <benja_> perhaps
+15:46:55 <benja_> if it was people like ted, the job would be both extremely cool and extremely tough -)
+15:47:34 <tuukkah> anyway, perhaps these ideas aren't tightly integrated as to depend on each other, but they could help one another
+15:47:43 <benja_> zeah
+15:47:45 <benja_> yeah
+15:48:20 <tuukkah> and we can start with the best area and build incrementally into a whole platform
+15:50:03 <benja_> hmm
+15:50:20 <tuukkah> even if we had the best technology, we have to consider where the competition is tough
+15:50:43 <benja_> perhaps
+15:50:52 <tuukkah> and how others will deploy our technology if it gains success
+15:50:55 <benja_> I like what Graham said -- make something people want
+15:50:59 <benja_> worry about that
+15:52:28 <benja_> how do we make fenfire something that people want?
+15:52:45 <tuukkah> well, there aren't many things people want *and* get
+15:53:08 <tuukkah> hassle-free information management
+15:53:38 <benja_> tuukkah, for Fenfire, we definitely have to show people that they want it
+15:53:46 <tuukkah> to me, email feels like the biggest hassle
+15:53:49 <benja_> it falls into the category of things that people don't know they want
+15:53:51 <benja_> but do
+15:54:05 <tuukkah> but gmail might be good for most people
+15:54:46 <benja_> I think Fenfire is partly about the long tail in information schemas =-]
+15:54:56 <benja_> (you're familiar with the 'long tail' concept?)
+15:56:58 <tuukkah> the tails in normal distribution?
+15:57:16 <benja_> in power-law distribution, I think
+15:57:34 <benja_> the first half is the first 15 items, but the other half is the 30 billion other items
+15:57:58 <benja_> google is the premier search engine because it searches the other half too
+15:58:07 <benja_> to make it short ;)
+15:58:25 <benja_> amazon has most books in print, unlike your local bookstore
+15:58:39 <tuukkah> ok
+15:58:49 <tuukkah> and fenfire is?
+15:58:58 <benja_> Fenfire allows you to put in your own schemas, so you're not bound to the popular ones which do only half of what you need
+15:59:31 <benja_> so e-mail alone isn't the killer app, it's e-mail combined with pet mice feeding management ;-)
+16:00:15 <benja_> or to stay realistic, nobody is going to sell poem and readings management software to my mother
+16:00:40 <benja_> it's an app that's deep in the long tail
+16:00:43 <tuukkah> but like a complete personal information management system
+16:00:59 <benja_> an extensible pim system
+16:02:21 <tuukkah> matti111 has the point that with the storage server, most difficult might be to get customers to trust data into it, take care of security, respond to unexpected situations and such
+16:03:03 <benja_> perhaps
+16:03:40 <benja_> if you include 'and such', it just about covers it, yes ;)
+16:05:55 <benja_> our 'typical user' is one who already has information to organize
+16:06:03 <benja_> even if they don't organize it currently for lack of tools
+16:06:14 <tuukkah> ok, so we explicitly exclude developing the software and putting up the system
+16:06:53 <benja_> tuukkah, running the system seems more difficult than developing the software for it, yes
+16:07:08 <benja_> but it can be done, which is enough for me at this stage ;)
+16:07:50 <tuukkah> then there's this Ubuntu/Fenfire live-cd =)
+16:08:59 <tuukkah> hmm, you could also install java plugin and use fenfire the applet to access the storage
+16:09:21 <benja_> y
+16:09:27 <benja_> or download the app and run it
+16:10:30 <benja_> so to me, the most important questions seem to be, what do we need sofware-wise for these users? and how are we going to get them to use it?
+16:11:05 <benja_> of course as to the latter question, word-of-mouth is of course most important
+16:11:26 <tuukkah> and that they want it :-)
+16:11:33 <benja_> yes
+16:11:53 <benja_> it has to be in the shape that they need it to be to use it
+16:11:58 <tuukkah> to answer the first, jonne's view is good, email view would be good
+16:12:16 <tuukkah> pdf reader would be really good
+16:12:32 <benja_> hmm
+16:12:38 <benja_> all true, but these are very specific things
+16:13:00 <tuukkah> oh, more like: stability, reliability
+16:13:10 <tuukkah> right, and usability
+16:13:16 <benja_> learnability
+16:13:38 <tuukkah> depends. if we teach the first ones
+16:13:44 <tuukkah> like ourselves
+16:14:55 <benja_> that helps, but I think we still need to aim for something that nerds can download and use
+16:15:07 <benja_> or slightly nerdish people :)
+16:15:28 <benja_> hmm
+16:15:46 <benja_> what is the level below these -ility words
+16:15:47 <benja_> ;)
+16:16:35 <benja_> well, perhaps we should defer that. dunno
+16:18:46 <tuukkah> "requirements"?
+16:19:14 <benja_> yeah
+16:19:38 <benja_> * benja_ is hungry
+16:20:07 <tuukkah> ok, perhaps we should write these down and continue later
+16:20:43 <benja_> ok
+16:20:54 <benja_> what do we have so far
+16:21:22 <benja_> ideas: storage server, pda, fenboxes, teaching, customizing + data migration
+16:21:37 <tuukkah> first of all, we need to plan the operations of the association
+16:22:01 <benja_> tuukkah, what do you mean? that sounds a little too detailed to be 'first of all,' to me ;-)
+16:23:07 <tuukkah> that's why we're thinking in the first place
+16:23:32 <benja_> so it should be the last step :)
+16:23:43 <benja_> (final product of thinking :))
+16:23:47 <tuukkah> the enclosing step
+16:23:52 <benja_> ok, fine
+16:25:10 <tuukkah> customer groups: licensors, corporate desktops, corporate administration, home users, individuals who manage information, relatives, ourselves
+16:25:26 <benja_> hmm
+16:25:27 <benja_> ok
+16:26:19 <benja_> my favorite customer group: individuals who already have information to manage and would see a benefit from managing it in Fenfire
+16:26:34 <tuukkah> yes
+16:26:39 <benja_> that includes people in companies, but not the company rolling ff out over 200 desktops
+16:27:33 <benja_> advertising method: word-of-mouth, mention it in forums to seed that
+16:27:58 <benja_> and to people we know
+16:28:46 <tuukkah> feasibility: people must want it, there must be enough potential customers, they must want and be able to pay the expenses, we must be able to run the service
+16:29:06 <benja_> (re ad method:) which leaves us to build the software that our target group wants to use
+16:29:45 <tuukkah> ... feasibility: *and* we must be interested in and have energy to implement and roll out the service
+16:29:46 <benja_> hmm, it seems like the next step is to evaluate the individual ideas for feasability in the sense you said
+16:29:52 <benja_> tuukkah: y
+16:30:34 <tuukkah> where to do this?
+16:30:54 <benja_> which one?
+16:31:01 <tuukkah> evaluation
+16:31:42 <benja_> here? =]
+16:32:30 <tuukkah> oh, we could use some kind of embedded document markers like raskin's software :-)
+16:32:49 <tuukkah> === end of foundation operation ideas ===
+16:33:18 <benja_> lol
+16:34:00 <tuukkah> to get more ideas, we could put them in a wiki and ask others to add
+16:34:16 <benja_> would you do that?
+16:34:28 <tuukkah> well, I sure could
+16:36:45 <benja_> so if you consider it useful, please do :]
+16:37:25 <tuukkah> just a moment then. we can try and see if it proves useful
+16:38:33 <benja_> 'kay
+16:38:43 <benja_> I guess I need to go to eat soon
+16:38:59 <benja_> (have to either go to a restaurant or go shopping)
+16:42:58 <Tulitar> benja_, choose restaurant.
+16:43:05 <benja_> =)
+16:43:12 <benja_> ok, if you say so ;)
+16:49:19 <benja_> I think Fenfire must become a kick-ass note taker
+16:49:41 <benja_> because that's the way at least I start almost all uses of it, I think
+16:52:09 <benja_> I'll go now and ponder more on the way, cu later :)
+16:53:29 <benja_> note taker seems like a thing that people can get into quickly
+16:53:34 <benja_> (perhaps e-mail organizer is too)
+16:53:40 <benja_> but, going now, really =)
+16:56:17 <tuukkah> http://fenfire.org/foundation/wiki
+17:31:29 <vegai> vegai has quit
+17:32:11 <rubberpaw> rubberpaw has quit
+17:55:40 <tuukkah> oh it's tuesday already
+18:07:11 <ibid> heh
+18:08:59 <tuukkah> heh?
+18:12:26 <ibid> heh.
+18:12:44 <tuukkah> wtf
+18:12:48 <ibid> hm?
+18:15:24 <Tulitar> Tulitar has quit
+18:46:36 <ibid> "If fire-fighters fight fire and crime-fighters fight crime, what do
+18:46:37 <ibid> freedom-fighters fight?" - George Carlin
+19:00:38 <rubberpaw> rubberpaw has joined #fenfire
+19:04:41 <benja_> moi
+19:04:55 <ibid> moi
+19:05:03 <benja_> tuukkah, I think ibid was amused that you didn't know it was tuesday
+19:05:19 <ibid> * ibid is sitting and listening in #spi @ OFTC for their board meeting
+19:05:28 <benja_> "If the opposite of pro is con, the opposite of progress is?"
+19:05:43 <ibid> heh
+19:09:50 <benja_> or my very personal one of these, if a "Fitnessgeräte-Fachmarkt" (fitnessgerät = hometrainer, fachmarkt = specialized market) sells hometrainers, and a Getränkefachmarkt (getränke = drinks) sells Getränke, what does a Baby-Fachmarkt sell?
+19:10:00 <benja_> (there is one in Bielefeld)
+19:14:16 <vegai> vegai has joined #fenfire
+20:02:58 <tuukkah> benja_, thank you for your clarification
+20:11:30 <rubberpaw> rubberpaw has quit
+21:04:46 <rubberpaw> rubberpaw has joined #fenfire
+21:15:01 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add drag controller
+21:19:08 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, use drag controller to implement canvas dragging. SLOW
+21:28:38 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, simple speed fix

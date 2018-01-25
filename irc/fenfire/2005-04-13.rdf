@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:wn="http://xmlns.com/wordnet/1.6/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<foaf:ChatChannel rdf:about="irc://irc.freenode.org/fenfire">
+  <foaf:chatEventList>
+    <rdf:Seq>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T02-34-39">
+        <dc:date>2005-04-13T02:34:39Z</dc:date>
+        <dc:description>tuukkah has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T02-43-11">
+        <dc:date>2005-04-13T02:43:11Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T03-05-05">
+        <dc:date>2005-04-13T03:05:05Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-26-01">
+        <dc:date>2005-04-13T06:26:01Z</dc:date>
+        <dc:description>huomenta</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-43-30">
+        <dc:date>2005-04-13T06:43:30Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-05-22">
+        <dc:date>2005-04-13T07:05:22Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-35-19">
+        <dc:date>2005-04-13T07:35:19Z</dc:date>
+        <dc:description>benja_: on today: -jar -javadoc -lecture notes -finish demo code</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-51-48">
+        <dc:date>2005-04-13T07:51:48Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-10-49">
+        <dc:date>2005-04-13T08:10:49Z</dc:date>
+        <dc:description>project: Matti J. Katila &lt;majukati@cc.jyu.fi&gt;, pre-notes and fixes</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-41-33">
+        <dc:date>2005-04-13T08:41:33Z</dc:date>
+        <dc:description>argh</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-41-38">
+        <dc:date>2005-04-13T08:41:38Z</dc:date>
+        <dc:description>I totally overslept</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-41-39">
+        <dc:date>2005-04-13T08:41:39Z</dc:date>
+        <dc:description>:(</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-44-13">
+        <dc:date>2005-04-13T08:44:13Z</dc:date>
+        <dc:description>majukati, where can we find this appendix 3a</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-44-19">
+        <dc:date>2005-04-13T08:44:19Z</dc:date>
+        <dc:description>i ate already and will go next to work on rathole</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-44-27">
+        <dc:date>2005-04-13T08:44:27Z</dc:date>
+        <dc:description>tekes.fi</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-44-47">
+        <dc:date>2005-04-13T08:44:47Z</dc:date>
+        <dc:description>majukati, no, that's only the home page of tekes ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-46-15">
+        <dc:date>2005-04-13T08:46:15Z</dc:date>
+        <dc:description>i'll be going</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+    </rdf:Seq>
+  </foaf:chatEventList>
+</foaf:ChatChannel>
+</rdf:RDF>

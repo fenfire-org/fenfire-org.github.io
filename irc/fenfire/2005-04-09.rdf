@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:wn="http://xmlns.com/wordnet/1.6/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<foaf:ChatChannel rdf:about="irc://irc.freenode.org/fenfire">
+  <foaf:chatEventList>
+    <rdf:Seq>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-27-39">
+        <dc:date>2005-04-09T07:27:39Z</dc:date>
+        <dc:description>it's not nice that installation stops to floating point error or segmentation fault</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-44-44">
+        <dc:date>2005-04-09T07:44:44Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-14-37">
+        <dc:date>2005-04-09T08:14:37Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-04-41">
+        <dc:date>2005-04-09T09:04:41Z</dc:date>
+        <dc:description>benja_, we forgot to try an ad-hoc irc server yesterday :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-11-21">
+        <dc:date>2005-04-09T09:11:21Z</dc:date>
+        <dc:description>whaat?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-21-51">
+        <dc:date>2005-04-09T09:21:51Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-32-24">
+        <dc:date>2005-04-09T09:32:24Z</dc:date>
+        <dc:description>we had an ad-hoc wireless network, but we only used it for supertux</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-25-59">
+        <dc:date>2005-04-09T10:25:59Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-34-31">
+        <dc:date>2005-04-09T10:34:31Z</dc:date>
+        <dc:description>antont, I read from the news that Oulu is getting a wlan network. but about price they said something like "free use will be free and you have to pay for pay-services"</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-44-14">
+        <dc:date>2005-04-09T10:44:14Z</dc:date>
+        <dc:description>nice piece of art: http://www.eviltree.de/zoomquilt/zoom.htm</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+        <dc:relation rdf:resource="http://www.eviltree.de/zoomquilt/zoom.htm"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-52-40">
+        <dc:date>2005-04-09T10:52:40Z</dc:date>
+        <dc:description>tseh, i used classpath's MemoryImageSource - then there's nothing to see =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-54-39">
+        <dc:date>2005-04-09T10:54:39Z</dc:date>
+        <dc:description>oh, was it java? I thought javascript</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-02-47">
+        <dc:date>2005-04-09T11:02:47Z</dc:date>
+        <dc:description>would it be a good idea to add a darcs test that tries to compile before darcs push?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-04-43">
+        <dc:date>2005-04-09T11:04:43Z</dc:date>
+        <dc:description>oh, this time it was only my problem: I had made a comment inside a region that was commented in a patch I built. and you can't nest comments in Java :-/</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-13-06">
+        <dc:date>2005-04-09T11:13:06Z</dc:date>
+        <dc:description>oh, now it seems to work</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-13-11">
+        <dc:date>2005-04-09T11:13:11Z</dc:date>
+        <dc:description>bufferedimage</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-48-23">
+        <dc:date>2005-04-09T12:48:23Z</dc:date>
+        <dc:description>majukati, so you're having luck with ImageVob?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-56-55">
+        <dc:date>2005-04-09T12:56:55Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-19-54">
+        <dc:date>2005-04-09T13:19:54Z</dc:date>
+        <dc:description>yep</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-20-13">
+        <dc:date>2005-04-09T13:20:13Z</dc:date>
+        <dc:description>nice :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-42-19">
+        <dc:date>2005-04-09T13:42:19Z</dc:date>
+        <dc:description>\|| has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="\||"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-42-20">
+        <dc:date>2005-04-09T13:42:20Z</dc:date>
+        <dc:description>\|| has left #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="\||"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-26-12">
+        <dc:date>2005-04-09T14:26:12Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-06-07">
+        <dc:date>2005-04-09T15:06:07Z</dc:date>
+        <dc:description>moi</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-06-24">
+        <dc:date>2005-04-09T15:06:24Z</dc:date>
+        <dc:description>anybody here?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-07-11">
+        <dc:date>2005-04-09T15:07:11Z</dc:date>
+        <dc:description>moin!</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-07-19">
+        <dc:date>2005-04-09T15:07:19Z</dc:date>
+        <dc:description>hei :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-07-57">
+        <dc:date>2005-04-09T15:07:57Z</dc:date>
+        <dc:description>i fell stupid of trying to use wrong class for the image thing :/</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-03">
+        <dc:date>2005-04-09T15:08:03Z</dc:date>
+        <dc:description>feel</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-05">
+        <dc:date>2005-04-09T15:08:05Z</dc:date>
+        <dc:description>:-(</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-34">
+        <dc:date>2005-04-09T15:08:34Z</dc:date>
+        <dc:description>I'm unhappy that I cannot do my studies faster</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-42">
+        <dc:date>2005-04-09T15:08:42Z</dc:date>
+        <dc:description>I mean, that reading takes so long</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-53">
+        <dc:date>2005-04-09T15:08:53Z</dc:date>
+        <dc:description>moin</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-10-18">
+        <dc:date>2005-04-09T15:10:18Z</dc:date>
+        <dc:description>* benja_ is at agora atm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-10-35">
+        <dc:date>2005-04-09T15:10:35Z</dc:date>
+        <dc:description>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, add NoGrowLob to Lobs; support non-clipped Components.frame()s</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-10-36">
+        <dc:date>2005-04-09T15:10:36Z</dc:date>
+        <dc:description>majukati: I tried to be less of a zombie today but you weren't at Wilhelmiina as far as I could tell ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-10-42">
+        <dc:date>2005-04-09T15:10:42Z</dc:date>
+        <dc:description>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, fix ClipLob.mouse()</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-10-50">
+        <dc:date>2005-04-09T15:10:50Z</dc:date>
+        <dc:description>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, sanity check</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-10-59">
+        <dc:date>2005-04-09T15:10:59Z</dc:date>
+        <dc:description>benja_: we ate at home because of it was raining</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-11-21">
+        <dc:date>2005-04-09T15:11:21Z</dc:date>
+        <dc:description>ok :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-11-43">
+        <dc:date>2005-04-09T15:11:43Z</dc:date>
+        <dc:description>how's the appartment coming along?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-12-13">
+        <dc:date>2005-04-09T15:12:13Z</dc:date>
+        <dc:description>well, we have the internet already.. :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-12-18">
+        <dc:date>2005-04-09T15:12:18Z</dc:date>
+        <dc:description>=)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-12-25">
+        <dc:date>2005-04-09T15:12:25Z</dc:date>
+        <dc:description>still many boxes?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-12-49">
+        <dc:date>2005-04-09T15:12:49Z</dc:date>
+        <dc:description>no</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-13-26">
+        <dc:date>2005-04-09T15:13:26Z</dc:date>
+        <dc:description>good evening :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-13-42">
+        <dc:date>2005-04-09T15:13:42Z</dc:date>
+        <dc:description>good :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-13-45">
+        <dc:date>2005-04-09T15:13:45Z</dc:date>
+        <dc:description>ibid: hei</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-13-47">
+        <dc:date>2005-04-09T15:13:47Z</dc:date>
+        <dc:description>hei</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-13-51">
+        <dc:date>2005-04-09T15:13:51Z</dc:date>
+        <dc:description>good?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-14-02">
+        <dc:date>2005-04-09T15:14:02Z</dc:date>
+        <dc:description>i sense a plan to do away with my head</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-14-07">
+        <dc:date>2005-04-09T15:14:07Z</dc:date>
+        <dc:description>("pääni menoksi":)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-14-39">
+        <dc:date>2005-04-09T15:14:39Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-14-43">
+        <dc:date>2005-04-09T15:14:43Z</dc:date>
+        <dc:description>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, put a frame around the view-changing sidebar again; don't stretch the views</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-14-48">
+        <dc:date>2005-04-09T15:14:48Z</dc:date>
+        <dc:description>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, factor out view changing box into different class; fix it</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-14-58">
+        <dc:date>2005-04-09T15:14:58Z</dc:date>
+        <dc:description>ibid: it's good that Matti and Heidi have unpacked their boxes</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-15-04">
+        <dc:date>2005-04-09T15:15:04Z</dc:date>
+        <dc:description>heh</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-15-51">
+        <dc:date>2005-04-09T15:15:51Z</dc:date>
+        <dc:description>the store is not that good since it's long but narrow. so we don't have a certain algorith for getting stuff out of there except "take all out to corridor to take one thing out"</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-20-51">
+        <dc:date>2005-04-09T15:20:51Z</dc:date>
+        <dc:description>=)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-23-01">
+        <dc:date>2005-04-09T15:23:01Z</dc:date>
+        <dc:description>is it like tetris or like hanoi's tower?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-25-02">
+        <dc:date>2005-04-09T15:25:02Z</dc:date>
+        <dc:description>if the priests complete hanoi's tower, the world ends</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-26-00">
+        <dc:date>2005-04-09T15:26:00Z</dc:date>
+        <dc:description>pushed small updates to fenfire.org. I wonder if I should remove references to kaffe, as it doesn't work anymore :-/</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-29-23">
+        <dc:date>2005-04-09T15:29:23Z</dc:date>
+        <dc:description>tuukkah: why?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-29-29">
+        <dc:date>2005-04-09T15:29:29Z</dc:date>
+        <dc:description>(doesn't it)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-31-35">
+        <dc:date>2005-04-09T15:31:35Z</dc:date>
+        <dc:description>although I have same kind of problems with sablevm. crashes, freezes and endless loops all the time</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-33-37">
+        <dc:date>2005-04-09T15:33:37Z</dc:date>
+        <dc:description>tuukkah, why doesn't kaffe work?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-34-12">
+        <dc:date>2005-04-09T15:34:12Z</dc:date>
+        <dc:description>now why, that's a good question...</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-34-20">
+        <dc:date>2005-04-09T15:34:20Z</dc:date>
+        <dc:description>what's the symptom?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-34-33">
+        <dc:date>2005-04-09T15:34:33Z</dc:date>
+        <dc:description>crashes, freezes and endless loops all the time</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-34-47">
+        <dc:date>2005-04-09T15:34:47Z</dc:date>
+        <dc:description>ah, "same kind of problems'</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-34-56">
+        <dc:date>2005-04-09T15:34:56Z</dc:date>
+        <dc:description>are they at the same places?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-35-31">
+        <dc:date>2005-04-09T15:35:31Z</dc:date>
+        <dc:description>every place, I'd say</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-35-44">
+        <dc:date>2005-04-09T15:35:44Z</dc:date>
+        <dc:description>huh, weird</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-35-49">
+        <dc:date>2005-04-09T15:35:49Z</dc:date>
+        <dc:description>have you tried non-FF programs?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-35-57">
+        <dc:date>2005-04-09T15:35:57Z</dc:date>
+        <dc:description>no</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-56-52">
+        <dc:date>2005-04-09T15:56:52Z</dc:date>
+        <dc:description>anyway, Sun's never has these problems</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-58-11">
+        <dc:date>2005-04-09T15:58:11Z</dc:date>
+        <dc:description>let's say it has them less often</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-58-25">
+        <dc:date>2005-04-09T15:58:25Z</dc:date>
+        <dc:description>I have seen crashes in Sun's VM that were not related to native code</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-05-09">
+        <dc:date>2005-04-09T16:05:09Z</dc:date>
+        <dc:description>if I can see somewhere when I've upgraded kaffe packages I should</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-26-21">
+        <dc:date>2005-04-09T16:26:21Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-04-36">
+        <dc:date>2005-04-09T17:04:36Z</dc:date>
+        <dc:description>1024x2048 is not enough to read but 256x512 seems to be enough for buoys</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-07-52">
+        <dc:date>2005-04-09T17:07:52Z</dc:date>
+        <dc:description>you mean in images?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-08-02">
+        <dc:date>2005-04-09T17:08:02Z</dc:date>
+        <dc:description>for a one a4 page</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-08-17">
+        <dc:date>2005-04-09T17:08:17Z</dc:date>
+        <dc:description>shouldn't the buoys be zoomed in so that they're readable?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-08-35">
+        <dc:date>2005-04-09T17:08:35Z</dc:date>
+        <dc:description>or do you mean the buoys showing the whole article...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-08-44">
+        <dc:date>2005-04-09T17:08:44Z</dc:date>
+        <dc:description>perhaps</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-08-59">
+        <dc:date>2005-04-09T17:08:59Z</dc:date>
+        <dc:description>btw, I'm very happy that you're working on FenPDF :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-09-15">
+        <dc:date>2005-04-09T17:09:15Z</dc:date>
+        <dc:description>why?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-09-18">
+        <dc:date>2005-04-09T17:09:18Z</dc:date>
+        <dc:description>I'd like to use it but don't want to spend much time on implementing it</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-09-24">
+        <dc:date>2005-04-09T17:09:24Z</dc:date>
+        <dc:description>ah</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-09-53">
+        <dc:date>2005-04-09T17:09:53Z</dc:date>
+        <dc:description>it would be nice for learning for the exam -- will not be finished in time, but perhaps in time for the next one :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-10-22">
+        <dc:date>2005-04-09T17:10:22Z</dc:date>
+        <dc:description>heh, yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-11-08">
+        <dc:date>2005-04-09T17:11:08Z</dc:date>
+        <dc:description>(since my uni puts the learning materials online as pdfs)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-11-33">
+        <dc:date>2005-04-09T17:11:33Z</dc:date>
+        <dc:description>I've been working on putting back a tree of properties, like Loom had earlier</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-11-40">
+        <dc:date>2005-04-09T17:11:40Z</dc:date>
+        <dc:description>but specified in RDF, this time</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-11-50">
+        <dc:date>2005-04-09T17:11:50Z</dc:date>
+        <dc:description>need to debug more later, going home now</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-11-58">
+        <dc:date>2005-04-09T17:11:58Z</dc:date>
+        <dc:description>(actually not now but soon :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-12-12">
+        <dc:date>2005-04-09T17:12:12Z</dc:date>
+        <dc:description>* benja_ is tired of sitting in Agora all day, need some fresh air</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-39">
+        <dc:date>2005-04-09T17:19:39Z</dc:date>
+        <dc:description>going now, cu</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-47">
+        <dc:date>2005-04-09T17:19:47Z</dc:date>
+        <dc:description>cu</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-05">
+        <dc:date>2005-04-09T17:22:05Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-19-59">
+        <dc:date>2005-04-09T18:19:59Z</dc:date>
+        <dc:description>back</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-20-13">
+        <dc:date>2005-04-09T18:20:13Z</dc:date>
+        <dc:description>huh, a whole hour? =-]</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-26-30">
+        <dc:date>2005-04-09T18:26:30Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-37-15">
+        <dc:date>2005-04-09T18:37:15Z</dc:date>
+        <dc:description>benja_, you took a long walk or what?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-37-25">
+        <dc:date>2005-04-09T18:37:25Z</dc:date>
+        <dc:description>yeah, apparently =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-37-44">
+        <dc:date>2005-04-09T18:37:44Z</dc:date>
+        <dc:description>went home on one of my usual paths, but not the shortest one</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-38-00">
+        <dc:date>2005-04-09T18:38:00Z</dc:date>
+        <dc:description>we went to sauna for an hour and now we're making pizza. it seems when you eat pizza you might as well eat pizza the next day too</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-38-09">
+        <dc:date>2005-04-09T18:38:09Z</dc:date>
+        <dc:description>=)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-38-24">
+        <dc:date>2005-04-09T18:38:24Z</dc:date>
+        <dc:description>* benja_ is eating pasta</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-38-39">
+        <dc:date>2005-04-09T18:38:39Z</dc:date>
+        <dc:description>* ibid should put the chicken parts in the oven</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-38-42">
+        <dc:date>2005-04-09T18:38:42Z</dc:date>
+        <dc:description>pasta, pizza, pasta, pizza... :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-38-53">
+        <dc:date>2005-04-09T18:38:53Z</dc:date>
+        <dc:description>late dinners :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-39-13">
+        <dc:date>2005-04-09T18:39:13Z</dc:date>
+        <dc:description>:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-39-44">
+        <dc:date>2005-04-09T18:39:44Z</dc:date>
+        <dc:description>benja_, we're using pasta sauce from tuesday or wednesday on the pizza ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-39-45">
+        <dc:date>2005-04-09T18:39:45Z</dc:date>
+        <dc:description>but home-made pizza is different from pizza place pizza, of course</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-05-28">
+        <dc:date>2005-04-09T19:05:28Z</dc:date>
+        <dc:description>we didn't have enough cheese left so it definitely is different :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-05-40">
+        <dc:date>2005-04-09T19:05:40Z</dc:date>
+        <dc:description>ouch =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-05-53">
+        <dc:date>2005-04-09T19:05:53Z</dc:date>
+        <dc:description>less fat :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-06-30">
+        <dc:date>2005-04-09T19:06:30Z</dc:date>
+        <dc:description>unless sun-dried tomatos in oil are taken into account</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-07-25">
+        <dc:date>2005-04-09T19:07:25Z</dc:date>
+        <dc:description>oops, toma-toes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-07-36">
+        <dc:date>2005-04-09T19:07:36Z</dc:date>
+        <dc:description>what's a toma?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-07-48">
+        <dc:date>2005-04-09T19:07:48Z</dc:date>
+        <dc:description>is it like coma-tose?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-08-22">
+        <dc:date>2005-04-09T19:08:22Z</dc:date>
+        <dc:description>I don't know, but at least it's related to tomes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-08-30">
+        <dc:date>2005-04-09T19:08:30Z</dc:date>
+        <dc:description>:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-21-53">
+        <dc:date>2005-04-09T19:21:53Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-29-57">
+        <dc:date>2005-04-09T20:29:57Z</dc:date>
+        <dc:description>hmm, the memory requirement has grown because I can't use structureview with the default heap size anymore</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-30-32">
+        <dc:date>2005-04-09T20:30:32Z</dc:date>
+        <dc:description>tuukkah: you should run the heap profiler and figure out what's taking the memory</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-31-02">
+        <dc:date>2005-04-09T20:31:02Z</dc:date>
+        <dc:description>what dataset are you using?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-31-33">
+        <dc:date>2005-04-09T20:31:33Z</dc:date>
+        <dc:description>I was more like thinking how to change the Makefile so that even if I specify JAVA=kaffe the -mx512M part will still get included ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-31-56">
+        <dc:date>2005-04-09T20:31:56Z</dc:date>
+        <dc:description>doap.turtle</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-32-01">
+        <dc:date>2005-04-09T20:32:01Z</dc:date>
+        <dc:description>huh</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-32-12">
+        <dc:date>2005-04-09T20:32:12Z</dc:date>
+        <dc:description>that shouldn't need 512M :_)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-32-13">
+        <dc:date>2005-04-09T20:32:13Z</dc:date>
+        <dc:description>but happens after a while with demo.turtle too</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-32-27">
+        <dc:date>2005-04-09T20:32:27Z</dc:date>
+        <dc:description>I don't know what the default is, 64M?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-33-14">
+        <dc:date>2005-04-09T20:33:14Z</dc:date>
+        <dc:description>something like that, I think</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-33-58">
+        <dc:date>2005-04-09T20:33:58Z</dc:date>
+        <dc:description>perhaps we should implement BFS soon =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-34-09">
+        <dc:date>2005-04-09T20:34:09Z</dc:date>
+        <dc:description>(note that I haven't profiled, so that's just a guess)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-38-12">
+        <dc:date>2005-04-09T20:38:12Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-38-50">
+        <dc:date>2005-04-09T20:38:50Z</dc:date>
+        <dc:description>mm, I got it running with -mx256M</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-39-14">
+        <dc:date>2005-04-09T20:39:14Z</dc:date>
+        <dc:description>looks like maxring and maxdepth aren't honoured anymore</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-39-44">
+        <dc:date>2005-04-09T20:39:44Z</dc:date>
+        <dc:description>I wouldn't know what would have broken them, if they aren't</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-40-12">
+        <dc:date>2005-04-09T20:40:12Z</dc:date>
+        <dc:description>i'll try then</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-42-11">
+        <dc:date>2005-04-09T20:42:11Z</dc:date>
+        <dc:description>oh, they work fine</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-42-14">
+        <dc:date>2005-04-09T20:42:14Z</dc:date>
+        <dc:description>:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-42-28">
+        <dc:date>2005-04-09T20:42:28Z</dc:date>
+        <dc:description>I've just made them lower before</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-37-57">
+        <dc:date>2005-04-09T22:37:57Z</dc:date>
+        <dc:description>tuukkah, btw, according to wikipedia, the Greater Helsinki area "has a population of 975,000 to 1.3 million" depending on the boundaries you draw</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-38-57">
+        <dc:date>2005-04-09T22:38:57Z</dc:date>
+        <dc:description>http://en.wikipedia.org/wiki/Suur-Helsinki</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+        <dc:relation rdf:resource="http://en.wikipedia.org/wiki/Suur-Helsinki"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-41-33">
+        <dc:date>2005-04-09T22:41:33Z</dc:date>
+        <dc:description>the urban area has about one million inhabitants</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-41-38">
+        <dc:date>2005-04-09T22:41:38Z</dc:date>
+        <dc:description>http://en.wikipedia.org/wiki/Largest_urban_areas_of_the_European_Union</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+        <dc:relation rdf:resource="http://en.wikipedia.org/wiki/Largest_urban_areas_of_the_European_Union"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-42-31">
+        <dc:date>2005-04-09T22:42:31Z</dc:date>
+        <dc:description>it's the second fastest growing urban area of the EU (same page)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-42-49">
+        <dc:date>2005-04-09T22:42:49Z</dc:date>
+        <dc:description>auch ;/</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-42-50">
+        <dc:date>2005-04-09T22:42:50Z</dc:date>
+        <dc:description>and almost tied for first place with Toulouse, France</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-42-58">
+        <dc:date>2005-04-09T22:42:58Z</dc:date>
+        <dc:description>that can't be good, can it?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-43-28">
+        <dc:date>2005-04-09T22:43:28Z</dc:date>
+        <dc:description>uh, 'good' or 'bad' seem a bit too simple terms for a phenomenon like that ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-44-13">
+        <dc:date>2005-04-09T22:44:13Z</dc:date>
+        <dc:description>it clearly implies a trend that the other areas are diminishing</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-44-24">
+        <dc:date>2005-04-09T22:44:24Z</dc:date>
+        <dc:description>vegai: I don't think so</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-44-30">
+        <dc:date>2005-04-09T22:44:30Z</dc:date>
+        <dc:description>or possibly that Helsinki-dwellers are very fertile, but I don't think that is it</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-44-34">
+        <dc:date>2005-04-09T22:44:34Z</dc:date>
+        <dc:description>I think that it's the small areas that lose</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-44-46">
+        <dc:date>2005-04-09T22:44:46Z</dc:date>
+        <dc:description>look at the number of building projects in Jyvaskyla</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-45-23">
+        <dc:date>2005-04-09T22:45:23Z</dc:date>
+        <dc:description>i.e., I think that it's country -&gt; city, not other cities -&gt; helsinki</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-45-33">
+        <dc:date>2005-04-09T22:45:33Z</dc:date>
+        <dc:description>hmm, according to wikipedia, the number of violent crimes in JKL is higher than the average in Finland</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-45-52">
+        <dc:date>2005-04-09T22:45:52Z</dc:date>
+        <dc:description>yes, of course</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-45-56">
+        <dc:date>2005-04-09T22:45:56Z</dc:date>
+        <dc:description>I'm worried about the countryside</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-46-01">
+        <dc:date>2005-04-09T22:46:01Z</dc:date>
+        <dc:description>ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-46-13">
+        <dc:date>2005-04-09T22:46:13Z</dc:date>
+        <dc:description>does it lose from having less people? ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-46-47">
+        <dc:date>2005-04-09T22:46:47Z</dc:date>
+        <dc:description>I fear it vanishes from having less people</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-46-49">
+        <dc:date>2005-04-09T22:46:49Z</dc:date>
+        <dc:description>jyvaskyla population is "ranked 9st"</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-47-00">
+        <dc:date>2005-04-09T22:47:00Z</dc:date>
+        <dc:description>but JKL isn't exactly countryside anymore</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-47-06">
+        <dc:date>2005-04-09T22:47:06Z</dc:date>
+        <dc:description>(whatever the folks down south think ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-47-06-1">
+        <dc:date>2005-04-09T22:47:06Z</dc:date>
+        <dc:description>certainly not</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-50-30">
+        <dc:date>2005-04-09T22:50:30Z</dc:date>
+        <dc:description>on the other hand, I don't think that the natural order of things needs to meddled with much</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-50-49">
+        <dc:date>2005-04-09T22:50:49Z</dc:date>
+        <dc:description>and it seems that the natural order of things currently is that people move to the central areas</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-51-06">
+        <dc:date>2005-04-09T22:51:06Z</dc:date>
+        <dc:description>mmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-51-17">
+        <dc:date>2005-04-09T22:51:17Z</dc:date>
+        <dc:description>the more interesting phenomenon is the degree, here</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-51-24">
+        <dc:date>2005-04-09T22:51:24Z</dc:date>
+        <dc:description>(here being Finland)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-51-43">
+        <dc:date>2005-04-09T22:51:43Z</dc:date>
+        <dc:description>can you elaborate?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-52-18">
+        <dc:date>2005-04-09T22:52:18Z</dc:date>
+        <dc:description>well, I think it influences the types of housing built, for example</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-52-33">
+        <dc:date>2005-04-09T22:52:33Z</dc:date>
+        <dc:description>and it's really noticeable that you see new big houses being built everywhere</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-53-13">
+        <dc:date>2005-04-09T22:53:13Z</dc:date>
+        <dc:description>I mean, Germany has the country -&gt; city trend too AFAIK, like the whole world has, but you can *see* it in Finland</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-53-24">
+        <dc:date>2005-04-09T22:53:24Z</dc:date>
+        <dc:description>hmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-53-35">
+        <dc:date>2005-04-09T22:53:35Z</dc:date>
+        <dc:description>that's probably because we're always late, so we're in a hurry to catch up</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-54-37">
+        <dc:date>2005-04-09T22:54:37Z</dc:date>
+        <dc:description>I happen to know that many of the large buildings recently built may end up empty</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-54-46">
+        <dc:date>2005-04-09T22:54:46Z</dc:date>
+        <dc:description>hmm?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-54-47">
+        <dc:date>2005-04-09T22:54:47Z</dc:date>
+        <dc:description>or that the prices of the flats are going down sharply</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-55-09">
+        <dc:date>2005-04-09T22:55:09Z</dc:date>
+        <dc:description>I just bought a new home, and the topic came up with my realtor</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-55-14">
+        <dc:date>2005-04-09T22:55:14Z</dc:date>
+        <dc:description>ah</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-55-34">
+        <dc:date>2005-04-09T22:55:34Z</dc:date>
+        <dc:description>so it seems they're actually building bit too fast</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-55-43">
+        <dc:date>2005-04-09T22:55:43Z</dc:date>
+        <dc:description>right</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+    </rdf:Seq>
+  </foaf:chatEventList>
+</foaf:ChatChannel>
+</rdf:RDF>

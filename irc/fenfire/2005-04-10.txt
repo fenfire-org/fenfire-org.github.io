@@ -1,0 +1,284 @@
+03:12:18 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add treebox
+03:29:10 <rubberpaw> rubberpaw has quit
+04:58:27 <rubberpaw> rubberpaw has joined #fenfire
+06:08:13 <rubberpaw> rubberpaw has quit
+06:58:34 <rubberpaw> rubberpaw has joined #fenfire
+08:25:08 <tuukkah> benja_, so, did wikipedia contradict with me or support me ?-)
+08:42:08 <rubberpaw> rubberpaw has quit
+08:55:36 <mudyc_> http://people.cc.jyu.fi/~majukati/awtpdf/*.png
+08:56:46 <tuukkah> the url already is cool!
+08:57:17 <mudyc_> it's for scp ;)
+08:57:37 <mudyc_> it wouldn't work for that eather
+08:57:49 <tuukkah> hmm, looks like xpdf :-)
+08:58:31 <mudyc_> no it doesn't look. it looks much worse and that's the problem
+08:58:40 <tuukkah> sometimes xpdf looks like that
+08:58:43 <mudyc_> you can not read that text even
+08:58:56 <tuukkah> I think it's when the pdf is one scanned image
+08:59:12 <tuukkah> you need anti-aliasing, right?
+09:00:16 <mudyc_> perhaps but how to make that without hardware acceleration
+09:00:41 <tuukkah> I have no idea what the best way would be, but you can certainly do anti-alias without hardware acceleration
+09:01:02 <tuukkah> even normal text in java is anti-aliased on kaffe
+09:01:35 <tuukkah> an image you can blur
+09:02:06 <tuukkah> or you can load a bigger-resolution png and do the anti-alias while scaling down
+09:02:56 <mudyc_> yeah, but the point is to make this fast and so that there's no out of memeory error
+09:03:52 <tuukkah> http://www.jguru.com/faq/view.jsp?EID=79646
+09:04:45 <mudyc_> "In JDK 1.x, you cannot perform antialias automatically (you would have to write your own antialiasing routines)"
+09:04:56 <tuukkah> yes
+09:05:17 <tuukkah> I don't think we use JDK 1.x :-)
+09:06:20 <mudyc_> 1.1, or was it 1.3, is what we should base fenfire on
+09:06:28 <tuukkah> why?
+09:07:02 <mudyc_> portability for instance and lack of open source java
+09:08:09 <tuukkah> isn't it enough if the code works on Sun's newest and newest kaffe?
+09:08:38 <mudyc_> ok, we can probably do antialising for one picture (the one that user is reading)
+09:09:25 <tuukkah> you could also try what happens if the image you load is already anti-aliased?
+09:09:56 <rubberpaw> rubberpaw has joined #fenfire
+09:10:05 <mudyc_> it would be even better to do
+09:10:14 <mudyc_> perhaps
+09:10:18 <tuukkah> it might look good on the 1:1 zoom level
+09:10:43 <tuukkah> or it certainly would, and perhaps also on 1:2 or 2:1
+09:13:43 <tuukkah> mudyc_, where is the conversion code you use for pdf -> png?
+09:16:04 <mudyc_> sec, i push and then start fish soup
+09:16:11 <mudyc_> cooking fish soup
+09:16:50 <mudyc_> it's in fenfire repo
+09:18:47 <mudyc_> you need to run it few times before errors are out..
+09:19:13 <tuukkah> a big patch
+09:25:34 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Add awt pdf reader
+10:47:26 <tuukkah> majukati, fenfire doesn't compile as InputStream2BlockId and ImportUtil are missing
+10:56:22 <majukati> added
+10:56:29 <ffdarcsbot> storm: Matti J. Katila <majukati@cc.jyu.fi>, add input stream to block id util.
+11:00:59 <tuukkah> majukati, thanks
+11:02:31 <majukati> did you run out of memory?
+11:03:06 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, add import util
+11:03:59 <tuukkah> majukati, yes
+11:04:09 <majukati> try again :)
+11:04:21 <rubberpaw> rubberpaw has quit
+11:04:32 <majukati> did it convert images already?
+11:04:34 <tuukkah> I added -mx512M, but now it quits right after Loading...
+11:05:37 <tuukkah> majukati, I don't think it did. wouldn't they be in ./tmpimg?
+11:06:08 <majukati> USING DSC CACHE ./tmpimg
+11:06:09 <majukati> Generating page info: vnd-storm-hash:application/pdf,tafcdwdtq4tjcgqvg3mzhvgmi3rzqj7c.szx4uolnckbl7navp37wqsvtv2mowgw6xxe5qvy
+11:06:12 <majukati> Processing  ./blocktmp54600
+11:06:14 <majukati> RUNNING  gs -dBATCH -dNOPAUSE -sDEVICE=png256 -r240x186 -sOutputFile=./tmpimg/2048x2048_vnd-storm-hash_-_application__pdf,tafcdwdtq4tjcgqvg3mzhvgmi3rzqj7c.szx4uolnckbl7navp37wqsvtv2mowgw6xxe5qvy-%d ./blocktmp54600
+11:06:18 <majukati> GPL Ghostscript 8.01 (2004-01-30)
+11:06:19 <tuukkah> it doesn't print anything like that
+11:06:36 <tuukkah> PDFReader:: Read file: testdata/paper.pdf
+11:06:37 <tuukkah> AWTPagePool:: size: 0
+11:06:37 <tuukkah> AWTPagePool:: size: 1
+11:06:37 <tuukkah> AWTPagePool:: size: 2
+11:06:37 <tuukkah> Got "Helvetica" for "SansSerif"
+11:06:37 <tuukkah> =0 tuukka@memento:~/darcs/ff/fenfire$
+11:07:09 <majukati> ok, try to have smaller images in ff.view.content.AWTPagePool
+11:07:10 <tuukkah> it takes a long time after printing those AWTPagePool lines
+11:08:02 <tuukkah> that was with kaffe, with sun's 1.5.0 it seems to work
+11:08:09 <majukati> aha
+11:08:26 <tuukkah> as kaffe crashes often for me, it might have nothing to do with your code
+11:08:43 <tuukkah> great, now I can see the article
+11:08:50 <tuukkah> what controls do I have?
+11:09:11 <majukati> zoom: a/z, and nuolet liikuttaa
+11:09:51 <tuukkah> oh, they move the paper, not the view :-)
+11:09:57 <majukati> "nuolet" - what are those keys in english?
+11:10:01 <tuukkah> arrow keys
+11:10:15 <majukati> yes, that was it
+11:10:33 <tuukkah> it zooms too fast :-)
+11:11:31 <majukati> make changes to ff.demo.PDFReader if you want
+11:11:42 <tuukkah> only the first page is detailed, right?
+11:11:48 <majukati> yes
+11:12:35 <tuukkah> if it's so fast, we can try to do the anti-alias in java code
+11:13:31 <majukati> and we still need to it only for one or two images the ones you are looking to
+11:15:48 <majukati> that was not a good line of English
+11:16:09 <tuukkah> well, I tested anti-aliasing in some image viewer, and when you anti-alias, you can read considerably smaller text
+11:16:40 <tuukkah> "and we still need to do it only for one or two images, the ones you are looking at"
+11:17:04 <tuukkah> so it was totally understandable
+11:22:02 <rubberpaw> rubberpaw has joined #fenfire
+11:23:08 <majukati> i still need to change that thing to use background thread and return progress meter/bar while generating pictures
+11:31:13 <majukati> 2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING  etc. didn't help
+11:32:03 <tuukkah> where's that code?
+11:33:22 <majukati> i added to AWTPagePool:
+11:33:30 <majukati> 		if (i==0) {
+11:33:30 <majukati> 		    Graphics2D g2d = imgs[ind].createGraphics();
+11:33:30 <majukati> 		    g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
+11:33:30 <majukati> 					 RenderingHints.VALUE_ANTIALIAS_ON); 
+11:33:30 <majukati> 		}		
+11:34:38 <tuukkah> I don't think it can work like that
+11:34:59 <majukati> can we give antialiasing request to gv to produce better images
+11:35:00 <tuukkah> you createGraphics, but you don't do anything with it
+11:35:34 <tuukkah> majukati, I think the idea is to create so big black-and-white images that you can scale them down with anti-aliasing
+11:35:37 <majukati> oh' that's true
+11:36:35 <tuukkah> so at the end of ImageVob, perhaps?
+11:37:04 <majukati> see ff.view.content.LobbedPagePool
+11:38:00 <tuukkah> ok, there then :-)
+11:39:53 <tuukkah> I'm trying
+11:41:10 <tuukkah> didn't change anything, I think
+11:41:23 <majukati> i got empty
+11:42:33 <tuukkah> I added this before g.drawImage: ((Graphics2D) g).setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON); 			
+11:46:45 <majukati> seems not to work
+11:47:38 <majukati> then we can try to use antialised images
+11:47:46 <tuukkah> yes. perhaps drawImage never uses antialias?
+11:51:46 <majukati> perhaps first use gs to create the iamge and then convert to have antialiased images
+11:51:51 <tuukkah> yes
+11:52:40 <majukati> convert has option -antialias: """ remove pixel aliasing"""
+11:52:49 <majukati> ;)
+11:52:52 <tuukkah> -)
+11:54:56 <majukati> you can make it work if you have time, i need to stop now. PageContentView.generateImages() is the place perhaps
+12:00:29 <tuukkah> I have other things to do too, but we'll see
+14:16:16 <benja_> RenderingHints.KEY_ANTIALIASING is for rendering geometric figures and perhaps text
+14:16:40 <benja_> I don't think you can "antialias an image"
+14:17:33 <benja_> using a different algorithm for scaling the image down would be the thing
+14:18:56 <tuukkah> yes, so how do you set it?
+14:20:06 <tuukkah> this image viewer did first some fast scaling and then enhanced the image into better scaling
+14:20:46 <benja_> image viewer?
+14:24:19 <tuukkah> that I talked about earlier, I don't know which one it is. perhaps gqview or eog
+14:25:19 <rubberpaw> rubberpaw has quit
+14:25:19 <benja_> perhaps setting KEY_INTERPOLATION should work?
+14:26:03 <benja_> the default appears to be VALUE_INTERPOLATION_NEAREST_NEIGHBOUR
+14:26:12 <tuukkah> I'll try
+14:26:19 <benja_> but VALUE_INTERPOLATION_BILINEAR and VALUE_INTERPOLATION_BICUBIC are available
+14:26:20 <tuukkah> what shall I set it to?
+14:26:28 <benja_> one of these two...
+14:28:41 <tuukkah> that did at least something
+14:30:29 <tuukkah> it's a bit better, but not as good as the pdf readers
+14:31:19 <benja_> how big's the b&w image?
+14:40:53 <tuukkah> 2040 x 2046
+14:42:38 <benja_> hmm
+14:42:54 <benja_> perhaps that should be enough
+14:42:58 <benja_> I don't know
+14:45:55 <tuukkah> I don't understand everything in this system - it should be documented more
+14:46:14 <benja_> which system?
+14:49:44 <tuukkah> pdf -> png -> (opengl | awt)
+14:50:34 <benja_> hmhm
+14:59:16 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, try to render images with Graphics2D INTERPOLATION_BICUBIC
+15:01:43 <benja_> well, it looks quite good to me, now
+15:02:01 <benja_> in large sizes
+15:20:30 <tuukkah> the png's are in greyscale format but black-and-white, is that intentional?
+15:21:31 <tuukkah> I can understand that it can be bad to make antialiased text and then zoom it afterwards
+15:22:15 <benja_> probably not intentional
+15:22:30 <benja_> the pages with color need to be in color format, of course
+15:23:20 <tuukkah> hmm, they are in color!
+15:23:59 <tuukkah> right, 8-bit colormap!
+15:24:07 <tuukkah> unbelievable :-)
+15:25:56 <tuukkah> already the 2040x2046 image has broken lines in letter.s b,d,a etc.
+15:44:58 <tuukkah> I tried double-resolution and it looks great at least on b&w
+15:47:50 <rubberpaw> rubberpaw has joined #fenfire
+15:57:31 <tuukkah> hmm, I tried to change resolution at PageContentView.java from 72 to 144, and then the image files looked good but they couldn't be loaded
+15:58:47 <tuukkah> now with just a bigger buffer in AWTPagePool the text is somewhat better but still has these gaps
+16:08:51 <tuukkah> eog just has a better interpolation algorithm
+16:38:52 <benja_> oh well...
+16:39:47 <tuukkah> I don't understand what this number 72 is and why I can't change it
+16:43:56 <benja_> 72 ... that reminds me of something ... pixels in an inch or somesuch?
+16:44:05 <tuukkah> yes
+16:44:28 <tuukkah> but why can't it be 75 or 144?
+16:45:40 <benja_> no, it's special in some way
+16:45:47 <benja_> *googles*
+16:46:38 <majukati> tuukkah: 72 is inches in screen or something
+16:47:22 <tuukkah> I though screens are normally like 15 inch or 21 inch
+16:47:38 <majukati> if you want to have bigger "textures", change AWTPagePool.sizes[]
+16:47:50 <benja_> http://www.scantips.com/basics1a.html
+16:47:57 <benja_> dots-per-inch
+16:47:59 <majukati> pixels in inc, what ever ;)
+16:48:15 <benja_> but google's find says it's a bogus number ;)
+16:48:50 <tuukkah> different displays have different amount of pixels per inch, of course
+16:49:08 <tuukkah> because some monitors are bigger and sometimes you run with less resolution
+16:49:08 <benja_> anyway, it seems that the point is that 'convert' has this notion hardwired
+16:49:10 <majukati> yeah, but that thing is passed to gs
+16:49:20 <benja_> or 'gs'
+16:49:42 <benja_> PageContentView asks the size from pagePool and divides by 72 to get the number it has to pass to gs
+16:49:47 <benja_> as far as I understand
+16:49:59 <tuukkah> so gs has decided that there are 72 pixels per inch? better comment that... :-)
+16:50:30 <benja_> gs has taken it from elsewhere =-)
+16:50:34 <benja_> if my theory is correct
+16:50:58 <tuukkah> I know that changing dpi value changes how fonts look. I think we might want the fonts a bit bolder to fill those gaps
+16:51:19 <majukati> gs is run without a window so i'm quite sure that gs doesn't know how does it look in your screen
+16:52:17 <tuukkah> benja_, 72 dpi might be a "standard" as it's pretty near contemporary displays
+16:52:52 <tuukkah> majukati, that's why we need to tell it :-)
+16:53:51 <benja_> calling python from java is ugly...
+16:54:16 <benja_> if(! interp.get("cv").__call__(new PyObject[] { blah blah
+16:55:57 <rubberpaw> rubberpaw has quit
+17:02:04 <tuukkah> do you mean python shouldn't be called from java?
+17:02:42 <benja_> just saying that it's ugly. -- of course you should avoid ugly things if there's no really good reason for them
+17:03:34 <majukati> and of course it's meaningles if we do just Runtime.getRuntime().exec("gs) at the end
+17:04:12 <tuukkah> heh, apple chose 72 from their first monitors, and microsoft chose 96 so fonts were more readable .-)
+17:11:42 <majukati> ok, how to continue?
+17:12:34 <benja_> hmm
+17:13:29 <benja_> majukati: it seems to me that the worst thing about it currently is the delay when starting up
+17:13:39 <majukati> yes, tuukkah's patch makes it mach more readable
+17:14:03 <majukati> s/mach/much/
+17:15:11 <tuukkah> so, a low-priority background thread
+17:15:16 <majukati> benja_: :)
+17:15:18 <benja_> so all the loading and converting should be done in the background
+17:15:46 <tuukkah> gs can be run with nice 
+17:18:11 <majukati> benja_: about real problems, how to hint for the focus
+17:18:35 <benja_> how was it done in gl?
+17:20:09 <majukati> after texture is rendered it says that it has been rendered to this size, and if that size was larger than current llevel of detail pool tried to push that texture to next level of detail
+17:20:37 <majukati> s/next/next or more/
+17:21:01 <majukati> but that's not how it should work
+17:21:01 <tuukkah> this would be same place as last patch?
+17:21:10 <majukati> tuukkah: yes
+17:21:15 <tuukkah> why not?
+17:21:17 <benja_> majukati, why not?
+17:22:15 <majukati> if you have at focus something that you would really want to read - it shouldn't be so that you need to zoom in to get that readable
+17:22:44 <majukati> so how it works with gl is good but focus should always be priority
+17:23:19 <tuukkah> it seems to me that focus would be an additional feature, not reuired
+17:23:25 <benja_> I don't see the point, would making it work like GL not mean to load the best texture for the current size?
+17:25:09 <majukati> which of the pages should have the best lod (level of detail) at beginning?
+17:25:56 <tuukkah> none?
+17:25:59 <benja_> hm, so you mean when they are all rendered the same size... ok
+17:26:01 <tuukkah> that way we're faster
+17:26:16 <benja_> or did I misunderstand =)
+17:26:36 <tuukkah> in the beginning they're all small anyway
+17:27:13 <majukati> benja_: yes, that's one thing. another may be that buoy shows something as very big thing and that's why you can not get your focus readable
+17:27:49 <tuukkah> could we check how close to screen center we are?
+17:27:59 <tuukkah> focus should be in the center?
+17:28:38 <benja_> majukati: hmm, do buoys ever have more zoom than the focus?
+17:28:49 <benja_> tuukkah: that doesn't sound good =)
+17:28:56 <tuukkah> -(
+17:29:05 <majukati> tuukkah: i would like that ;)
+17:29:22 <tuukkah> -?
+17:29:28 <benja_> so what if I do not want to show the focus in the center? then the whole architecture breaks down?
+17:29:46 <tuukkah> no it wouldn't
+17:29:57 <tuukkah> the user still looks in the center
+17:30:16 <tuukkah> it's a problem in your focus policy if the user doesn't look at the focus ;-)
+17:30:51 <tuukkah> and besides, we'd still check the size the image is being rendered in
+17:31:53 <benja_> right now I'm looking at the top-right corner of my screen b/c the IRC window is there
+17:32:13 <benja_> the center of my screen shows a review of the HHGTTG movie, but I'm not looking there
+17:32:15 <tuukkah> bad user interface
+17:32:41 <benja_> tuukkah: yeah right, let's not use all of the screen because the user always looks at the center
+17:33:01 <tuukkah> so if you cursor away from the movie the movie should stop playing?
+17:33:19 <benja_> tuukkah, what? it's a textual review :)
+17:33:59 <tuukkah> what ever
+17:35:34 <majukati> benja_: with fenpdf we have the problem that when you went to canvas that had pagespans the focus one didn't show up before outer ones
+17:36:09 <majukati> or actually the order was very random
+17:36:22 <tuukkah> oh, you've actually used this system and know how it's to use ;-)
+17:37:11 <benja_> I'll go to eat something
+17:37:39 <benja_> but, certainly we can figure out something so that we can use the information 'this is the focus', instead of distance from the center of the screen
+17:41:32 <tuukkah> the logbot eats colons from start of line :-/
+17:41:41 <tuukkah> (breaks my smilies)
+17:59:19 <rubberpaw> rubberpaw has joined #fenfire
+18:09:04 <tuukkah> would it be easy to set slower interpolation only for the last frame in animation?
+18:09:28 <tuukkah> the if is already there, just need a condition
+18:10:07 <majukati> i don't know what you mean
+18:11:59 <tuukkah> the last patch sets this interpolation option
+18:12:06 <tuukkah> but it makes the animation slower
+18:12:26 <tuukkah> text doesn't need to be so clear during animation
+18:16:50 <majukati> you mean boolean fast?
+18:17:03 <majukati> it doesn't take effect
+18:17:36 <tuukkah> I want the condition to be if (isLastFrame) { ...
+18:17:56 <majukati> if (g instanceof Graphics2D && !fast)
+18:18:10 <tuukkah> yes
+18:18:28 <majukati> but we need to check where that boolean should be set
+18:19:04 <tuukkah> oh right, the parameter is already there :-)
+18:28:03 <majukati> DefaultVobMap.renderCS doesn't have enough parameters for that
+19:23:15 <benja_> back
+19:24:05 <benja_> an example for a view where the focus isn't at the center of the screen is a split window view, like in the original GZigZags, in some versions of Nile, and even in FenPDF
+19:26:14 <benja_> tomorrow is Keep It Free day
+19:26:33 <majukati> plaah, this lod-elevator isn't easy to construct in a second
+19:26:57 <benja_> :-/
+19:27:23 <benja_> are you going to go to the workshop, tomorrow?
+19:27:32 <majukati> when was it?
+19:27:51 <benja_> 12:00-18:00 IIRC
+19:28:24 <majukati> i don't know yet
+19:28:24 <ibid> * ibid has a court session then :(
+19:28:56 <ibid> i would probably otherwise been one of the speakers
+19:40:16 <rubberpaw> rubberpaw has quit
+20:10:51 <rubberpaw> rubberpaw has joined #fenfire
+22:29:11 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Add LOD to page content system which can be controlled by float parameter
+22:52:37 <rubberpaw> rubberpaw has quit

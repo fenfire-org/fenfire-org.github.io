@@ -1,0 +1,274 @@
+00:00:40 <tuukkah> it would be good to use sloccount. and something else than gnuplot, unless it can be made to show dates in human-readable format
+00:01:24 <tuukkah> yet another rewrite done :-) are there important parts missing?
+00:01:39 <benja_> sure! not done at all! :)
+00:02:27 <benja_> almost everything's commented out to make it compile...
+00:03:45 <tuukkah> everything under layout is to be rewritten?
+00:04:00 <benja_> y
+00:04:23 <benja_> and everything using it, updated
+00:05:34 <tuukkah> that's one third of libvob, 7500 physical SLOC
+00:06:17 <benja_> the re-implementation estimate being?
+00:07:07 <tuukkah> 1.66 person-years, $224,452
+00:07:20 <benja_> right. so much for the basic COCOMO model
+00:08:28 <benja_> the new lob system only takes an estimated half person-year to implement
+00:12:45 <tuukkah> if we had versioned dependencies you would mark fenmm into requiring an older version of libvob
+00:13:26 <benja_> tuukkah: you mean instead of being forced to port it to the new version? :)
+00:13:31 <tuukkah> yes
+00:14:08 <tuukkah> perhaps you'd need to move it into another subproject as well
+00:14:11 <benja_> sounds like a misfeature :)
+00:15:33 <benja_> well, now I've moved them to basalt/
+00:15:44 <benja_> s/them/it/
+00:16:13 <tuukkah> the problem with package-level dependencies is that darcs doesn't operate on parts of a repo
+00:16:23 <benja_> mhm
+00:18:53 <tuukkah> or could it work so that when fenmm is compiled the classpath is set to another copy of libvob that has a good version from the repo
+00:20:49 <tuukkah> at the moment, you could branch libvob into libvob2, implement the new system there and port fenfire to use that
+00:21:20 <benja_> tuukkah: what's wrong with the way I'm doing it now?
+00:21:45 <tuukkah> I don't like it that you have to port fenmm
+00:21:56 <benja_> I don't, I punt by moving it to basalt/
+00:22:19 <tuukkah> I don't like that you have to move it there either
+00:22:36 <benja_> seems easier than the alternatives you're pondering :)
+00:23:38 <benja_> hmm. what would be a good name for a class with lobsystem-related static methods dealing with rdf?
+00:24:03 <benja_> ah, FenLobs
+00:46:57 <benja_> pushing now
+00:47:13 <benja_> port isn't complete, but enough is ported that I feel it makes sense
+00:48:27 <tuukkah> ok
+00:52:53 <benja_> I really should try to sleep. cu
+00:53:32 <benja_> [feel free to port more while I sleep. heh heh ;-)]
+00:55:30 <rubberpaw> rubberpaw has quit
+00:58:19 <tuukkah> I should sleep as well
+02:24:07 <rubberpaw> rubberpaw has joined #fenfire
+08:30:30 <tuukkah> by the way, at the moment http://planet.debian.org/rss10.xml is valid enough for fenfeed
+08:32:13 <tuukkah> oh no
+08:33:05 <tuukkah> hmm
+09:24:23 <ibid> you say above that libvob has taught you to keep generated files in version control
+09:24:27 <ibid> why is that?
+09:27:31 <tuukkah> even to compile some of the java files, you need some parts of c++ build environment. and we're not interested in that, so we keep these generated files in the repo
+09:32:47 <rubberpaw> rubberpaw has quit
+09:33:03 <ibid> * ibid declines to comment
+09:33:04 <ibid> :)
+10:32:17 <rubberpaw> rubberpaw has joined #fenfire
+11:58:07 <ibid> http://liw.iki.fi/liw/texts/software-webpage.html :)
+12:06:39 <rubberpaw> rubberpaw has quit
+12:13:00 <benja_> huomenta
+12:32:27 <rubberpaw> rubberpaw has joined #fenfire
+13:10:19 <ibid> menta
+13:18:51 <rubberpaw> rubberpaw has quit
+14:07:31 <tuukkah> I suppose we're doing ok on the checklist excluding that we don't have releases
+14:11:27 <tuukkah> benja_, do you know of other software than Fenfire that can find and read our DOAP?
+14:25:44 <benja_> tuukkah: no
+14:26:23 <benja_> to make it findable, we need to include a meta tag in index.html
+14:26:43 <benja_> not sure how to best do that, postprocessing like with navbars and textures I guess
+14:27:11 <benja_> to make it readable, need to offer an rdf/xml version for many tools out there
+14:30:05 <benja_> it's nice that the loggerbot actually works :-)
+14:32:34 <rubberpaw> rubberpaw has joined #fenfire
+16:11:40 <tuukkah> benja_, the indexes aren't browsable in fenfire, because they talk about a blank node (AFAICT)
+16:15:05 <tuukkah> should the blank node be smushed with the http uri or something?
+16:28:57 <rubberpaw> rubberpaw has quit
+16:43:58 <rubberpaw> rubberpaw has joined #fenfire
+17:40:58 <majukati> b
+17:41:05 <benja_> hi
+17:41:17 <benja_> how was Easter? :-)
+17:43:27 <tuukkah> hi majukati 
+17:44:47 <benja_> tuukkah: I don't understand, I can browse them
+17:44:56 <benja_> (after fixing some new-lob-system bugs :))
+17:51:43 <tuukkah> so you can get http://fenfire.org/irc/fenfire/index.rdf with ctrl-g and see the entries? where?
+17:52:13 <benja_> tuukkah: I downloaded the .rdf for a particular day and loaded it from the command line
+17:53:22 <tuukkah> how's that "browsing the indexes"?
+17:53:58 <majukati> benja_: it was fine. no internet in 3 days
+17:54:17 <benja_> I thought you meant the logs
+17:54:50 <tuukkah> my point is I can get index.rdf but now I'd like to get to the entries by moving in the structure
+17:56:05 <benja_> we can look into it sometime
+17:56:25 <tuukkah> yes :-)
+17:57:24 <majukati> benja_: i see no commits in project repo, when are you going to start traveling?
+17:57:34 <benja_> tomorrow
+17:57:55 <benja_> what do you want in project repo? me translating your finnish texts?!?
+17:58:10 <rubberpaw> rubberpaw has quit
+18:01:20 <tuukkah> benja_, perhaps you writing new texts for next time ?-)
+18:01:30 <majukati> benja_: some text for the lecture.
+18:01:56 <majukati> benja_: and i did translate the text..
+18:04:39 <benja_> the code is still not ready, it doesn't make sense to write text when the code isn't there
+18:06:12 <tuukkah> you can still write the introduction. which the course is =)
+18:06:19 <benja_> ?
+18:06:56 <majukati> benja_: ok, how much do you think you take time with that and what else should be in the same lecture?
+18:07:03 <tuukkah> can't you give an introduction even before the code is ready?
+18:09:26 <majukati> benja_: for every 15-25 minutes we shall put Tux to go from one to another and ask questions or let participants make questions
+18:10:43 <benja_> tuukkah: perhaps i could have done that
+18:11:10 <benja_> majukati: what can you do tommorow & wednesday?
+18:11:47 <tuukkah> benja_, I didn't mean you should, just that you could
+18:12:52 <majukati> benja_: anything?
+18:13:22 <benja_> I think it would be best if you would work on porting the existing stuff
+18:13:34 <benja_> i.e. make work what I broke... :-]
+18:14:00 <benja_> I'll write lecture notes on wednesday
+18:14:54 <majukati> what have you broken?-)
+18:15:16 <benja_> majukati: I've changed ff to use the new lob system
+18:15:52 <benja_> I haven't worked on canvas & calendar views at all yet
+18:16:09 <benja_> also unique colors for properties aren't there
+18:16:36 <benja_> there's also a lot of speed fixing to be done, but it's probably better if I do that / we do it together when I'm in jkl
+18:17:07 <benja_> look at the stuff in libvob for "good" code, the stuff in fenfire is hacky
+18:17:16 <majukati> (i'm worried about the lecture material and the lecture not the code..)
+18:17:58 <benja_> majukati: imho if there's no lecture material that's a minor problem, if the code is broken the lecture is pointless
+18:18:18 <benja_> (i.e., we need to substitute another one or I don't know)
+18:20:59 <benja_> and using the old, working code makes it equally pointless if we then replace that code the next week
+18:36:12 <benja_> ok, here's another option. instead of a hands-on session, we make it about rdf, lobs, and the fenfire vision
+18:36:20 <benja_> it = the lecture
+18:36:34 <benja_> instead of coding, I make writing lecture notes the priority for the trip
+18:36:39 <tuukkah> sounds good
+18:36:56 <benja_> we bump the hands-on session for a week and have more time to get it ready
+18:37:09 <benja_> in this lecture, we show ff with the old lob system
+18:37:17 <benja_> majukati: would you prefer that?
+18:42:42 <majukati> definitely
+18:44:14 <majukati> i mean we can show something like two scenes and how to make animation between them
+18:46:36 <benja_> ok ... then I have to worry less, too :)
+18:46:50 <majukati> jvk has the third lecture
+18:47:13 <majukati> so we have even more time for this
+18:47:20 <benja_> mhm...
+18:47:51 <benja_> I'll be in Germany on 5.5 btw, but I think I told you already
+18:48:20 <majukati> yes. there is final session after that
+18:48:23 <tuukkah> perhaps some people weren't convinced after the first lecture that identity technologies and fenfire would be more than buzzwords. discussing our use of rdf (in contrast to semantic web, or xml, or ...) and vobs could benefit a lot
+18:48:59 <benja_> majukati: I'll be back for the final session
+18:49:13 <benja_> tuukkah: ok
+18:50:10 <majukati> tuukkah: they do not change their attitude even if we say something if we do not publish something real ;)
+18:50:16 <benja_> but if we had fenhaystack ready and had a programming session imho that would have benefited even more :)
+18:51:13 <majukati> ibid wrote a long one..
+18:51:38 <tuukkah> benja_, perhaps
+18:52:23 <benja_> but it's probably best to do it like this given the situation now
+18:54:11 <tuukkah> majukati, you can ask him to sum up saying that long emails are not read ;-)
+18:55:21 <rubberpaw> rubberpaw has joined #fenfire
+18:55:30 <tuukkah> benja_, of course you can promise that for the following week and perhaps even show some view changing as an introduction
+19:00:55 <majukati> benja_: hmm, could you write an email to me and summ up (with french lines) the lecture subjec(s) now?
+19:01:39 <tuukkah> could jvk lecture a week later or is the time fixed?
+19:02:33 <benja_> majukati: I can do that during the trip, yes
+19:02:45 <benja_> not today, I need to sleep
+19:02:58 <benja_> my train leaves at 10am
+19:03:15 <majukati> benja_: please do it now. i'm still out
+19:13:03 <majukati> tuukkah: i don't like if we keep changing the lecture times and subjects all the time :)
+19:13:49 <tuukkah> majukati, why not? if you don't give a hands-on session this week, wouldn't it be natural to move each lecture one week later?
+19:14:30 <majukati> tuukkah: how many has already marked jvk's lecture to their calendar?
+19:15:12 <tuukkah> why would they have? have you given us a definite schedule?
+19:15:44 <majukati> http://himalia.it.jyu.fi/darcs/project/teaching/TIE363/www/
+19:16:02 <ibid> majukati: is it a bad thing?:)
+19:16:28 <tuukkah> majukati, doesn't sound very definite :-) lots of "..."
+19:16:33 <majukati> ibid: a long one, not really :)
+19:17:04 <majukati> tuukkah: yeah yeah..  i should add "pidättää oikeudet tehdä muutoksia..."
+19:23:16 <benja_> majukati: I don't know how to say this in a good way, sorry, but I need to say something, so. ok, I'll stay sometime longer. but please don't do this too often (telling me 'please work more' when I tell you I can't).
+19:23:33 <benja_> yes, I know, I haven't had ready today what I should have had ready
+19:24:57 <tuukkah> but you've been busy coding the new system to the point where majukati can continue
+19:25:01 <benja_> but you know, I've worked really hard. I did what I could. and when I say, here's the point where I can't do more, I don't want to be told, do it anyway. I'm ok with being asked "could you perhaps," but not with "please do."
+19:25:04 <majukati> (sorry, you asked me to have the lecture with you and you are leaving tomorrow - and i nee time to process things)
+19:26:39 <benja_> majukati: yes, I understand, and I'll do it, I just want to tell you that I don't want to be *told* to do it, and that this is upsetting me
+19:28:16 <benja_> I want to have the option to say no without saying "fuck you"
+19:28:36 <benja_> as I said, I don't know a good way of saying this
+19:29:23 <majukati> benja_: i want to do my best for my part for the lecture - currently i feel unsure
+19:31:01 <majukati> benja_: you have wrote a lot of code for the lecture. i do admire that!
+19:31:52 <benja_> but, if we had a funding proposal due the next day and I didn't know if I could do it alone or something like that, and you told me you need to be with aapo and heidi or something, I hope I wouldn't tell you "please don't" -- although I might say, here's the problem, it's a real problem, you decide whether you can work on the proposal today
+19:31:57 <benja_> okay, anyway
+19:32:29 <benja_> I had to say that because I felt really upset. sorry, I know you didn't mean it in a bad way or anything
+19:32:46 <benja_> *takes a deep breath*
+19:34:00 <benja_> majukati: is it ok if I say points here instead of writing e-mail, and you reply if you don't understand something?
+19:34:09 <benja_> (can collect in e-mail later if needed)
+19:34:29 <majukati> benja_: 5 lines is enough for french lines but just something
+19:34:44 <benja_> rdf is easiest, I suppose
+19:34:50 <benja_> so let's start with that :-)
+19:35:24 <benja_> - introduction: URIs, triples, literals (have you done this in the last lecture?)
+19:35:46 <majukati> can we start with this ultimate "ok, we need to teach you something about ideas.." "we got an idea for this lecture but it needed some work which we didn't get enough time.. " =))
+19:35:58 <benja_> - example: foaf, e-mail, blogs (these are just ideas)
+19:36:17 <benja_> majukati: sure :-)
+19:36:36 <benja_> majukati: (note: I don't necessarily want to start with RDF, just starting the french-line-producing with it :))
+19:36:46 <majukati> yes
+19:37:07 <benja_> re the fenfire vision, there's http://fenfire.org/manuscripts/2004/hyperstructure/
+19:37:48 <benja_> hm, should give a demo first
+19:37:49 <majukati> fenfire vision -> fenfire browsing
+19:38:03 <majukati> or while browsing perhaps
+19:38:31 <benja_> we can start demo with demo.turtle, bring in danny's foaf, then his blog
+19:38:47 <benja_> and show the calendar
+19:39:07 <benja_> probably should start with that, then explain RDF with the examples seen there
+19:39:50 <majukati> i tried to explain rdf with triples of subject predicate and object but please do it again
+19:40:07 <benja_> yeah
+19:40:29 <benja_> it's probably easier with real examples
+19:40:33 <benja_> ah
+19:40:50 <benja_> when explaining, also need to explain the theoretical concept of resources
+19:41:02 <benja_> and that there's a one-to-many relationship between resources and URIs
+19:41:44 <majukati> what you mean with that?
+19:42:34 <benja_> then, I think for "fenfire vision" we could follow the scenario, two people communicate by blog and mail, decide to start some project together, set up milestones, track ideas and their relationships to milestones and deliverables
+19:43:24 <benja_> majukati: the rdf thing -- a 'resource' is some real-world thing, and there is a 1:n relationship between resources and RDF nodes -- one node represents one thing, one thing is represented by zero to arbitrarily many nodes
+19:43:36 <benja_> in Fenfire, we merge two nodes when we know they represent the same thing
+19:44:11 <benja_> the 'many nodes represent the same thing' is necessary because real-world things cannot normally be given a unique URI (there's no authority for that)
+19:44:49 <benja_> 'one node represents only a single thing' keeps things sane :-)
+19:45:12 <majukati> ok
+19:45:30 <majukati> even if they aren't bnodes?
+19:45:32 <benja_> well, mainly, it means that you can do logical inferences to convert between two vocabularies representing similar concepts
+19:45:36 <benja_> majukati: yes
+19:46:40 <benja_> re fenfire vision, the scenario:
+19:47:14 <benja_> step 1: two people talk on their blogs; through RDF links, you can browse their 'dialog' as structure (this post replies to that post, etc.)
+19:47:58 <benja_> step 2: they decide to do a project together. they start discussing goals and make rdf nodes for them (which the blog posts discussing the goals refer to)
+19:48:30 <benja_> step 3: they start planning milestones and connecting them to the goals
+19:48:44 <benja_> oh well, it's kinda boring
+19:49:22 <majukati> :)
+19:49:41 <majukati> ok, demo, vision, rdf - something else?
+19:49:46 <benja_> (step 4: when they blog or send e-mails with versions of the deliverables, they connect them to the goals; when they discover issues, they create nodes for them and connect blog posts and stuff to it)
+19:49:52 <benja_> majukati: yes, lobs
+19:50:29 <benja_> ok, - need: UI components for Fenfire
+19:50:53 <benja_> - (need for flexibility, because we want to try out different things)
+19:50:59 <majukati> (or easier ui components)
+19:51:04 <benja_> majukati: true
+19:51:30 <benja_> - the basic ideas in Fresco: basic lobs do only one thing
+19:51:56 <benja_> you compose basic lobs to get components
+19:52:15 <benja_> - the basic lobs
+19:52:49 <majukati> is there anything for me?-) i mean this all sounds very much like your special area :)
+19:52:52 <benja_> - making components from basic lobs: example
+19:53:22 <benja_> majukati: let me finish the french lines first, just a moment :)
+19:54:38 <benja_> - the idea of key lobs -> we give parts of the screen a 'key' and use that for interpolation and decoration and state management and other things
+19:54:50 <majukati> do you know the game of 3x3 table and there is one black hole. would it suffice to create that with vobs and lobs?
+19:54:55 <benja_> (reference to libvob lecture coming later)
+19:55:30 <benja_> majukati: no, I don't know the game or don't recognize it
+19:55:35 <majukati> there are other rectangles like a,b,c; d,e,f; g and h.
+19:55:37 <tuukkah> majukati, and the animation would come for free!
+19:55:45 <benja_> oh, the boss puzzle
+19:55:46 <benja_> ok
+19:55:55 <tuukkah> 4x4?
+19:55:56 <benja_> it's usually 4x4 though :-)
+19:56:07 <benja_> hm, sounds like a good thing to include
+19:56:33 <majukati> well isn't that just NxN :)
+19:57:17 <benja_> - the 'recursive hierarchies' idea. argh, I don't even have a reasonable french line for that
+19:57:19 <tuukkah> would you have a grid or table lob for 4x4 and move the pieces from cell to another?
+19:57:38 <benja_> tuukkah: yeah
+19:58:13 <tuukkah> that could be done without rdf or such
+19:58:18 <benja_> oh, and need to introduce javolution also
+19:58:24 <benja_> tuukkah: yup, could
+19:58:39 <benja_> (the above sounds like a full program :-))
+19:58:52 <benja_> javolution introduction maybe only brief
+19:59:01 <tuukkah> but the important thing in libvob animation is animation between views?
+19:59:05 <benja_> [depending on time, probably there isn't enough]
+19:59:17 <benja_> tuukkah: well, it's not a libvob lecture
+19:59:35 <benja_> but yeah, we can have animation between views
+20:00:06 <benja_> the other view can be a two-column table, first column: puzzle piece, second column: position
+20:00:16 <benja_> can also include third column: times you have moved it
+20:00:20 <tuukkah> or why else do you do lobs in libvob instead of using awt
+20:00:47 <benja_> tuukkah: well, since it's not a lecture about libvob, that isn't so much the point
+20:01:21 <benja_> but, need to stress the role that identities play in the lob system
+20:02:06 <majukati> demo, vision, rdf, lobs(why?, what are those?, javolution)
+20:02:24 <benja_> majukati: rdf before vision
+20:02:40 <benja_> because it's connected to demo
+20:02:53 <benja_> but, yes
+20:02:56 <majukati> demo, rdf, vision, lobs(why?, what are those?, javolution)
+20:03:00 <benja_> y
+20:03:12 <benja_> I think I need to give the last part of the lobs part
+20:04:26 <benja_> do you want to talk in the demo part and I'm at the keyboard?
+20:05:10 <majukati> not really :/
+20:05:17 <benja_> hum
+20:05:32 <benja_> ok, other way around then
+20:05:46 <benja_> but please don't stay silent then :)
+20:06:15 <benja_> vision: we need to work out a good scenario
+20:06:26 <benja_> something fun :-)
+20:06:37 <majukati> benja_: i think it's not clear if there are two lecturers at the same time speaking or doing something
+20:07:23 <benja_> majukati: if it's two people who present one thing together, I believe it's usually good
+20:07:35 <benja_> if it's two people talking about different things, not, of course :)
+20:08:50 <majukati> for a vision - two is ok but we need to be sharp ;)
+20:09:01 <benja_> good :)
+20:10:11 <benja_> my headache is getting worse, what do we still need to do today?
+20:10:42 <majukati> b=benja, mudyc; b:demo, b:rdf, b&m:vision, m&b:lobs(why?, what are those?, javolution)
+20:11:04 <majukati> benja_: go to sleep and have a nice trip tomorrow
+20:11:12 <majukati> travel day one...
+20:11:15 <benja_> thanks
+20:11:38 <majukati> and thanks for saying fuck you aloud i really needed that ;)
+20:12:18 <benja_> I'll have time online in Stockholm perhaps and definitely on the ship, both on Wednesday, tomorrow probably not :-(
+20:12:24 <benja_> majukati: :)

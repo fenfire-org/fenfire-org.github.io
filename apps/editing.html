@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.3.7: http://docutils.sourceforge.net/" />
+<title>Browsing and editing</title>
+<link rel="stylesheet" href="../fenfire.css" type="text/css" />
+
+<style type="text/css">
+<!--
+body {background-image:url(../papers/17376066380699959616-paper.gen.jpg); background-repeat: repeat}
+-->
+</style>
+</head>
+<body>
+<div class="document" id="browsing-and-editing">
+<h1 class="title">Browsing and editing</h1>
+<p>Fenfire can be currently used to browse and edit data in RDF
+documents. You can look inside RDF files, follow links to Semantic Web
+resources (in RDF/XML or Turtle format), change information locally
+and author new content. Fenfire supports RDF/XML and Turtle file
+formats.</p>
+<div class="section" id="looking-inside-rdf-files">
+<h1><a name="looking-inside-rdf-files">Looking inside RDF files</a></h1>
+<p>Ask us for a prepackaged snapshot version of Fenfire, or follow
+the <a class="reference" href="../doc/devel.html#getting-started">Getting started</a> notes meant for developers for now.</p>
+<p>Start a Fenfire snapshot with <tt class="docutils literal"><span class="pre">java</span> <span class="pre">-jar</span> <span class="pre">snapshot.jar</span> <span class="pre">some-rdf-file</span></tt> 
+or one that you compiled yourself with 
+<tt class="docutils literal"><span class="pre">(</span> <span class="pre">cd</span> <span class="pre">fenfire</span> <span class="pre">&amp;&amp;</span> <span class="pre">make</span> <span class="pre">run</span> <span class="pre">FILE=&quot;some-rdf-file&quot;)</span></tt>. In case of XML
+files, please prepend &quot;-xml &quot;. You should see the
+browser starting at some item from the file, and a list of properties
+connected to that node.</p>
+<p>Keyboard navigation works by first selecting a property with up and
+down arrow keys and then following an inverse property left with the
+left arrow key or a positive property right with the right arrow key.</p>
+<p>Mouse navigation works by left-clicking any node you want to browse
+to. If there are more properties than fit the window you can scroll
+down by clicking some property line at the bottom to focus it.</p>
+<p>In addition to the default PropertyListView, there can be other views
+that are able to show surroundings of the current node. In that case,
+the right sidebar will list these views and allow you to switch to
+them with a mouse click or with a keyboard shortcut (given at the
+bottom of the left sidebar).</p>
+</div>
+<div class="section" id="following-links-to-semantic-web-resources">
+<h1><a name="following-links-to-semantic-web-resources">Following links to Semantic Web resources</a></h1>
+<p>At the bottom of the left sidebar, there is a keyboard shortcut to
+load RDF data from the web. For this to work, the data must be available from
+the http URI of the current node or of a node that is linked to the
+current node as an <tt class="docutils literal"><span class="pre">rdfs:seeAlso</span></tt> property. There are some suitable
+starting points in demo data that is shown if you <em>don't</em> specify a
+file name on startup.</p>
+<p>For instance, you can navigate to a node that says &quot;Danny's FOAF file&quot;
+on it. If you now try to load RDF data from the web, you should get
+new links that lead to Daniel Ayers's Friend-of-a-Friend Semantic Web
+information. This information contains pointers to more resources that
+you can load in the same way.</p>
+<p>Another example node says &quot;CaptSolo's blog&quot; on it. This resource is
+in HTML but an <tt class="docutils literal"><span class="pre">rdfs:seeAlso</span></tt> is included to an RSS feed of the same
+information. If you choose to load RDF data, the weblog feed is
+displayed and you can read the entries.</p>
+<p>A third example is &quot;Fenfire project&quot; and for that there is
+Description-of-a-Project (DOAP) information available.</p>
+<p>If you want to try a resource of your own, you can do that by applying
+shortcuts &quot;go to [node]&quot; and &quot;a node given by URI&quot;. The latter then
+asks you to provide the URI your resource has information on. If the
+URI to fetch the data is different, you can add an <tt class="docutils literal"><span class="pre">rdfs:seeAlso</span></tt>
+property like there was for the weblog example.</p>
+</div>
+<div class="section" id="changing-information-locally">
+<h1><a name="changing-information-locally">Changing information locally</a></h1>
+<p>Whenever Fenfire is running, there is some RDF file it considers
+primary and suitable for saves. If you gave file names on startup, the
+first of those is taken. Otherwise, a temporary file name has been
+designated. Whenever you apply the shortcut to save the graph, this
+file is saved with any changes you've made. Even if you've made
+changes to information that has been loaded from the web, these
+changes are saved to this one and same file.</p>
+<p>Whenever a literal property is selected, it can be edited with normal
+keys: arrow keys left and right, backspace, letters, numbers etc. If
+the text on a node is derived from this literal, it changes at the
+same time.</p>
+<p>To add a new property, use the keyboard shortcuts to &quot;connect on [prop]
+to [node]&quot; or &quot;connect backwards on [prop] to [node]&quot;. After this, you
+should select a property from the list on the left sidebar by pressing
+down Alt and typing the three-letter shortcut given in parentheses
+after the property name. The last step is to select the node: To
+create a new resource, use &quot;a new node&quot;. To create a new literal, use
+&quot;a new literal&quot;. To use an existing node, browse to that node and use
+&quot;this node&quot;. You can also type the URI with &quot;a node given by URI&quot;.</p>
+<p>To remove properties, there are shortcuts similar to following links
+that break a link instead.</p>
+</div>
+<div class="section" id="authoring-new-content">
+<h1><a name="authoring-new-content">Authoring new content</a></h1>
+<p>If you start with a new or empty file, Fenfire will create two nodes
+for you to begin with. One of them is an initially empty &quot;home&quot; or
+&quot;start&quot; node for you, the other represents the file itself and is
+used to declare the start node, but can also be used to give any other
+metadata about the document. You can use the editing features
+described in the previous section to create new content.</p>
+<p>One possible way to proceed is to connect a few new nodes to the start
+node with the general <tt class="docutils literal"><span class="pre">sl:structLink</span></tt> property. You can put text on
+them with any text property such as the general <tt class="docutils literal"><span class="pre">rdfs:label</span></tt>. Later,
+you can describe connections between the nodes and use more specific
+properties if applicable.</p>
+<p>Properties that are not on the list yet can be entered with the shortcut 
+&quot;a node given by URI&quot; for the first time. You can also create new
+properties as new nodes and start to use them as properties with help
+of the shortcut &quot;this node&quot;.</p>
+<p>We don't yet provide any special support for schemas or ontologies,
+although you can browse them in RDF format. Considering namespaces,
+Fenfire comes with a set of predefined ones and also utilises any
+namespaces in the loaded files. If you save a file and would like it
+to use additional namespace shorthands, you can edit the definitions
+in using some other tool and Fenfire will honour them after that.</p>
+</div>
+</div>
+<!-- NavBar begin -->
+<hr class="footer" />
+<center class="navigation-title">Navigation</center>
+<div class="left">
+<div class="left-bar">
+<p class="boxhead"><a href="../">Fenfire</a></p>
+<div class="boxcontent"><ul>
+<li class="boxitem"><a href="../apps">Applications</a><ul>
+<li class="boxitem">Browsing and editing</li>
+</ul>
+</li>
+<li class="boxitem"><a href="../doc">Documentation</a><ul>
+<li class="boxitem"><a href="../doc/devel.html">Developer information</a></li>
+<li class="boxitem"><a href="../doc/java.html">Java information</a></li>
+</ul>
+</li>
+<li class="boxitem"><a href="../foundation">The Fenfire Foundation</a><ul>
+<li class="boxitem"><a href="../foundation/joining.html">Joining</a></li>
+<li class="boxitem"><a href="../foundation/liittyminen.html">Jäseneksi</a></li>
+</ul>
+</li>
+<li class="boxitem"><a href="../shots.html">Screenshots</a></li>
+<li class="boxitem"><a href="../vision.html">Vision of Fenfire</a></li>
+</ul></div>
+</div>
+<div class="logo-bar" style="text-align: center">
+<a href="../"><img src="../logo.png" alt="The Fenfire logo (a purple flame)"/></a></div>
+</div>
+<!-- NavBar end -->
+<hr class="docutils footer" />
+<div class="footer">
+Generated on: Mon Jul 25 11:46:37 2005.
+</div>
+</body>
+</html>

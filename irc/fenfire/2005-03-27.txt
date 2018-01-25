@@ -1,0 +1,364 @@
+02:28:39 <rubberpaw> rubberpaw has quit
+02:40:19 <rubberpaw> rubberpaw has joined #fenfire
+05:07:46 <antont> antont has quit
+05:16:40 <rubberpaw> rubberpaw has quit
+06:40:31 <rubberpaw> rubberpaw has joined #fenfire
+10:04:15 <tuukkah> ibid, did you look at the slowness of fenfeed?
+10:05:09 <ibid> no
+10:05:17 <ibid> (not yet, but again, no promises:)
+10:08:45 <tuukkah> I tried to look into it a bit, but I can't reproduce the slowness ;-)
+10:09:18 <ibid> what?
+10:09:36 <tuukkah> how slow is the startup on your system?
+10:09:58 <ibid> it doesn't pause for minutes for you before showing the ui components?
+10:10:41 <tuukkah> no, with the default feeds I can read an item and quit under 20 seconds
+10:10:53 <ibid> with kaffe?
+10:10:56 <tuukkah> yes
+10:11:04 <ibid> what kind of a system?
+10:11:13 <tuukkah> try time make run_feed FEEDS="" JAVA=kaffe
+10:11:22 <tuukkah> and quit when you see the ui components
+10:11:31 <tuukkah> oh, and something else...
+10:11:44 <tuukkah> you should remove your subscriptions too
+10:11:58 <tuukkah> edit fenfeed_conf.turtle
+10:12:45 <tuukkah> there's a list of subscriptions. you can change the property name or move the file away
+10:13:10 <tuukkah> <http://fenfire.org/2004/12/fenfeed#subscribedTo>
+10:14:01 <tuukkah> time says 4.0 s real, 2.7s user
+10:14:17 <tuukkah> with a Pentium M running at 600 MHz
+10:15:11 <ibid> it's fast enough without feed
+10:15:14 <ibid> feeds
+10:18:18 <tuukkah> perhaps I can't help then
+10:19:19 <ibid> real    0m37.359s
+10:19:22 <ibid> without feeds
+10:19:31 <ibid> real    4m3.423s
+10:19:34 <ibid> with standard feeds
+10:20:37 <ibid> The requested URL /2004/12/fenfeed was not found on this server.
+10:20:54 <tuukkah> for me, it takes about 4-5 times longer with feeds too
+10:21:48 <rubberpaw> rubberpaw has quit
+10:22:01 <tuukkah> oh, that uri was just an identifier. but the server serve documentation to GET requests
+10:22:12 <ibid> model name      : Pentium III (Coppermine)
+10:22:19 <tuukkah> could serve
+10:22:22 <ibid> cpu MHz         : 1000.188
+10:22:59 <ibid> cache size      : 256 KB
+10:23:10 <ibid> MemTotal:       256616 kB
+10:23:10 <tuukkah> I can't believe that would be so much slower
+10:23:52 <tuukkah> is it swapping or could it be doing a lot more gc?
+10:25:46 <ibid> no audible paging
+10:26:37 <tuukkah> on my older machine, with feeds the ui shows up in 30 s real
+10:27:18 <tuukkah> this is AMD-K6 300 MHz
+10:27:19 <ibid> it does some gc before the window shows up but none afterward
+10:27:43 <ibid> until the ui compnents show
+10:28:07 <tuukkah> so gc can't be the reason?
+10:28:28 <ibid> what!
+10:28:40 <tuukkah> you mean it can be?
+10:28:59 <ibid> now it works fast enough
+10:29:05 <ibid> i have no idea what changed
+10:29:30 <tuukkah> DNS issues comes to mind
+10:29:48 <tuukkah> and you can try to rm -R _httpcache
+10:30:42 <ibid> after that, it's slow again
+10:30:51 <ibid> actually not
+10:30:55 <ibid> i just thought so
+10:31:08 <ibid> Adding to graph: http://dannyayers.com/index.rdf
+10:31:08 <ibid> nu.xom.xslt.XSLException: Syntax error in stylesheet
+10:31:16 <ibid> Caused by: javax.xml.transform.TransformerConfigurationException: File "" not found.
+10:31:27 <ibid> Caused by: javax.xml.transform.TransformerException: File "" not found.
+10:31:35 <ibid> these did not come when it was slow
+10:31:42 <ibid> Caused by: org.xml.sax.SAXParseException: File "" not found.
+10:31:52 <ibid> Error while reading http://tbray.org/ongoing/ongoing.rss
+10:31:52 <ibid> java.io.IOException: nu.xom.xslt.XSLException: Syntax error in stylesheet
+10:33:42 <tuukkah> these are normal on kaffe and mean that we have loaded the feed but the XSLT libs are broken and can't turn the feed into rdf
+10:34:31 <ibid> i don't know what happened, but it's fast now
+10:35:15 <tuukkah> so now nobody can reproduce it :-(
+10:36:16 <ibid> well, reasonably fast :)
+10:37:49 <ibid> well, that does corraborate the theory that it's a threading problem
+10:38:37 <ibid> those tend to be nondeterministic
+10:40:36 <tuukkah> corroborate
+10:40:45 <rubberpaw> rubberpaw has joined #fenfire
+10:41:23 <ibid> i noticed
+10:41:49 <tuukkah> I had to look it up in the dictionary
+10:42:05 <ibid> * ibid too
+10:42:15 <ibid> well, to check the spelling
+10:42:25 <ibid> did that too late, though
+10:43:21 <tuukkah> I think the ui components shouldn't show before the list of subscribed feeds is loaded
+10:43:52 <tuukkah> but the list should load way faster
+10:43:52 <ibid> i find that very counterintuitive
+10:44:09 <ibid> if i see a blank window, i looks like a bug
+10:44:19 <ibid> it, to me
+10:44:49 <tuukkah> to me it looks slow :-)
+10:45:13 <tuukkah> well, it could be better to show the components with a text "loading..."
+10:45:25 <ibid> it'd look less bad if there was just a splash window
+10:45:32 <ibid> or "loading":)
+10:46:43 <tuukkah> do you think the splash window or text would go away in case of a bug ?-)
+10:46:56 <ibid> what do you mean?
+10:47:32 <ibid> though i dislike programs that take a long time to load
+10:47:49 <ibid> but that's a bigger problem than just fenfire or fenfeed:)
+10:47:52 <tuukkah> I'm trying to think how blank white window is worse to you than the text "loading..."
+10:48:43 <tuukkah> I suppose progress bar would be ideal
+10:49:14 <tuukkah> or next to ideal, if instant loading is ideal
+10:49:18 <ibid> it's a perceptional issue
+10:50:22 <tuukkah> we just have to find the code that blanks the window and change that :-)
+10:51:18 <ibid> a blank window usually is a sign of a bug in the program's handling of events ==> empty window looks buggy
+10:51:39 <tuukkah> but it's not empty, it's blank white !-)
+10:51:51 <ibid> s/empty/blank/
+10:57:26 <tuukkah> perhaps org/nongnu/libvob/impl/awt/AWTScreen.java
+11:08:15 <tuukkah> yes, changing line 382 changes the startup
+11:10:16 <ibid> publish it?
+11:10:44 <tuukkah> well, changing the color from white to something else isn't worth publishing, is it?-)
+11:11:11 <ibid> heh
+11:12:07 <tuukkah> hmm, the code that is used to draw error strings crashes the app
+11:15:54 <tuukkah> oh, now it worked - once
+11:22:20 <tuukkah> oh, nice :-) javadoc says the given scale is divided by 1000, but actually it was used as is
+11:22:41 <tuukkah> so the code tries to draw 18 point font as 18000 pixels high
+11:23:58 <ibid>  a bug in kaffe?
+11:24:18 <tuukkah> no, I think this is a bug in javadoc
+11:24:22 <ibid> :)
+11:24:40 <tuukkah> I mean, in our documentation
+11:24:56 <ibid> ah, your own routine, not a standard one :)
+11:25:02 <tuukkah> yes
+11:35:18 <tuukkah> I think it looks nice now. I'll commit
+11:38:36 <tuukkah> pushed
+12:03:15 <ibid> better :)
+12:03:46 <ibid> and not better
+12:03:51 <ibid> it doesn't redraw
+12:03:51 <tuukkah> oh
+12:03:54 <ibid> on expose
+12:05:01 <ibid> hm, something's not right
+12:05:16 <ibid> it has already loaded the feeds but it doesn't draw the window
+12:05:43 <tuukkah> perhaps you start to find the thread bug :-)
+12:05:50 <ibid> :)
+12:06:25 <ibid> it works now
+12:06:32 <tuukkah> I added the text to same place where the blanking is done. without redraw, the canvas would be grey at least on kaffe
+12:06:34 <ibid> clearly a threading bug
+12:07:03 <ibid> it'll need a code review
+12:07:17 <ibid> yeah, it was gray
+12:08:38 <tuukkah> hmm, is cpu usage still at 100%?
+12:09:01 <tuukkah> because it might just be that a task is using the AWT thread
+12:09:16 <tuukkah> and the task takes a long time to finish
+12:09:48 <ibid> can't check
+12:13:46 <tuukkah> perhaps you can enable org.nongnu.libvob.AbstractUpdateManager.dbg to get some printout when it happens next time
+12:14:14 <ibid> how do i do that?
+12:15:20 <tuukkah> I think you need to change that attribute in code from false to true
+12:15:57 <ibid> in gzigzag there was a runtime way
+12:16:03 <ibid> can't remember what, though
+12:16:35 <tuukkah> yeah, but we always write a new main method that doesn't implement the old options =-/
+12:16:55 <benja_> huomenta
+12:16:57 <ibid> :)
+12:16:59 <ibid> morning
+12:17:03 <tuukkah> huomenta benja_ 
+12:17:08 <benja_> will be here for 45 minutes
+12:17:19 <tuukkah> benja_, there's a lot of cruft in the repos =)
+12:17:22 <benja_> hope to implement at least Lob.add()
+12:17:40 <benja_> tuukkah: true -- except for the smiley :-(
+12:17:48 <benja_> should be moved to basalt/
+12:18:09 <tuukkah> and duplicates removed altogether
+12:18:12 <benja_> I recall though that once after some cruft was removed you were unhappy because you had spend a lot of time working on it :)
+12:18:22 <benja_> tuukkah: but only after checking they really are
+12:18:37 <benja_> there are some equally-named files in libvob.vobs and libvob.vobs.lava
+12:18:40 <benja_> which are different
+12:18:42 <benja_> (ouch!)
+12:19:09 <tuukkah> yes, there's two URN5NameSpaces that are slightly different
+12:19:11 <benja_> I'd also be happy to delete stuff if I know the functionality has been duplicated in newer code
+12:19:15 <benja_> tuukkah: :-(
+12:20:18 <tuukkah> there should be a tool that looks for duplicate or unused code
+12:20:40 <rubberpaw> rubberpaw has quit
+12:26:57 <tuukkah> actually, some java compilers can start from main class and build only needed classes
+12:27:18 <tuukkah> so if some java file isn't compiled then it's waste
+12:36:06 <tuukkah> private/org/fenfire/fentwine/util/Pair.java is identic to fenfire/org/fenfire/util/Pair.java so can be removed?
+12:36:28 <tuukkah> but storm/org/nongnu/storm/util/Pair.java has minor differences that should be merged
+12:36:52 <tuukkah> benja_, fenfire code can depend on storm classes, right?
+12:37:20 <benja_> tuukkah: yes
+12:37:34 <benja_> fentwine pair can be removed, too
+12:59:48 <tuukkah> ok, done
+13:02:53 <tuukkah> the differences in URN5Namespace are that fenfire has an underscore and storm doesn't have in return "urn:urn-5:" + namespace + ":_" + num;
+13:04:15 <tuukkah> how to merge this?
+13:04:44 <benja_> tuukkah: use the one with the underscore
+13:04:56 <benja_> necessary for some rdf serializations
+13:05:00 <benja_> going now, cu
+13:05:16 <tuukkah> see you
+13:24:59 <rubberpaw> rubberpaw has joined #fenfire
+14:10:16 <Gwl> tän TIE363:n varmaan saa sisällytettyä ohjelmistotekniikan linjan maisteriopintoihin?
+14:18:24 <ibid> yes, that's the intent
+14:18:47 <ibid> (i recommend english on this channel, even though the majority present understands finnish, too:)
+14:18:49 <rubberpaw> rubberpaw has quit
+14:19:26 <Gwl> ok, good.. and yeah, my question just was a bit hard to ask in english so decided to not even try :)
+14:19:31 <ibid> Gwl: of course, it cannot supplant any of the mandatory courses
+14:19:33 <ibid> :)
+14:31:09 <tuukkah> Gwl, yeah, no problem
+15:25:08 <rubberpaw> rubberpaw has joined #fenfire
+17:15:20 <tuukkah> my email addr makes nice foaf:mbox_sha1sum =)
+17:18:09 <ibid> hm?
+17:20:28 <tuukkah> starts "bdb01db1b"
+17:22:52 <tuukkah> ibid, "Becoming a member in The Fenfire Foundation" should be shorter as it shows in navbar, browser window title etc.
+17:23:29 <rubberpaw> rubberpaw has quit
+17:24:50 <tuukkah> a related idea would be to move it to a subdirectory and limit navbar to */*.rst
+17:25:15 <rubberpaw> rubberpaw has joined #fenfire
+17:25:25 <tuukkah> maxring = 0;-)
+17:27:31 <tuukkah> "Affiliate" would be one word
+17:27:41 <ibid> tuukkah: fix it? :)
+17:27:53 <tuukkah> sure, I'm just not sure what to do
+17:54:38 <tuukkah> argh, the directories don't have g+s anymore
+17:56:11 <ibid> well, i did not anticipate the navbar thing when i first wrote it
+17:56:23 <ibid> browser window title is not a problem imho
+17:56:39 <tuukkah> yes, the titles are often long anyway
+17:57:04 <ibid> yes as in you agree or yes it is a problem? :)
+17:57:13 <tuukkah> agree
+17:57:28 <ibid> :)
+17:58:22 <tuukkah> benja_, majukati, please do chgrp -R himalia . in himalia.it.jyu.fi and fenfire.org
+17:59:07 <ibid> both or either?
+17:59:12 <tuukkah> both
+17:59:22 <ibid> just making sure :)
+18:00:10 <tuukkah> benja_ or majukati, and please tell the administration to put g+s on both directories
+18:00:25 <ibid> they can't do it themselves?
+18:00:39 <tuukkah> the dirs are now owned by root
+18:00:43 <ibid> ah
+18:01:24 <ibid> * ibid is thinking doing a text editor as my project on the course :)
+18:01:31 <ibid> (with xanalogical text, of course)
+18:03:11 <rubberpaw> rubberpaw has quit
+18:03:25 <tuukkah> specifically, only benja can put changes into fenfire.org/foundation into effect
+18:04:08 <ibid> augh
+18:05:19 <tuukkah> well, I was able to change the navbar on the other pages :-)
+18:06:23 <ibid> hmm, i'm not sure "affiliating" conveys the right message
+18:06:38 <tuukkah> might be
+18:07:55 <tuukkah> "Membership" might be better
+18:08:06 <ibid> not sure about that
+18:08:10 <ibid> let me ask somebody :)
+18:08:17 <ibid> leave it as it is currently for now, please
+18:08:28 <tuukkah> ok
+18:08:46 <tuukkah> i was looking at http://www.spi-inc.org/membership :-)
+18:14:57 <ibid> doesn't seem like people are keen on helping
+18:19:42 <tuukkah> helping with what?
+18:19:54 <ibid> 21:08  <ibid> let me ask somebody :)
+18:20:02 <tuukkah> ah,ok
+18:20:23 <tuukkah> I was already checking out doap stuff
+18:22:32 <ibid> 21:22  <Heffalump> I would have thought the more appropriate word would have been "Joining"
+18:22:58 <ibid> 21:22  <Heffalump> and you become a member _of_ things, not _in_ things
+18:23:17 <tuukkah> probably the only software that supports http://fenfire.org/doap.turtle is Fenfire :-)
+18:23:31 <ibid> heh
+18:26:12 <tuukkah> krhm
+18:26:18 <tuukkah> java.io.IOException: Unhandled content type application/x-turtle when reading http://fenfire.org/doap.turtle
+18:26:18 <ibid> hm?
+18:27:01 <tuukkah> which is to say that even Fenfire doesn't support browsing the url
+18:38:13 <tuukkah> hmm, the code supports application/turtle
+19:25:26 <rubberpaw> rubberpaw has joined #fenfire
+20:48:26 <benja_> back
+20:48:41 <tuukkah> hi benja_ 
+20:48:41 <benja_> tuukkah: ok, code is wrong
+20:48:50 <tuukkah> which code?
+20:49:08 <benja_> the code supporting application/turtle
+20:49:17 <tuukkah> I already committed fix
+20:49:42 <benja_> ok
+20:50:13 <tuukkah> can you chgrp -R himalia . at fenfire.org and himalia?
+20:50:27 <benja_> -rw-rw-r--  1 hastrup  hastrup     3221 Mar 27 21:02 vision.html
+20:50:49 <tuukkah> hmm, when did that happen?
+20:51:52 <tuukkah> we really need to get g+s back for the root dirs
+20:52:47 <benja_> I like the "Loading..." thing, was that you?
+20:52:59 <ibid> my request, i want the credit :)
+20:53:02 <tuukkah> yes, by ibid's idea  :-)
+20:53:04 <benja_> :)
+20:54:23 <tuukkah> now I was thinking why Traversals.java was moved to lava and if it should be moved back
+20:54:39 <benja_> where?
+20:55:18 <tuukkah> because I'd like to start fentwine in the most connected node of the largest component along sl:linkedTo
+20:55:42 <tuukkah> I really hate when it starts in rdfs:label or some such =-/
+21:00:40 <benja_> I haven't moved it there. Are you sure it didn't start in lava/?
+21:01:43 <tuukkah> oh right, why not
+21:01:58 <tuukkah> can it be used from there?
+21:02:11 <benja_> it's not supposed to be
+21:02:42 <benja_> it's not lava any longer if stable code calls it
+21:05:31 <tuukkah> stable!
+21:05:46 <rubberpaw> rubberpaw has quit
+21:10:02 <tuukkah> benja_, chmod g+s fenfire.org/foundation
+21:11:17 <benja_> ok
+21:11:38 <tuukkah> thanks
+21:13:00 <ibid> might be a good idea to fix the affiliating
+21:14:11 <benja_> it would be nice if the navbars only showed the current part of the tree
+21:14:46 <tuukkah> benja_, I'd prefer some values for maxring and maxdepth ;-)
+21:14:56 <benja_> ?
+21:15:23 <tuukkah> show some amount of surrounding branches too
+21:16:33 <benja_> I don't understand anything of that
+21:16:53 <benja_> oh, you're refering to the webpage?
+21:17:04 <tuukkah> yes %-)
+21:17:08 <benja_> that sounds bad :)
+21:17:24 <benja_> I mean, hard to understand for the reader
+21:17:58 <tuukkah> I like that */*.rst are visible
+21:18:18 <benja_> they used to be linked, too
+21:18:26 <benja_> not any longer, for some reason
+21:18:52 <benja_> (from the footer)
+21:19:41 <ibid> hm, somebody should do something to the course page english
+21:19:45 <tuukkah> grr :-) I mean */*.html
+21:20:02 <ibid> "Manner of Performance", right 
+21:20:46 <tuukkah> I bet you can send patches, but I think otherwise it's not a priority
+21:21:23 <ibid> yeah right
+21:21:53 <benja_> argh, someone updated fenmm to use lobs, which is nice except now I have to update it to the new lob system :-o
+21:22:18 <tuukkah> "someone"
+21:22:26 <benja_> mudyc apparently
+21:22:35 <tuukkah> perhaps he can do it?
+21:22:48 <benja_> then I have to move it to basalt/ for now...
+21:23:05 <tuukkah> this kind of issues were why I was wondering how Google does it
+21:23:35 <ibid> what's fenmm?
+21:23:45 <benja_> asko's mind map thing
+21:23:50 <tuukkah> perhaps fenmm should be a repo of it's own and it would state which version of fenfire it depends on
+21:24:00 <ibid> right
+21:24:03 <tuukkah> http://fenfire.org/fenmm-shot.png
+21:24:15 <ibid> for that, you'd need to have versions of ff :)
+21:24:19 <ibid> and for that, releases
+21:29:13 <tuukkah> yes. we can do releases if we want to
+21:29:37 <benja_> more like if we have something useful to release
+21:29:55 <tuukkah> benja_, that's not the point. think of versions instead of releases
+21:30:50 <tuukkah> to some extent, we already have versions. we would just need to tell in each subproject, which versions of other subprojects it requires
+21:31:58 <tuukkah> then we'd write a leet darcs-using bash script that darcs gets the right patches and builds the subprojects
+21:32:54 <benja_> tuukkah: for fixing a version, it wouldn't make sense to make a release
+21:36:51 <rubberpaw> rubberpaw has joined #fenfire
+21:37:30 <tuukkah> benja_, why wouldn't it?
+21:38:01 <benja_> because a release should be something someone interested in the project would download and try out
+21:38:12 <benja_> else, they won't stay interested for long
+21:38:19 <tuukkah> it would simplify things a lot for those who don't have bash and darcs and for the writer of that script
+21:39:16 <tuukkah> benja_, you don't have to advertise it as a release, just say that this is what we have today and put the jar somewhere. some people could call it an alpha release
+21:39:51 <benja_> mhm, you could do that
+21:52:31 <tuukkah> that was the point :-)
+21:52:53 <tuukkah> it could also be less frightening for the students :-)
+22:02:17 <ibid> you can just use darcs tag if versions are all that are necessary
+22:06:24 <benja_> huh, after loads of commenting out, ff compiles again =)
+22:07:54 <tuukkah> ibid, perhaps. is a tag simply a set of pathces?
+22:08:28 <ibid> i don't know how to describe it in darcs terms
+22:08:47 <ibid> but the effect is that it allows you to go back to a specific configuration
+22:09:58 <rubberpaw> rubberpaw has quit
+22:10:45 <ibid> "Tag is used to name a version of the tree. Tag differs from record in that it doesn't record any new changes, and it always depends on all patches residing in the repository when it is tagged. This means that one can later reproduce this version of the repository"
+22:15:09 <ibid> http://darcs.net/manual/node7.html#SECTION00761000000000000000
+22:17:15 <tuukkah> I suppose if I want to tag I should use urn-5 for the name ;-)
+22:18:39 <ibid> ugh
+22:18:52 <tuukkah> no?
+22:19:24 <ibid> well, you must decide if you really need a truly distributed identity assignment authority ;)
+22:21:19 <tuukkah> identity? I though you argued that they are identifiers and not identities?
+22:21:35 <ibid> i intended to write identifier
+22:21:46 <ibid> i suppose thats a leibnizian slip :)
+23:36:59 <rubberpaw> rubberpaw has joined #fenfire
+23:45:10 <tuukkah> java file line counts after each patch on darcs repositories: http://iki.fi/Tuukka/tmp/ff-gp.png
+23:46:30 <benja_> 1.1e+09?
+23:46:44 <tuukkah> seconds from 1970 =)
+23:46:51 <benja_> bah :)
+23:47:30 <benja_> interesting graph
+23:49:42 <tuukkah> ibid gave the link to a page that described darcs trackdown and gave ideas about how to use it
+23:50:41 <benja_> would be nice to cull stuff in basalt/
+23:50:55 <benja_> I've just moved a lot there (not recorded yet)
+23:51:04 <benja_> (the old lob system)
+23:51:25 <tuukkah> I used wc -l $(find org -name "*.java")
+23:51:31 <benja_> ok
+23:51:43 <benja_> that's out then :)
+23:51:51 <tuukkah> out?
+23:52:04 <benja_> not a problem
+23:52:35 <tuukkah> otherwise, you could call it a problem:
+23:52:38 <tuukkah> darcs trackdown 'LANG=C wc -l $(find org -name "*.java") && false' | egrep -v "^Trying|java" | egrep "^[SMTWTFS]|^ *[0-9]+ +total" | sed -n 's/\([0-9]\)  .*$/\1/ ; T ; N ; s/\n *\([0-9]\+\) *total$/\t\1/ ; p' | while IFS=$'\t' read date lines ; do echo -e "$(date -d "$date" +%s)\t$lines" ; done > gp.data
+23:52:45 <benja_> =)
+23:53:17 <benja_> how about making that part a problem too by using *.rj instead of *.java where both exist? :)
+23:54:11 <tuukkah> actually, are those *.java in the repository?
+23:55:52 <benja_> yeah
+23:55:56 <benja_> perhaps that's stupid
+23:56:12 <benja_> running python being easier than compiling C++
+23:56:27 <tuukkah> at least jython
+23:56:39 <benja_> yrgh
+23:56:50 <benja_> (slooow)
+23:57:04 <tuukkah> oh, that problem
+23:57:32 <benja_> if you want to remove the java ones, go ahead
+23:58:14 <tuukkah> I'm not sure if I want to. fenfire.org and libvob have taught me to have generated files in the repo
+23:58:40 <benja_> 'kay
+23:58:54 <benja_> well, fenfire.org really is a different case
+23:59:27 <tuukkah> but perhaps the shell command should be rewritten as some proper script
+23:59:31 <benja_> I have something on the screen again! :-)

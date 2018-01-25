@@ -1,0 +1,596 @@
+07:18:13 <fflogbot> fflogbot has joined #fenfire
+07:18:13 <benford.freenode.net> topic is: http://fenfire.org - the channel may or may not be logged
+07:18:13 <benford.freenode.net> Users on #fenfire: fflogbot rubberpaw vegai ibid jvk benja_ mudyc majukati humppake tuukkah antont 
+07:18:17 <benja_> listening to ibid's lecture on formal methods
+07:18:23 <benja_> in the software engineering course
+07:19:19 <benja_> [auditorio 3]
+07:28:56 <tuukkah> benja_, do you understand everything ?-)
+07:29:37 <tuukkah> I can use this as a rehearsal before the course final exam
+07:30:52 <benja_> tuukkah, I understand almost nothing =)
+07:31:11 <tuukkah> oh :-(
+07:31:23 <tuukkah> "formaali" is formal and "menetelmä" is method =)
+07:31:50 <tuukkah> "ohjelmoinnin" is programming's and "matematiikka" is mathematics
+07:31:55 <benja_> :)
+07:32:21 <tuukkah> "joukko" is set and "oppi" is study or theory
+07:34:00 <rubberpaw> rubberpaw has quit
+07:39:11 <tuukkah> benja_, so we should apply those effects to fenfire
+07:39:44 <benja_> yes yes, it's fine, it's fine
+07:41:07 <tuukkah> what' fine? we're leaving behind in eye candy development! do we have any physical models at all? !-)
+07:45:48 <tuukkah> now you missed "berliinin muuri"
+07:47:10 <benja_> I should go soon, Matti is coming at 11
+07:47:30 <benja_> * benja_ is working on software engeneering, even if not listening =-)
+07:47:43 <benja_> well, s/working on/learning about/
+07:47:46 <benja_> UML, really
+07:47:50 <tuukkah> heh :-)
+07:48:02 <tuukkah> what are you going to do with Matti?
+07:48:02 <benja_> filling in some small things I don't know yet
+07:48:11 <benja_> tuukkah: porting canvas vie
+07:48:12 <benja_> w
+07:48:25 <tuukkah> I could come and spectate you
+07:48:32 <benja_> ok, please do =)
+08:03:03 <benja_> should go, I guess
+08:10:42 <benja_> majukati: we are in the fireplace room
+08:53:36 <rubberpaw> rubberpaw has joined #fenfire
+09:57:29 <majukati> hi
+10:03:34 <benja_> hi
+10:06:01 <rubberpaw> rubberpaw has quit
+10:53:44 <rubberpaw> rubberpaw has joined #fenfire
+11:02:53 <ffdarcsbot> ffdarcsbot has joined #fenfire
+11:02:53 <ffdarcsbot> hippaladuida
+11:03:04 <tuukkah> argh
+11:03:26 <tuukkah> I wanted to add reconnect support
+11:03:30 <ffdarcsbot> ffdarcsbot has quit
+11:03:56 <tuukkah> always forget to escape the # in shell :-)
+11:30:38 <ffdarcsbot> ffdarcsbot has joined #fenfire
+11:30:58 <tuukkah> ok, I hope it reconnects automatically from now on
+11:31:25 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, rename fields in Box and javadoc some of them in the hope to make the code more comprehensible
+11:31:50 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, remove unused variable
+11:32:15 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, refactor: remove (float x, float y) parameters from Lob.render -- the parent can create a translated coordsys to specify the x/y
+11:32:40 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, new primitive lob to tile another lob; use to show stipple in window (dialog box) titles
+11:33:08 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Theme improvements
+11:33:34 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, good riddance
+11:33:59 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, steps towards a slightly new interpolation system, where cs without keys are shown during interpolation
+11:34:23 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add scaling lob
+11:34:47 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, treat height<0 as height==0 in ScalableFont
+11:35:13 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, mostly fix new interpolation system; w and h aren't interpolated yet
+11:35:38 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, finish the new interpolation system
+11:35:45 <tuukkah> now there will be a lot
+11:36:02 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, more fixes for new interpolation system
+11:36:27 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make StringTextModel not use a key by default (this means that text with no specified key will be 'shown during interpolation' and not matched against anything in the other vobscene)
+11:36:51 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, more consistency in the keying of themed components: handle Window and ThemeFrame like the other components; if no key is specified, do not put the component's cs into the vobmatcher (make it 'shown during interpolation' and not matched against anything in the target scene)
+11:37:15 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make use of new interpolation system for clipping (do not put clipping cs in matcher if no explicit key is specified)
+11:37:40 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Make LobFont size specifiable by size in pixels instead of points, since the same point size can produce quite different text sizes with different fonts and AWT implementations; make most places not declare their own LobFonts, instead using the ones from Theme
+11:38:04 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, work around a bug in Classpath AWT (apparently), where mouse events get button '0' instead of 1
+11:38:29 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, twiddle with clip interpolation
+11:38:53 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix stupid scrolling bug
+11:39:11 <rubberpaw> rubberpaw has quit
+11:39:17 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, little fix
+11:39:41 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, speed fix
+11:40:07 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, CollectionModel.containsModel(m) creates a boolean model that says whether m is in the collection
+11:40:32 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, speed fix again...
+11:40:56 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, revamp FunctionModel
+11:41:21 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make interruptEventloop(), called by addTask(), actually interrupt the waiting for events on AWT so that background tasks can get processed
+11:41:46 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, create SequenceModel.Concat and TextModel.Concat, for creating bigger texts out of smaller ones
+11:42:10 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, support for textual lists, for fenfeed (to show different dc:subjects etc)
+11:42:34 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Refactor: start work on easier convention for lob constructors
+11:43:00 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, use a setter-based approach rather than a keyword-based approach for component parameter setting
+11:43:23 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add c++-generated files to darcs to make compiling easier (i.e., make possible to compile java w/o compiling c++)
+11:43:48 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, more refactoring for fenfeed
+11:43:56 <ibid> huu
+11:44:13 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix for ArrayOutOfBounds occuring sometimes when a cs is last in chain
+11:44:41 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, README fixes; bug spotter: ibid
+11:45:07 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Simplify how CLASSPATH is set; remove collections-kaffe which we don't depend on any longer (it was a copy of Kaffe's collections implementation to allow us to run on 1.1 Javas)
+11:45:29 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, scrollbar fixes
+11:45:54 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, hacked in ViewportLob.getVisibleFraction for scrollbar knob size
+11:46:17 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, implemented scrollbar knob sizing as knobFractionModel
+11:46:41 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, made the ListBox in default theme use scrollbar knob sizing
+11:47:06 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Small twids to Tuukka's patch
+11:47:30 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Fix my bad (and a little Tuukka's ;-)); make TextComponents use Tuukka's knob size code
+11:47:55 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, small fix -- the min size of the knob should show it as rectangular
+11:48:22 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, on window close, LobBinder calls System.exit(0)
+11:48:44 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, Scrollbar cleanup
+11:49:08 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, reordered helper functions
+11:49:31 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, limited knobsize below 1, documented parameter models
+11:49:55 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, scrollbar knob position follows scrolling, not selection
+11:50:19 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, implemented Benja's setMinKnobSize
+11:50:42 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, changed knob default min size to 10, constant size to 15
+11:51:04 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, implemented WatcherLobs for size, put in use in text scrolling
+11:51:26 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Fix missing brackets in Makefile
+11:51:50 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fixes to Stamp
+11:52:13 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, work towards new view system
+11:52:35 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, more work towards new view system with changeable views
+11:52:59 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Fix OpenGL interpolation bug found in fentwine (was loom)
+11:53:24 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Fix Vect.neg and copy awt buoyOnCircle from C++ src.
+11:53:48 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Add demo to test buoy cs.
+11:54:12 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Implement between and translate polar coords.
+11:54:34 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Add between demo
+11:54:57 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, AWT implementation of unitSq; VobCoorder.center() gives a cs at the center of the unit square; bug fixes
+11:55:21 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Get rid of viewState -- serves no functionnow
+11:55:43 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Start framework for fading colors into the background in AWT (i.e., GL's fog). For now, did the simplest thing that could possibly work -- have only one global fog setting for a whole VobScene -- because doing it 'right' would have been so much harder right now.
+11:56:04 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add buoyOnCircle2 to VobCoorder
+11:56:27 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, general implementation of inverse transformation in AWTVobCoorder(Base)
+11:56:49 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fixes to depth fading
+11:57:11 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fixes to AWT impl of buoy-on-circle-cs
+11:57:33 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, buoy cs speed improvements (do not create objects all the time!)
+11:57:55 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, squash more speed bugs
+11:58:17 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, work towards new architecture inside AWTVobCoorder, where for each interpolation frame we generate the coordinates for each cs only once, rather than re-generating it again and again for each child of the cs. not yet used, this is an intermediary commit
+11:58:38 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, more work on new awtvobcoorder code -- the speed has increased but there are very funny-looking bugs ;-)
+11:59:01 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make the new awtvobcoorder code work, though not entirely beautifully and still with room for more optimization ;-) (it's already a lot better, though)
+11:59:22 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix bugs in the new awtvobcoorder code
+11:59:45 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add parseFloat model to Models
+12:00:08 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Fix interpolating on keystroke if already animating.
+12:00:30 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, when a cs is SHOW_IN_INTERP, but one of its ancestors is DONT_INTERP, do not show the cs when interpolating
+12:00:52 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, clean up a little
+12:01:14 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix interpolation bug
+12:01:35 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix
+12:01:57 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, compare the parents' scale and use the smaller one in between cs
+12:02:17 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make buoyOnCircle2 use the new AWTVobCoorder code too (i.e. the Coordinates system) instead of some strange hybrid with doTransformRect
+12:02:39 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, get rid of the old transformRect stuff in AWTVobCoorderBase
+12:03:00 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, increase Trans.cs stack size
+12:03:21 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make ViewportLob more powerful by allowing to set an alignment for the content inside the visible area if the latter is bigger than the former
+12:03:41 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, when dragging, pass along the position of the original click in mouse(); use that to determine which lob to dispatch the event to
+12:04:02 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix for bug found by matti
+12:04:24 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Make the recursive vs tests pass again, except for one which fails exactly the same way when programmed without any recursive vs stuff (hmmm...). Wasn't trivial, but not really hard either =)
+12:04:47 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, speed fix; text was rendered character-by-character if the characters were SHOW_IN_INTERP
+12:05:07 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, various fixes: hw<->sxsw, concatInverse, TranslationLob and RectBg
+12:05:29 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Fix concat inverse
+12:05:50 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, in TranslationLob and PanZoomLob, do not change the VobScene if it has been clear()ed since the last Lob.render() call.
+12:06:11 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, better list of dependencies
+12:06:34 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, invalidate AWTVobCoorder's coordinates cache when the parameters of a coordinate system are changed
+12:06:55 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, if Lob.mouse() sets RERENDER, don't change that to ANIMATE in LobMain.mouse()
+12:07:15 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, some dbg printouts
+12:07:36 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix interpolation
+12:07:56 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix w/h interpolation when SHOW_IN_INTERP is used
+12:08:16 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, twids for make text editing in Fenfire work using lobs
+12:08:37 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Add Difference set model which gives the set difference A\B for collections A, B.
+12:08:58 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, allow PanZoomLob to be used in a way that only cares about floats, not Models
+12:09:17 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, small fixes
+12:09:38 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add 'not()' model (i.e., a model that negates a bool model)
+12:09:59 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, set model additions
+12:10:19 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make the boxes in a CheckBox not grow when the CheckBox is stretched :-)
+12:10:41 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, in ModelLob, do delegate.addObs(this)
+12:11:02 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, a variation of VisibilityLob which changes the size request to zero when the content isn't visible
+12:11:23 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make Models.parseFloat() more robust: when the string is null or "", return zero
+12:11:44 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, twids
+12:12:07 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, use correct height when using AWT lob text rendering
+12:12:28 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, remember the last size in ModelLob; when the delegate changes, do newDelegate.setSize()
+12:12:49 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Stamp fixes
+12:13:09 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, handle Alt-Up / Alt-Down when no text cursor is set
+12:13:28 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add safeguard
+12:13:48 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, speed fix, small but does a lot. profiling good ;-)
+12:14:09 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, small speed fix: don't "render" text outside the clip rectangle (i.e., don't call Graphics.drawChars(...) for them)
+12:14:29 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, speed fix: LobFont character lobs are immutable and shared between many parents, they're not supposed to register their parents as Obs...
+12:14:50 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, small speed fix: depth sort only after the coorder has changed
+12:15:11 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Add a simple scheduler for a key and priority.
+12:15:30 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, remove original impl of lob ideas (not the current implementation, the on in lava/)
+12:15:49 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, start work on interfaces for the new lob system
+12:16:08 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, More work on new lob system: TableLob, the first and second-most-interesting lob
+12:16:26 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Javolution caching -- as far as I understand it so far :-)
+12:16:45 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, ARGH, make compile
+12:17:03 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, tool for resolving qnames to URIs with the namespaces specified in Java code
+12:17:21 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, start work on linebreaker -- the actual linebreaking code isn't there yet
+12:17:40 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, move vobs.lava to basalt/ -- there are similar files in vobs/ and the vobs.lava/ versions are unused apparently
+12:17:58 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add VobLob in new vob system -- and first demo showing anything on the screen :-)
+12:18:15 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, try out table lob (needed only very small fix, but vob allocation with Javolution needs work)
+12:18:33 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, until Javolution allocation of vobs is fixed, make Lobs.java create new vobs
+12:18:52 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix Javolution caching for vobs: use Javolution reference counter
+12:19:10 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, start porting lobs
+12:19:28 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, more porting work, mostly LobFont, i.e. text rendering
+12:19:45 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add missing piece to render non-linebroken text; add Hello World to lobdemo :)
+12:20:03 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, static methods in Lobs to construct common lobs
+12:20:19 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, get rid of the Lob/Layout separation -- it made coding more difficult, as many lobs are wrappers that work the same before and after layouting
+12:20:36 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, and now the most interesting lob ... except that it isn't a lob yet but only a function that will be used in creating the lob: Linebreaker
+12:20:54 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix
+12:21:10 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, don't remove generated java files in 'make clean', they're in the repository
+12:21:27 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix linebreaking in new lob system (respect preBreakLob/postBreakLob)
+12:21:44 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add Lob.getInterface(Class), which goes through the hierarchy of wrapper lobs, looking for one that implements the given interface (see javadoc).
+12:22:01 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, text editing keys in lobdemo
+12:22:16 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, more text editing and more lobs
+12:22:33 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, little test for interpolation: whenever pressing a key, move a line (should animate)
+12:22:49 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, in lobdemo.Scene.scene(), return the VobScene object we created
+12:23:05 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, ok, make animate
+12:23:21 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, simplistic text cursor in lobdemo; comment out debug aid that animated a line on each key press
+12:23:37 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, simpler and nicer implementation of text cursor, using the box size
+12:23:54 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, argl, revert accidental delete
+12:24:10 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Good architecture for text cursor lob.
+12:24:25 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, s/Lob.getInterface/Lob.getImplementation/
+12:24:41 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, move text edit key handling to Java
+12:24:55 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make linebreaker use layoutOneAxis as intended (see Lob.layoutOneAxis javadoc)
+12:25:10 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, implement Tray; refactor demo to create only one lob and render that full screen
+12:25:24 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, java-ize demo -- gives huge performance boost, python was called in some inner loop =)
+12:25:39 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, In TextKeyController, use WindowAnimation for right animation behavior.
+12:25:54 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, more work on new lobs -- a listBox component, default parameters for components, etc.
+12:26:09 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, A code preprocessor to make Javolution programming a bit easier.
+12:26:23 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, doc
+12:26:37 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, use preprocessor a bit -- it does make the code much simpler...
+12:26:51 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, mouse events going through (can now select item in listbox with mouse)
+12:27:05 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, use java.util.List instead of the LobList interface
+12:27:18 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, simplify code
+12:27:31 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make Notebook demo use new lob system (not entirely complete yet)
+12:27:43 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Make event handling code less error-prone
+12:27:56 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Add primitive focus handling; add abstract implementation of sequence lobs
+12:28:08 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Better state handling
+12:28:20 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, fixed rendering message display code
+12:28:32 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, added a "splash screen" while first scene is rendering
+12:28:44 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add Lobs.add() to add a lob to a sequence (hbox, vbox, linebreaker)
+12:28:56 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Add rudimentary menus.
+12:29:08 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, remove obsolete documentation about font scaling factor
+12:29:19 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, better menus (though two menus can still be open at the same time)
+12:29:30 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, move old lob system to basalt/
+12:29:40 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, twids
+12:29:51 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, don't barf on round-off error
+12:30:02 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Fix old functionality of vob scene, i.e., getCSAt with awt.
+12:30:14 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Add bosszz to show how hard it is to build with vobs.
+12:30:24 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Add features to the .rj preprocessor
+12:30:34 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Make the code in the Notebook demo stylistically better
+12:30:45 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, experiment with ways to simplify lob coding
+12:30:55 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, lobs-based boss puzzle impl
+12:31:05 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, various fixes
+12:31:14 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, refactor puzzle demo
+12:31:24 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, oops, forgot to add
+12:31:33 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, improve puzzle demo code
+12:31:43 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, move defaultFont and stuff depending on it to Component, as it embodies policy
+12:31:51 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, Don't religiously avoid creating String objects in the puzzle demo.
+12:32:01 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, argl, didn't remove CLASSES when removing Glue.java -> didn't spot these
+12:32:09 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make PuzzleBoard an ordinary class -- no need to use Javolution and the preprocessor
+12:32:20 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, Add simple lob example - boss buzzle.
+12:32:29 <ffdarcsbot> libvob: Matti J. Katila <majukati@cc.jyu.fi>, BossBuzzle twids
+12:32:38 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, various linebreaking/javolution-related fixes
+12:32:46 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, very crude fix for focus handling in Fenfire.rj
+12:32:55 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add viewport lob that scrolls its content to show the cs with a given key in the middle
+12:33:04 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix text rendering (don't render individual characters with AWT)
+12:33:12 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, use viewport for listbox (it doesn't handle mouse right :-( )
+12:33:20 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make sure the lobs at the end of a line have the correct key (for showing the text cursor, scrolling)
+12:33:28 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, a simple image lob, needs work
+12:37:05 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, more refactoring for fenfeed
+12:37:19 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Sort the feeds (unicode-lexicographically)
+12:37:32 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, work towards new view system
+12:37:45 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, more work towards new view system with changeable views
+12:37:59 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, use the STORY class for ALL_STORIES
+12:38:13 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Different cursor model -- cursor states are object implementing an interface with a getNode function, but can store additional view-specific information
+12:38:25 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Move FentwineVobMatcher to Fenfire, rename to ConnectionVobMatcher
+12:38:38 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, start new view architecture, using structureview/spatialview separation
+12:38:51 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make the spatial context's cs have a key (needed for interpolation at least for now)
+12:39:03 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, cache the lobs created by SimpleSpatialView
+12:39:06 <ibid> majukati: i could've helped you with korppi
+12:39:16 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, print out less
+12:39:29 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, don't create iterator objects for every node in view building
+12:39:42 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, start work on canvas view as a spatial context view
+12:39:54 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, twid
+12:40:06 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, simplify ConnectionVobMatcher by removing unused stuff
+12:40:19 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, interpolate spatial contexts: they need to have the same key [makes sense ;-)]
+12:40:32 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, lookup functions necessary for showing buoys to non-focused nodes in spatial contexts
+12:40:45 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, use helper lobs creating the vob matcher structure for spatial contexts; share the helper lobs between the spatial views
+12:40:59 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make spatial views specify whether their mainviews should be shown big
+12:41:11 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, add RDFS.java (thx Tuukka)
+12:41:24 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Add CanvasCursor to Cursor
+12:41:36 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Use real canvas :)
+12:41:48 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Twids to SpatialView interface
+12:42:00 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, use a standard Frame lob instead of a special UniqueColorLob (which used RectBgLob, ugh [because RectBgLob does many things together rather than a single orthogonal thing])
+12:42:12 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, handle non-canvascursors correctly
+12:42:25 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Move CanvasCursor out of org.fenfire.Cursor; add adapter model that gives the panX or panY or zoom, given a Model containing a (Canvas or non-Canvas)Cursor.
+12:42:37 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, cache only the canvas content, not the translation lob &c, as mudyc suggested on the list
+12:42:49 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, actually use WindowAnimation in CanvasSpatialView
+12:43:01 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Make CanvasSpatialView use cursors properly (using the central Cursor model)
+12:43:13 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, change getLob() to getMainviewLob() and getBuoyLob() as proposed on list (though the proposed names were getMainLob() and getNodeLob()...)
+12:43:25 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make clicking on a node focus it
+12:43:37 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Start Dublin Core vocabulary
+12:43:49 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Add simple spatial calendar view
+12:44:01 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, new cursor system, essentially as discussed on ff-dev
+12:44:13 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make calendar view work somewhat
+12:44:25 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, try to also allow sending messages for private/ (only the commit message, no diff)
+12:44:37 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, twid
+12:44:48 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, argl
+12:45:00 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, add old gzz.potion code
+12:45:11 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, bring potions forward to 2005 ;-)
+12:45:22 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, get rid of separation between Expressions and Calls
+12:45:33 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make potions somewhat useful
+12:45:45 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Add a way to evaluate expressions when the user presses the key, before the command is complete
+12:45:56 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, When creating a new cell, move the cursor onto it.
+12:46:07 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, correct panning in canvas buoys
+12:46:18 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, generalize ViewSettings to be used for both spatial and content views
+12:46:30 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, fix: cannot create new Type objects all the time if we don't implement equals() and hashCode()
+12:46:39 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, better content view
+12:46:50 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Add irc bot to notice changes in darcs repos
+12:47:00 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Twid
+12:47:10 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Small twids to darcsbot
+12:47:20 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make text editing work
+12:47:29 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, add a SetModel giving all properties in the graph
+12:47:40 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, don't use TextCursor, TextEditController or ViewportLob in property lobs
+12:47:50 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Radically simplify cursor architecture.
+12:48:00 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, oops, discard spatial cursor when moving through the structure
+12:48:10 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, change the panzoomlob manually in the dragcontrollers -- needs ugly caching of the mainview during dragging so that we don't create new DragControllers whose isDragging is set to false...
+12:48:19 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, document mainview cache, based on what I said on IRC...
+12:48:29 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, factor SimpleContentView.ContentModel out, call it org.fenfire.lob.NodeTextModel, doc it
+12:48:39 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, when making a new connection, set the rotation to it
+12:48:49 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Allow the user to move on / edit literals.
+12:48:58 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, use unique colors for property text (not very successful yet)
+12:49:07 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Back to old Loom/Fentwine color scheme. Nice, I feel at home ;-)
+12:49:18 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make Fenfire load RDF/XML when called like 'make run FILE='--xml foaf.rdf'
+12:49:26 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, don't delete cached files when the server says you can use them :-o
+12:49:36 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, don't barf when more than one literal exists on a given text property
+12:49:46 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Add system for batching a whole update to a graph and triggering all obses together.
+12:49:55 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, text-scroll only the focused node, not all others whose content is bigger than the box, too :)
+12:50:05 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, add rdfs:seeAlso
+12:50:14 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Fixes to literal editing
+12:50:23 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, work on text editing
+12:50:32 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, limit node size growth along Y axis -- allow mainviews to be higher than buoys
+12:50:42 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, New smushing architecture -- the UI code needs to know about smushing
+12:50:52 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, test and fix HashGraph.rm_1111
+12:51:00 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, test and fix a bug in StdObserver
+12:51:10 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make NamespaceMap observable and make NodeTextModel observe it, so that you can change the namespace mapping and have the views reflect it
+12:51:18 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, argl, add SmushListener
+12:51:27 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, for the purpose of smushing, convert foaf:mbox to foaf:mbox_sha1sum and use that, so that smushing works between two FOAF files one of which uses mbox and one of which uses mbox_sha1sum
+12:51:35 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, more speed fixing
+12:51:43 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, adjust to changed behavior of SmushedQuadsGraph
+12:51:53 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, test & fix
+12:52:03 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, twid
+12:52:11 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, simplify mbox/sha1sum implementation; doesn't change the bug
+12:52:20 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, SmushedQuadsGraph tests, fixes -- sigh
+12:52:29 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, show test names correctly in test.py
+12:52:37 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make calendar view use real days, computed in the proper Java way (I think =))
+12:52:46 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, have CalendarCursor only store a single date (i.e., the focused one)
+12:52:55 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make calendarview days clickable
+12:53:03 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, potions 'goto' command (for moving the cursor to a given node)
+12:53:11 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Change how spatial mainviews work: the lob they return is rendered full-screen.
+12:53:19 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, Full screen wasn't such a good idea, but *almost* full screen canvas looks quite good. :-)
+12:53:27 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, cache calendar view (was very slow)
+12:53:36 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, hackery to improve calendar view look
+12:53:43 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, add hasLink() to complement getLink() which can throw NoSuchElementException
+12:53:52 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Add very simple image view.
+12:54:00 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Fix line delay for irc bot.
+12:54:03 <rubberpaw> rubberpaw has joined #fenfire
+12:54:08 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, add javolution to classpath
+12:54:16 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, catch exception is lastRead time is not in cache
+12:54:24 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, added makefile target clean
+12:54:32 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, removed two non-ops, compiles on kaffe java compiler
+12:54:40 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, update to Gnowsis 0.8.1
+12:54:48 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, Separate content view into text and image (and in page)  views.
+12:54:56 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, add property view
+12:55:03 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, add foaf vocab
+12:55:10 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, add copyright statement to send_darcs_diffs.py
+12:55:18 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, the project is called Fenfire, not metacode/
+12:55:25 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, remove SimpleContentView
+12:55:32 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, cleaned up NodeTextModel
+12:55:41 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, literal datatypes and languages, and preferred language
+12:55:48 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, write namespaces to turtle files
+12:55:55 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, use Pair.java from storm instead of a copy
+12:56:02 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, use URN5Namespace from storm instead of a copy
+12:56:10 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, write turtle files using the defined namespaces
+12:56:17 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, accept application/x-turtle as our web site sends that
+12:56:25 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, partial port to new lob system (unported parts are commented out or moved to basalt/ for now)
+12:56:32 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, twids
+12:56:39 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, rudimentary viewing of literals
+12:56:46 <ffdarcsbot> fenfire: Matti J. Katila <majukati@cc.jyu.fi>, add project to projects in send_darc_diffs.py
+12:56:54 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, move defaultFont and stuff depending on it to Component, as it embodies policy
+12:57:00 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, fix SimpleSpatialView clipping
+12:57:07 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make colors for properties work again
+12:57:13 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, oops, parameter namespaces can be null
+12:57:19 <ffdarcsbot> fenfire: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, retry with exponential backoff on disconnect
+12:57:29 <ffdarcsbot> storm: Benja Fallenstein <b.fallenstein@gmx.de>, update xom
+12:57:34 <ffdarcsbot> storm: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, as XSLTransform(InputStream) is no longer available, use XSLTransform(Document) instead
+12:57:40 <ffdarcsbot> storm: Matti Katila <majukati@cc.jyu.fi>, Use optional java compiler in make.
+12:57:46 <ffdarcsbot> storm: Matti Katila <majukati@cc.jyu.fi>, Add copyrighter in Makefile
+12:57:52 <ffdarcsbot> storm: Matti Katila <majukati@cc.jyu.fi>, Copyright
+12:57:58 <ffdarcsbot> storm: Matti Katila <majukati@cc.jyu.fi>, Add new file db stuff
+12:58:04 <ffdarcsbot> storm: Matti Katila <majukati@cc.jyu.fi>, copyright fix
+12:58:10 <ffdarcsbot> storm: Benja Fallenstein <b.fallenstein@gmx.de>, Shouldn't have more than one class/interface in a .java file -- make MultiDB the interface, MultiDB.Impl the implementation
+12:58:15 <ffdarcsbot> storm: Benja Fallenstein <b.fallenstein@gmx.de>, Change DB.java too
+12:58:22 <ffdarcsbot> storm: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, merged changes to Pair.java from org.fenfire.util
+12:58:28 <ffdarcsbot> storm: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, merge changes to URN5Namespace from org.fenfire.util
+12:58:34 <ffdarcsbot> alph: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, inherit JAVAC and JAVA from environment if defined there
+12:58:47 <ffdarcsbot> depends: unknown author, rename, because darcs doesn't allow files differing only in case for cross-platform compatibility
+12:58:54 <ffdarcsbot> depends: unknown author, add png.license too
+12:59:00 <ffdarcsbot> depends: Benja Fallenstein <b.fallenstein@gmx.de>, add RIO (RDF I/O, www.openrdf.org) jar
+12:59:07 <ffdarcsbot> depends: Benja Fallenstein <b.fallenstein@gmx.de>, update xom
+12:59:14 <ffdarcsbot> depends: Benja Fallenstein <b.fallenstein@gmx.de>, Add Javolution (http://javolution.org)
+12:59:20 <ffdarcsbot> depends: Benja Fallenstein <b.fallenstein@gmx.de>, update to Gnowsis 0.8.1
+12:59:27 <ffdarcsbot> depends: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, updated rio.jar to newly released 1.0.2
+12:59:33 <ffdarcsbot> navidoc: Benja Fallenstein <b.fallenstein@gmx.de>, Fixes for website generation
+12:59:38 <ffdarcsbot> navidoc: Benja Fallenstein <b.fallenstein@gmx.de>, use python instead of jython, and assume that docutils is installed on the system rather than using docutils.jar
+12:59:44 <ffdarcsbot> navidoc: Benja Fallenstein <b.fallenstein@gmx.de>, interface that background processes can call to report on their progress (for progress bars)
+12:59:51 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add journals and teaching directories
+12:59:57 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, start journal
+13:00:03 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, add TIE363
+13:00:09 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, add notes re course
+13:00:16 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, update
+13:00:22 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, add add
+13:00:28 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Start course homepage, think content.
+13:00:34 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, validate
+13:00:40 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Rearrange the site + twids
+13:00:46 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Twids and changes
+13:00:52 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Validate and fix spelling
+13:00:58 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, aupdate journal
+13:01:04 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add simple help to use .procmailrc with computer center mail system
+13:01:09 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add more work to jvk
+13:01:15 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Translate main page
+13:01:21 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Translate manner of performance and small twids
+13:01:27 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, twids
+13:01:33 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Argh twid
+13:01:40 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add no translation -page
+13:01:46 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Fix stupid procmail help
+13:01:52 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, start proposal notes -- going slow, blah
+13:01:58 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add utilization plan questions. Propose to talk about activities and design.
+13:02:04 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, more from yesterday
+13:02:10 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Propose some answers
+13:02:15 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, some more notes...
+13:02:21 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, more brainstorming. hmm
+13:02:28 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, new try
+13:02:33 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Propose issues for lectures. Add some issues.
+13:02:39 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, more utilization plan (what's the demand)
+13:02:45 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, more utilization plan: potential applications
+13:02:51 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, notes about missing parts of utilization plan
+13:02:57 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, write out xxx in utilization plan
+13:03:03 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, re-order questions to fit the prose already written
+13:03:08 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, intro to utilization plan, explaining ff -- assumes that articles are attached
+13:03:14 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, remove old notes
+13:03:20 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, use 1 2 3 instead of a) b) c) because in HTML they're rendered as 1., 2., 3.
+13:03:26 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add utilization translation of the plan
+13:03:31 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, add XXX comment to improve some text unclear to mudyc
+13:03:37 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add short description
+13:03:43 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add lecture1 directory
+13:03:49 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add dates and times
+13:03:55 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, remove draft
+13:04:00 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add few words of identities :/
+13:04:06 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add short intro to rdf.
+13:04:12 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add first lecture
+13:04:17 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Bug fixes
+13:04:23 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add missing files
+13:04:29 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, validate
+13:04:34 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, validate
+13:04:40 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, validate
+13:04:45 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add short text of xanalogical media
+13:04:51 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, cut long text
+13:04:56 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Additions
+13:05:02 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, fixes
+13:05:08 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, add ascii chart
+13:05:13 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, fix
+13:05:19 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, validate
+13:05:24 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, fixes and expections
+13:05:30 <ffdarcsbot> project: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, fixed link to Getting started
+13:05:35 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, translate some material
+13:05:41 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, fixes
+13:05:46 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, translate more
+13:05:52 <ffdarcsbot> project: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, I needed to import java to get the example running
+13:05:57 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Apply vegai's patch to "manner of performance" -page.
+13:06:02 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add short text for kitara application requested by pn/esa
+13:06:07 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, Add more information about structure proposed by tuukkah
+13:06:13 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, More stuff for todays lecture.
+13:06:18 <ffdarcsbot> project: Matti J. Katila <majukati@cc.jyu.fi>, add some text for lobs
+13:06:23 <ffdarcsbot> project: Benja Fallenstein <b.fallenstein@gmx.de>, partial lecture notes from trip
+13:06:28 <ffdarcsbot> hippaladuida
+13:08:29 <ibid> is it absolutely necessary to spew that much each time?
+13:08:32 <vegai> active day :)
+13:08:49 <ibid> ah, no problem then
+13:09:01 <ibid> i assumed it was ffdarcsbot resending something already seen
+13:09:14 <benja_> I think it didn't, but I'm not sure
+13:09:39 <benja_> I think it only announced what was new since it had been started the last time
+13:10:37 <ibid> 15:38  <ibid> majukati: i could've helped you with korppi
+13:10:49 <ibid> (save the lone lines:)
+13:21:22 <antont> did anyone see my question about the rst -> latex -> pdf toolchain, or answer?-)
+13:22:58 <tuukkah> saw it but didn't know any answer
+13:26:12 <antont> ok
+13:26:47 <antont> last time (in autumn) i got pretty ok pdfs out, and probably can just hand-edit the latex to get it done .. didn't find any new versions of the tools
+13:27:12 <antont> there was some prob with refs but at least doing it in latex will solve that
+13:46:35 <tuukkah> majukati, I can't understand how Korppi can make it too hard to change lecture time
+13:46:53 <ibid> it doesn't
+13:47:09 <majukati> tuukkah: i got a helping mail already
+13:50:08 <tuukkah> majukati, aren't there people who can help you if you have trouble, like Korppi administrators on #korppi@IRCNet or the amanuensis of the department
+14:03:58 <rubberpaw> rubberpaw has quit
+14:07:27 <majukati> am i online still?
+14:07:32 <benja_> y
+14:07:33 <majukati> i am good
+14:07:37 <benja_> =)
+14:07:47 <majukati> no
+14:07:50 <majukati> i am, good
+14:07:56 <benja_> heh
+14:09:26 <ffdarcsbot> libvob: Hanna Ollila <hamaolli@cc.jyu.fi>, add necessary imports and exceptions
+14:13:26 <antont> oh, new member?
+14:15:17 <tuukkah> student on the course :-)
+14:36:48 <antont> ok nice :)
+15:05:39 <rubberpaw> rubberpaw has joined #fenfire
+15:50:08 <majukati> what's going on?  i have int max in a class that i do extend and in a constructor, after super() this max is zero even if in super() it's initialized?
+15:50:58 <benja_> majukati: I don't know, but the devil can be in the details. can you put the code online quickly? (I'm leaving soon :))
+15:53:06 <majukati> http://people.cc.jyu.fi/~majukati/AWTPagePool.java
+15:53:15 <majukati> http://people.cc.jyu.fi/~majukati/LobbedPagePool.java
+15:53:41 <benja_> what's the variable?
+15:53:44 <benja_> ah, max?
+15:53:57 <benja_> majukati: you use 'int maxW = ...' in constructor
+15:53:58 <majukati> maxW and maxH
+15:54:03 <benja_> so you create a local maxW
+15:54:08 <benja_> don't change the maxW in the object
+15:54:13 <majukati> ah, argh
+15:54:15 <benja_> :)
+15:55:20 <majukati> should have noticed that but thanx
+15:58:40 <rubberpaw> rubberpaw has quit
+16:04:47 <ibid> * ibid lost the faculty elections _/
+16:04:48 <ibid> :/
+16:08:03 <vegai> electing what?
+16:08:49 <ibid> faculty council, II staff group (staff excluding professors)
+16:09:39 <vegai> oh :/
+16:10:18 <ibid> well, it was mostly expected
+16:10:37 <ibid> the election method is so bad that we had to do strategic voting
+16:10:49 <ibid> and i knew i'd be in the shared last position
+16:11:03 <ibid> but i lost the coin toss :/
+16:22:41 <antont> uh
+16:23:34 <ibid> uh?
+16:25:37 <antont> just a reaction to 19:10 < ibid> but i lost the coin toss :/
+16:28:47 <ibid> i got that
+16:29:10 <ibid> it just sounded like "hey, there's something fishy about this"
+16:29:46 <antont> ah, it was not that
+16:30:14 <antont> more like: 'how unfortunate that there has to be a coin toss, and i guess even more that you lost"
+16:31:00 <antont> am reading Interface Development for Hypermedia Applications in the Semantic Web, http://www.inf.puc-rio.br/~schwabe/papers/SSMoura_LAWEB2004_Final.pdf btw
+16:31:00 <ibid> we both got one vote :)
+16:31:06 <antont> ah :)
+16:31:06 <ibid> our own
+16:31:39 <ibid> all other votes in our semi-control were divided between the main candidates to ensure their pass
+16:31:46 <antont> .. dunno what should make of that paper, perhaps someone here finds it interesting .. i guess time to stop for today for me, will need to re-read that at some point
+16:32:00 <antont> right
+16:32:10 <tuukkah> antont, is it about user-interfaces?
+16:32:18 <antont> tuukkah: in a way
+16:32:45 <antont> tuukkah: they've made some kind of an ontology of abstract widgets
+16:33:16 <antont> stuff like VariableCapturer and MultipleChoices
+16:33:56 <tuukkah> well, benja_ has some plans for lobs in rdf
+16:34:06 <antont> and a Concrete Widget Ontology too, which maps those to implementations in xul, swing, uiml etc
+16:34:45 <antont> so perhaps there could be a mapping to Fenfire Lobs or something there too
+16:35:01 <tuukkah> yes
+16:35:15 <antont> .. when apps for which UIs have been defined using the abstract ontology, well you know :)
+16:36:17 <antont> will you mention this to him, or will he get the pointer from here?
+16:36:32 <antont> (am so tired & lazy now that am trying to avoid e-mailing it seems :)
+16:44:36 <tuukkah> let's see, I encouraged him today to set up his computer to get on the net from his place
+16:45:12 <majukati> tuukkah: don't do that - he needs to study
+16:46:48 <antont> .. am writing a post
+16:47:45 <benja_> majukati: too late :-(
+16:47:48 <benja_> [;)]
+16:48:01 <antont> oh well now i wrote the post in vain too ;(
+16:48:16 <benja_> antont: oh, I haven't read yet what you said ;)
+16:48:33 <majukati> benja_: argh, now i need to arrange a distributed dos attack for your ip
+16:49:51 <antont> huh someone did that to the department server i quess, 'cause it died just before i sent the mail
+16:49:56 <antont> benja_: so please read from above..
+16:50:05 <antont> (or study :)
+16:50:41 <benja_> mhm :)
+16:54:02 <antont> well there seems to be nothing too special there
+16:54:46 <antont> i'm off - cu
+16:55:00 <benja_> cu
+17:05:46 <rubberpaw> rubberpaw has joined #fenfire
+17:25:13 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, start working on porting CanvasSpatialView
+17:42:21 <rubberpaw> rubberpaw has quit
+17:55:55 <benja_> http://kerneltrap.org/node/4966
+17:56:18 <benja_> my, am I glad that the open source community 'screwed up' =-)
+17:56:32 <ibid> aol
+17:57:11 <benja_> *googles* america on-line? :)
+17:57:18 <ibid> yes
+17:57:36 <ibid> used to indicate agreement
+17:57:43 <benja_> huh :)
+17:58:03 <ibid> it's a post-eternal-september thing
+17:58:08 <benja_> (I first thought it would be the opposite of AWOL, but that would be AWL :))
+17:58:22 <ibid> PWOL? :)
+17:58:33 <benja_> P?
+17:58:52 <ibid> aol subscribers tended to be not very bright in the early days, posting a lot of "me too" messages and such
+17:58:56 <ibid> present
+17:58:57 <benja_> right
+17:59:25 <benja_> "we represent as open-source friendly a commercial organization as you are *ever* going to see"
+17:59:37 <ibid> yeah right
+17:59:54 <benja_> (CEO of BitMover) -- if the open source folks agree with him on that, I'll start to believe in the thing about separate OSS and Free Software communities :)
+18:02:07 <benja_> it's interesting that the main productivity gain from using BitKeeper, according to this article, seems to have come from a missing feature :-o
+18:02:17 <ibid> heh
+18:02:53 <benja_> (they'll say it's design, but there's no fundamental reason why you couldn't have a 'let me cherry-pick parts of this patch' operation)
+18:03:08 <benja_> (similar to what darcs has on 'darcs record')
+18:03:22 <ibid> and darcs pull
+18:03:42 <benja_> ibid: darcs pull works on the level of whole patches, doesn't it?
+18:03:51 <ibid> yes
+18:04:31 <ibid> i understood the bitkeeper thing to be such that it couldn't break down patchsets
+18:04:36 <ibid> but i could be wrong
+18:05:14 <benja_> mhm
+18:33:28 <benja_> might be worth to mention and reply to Jonathan Schwartz's comment about the GPL and developing nations in the Keep It Free seminar
+18:34:20 <tuukkah> is it worth mentioning ?-/
+18:34:26 <ibid> * ibid is serving as a judge at that time
+18:36:37 <benja_> tuukkah: I think it makes our arguments more interesting / compelling if you can show how they contrast with the arguments of people who disagree
+18:36:38 <tuukkah> condemn them :-)
+18:37:29 <tuukkah> benja_, that's true
+19:17:11 <rubberpaw> rubberpaw has joined #fenfire
+21:26:44 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, more canvasview work
+23:04:07 <mudyc> mudyc has quit
+23:04:40 <mudyc> mudyc has joined #fenfire
+23:21:07 <rubberpaw> rubberpaw has quit
+23:38:02 <rubberpaw> rubberpaw has joined #fenfire

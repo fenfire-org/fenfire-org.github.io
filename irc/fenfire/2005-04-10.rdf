@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:wn="http://xmlns.com/wordnet/1.6/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<foaf:ChatChannel rdf:about="irc://irc.freenode.org/fenfire">
+  <foaf:chatEventList>
+    <rdf:Seq>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T03-12-18">
+        <dc:date>2005-04-10T03:12:18Z</dc:date>
+        <dc:description>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, add treebox</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T03-29-10">
+        <dc:date>2005-04-10T03:29:10Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T04-58-27">
+        <dc:date>2005-04-10T04:58:27Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-08-13">
+        <dc:date>2005-04-10T06:08:13Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-58-34">
+        <dc:date>2005-04-10T06:58:34Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-25-08">
+        <dc:date>2005-04-10T08:25:08Z</dc:date>
+        <dc:description>benja_, so, did wikipedia contradict with me or support me ?-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-42-08">
+        <dc:date>2005-04-10T08:42:08Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-55-36">
+        <dc:date>2005-04-10T08:55:36Z</dc:date>
+        <dc:description>http://people.cc.jyu.fi/~majukati/awtpdf/*.png</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+        <dc:relation rdf:resource="http://people.cc.jyu.fi/~majukati/awtpdf/*.png"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-56-46">
+        <dc:date>2005-04-10T08:56:46Z</dc:date>
+        <dc:description>the url already is cool!</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-57-17">
+        <dc:date>2005-04-10T08:57:17Z</dc:date>
+        <dc:description>it's for scp ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-57-37">
+        <dc:date>2005-04-10T08:57:37Z</dc:date>
+        <dc:description>it wouldn't work for that eather</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-57-49">
+        <dc:date>2005-04-10T08:57:49Z</dc:date>
+        <dc:description>hmm, looks like xpdf :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-58-31">
+        <dc:date>2005-04-10T08:58:31Z</dc:date>
+        <dc:description>no it doesn't look. it looks much worse and that's the problem</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-58-40">
+        <dc:date>2005-04-10T08:58:40Z</dc:date>
+        <dc:description>sometimes xpdf looks like that</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-58-43">
+        <dc:date>2005-04-10T08:58:43Z</dc:date>
+        <dc:description>you can not read that text even</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-58-56">
+        <dc:date>2005-04-10T08:58:56Z</dc:date>
+        <dc:description>I think it's when the pdf is one scanned image</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-59-12">
+        <dc:date>2005-04-10T08:59:12Z</dc:date>
+        <dc:description>you need anti-aliasing, right?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-00-16">
+        <dc:date>2005-04-10T09:00:16Z</dc:date>
+        <dc:description>perhaps but how to make that without hardware acceleration</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-00-41">
+        <dc:date>2005-04-10T09:00:41Z</dc:date>
+        <dc:description>I have no idea what the best way would be, but you can certainly do anti-alias without hardware acceleration</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-01-02">
+        <dc:date>2005-04-10T09:01:02Z</dc:date>
+        <dc:description>even normal text in java is anti-aliased on kaffe</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-01-35">
+        <dc:date>2005-04-10T09:01:35Z</dc:date>
+        <dc:description>an image you can blur</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-02-06">
+        <dc:date>2005-04-10T09:02:06Z</dc:date>
+        <dc:description>or you can load a bigger-resolution png and do the anti-alias while scaling down</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-02-56">
+        <dc:date>2005-04-10T09:02:56Z</dc:date>
+        <dc:description>yeah, but the point is to make this fast and so that there's no out of memeory error</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-03-52">
+        <dc:date>2005-04-10T09:03:52Z</dc:date>
+        <dc:description>http://www.jguru.com/faq/view.jsp?EID=79646</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+        <dc:relation rdf:resource="http://www.jguru.com/faq/view.jsp?EID=79646"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-04-45">
+        <dc:date>2005-04-10T09:04:45Z</dc:date>
+        <dc:description>"In JDK 1.x, you cannot perform antialias automatically (you would have to write your own antialiasing routines)"</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-04-56">
+        <dc:date>2005-04-10T09:04:56Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-05-17">
+        <dc:date>2005-04-10T09:05:17Z</dc:date>
+        <dc:description>I don't think we use JDK 1.x :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-06-20">
+        <dc:date>2005-04-10T09:06:20Z</dc:date>
+        <dc:description>1.1, or was it 1.3, is what we should base fenfire on</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-06-28">
+        <dc:date>2005-04-10T09:06:28Z</dc:date>
+        <dc:description>why?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-07-02">
+        <dc:date>2005-04-10T09:07:02Z</dc:date>
+        <dc:description>portability for instance and lack of open source java</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-08-09">
+        <dc:date>2005-04-10T09:08:09Z</dc:date>
+        <dc:description>isn't it enough if the code works on Sun's newest and newest kaffe?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-08-38">
+        <dc:date>2005-04-10T09:08:38Z</dc:date>
+        <dc:description>ok, we can probably do antialising for one picture (the one that user is reading)</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-09-25">
+        <dc:date>2005-04-10T09:09:25Z</dc:date>
+        <dc:description>you could also try what happens if the image you load is already anti-aliased?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-09-56">
+        <dc:date>2005-04-10T09:09:56Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-10-05">
+        <dc:date>2005-04-10T09:10:05Z</dc:date>
+        <dc:description>it would be even better to do</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-10-14">
+        <dc:date>2005-04-10T09:10:14Z</dc:date>
+        <dc:description>perhaps</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-10-18">
+        <dc:date>2005-04-10T09:10:18Z</dc:date>
+        <dc:description>it might look good on the 1:1 zoom level</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-10-43">
+        <dc:date>2005-04-10T09:10:43Z</dc:date>
+        <dc:description>or it certainly would, and perhaps also on 1:2 or 2:1</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-13-43">
+        <dc:date>2005-04-10T09:13:43Z</dc:date>
+        <dc:description>mudyc_, where is the conversion code you use for pdf -&gt; png?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-16-04">
+        <dc:date>2005-04-10T09:16:04Z</dc:date>
+        <dc:description>sec, i push and then start fish soup</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-16-11">
+        <dc:date>2005-04-10T09:16:11Z</dc:date>
+        <dc:description>cooking fish soup</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-16-50">
+        <dc:date>2005-04-10T09:16:50Z</dc:date>
+        <dc:description>it's in fenfire repo</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-18-47">
+        <dc:date>2005-04-10T09:18:47Z</dc:date>
+        <dc:description>you need to run it few times before errors are out..</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-19-13">
+        <dc:date>2005-04-10T09:19:13Z</dc:date>
+        <dc:description>a big patch</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-25-34">
+        <dc:date>2005-04-10T09:25:34Z</dc:date>
+        <dc:description>fenfire: Matti J. Katila &lt;majukati@cc.jyu.fi&gt;, Add awt pdf reader</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-47-26">
+        <dc:date>2005-04-10T10:47:26Z</dc:date>
+        <dc:description>majukati, fenfire doesn't compile as InputStream2BlockId and ImportUtil are missing</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-56-22">
+        <dc:date>2005-04-10T10:56:22Z</dc:date>
+        <dc:description>added</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-56-29">
+        <dc:date>2005-04-10T10:56:29Z</dc:date>
+        <dc:description>storm: Matti J. Katila &lt;majukati@cc.jyu.fi&gt;, add input stream to block id util.</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-00-59">
+        <dc:date>2005-04-10T11:00:59Z</dc:date>
+        <dc:description>majukati, thanks</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-02-31">
+        <dc:date>2005-04-10T11:02:31Z</dc:date>
+        <dc:description>did you run out of memory?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-03-06">
+        <dc:date>2005-04-10T11:03:06Z</dc:date>
+        <dc:description>fenfire: Matti J. Katila &lt;majukati@cc.jyu.fi&gt;, add import util</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-03-59">
+        <dc:date>2005-04-10T11:03:59Z</dc:date>
+        <dc:description>majukati, yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-04-09">
+        <dc:date>2005-04-10T11:04:09Z</dc:date>
+        <dc:description>try again :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-04-21">
+        <dc:date>2005-04-10T11:04:21Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-04-32">
+        <dc:date>2005-04-10T11:04:32Z</dc:date>
+        <dc:description>did it convert images already?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-04-34">
+        <dc:date>2005-04-10T11:04:34Z</dc:date>
+        <dc:description>I added -mx512M, but now it quits right after Loading...</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-05-37">
+        <dc:date>2005-04-10T11:05:37Z</dc:date>
+        <dc:description>majukati, I don't think it did. wouldn't they be in ./tmpimg?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-08">
+        <dc:date>2005-04-10T11:06:08Z</dc:date>
+        <dc:description>USING DSC CACHE ./tmpimg</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-09">
+        <dc:date>2005-04-10T11:06:09Z</dc:date>
+        <dc:description>Generating page info: vnd-storm-hash:application/pdf,tafcdwdtq4tjcgqvg3mzhvgmi3rzqj7c.szx4uolnckbl7navp37wqsvtv2mowgw6xxe5qvy</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-12">
+        <dc:date>2005-04-10T11:06:12Z</dc:date>
+        <dc:description>Processing  ./blocktmp54600</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-14">
+        <dc:date>2005-04-10T11:06:14Z</dc:date>
+        <dc:description>RUNNING  gs -dBATCH -dNOPAUSE -sDEVICE=png256 -r240x186 -sOutputFile=./tmpimg/2048x2048_vnd-storm-hash_-_application__pdf,tafcdwdtq4tjcgqvg3mzhvgmi3rzqj7c.szx4uolnckbl7navp37wqsvtv2mowgw6xxe5qvy-%d ./blocktmp54600</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-18">
+        <dc:date>2005-04-10T11:06:18Z</dc:date>
+        <dc:description>GPL Ghostscript 8.01 (2004-01-30)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-19">
+        <dc:date>2005-04-10T11:06:19Z</dc:date>
+        <dc:description>it doesn't print anything like that</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-36">
+        <dc:date>2005-04-10T11:06:36Z</dc:date>
+        <dc:description>PDFReader:: Read file: testdata/paper.pdf</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-37">
+        <dc:date>2005-04-10T11:06:37Z</dc:date>
+        <dc:description>AWTPagePool:: size: 0</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-37-1">
+        <dc:date>2005-04-10T11:06:37Z</dc:date>
+        <dc:description>AWTPagePool:: size: 1</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-37-2">
+        <dc:date>2005-04-10T11:06:37Z</dc:date>
+        <dc:description>AWTPagePool:: size: 2</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-37-3">
+        <dc:date>2005-04-10T11:06:37Z</dc:date>
+        <dc:description>Got "Helvetica" for "SansSerif"</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-06-37-4">
+        <dc:date>2005-04-10T11:06:37Z</dc:date>
+        <dc:description>=0 tuukka@memento:~/darcs/ff/fenfire$</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-07-09">
+        <dc:date>2005-04-10T11:07:09Z</dc:date>
+        <dc:description>ok, try to have smaller images in ff.view.content.AWTPagePool</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-07-10">
+        <dc:date>2005-04-10T11:07:10Z</dc:date>
+        <dc:description>it takes a long time after printing those AWTPagePool lines</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-08-02">
+        <dc:date>2005-04-10T11:08:02Z</dc:date>
+        <dc:description>that was with kaffe, with sun's 1.5.0 it seems to work</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-08-09">
+        <dc:date>2005-04-10T11:08:09Z</dc:date>
+        <dc:description>aha</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-08-26">
+        <dc:date>2005-04-10T11:08:26Z</dc:date>
+        <dc:description>as kaffe crashes often for me, it might have nothing to do with your code</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-08-43">
+        <dc:date>2005-04-10T11:08:43Z</dc:date>
+        <dc:description>great, now I can see the article</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-08-50">
+        <dc:date>2005-04-10T11:08:50Z</dc:date>
+        <dc:description>what controls do I have?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-09-11">
+        <dc:date>2005-04-10T11:09:11Z</dc:date>
+        <dc:description>zoom: a/z, and nuolet liikuttaa</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-09-51">
+        <dc:date>2005-04-10T11:09:51Z</dc:date>
+        <dc:description>oh, they move the paper, not the view :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-09-57">
+        <dc:date>2005-04-10T11:09:57Z</dc:date>
+        <dc:description>"nuolet" - what are those keys in english?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-10-01">
+        <dc:date>2005-04-10T11:10:01Z</dc:date>
+        <dc:description>arrow keys</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-10-15">
+        <dc:date>2005-04-10T11:10:15Z</dc:date>
+        <dc:description>yes, that was it</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-10-33">
+        <dc:date>2005-04-10T11:10:33Z</dc:date>
+        <dc:description>it zooms too fast :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-11-31">
+        <dc:date>2005-04-10T11:11:31Z</dc:date>
+        <dc:description>make changes to ff.demo.PDFReader if you want</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-11-42">
+        <dc:date>2005-04-10T11:11:42Z</dc:date>
+        <dc:description>only the first page is detailed, right?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-11-48">
+        <dc:date>2005-04-10T11:11:48Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-12-35">
+        <dc:date>2005-04-10T11:12:35Z</dc:date>
+        <dc:description>if it's so fast, we can try to do the anti-alias in java code</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-13-31">
+        <dc:date>2005-04-10T11:13:31Z</dc:date>
+        <dc:description>and we still need to it only for one or two images the ones you are looking to</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-15-48">
+        <dc:date>2005-04-10T11:15:48Z</dc:date>
+        <dc:description>that was not a good line of English</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-16-09">
+        <dc:date>2005-04-10T11:16:09Z</dc:date>
+        <dc:description>well, I tested anti-aliasing in some image viewer, and when you anti-alias, you can read considerably smaller text</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-16-40">
+        <dc:date>2005-04-10T11:16:40Z</dc:date>
+        <dc:description>"and we still need to do it only for one or two images, the ones you are looking at"</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-17-04">
+        <dc:date>2005-04-10T11:17:04Z</dc:date>
+        <dc:description>so it was totally understandable</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-22-02">
+        <dc:date>2005-04-10T11:22:02Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-23-08">
+        <dc:date>2005-04-10T11:23:08Z</dc:date>
+        <dc:description>i still need to change that thing to use background thread and return progress meter/bar while generating pictures</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-31-13">
+        <dc:date>2005-04-10T11:31:13Z</dc:date>
+        <dc:description>2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING  etc. didn't help</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-32-03">
+        <dc:date>2005-04-10T11:32:03Z</dc:date>
+        <dc:description>where's that code?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-33-22">
+        <dc:date>2005-04-10T11:33:22Z</dc:date>
+        <dc:description>i added to AWTPagePool:</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-33-30">
+        <dc:date>2005-04-10T11:33:30Z</dc:date>
+        <dc:description>if (i==0) {</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-33-30-1">
+        <dc:date>2005-04-10T11:33:30Z</dc:date>
+        <dc:description>    Graphics2D g2d = imgs[ind].createGraphics();</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-33-30-2">
+        <dc:date>2005-04-10T11:33:30Z</dc:date>
+        <dc:description>    g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-33-30-3">
+        <dc:date>2005-04-10T11:33:30Z</dc:date>
+        <dc:description> RenderingHints.VALUE_ANTIALIAS_ON); </dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-33-30-4">
+        <dc:date>2005-04-10T11:33:30Z</dc:date>
+        <dc:description>}</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-34-38">
+        <dc:date>2005-04-10T11:34:38Z</dc:date>
+        <dc:description>I don't think it can work like that</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-34-59">
+        <dc:date>2005-04-10T11:34:59Z</dc:date>
+        <dc:description>can we give antialiasing request to gv to produce better images</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-35-00">
+        <dc:date>2005-04-10T11:35:00Z</dc:date>
+        <dc:description>you createGraphics, but you don't do anything with it</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-35-34">
+        <dc:date>2005-04-10T11:35:34Z</dc:date>
+        <dc:description>majukati, I think the idea is to create so big black-and-white images that you can scale them down with anti-aliasing</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-35-37">
+        <dc:date>2005-04-10T11:35:37Z</dc:date>
+        <dc:description>oh' that's true</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-36-35">
+        <dc:date>2005-04-10T11:36:35Z</dc:date>
+        <dc:description>so at the end of ImageVob, perhaps?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-37-04">
+        <dc:date>2005-04-10T11:37:04Z</dc:date>
+        <dc:description>see ff.view.content.LobbedPagePool</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-38-00">
+        <dc:date>2005-04-10T11:38:00Z</dc:date>
+        <dc:description>ok, there then :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-39-53">
+        <dc:date>2005-04-10T11:39:53Z</dc:date>
+        <dc:description>I'm trying</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-41-10">
+        <dc:date>2005-04-10T11:41:10Z</dc:date>
+        <dc:description>didn't change anything, I think</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-41-23">
+        <dc:date>2005-04-10T11:41:23Z</dc:date>
+        <dc:description>i got empty</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-42-33">
+        <dc:date>2005-04-10T11:42:33Z</dc:date>
+        <dc:description>I added this before g.drawImage: ((Graphics2D) g).setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON); </dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-46-45">
+        <dc:date>2005-04-10T11:46:45Z</dc:date>
+        <dc:description>seems not to work</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-47-38">
+        <dc:date>2005-04-10T11:47:38Z</dc:date>
+        <dc:description>then we can try to use antialised images</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-47-46">
+        <dc:date>2005-04-10T11:47:46Z</dc:date>
+        <dc:description>yes. perhaps drawImage never uses antialias?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-51-46">
+        <dc:date>2005-04-10T11:51:46Z</dc:date>
+        <dc:description>perhaps first use gs to create the iamge and then convert to have antialiased images</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-51-51">
+        <dc:date>2005-04-10T11:51:51Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-52-40">
+        <dc:date>2005-04-10T11:52:40Z</dc:date>
+        <dc:description>convert has option -antialias: """ remove pixel aliasing"""</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-52-49">
+        <dc:date>2005-04-10T11:52:49Z</dc:date>
+        <dc:description>;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-52-52">
+        <dc:date>2005-04-10T11:52:52Z</dc:date>
+        <dc:description>-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-54-56">
+        <dc:date>2005-04-10T11:54:56Z</dc:date>
+        <dc:description>you can make it work if you have time, i need to stop now. PageContentView.generateImages() is the place perhaps</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-00-29">
+        <dc:date>2005-04-10T12:00:29Z</dc:date>
+        <dc:description>I have other things to do too, but we'll see</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-16-16">
+        <dc:date>2005-04-10T14:16:16Z</dc:date>
+        <dc:description>RenderingHints.KEY_ANTIALIASING is for rendering geometric figures and perhaps text</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-16-40">
+        <dc:date>2005-04-10T14:16:40Z</dc:date>
+        <dc:description>I don't think you can "antialias an image"</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-17-33">
+        <dc:date>2005-04-10T14:17:33Z</dc:date>
+        <dc:description>using a different algorithm for scaling the image down would be the thing</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-18-56">
+        <dc:date>2005-04-10T14:18:56Z</dc:date>
+        <dc:description>yes, so how do you set it?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-20-06">
+        <dc:date>2005-04-10T14:20:06Z</dc:date>
+        <dc:description>this image viewer did first some fast scaling and then enhanced the image into better scaling</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-20-46">
+        <dc:date>2005-04-10T14:20:46Z</dc:date>
+        <dc:description>image viewer?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-24-19">
+        <dc:date>2005-04-10T14:24:19Z</dc:date>
+        <dc:description>that I talked about earlier, I don't know which one it is. perhaps gqview or eog</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-25-19">
+        <dc:date>2005-04-10T14:25:19Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-25-19-1">
+        <dc:date>2005-04-10T14:25:19Z</dc:date>
+        <dc:description>perhaps setting KEY_INTERPOLATION should work?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-26-03">
+        <dc:date>2005-04-10T14:26:03Z</dc:date>
+        <dc:description>the default appears to be VALUE_INTERPOLATION_NEAREST_NEIGHBOUR</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-26-12">
+        <dc:date>2005-04-10T14:26:12Z</dc:date>
+        <dc:description>I'll try</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-26-19">
+        <dc:date>2005-04-10T14:26:19Z</dc:date>
+        <dc:description>but VALUE_INTERPOLATION_BILINEAR and VALUE_INTERPOLATION_BICUBIC are available</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-26-20">
+        <dc:date>2005-04-10T14:26:20Z</dc:date>
+        <dc:description>what shall I set it to?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-26-28">
+        <dc:date>2005-04-10T14:26:28Z</dc:date>
+        <dc:description>one of these two...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-28-41">
+        <dc:date>2005-04-10T14:28:41Z</dc:date>
+        <dc:description>that did at least something</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-30-29">
+        <dc:date>2005-04-10T14:30:29Z</dc:date>
+        <dc:description>it's a bit better, but not as good as the pdf readers</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-31-19">
+        <dc:date>2005-04-10T14:31:19Z</dc:date>
+        <dc:description>how big's the b&amp;w image?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-40-53">
+        <dc:date>2005-04-10T14:40:53Z</dc:date>
+        <dc:description>2040 x 2046</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-42-38">
+        <dc:date>2005-04-10T14:42:38Z</dc:date>
+        <dc:description>hmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-42-54">
+        <dc:date>2005-04-10T14:42:54Z</dc:date>
+        <dc:description>perhaps that should be enough</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-42-58">
+        <dc:date>2005-04-10T14:42:58Z</dc:date>
+        <dc:description>I don't know</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-45-55">
+        <dc:date>2005-04-10T14:45:55Z</dc:date>
+        <dc:description>I don't understand everything in this system - it should be documented more</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-46-14">
+        <dc:date>2005-04-10T14:46:14Z</dc:date>
+        <dc:description>which system?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-49-44">
+        <dc:date>2005-04-10T14:49:44Z</dc:date>
+        <dc:description>pdf -&gt; png -&gt; (opengl | awt)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-50-34">
+        <dc:date>2005-04-10T14:50:34Z</dc:date>
+        <dc:description>hmhm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-59-16">
+        <dc:date>2005-04-10T14:59:16Z</dc:date>
+        <dc:description>fenfire: Tuukka Hastrup &lt;Tuukka.Hastrup@iki.fi&gt;, try to render images with Graphics2D INTERPOLATION_BICUBIC</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-01-43">
+        <dc:date>2005-04-10T15:01:43Z</dc:date>
+        <dc:description>well, it looks quite good to me, now</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-02-01">
+        <dc:date>2005-04-10T15:02:01Z</dc:date>
+        <dc:description>in large sizes</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-20-30">
+        <dc:date>2005-04-10T15:20:30Z</dc:date>
+        <dc:description>the png's are in greyscale format but black-and-white, is that intentional?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-21-31">
+        <dc:date>2005-04-10T15:21:31Z</dc:date>
+        <dc:description>I can understand that it can be bad to make antialiased text and then zoom it afterwards</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-22-15">
+        <dc:date>2005-04-10T15:22:15Z</dc:date>
+        <dc:description>probably not intentional</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-22-30">
+        <dc:date>2005-04-10T15:22:30Z</dc:date>
+        <dc:description>the pages with color need to be in color format, of course</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-23-20">
+        <dc:date>2005-04-10T15:23:20Z</dc:date>
+        <dc:description>hmm, they are in color!</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-23-59">
+        <dc:date>2005-04-10T15:23:59Z</dc:date>
+        <dc:description>right, 8-bit colormap!</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-24-07">
+        <dc:date>2005-04-10T15:24:07Z</dc:date>
+        <dc:description>unbelievable :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-25-56">
+        <dc:date>2005-04-10T15:25:56Z</dc:date>
+        <dc:description>already the 2040x2046 image has broken lines in letter.s b,d,a etc.</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-44-58">
+        <dc:date>2005-04-10T15:44:58Z</dc:date>
+        <dc:description>I tried double-resolution and it looks great at least on b&amp;w</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-47-50">
+        <dc:date>2005-04-10T15:47:50Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-57-31">
+        <dc:date>2005-04-10T15:57:31Z</dc:date>
+        <dc:description>hmm, I tried to change resolution at PageContentView.java from 72 to 144, and then the image files looked good but they couldn't be loaded</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-58-47">
+        <dc:date>2005-04-10T15:58:47Z</dc:date>
+        <dc:description>now with just a bigger buffer in AWTPagePool the text is somewhat better but still has these gaps</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-08-51">
+        <dc:date>2005-04-10T16:08:51Z</dc:date>
+        <dc:description>eog just has a better interpolation algorithm</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-38-52">
+        <dc:date>2005-04-10T16:38:52Z</dc:date>
+        <dc:description>oh well...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-39-47">
+        <dc:date>2005-04-10T16:39:47Z</dc:date>
+        <dc:description>I don't understand what this number 72 is and why I can't change it</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-43-56">
+        <dc:date>2005-04-10T16:43:56Z</dc:date>
+        <dc:description>72 ... that reminds me of something ... pixels in an inch or somesuch?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-44-05">
+        <dc:date>2005-04-10T16:44:05Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-44-28">
+        <dc:date>2005-04-10T16:44:28Z</dc:date>
+        <dc:description>but why can't it be 75 or 144?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-45-40">
+        <dc:date>2005-04-10T16:45:40Z</dc:date>
+        <dc:description>no, it's special in some way</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-45-47">
+        <dc:date>2005-04-10T16:45:47Z</dc:date>
+        <dc:description>*googles*</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-46-38">
+        <dc:date>2005-04-10T16:46:38Z</dc:date>
+        <dc:description>tuukkah: 72 is inches in screen or something</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-47-22">
+        <dc:date>2005-04-10T16:47:22Z</dc:date>
+        <dc:description>I though screens are normally like 15 inch or 21 inch</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-47-38">
+        <dc:date>2005-04-10T16:47:38Z</dc:date>
+        <dc:description>if you want to have bigger "textures", change AWTPagePool.sizes[]</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-47-50">
+        <dc:date>2005-04-10T16:47:50Z</dc:date>
+        <dc:description>http://www.scantips.com/basics1a.html</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+        <dc:relation rdf:resource="http://www.scantips.com/basics1a.html"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-47-57">
+        <dc:date>2005-04-10T16:47:57Z</dc:date>
+        <dc:description>dots-per-inch</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-47-59">
+        <dc:date>2005-04-10T16:47:59Z</dc:date>
+        <dc:description>pixels in inc, what ever ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-48-15">
+        <dc:date>2005-04-10T16:48:15Z</dc:date>
+        <dc:description>but google's find says it's a bogus number ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-48-50">
+        <dc:date>2005-04-10T16:48:50Z</dc:date>
+        <dc:description>different displays have different amount of pixels per inch, of course</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-08">
+        <dc:date>2005-04-10T16:49:08Z</dc:date>
+        <dc:description>because some monitors are bigger and sometimes you run with less resolution</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-08-1">
+        <dc:date>2005-04-10T16:49:08Z</dc:date>
+        <dc:description>anyway, it seems that the point is that 'convert' has this notion hardwired</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-10">
+        <dc:date>2005-04-10T16:49:10Z</dc:date>
+        <dc:description>yeah, but that thing is passed to gs</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-20">
+        <dc:date>2005-04-10T16:49:20Z</dc:date>
+        <dc:description>or 'gs'</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-42">
+        <dc:date>2005-04-10T16:49:42Z</dc:date>
+        <dc:description>PageContentView asks the size from pagePool and divides by 72 to get the number it has to pass to gs</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-47">
+        <dc:date>2005-04-10T16:49:47Z</dc:date>
+        <dc:description>as far as I understand</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-59">
+        <dc:date>2005-04-10T16:49:59Z</dc:date>
+        <dc:description>so gs has decided that there are 72 pixels per inch? better comment that... :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-50-30">
+        <dc:date>2005-04-10T16:50:30Z</dc:date>
+        <dc:description>gs has taken it from elsewhere =-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-50-34">
+        <dc:date>2005-04-10T16:50:34Z</dc:date>
+        <dc:description>if my theory is correct</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-50-58">
+        <dc:date>2005-04-10T16:50:58Z</dc:date>
+        <dc:description>I know that changing dpi value changes how fonts look. I think we might want the fonts a bit bolder to fill those gaps</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-51-19">
+        <dc:date>2005-04-10T16:51:19Z</dc:date>
+        <dc:description>gs is run without a window so i'm quite sure that gs doesn't know how does it look in your screen</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-52-17">
+        <dc:date>2005-04-10T16:52:17Z</dc:date>
+        <dc:description>benja_, 72 dpi might be a "standard" as it's pretty near contemporary displays</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-52-52">
+        <dc:date>2005-04-10T16:52:52Z</dc:date>
+        <dc:description>majukati, that's why we need to tell it :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-53-51">
+        <dc:date>2005-04-10T16:53:51Z</dc:date>
+        <dc:description>calling python from java is ugly...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-54-16">
+        <dc:date>2005-04-10T16:54:16Z</dc:date>
+        <dc:description>if(! interp.get("cv").__call__(new PyObject[] { blah blah</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-55-57">
+        <dc:date>2005-04-10T16:55:57Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-02-04">
+        <dc:date>2005-04-10T17:02:04Z</dc:date>
+        <dc:description>do you mean python shouldn't be called from java?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-02-42">
+        <dc:date>2005-04-10T17:02:42Z</dc:date>
+        <dc:description>just saying that it's ugly. -- of course you should avoid ugly things if there's no really good reason for them</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-03-34">
+        <dc:date>2005-04-10T17:03:34Z</dc:date>
+        <dc:description>and of course it's meaningles if we do just Runtime.getRuntime().exec("gs) at the end</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-04-12">
+        <dc:date>2005-04-10T17:04:12Z</dc:date>
+        <dc:description>heh, apple chose 72 from their first monitors, and microsoft chose 96 so fonts were more readable .-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-11-42">
+        <dc:date>2005-04-10T17:11:42Z</dc:date>
+        <dc:description>ok, how to continue?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-12-34">
+        <dc:date>2005-04-10T17:12:34Z</dc:date>
+        <dc:description>hmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-13-29">
+        <dc:date>2005-04-10T17:13:29Z</dc:date>
+        <dc:description>majukati: it seems to me that the worst thing about it currently is the delay when starting up</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-13-39">
+        <dc:date>2005-04-10T17:13:39Z</dc:date>
+        <dc:description>yes, tuukkah's patch makes it mach more readable</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-14-03">
+        <dc:date>2005-04-10T17:14:03Z</dc:date>
+        <dc:description>s/mach/much/</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-15-11">
+        <dc:date>2005-04-10T17:15:11Z</dc:date>
+        <dc:description>so, a low-priority background thread</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-15-16">
+        <dc:date>2005-04-10T17:15:16Z</dc:date>
+        <dc:description>benja_: :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-15-18">
+        <dc:date>2005-04-10T17:15:18Z</dc:date>
+        <dc:description>so all the loading and converting should be done in the background</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-15-46">
+        <dc:date>2005-04-10T17:15:46Z</dc:date>
+        <dc:description>gs can be run with nice </dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-11">
+        <dc:date>2005-04-10T17:18:11Z</dc:date>
+        <dc:description>benja_: about real problems, how to hint for the focus</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-35">
+        <dc:date>2005-04-10T17:18:35Z</dc:date>
+        <dc:description>how was it done in gl?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-09">
+        <dc:date>2005-04-10T17:20:09Z</dc:date>
+        <dc:description>after texture is rendered it says that it has been rendered to this size, and if that size was larger than current llevel of detail pool tried to push that texture to next level of detail</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-37">
+        <dc:date>2005-04-10T17:20:37Z</dc:date>
+        <dc:description>s/next/next or more/</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-01">
+        <dc:date>2005-04-10T17:21:01Z</dc:date>
+        <dc:description>but that's not how it should work</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-01-1">
+        <dc:date>2005-04-10T17:21:01Z</dc:date>
+        <dc:description>this would be same place as last patch?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-10">
+        <dc:date>2005-04-10T17:21:10Z</dc:date>
+        <dc:description>tuukkah: yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-15">
+        <dc:date>2005-04-10T17:21:15Z</dc:date>
+        <dc:description>why not?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-17">
+        <dc:date>2005-04-10T17:21:17Z</dc:date>
+        <dc:description>majukati, why not?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-15">
+        <dc:date>2005-04-10T17:22:15Z</dc:date>
+        <dc:description>if you have at focus something that you would really want to read - it shouldn't be so that you need to zoom in to get that readable</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-44">
+        <dc:date>2005-04-10T17:22:44Z</dc:date>
+        <dc:description>so how it works with gl is good but focus should always be priority</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-19">
+        <dc:date>2005-04-10T17:23:19Z</dc:date>
+        <dc:description>it seems to me that focus would be an additional feature, not reuired</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-25">
+        <dc:date>2005-04-10T17:23:25Z</dc:date>
+        <dc:description>I don't see the point, would making it work like GL not mean to load the best texture for the current size?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-25-09">
+        <dc:date>2005-04-10T17:25:09Z</dc:date>
+        <dc:description>which of the pages should have the best lod (level of detail) at beginning?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-25-56">
+        <dc:date>2005-04-10T17:25:56Z</dc:date>
+        <dc:description>none?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-25-59">
+        <dc:date>2005-04-10T17:25:59Z</dc:date>
+        <dc:description>hm, so you mean when they are all rendered the same size... ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-01">
+        <dc:date>2005-04-10T17:26:01Z</dc:date>
+        <dc:description>that way we're faster</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-16">
+        <dc:date>2005-04-10T17:26:16Z</dc:date>
+        <dc:description>or did I misunderstand =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-36">
+        <dc:date>2005-04-10T17:26:36Z</dc:date>
+        <dc:description>in the beginning they're all small anyway</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-27-13">
+        <dc:date>2005-04-10T17:27:13Z</dc:date>
+        <dc:description>benja_: yes, that's one thing. another may be that buoy shows something as very big thing and that's why you can not get your focus readable</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-27-49">
+        <dc:date>2005-04-10T17:27:49Z</dc:date>
+        <dc:description>could we check how close to screen center we are?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-27-59">
+        <dc:date>2005-04-10T17:27:59Z</dc:date>
+        <dc:description>focus should be in the center?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-28-38">
+        <dc:date>2005-04-10T17:28:38Z</dc:date>
+        <dc:description>majukati: hmm, do buoys ever have more zoom than the focus?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-28-49">
+        <dc:date>2005-04-10T17:28:49Z</dc:date>
+        <dc:description>tuukkah: that doesn't sound good =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-28-56">
+        <dc:date>2005-04-10T17:28:56Z</dc:date>
+        <dc:description>-(</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-29-05">
+        <dc:date>2005-04-10T17:29:05Z</dc:date>
+        <dc:description>tuukkah: i would like that ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-29-22">
+        <dc:date>2005-04-10T17:29:22Z</dc:date>
+        <dc:description>-?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-29-28">
+        <dc:date>2005-04-10T17:29:28Z</dc:date>
+        <dc:description>so what if I do not want to show the focus in the center? then the whole architecture breaks down?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-29-46">
+        <dc:date>2005-04-10T17:29:46Z</dc:date>
+        <dc:description>no it wouldn't</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-29-57">
+        <dc:date>2005-04-10T17:29:57Z</dc:date>
+        <dc:description>the user still looks in the center</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-30-16">
+        <dc:date>2005-04-10T17:30:16Z</dc:date>
+        <dc:description>it's a problem in your focus policy if the user doesn't look at the focus ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-30-51">
+        <dc:date>2005-04-10T17:30:51Z</dc:date>
+        <dc:description>and besides, we'd still check the size the image is being rendered in</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-31-53">
+        <dc:date>2005-04-10T17:31:53Z</dc:date>
+        <dc:description>right now I'm looking at the top-right corner of my screen b/c the IRC window is there</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-32-13">
+        <dc:date>2005-04-10T17:32:13Z</dc:date>
+        <dc:description>the center of my screen shows a review of the HHGTTG movie, but I'm not looking there</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-32-15">
+        <dc:date>2005-04-10T17:32:15Z</dc:date>
+        <dc:description>bad user interface</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-32-41">
+        <dc:date>2005-04-10T17:32:41Z</dc:date>
+        <dc:description>tuukkah: yeah right, let's not use all of the screen because the user always looks at the center</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-33-01">
+        <dc:date>2005-04-10T17:33:01Z</dc:date>
+        <dc:description>so if you cursor away from the movie the movie should stop playing?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-33-19">
+        <dc:date>2005-04-10T17:33:19Z</dc:date>
+        <dc:description>tuukkah, what? it's a textual review :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-33-59">
+        <dc:date>2005-04-10T17:33:59Z</dc:date>
+        <dc:description>what ever</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-35-34">
+        <dc:date>2005-04-10T17:35:34Z</dc:date>
+        <dc:description>benja_: with fenpdf we have the problem that when you went to canvas that had pagespans the focus one didn't show up before outer ones</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-36-09">
+        <dc:date>2005-04-10T17:36:09Z</dc:date>
+        <dc:description>or actually the order was very random</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-36-22">
+        <dc:date>2005-04-10T17:36:22Z</dc:date>
+        <dc:description>oh, you've actually used this system and know how it's to use ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-37-11">
+        <dc:date>2005-04-10T17:37:11Z</dc:date>
+        <dc:description>I'll go to eat something</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-37-39">
+        <dc:date>2005-04-10T17:37:39Z</dc:date>
+        <dc:description>but, certainly we can figure out something so that we can use the information 'this is the focus', instead of distance from the center of the screen</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-41-32">
+        <dc:date>2005-04-10T17:41:32Z</dc:date>
+        <dc:description>the logbot eats colons from start of line :-/</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-41-41">
+        <dc:date>2005-04-10T17:41:41Z</dc:date>
+        <dc:description>(breaks my smilies)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-59-19">
+        <dc:date>2005-04-10T17:59:19Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-09-04">
+        <dc:date>2005-04-10T18:09:04Z</dc:date>
+        <dc:description>would it be easy to set slower interpolation only for the last frame in animation?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-09-28">
+        <dc:date>2005-04-10T18:09:28Z</dc:date>
+        <dc:description>the if is already there, just need a condition</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-10-07">
+        <dc:date>2005-04-10T18:10:07Z</dc:date>
+        <dc:description>i don't know what you mean</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-11-59">
+        <dc:date>2005-04-10T18:11:59Z</dc:date>
+        <dc:description>the last patch sets this interpolation option</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-12-06">
+        <dc:date>2005-04-10T18:12:06Z</dc:date>
+        <dc:description>but it makes the animation slower</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-12-26">
+        <dc:date>2005-04-10T18:12:26Z</dc:date>
+        <dc:description>text doesn't need to be so clear during animation</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-16-50">
+        <dc:date>2005-04-10T18:16:50Z</dc:date>
+        <dc:description>you mean boolean fast?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-17-03">
+        <dc:date>2005-04-10T18:17:03Z</dc:date>
+        <dc:description>it doesn't take effect</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-17-36">
+        <dc:date>2005-04-10T18:17:36Z</dc:date>
+        <dc:description>I want the condition to be if (isLastFrame) { ...</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-17-56">
+        <dc:date>2005-04-10T18:17:56Z</dc:date>
+        <dc:description>if (g instanceof Graphics2D &amp;&amp; !fast)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-18-10">
+        <dc:date>2005-04-10T18:18:10Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-18-28">
+        <dc:date>2005-04-10T18:18:28Z</dc:date>
+        <dc:description>but we need to check where that boolean should be set</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-19-04">
+        <dc:date>2005-04-10T18:19:04Z</dc:date>
+        <dc:description>oh right, the parameter is already there :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-28-03">
+        <dc:date>2005-04-10T18:28:03Z</dc:date>
+        <dc:description>DefaultVobMap.renderCS doesn't have enough parameters for that</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-23-15">
+        <dc:date>2005-04-10T19:23:15Z</dc:date>
+        <dc:description>back</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-24-05">
+        <dc:date>2005-04-10T19:24:05Z</dc:date>
+        <dc:description>an example for a view where the focus isn't at the center of the screen is a split window view, like in the original GZigZags, in some versions of Nile, and even in FenPDF</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-26-14">
+        <dc:date>2005-04-10T19:26:14Z</dc:date>
+        <dc:description>tomorrow is Keep It Free day</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-26-33">
+        <dc:date>2005-04-10T19:26:33Z</dc:date>
+        <dc:description>plaah, this lod-elevator isn't easy to construct in a second</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-26-57">
+        <dc:date>2005-04-10T19:26:57Z</dc:date>
+        <dc:description>:-/</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-27-23">
+        <dc:date>2005-04-10T19:27:23Z</dc:date>
+        <dc:description>are you going to go to the workshop, tomorrow?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-27-32">
+        <dc:date>2005-04-10T19:27:32Z</dc:date>
+        <dc:description>when was it?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-27-51">
+        <dc:date>2005-04-10T19:27:51Z</dc:date>
+        <dc:description>12:00-18:00 IIRC</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-28-24">
+        <dc:date>2005-04-10T19:28:24Z</dc:date>
+        <dc:description>i don't know yet</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-28-24-1">
+        <dc:date>2005-04-10T19:28:24Z</dc:date>
+        <dc:description>* ibid has a court session then :(</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-28-56">
+        <dc:date>2005-04-10T19:28:56Z</dc:date>
+        <dc:description>i would probably otherwise been one of the speakers</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-40-16">
+        <dc:date>2005-04-10T19:40:16Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-10-51">
+        <dc:date>2005-04-10T20:10:51Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-29-11">
+        <dc:date>2005-04-10T22:29:11Z</dc:date>
+        <dc:description>fenfire: Matti J. Katila &lt;majukati@cc.jyu.fi&gt;, Add LOD to page content system which can be controlled by float parameter</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T22-52-37">
+        <dc:date>2005-04-10T22:52:37Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+    </rdf:Seq>
+  </foaf:chatEventList>
+</foaf:ChatChannel>
+</rdf:RDF>

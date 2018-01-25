@@ -1,0 +1,59 @@
+
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dc:   <http://purl.org/dc/elements/1.1/>.
+@prefix doap: <http://usefulinc.com/ns/doap#>.
+
+<> foaf:primaryTopic <http://fenfire.org/#project>.
+
+<http://fenfire.org/#project>
+	rdf:type	doap:Project;
+	doap:name	"Fenfire";
+	rdfs:label	"Fenfire";
+	foaf:homepage	<http://fenfire.org/>;
+	doap:homepage	<http://fenfire.org/>;
+	doap:license	<http://usefulinc.com/doap/licenses/gpl>;
+	doap:repository <http://himalia.it.jyu.fi/darcs/fenfire/>;
+
+
+	rdfs:seeAlso    
+		<http://himalia.it.jyu.fi/darcs/project/fenfire.turtle>;
+
+	doap:description	
+		"RDF browser, editor, and kitchen sink";
+
+	doap:mailing-list
+		<mailto:fenfire-dev@nongnu.org>,
+		<http://lists.nongnu.org/mailman/listinfo/fenfire-dev>;
+
+	doap:developer
+		[ 
+			rdf:type	foaf:Person;
+			foaf:name	"Benja Fallenstein";
+			foaf:nick	"benja"; 
+			foaf:mbox	<mailto:benja.fallenstein@gmail.com>
+		],
+		[
+			rdf:type	foaf:Person;
+			foaf:name	"Matti J. Katila";
+			foaf:nick	"mudyc", "majukati";
+			foaf:mbox_sha1sum 
+				"6cd98902f9f6c5f7d2edf41176e746bb52262332"
+		],
+		[
+			rdf:type	foaf:Person;
+			foaf:name	"Tuukka Hastrup";
+			foaf:nick	"tuukkah";
+			foaf:mbox	<mailto:Tuukka.Hastrup@iki.fi>;
+			foaf:homepage	<http://www.iki.fi/Tuukka.Hastrup/>
+		];
+
+	doap:screenshots
+		<http://fenfire.org/screenshots/>.
+
+
+<http://himalia.it.jyu.fi/darcs/fenfire/>
+	doap:browse	<http://himalia.it.jyu.fi/darcs/fenfire/>;
+	doap:location	<http://himalia.it.jyu.fi/darcs/fenfire/>.
+	

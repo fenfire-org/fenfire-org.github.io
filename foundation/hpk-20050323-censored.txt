@@ -1,0 +1,319 @@
+The Fenfire Foundation                   PÖYTÄKIRJA
+                                         Hallituksen kokous
+					 
+					 23.3.2005
+
+*** JULKINEN KAPPALE, NIMIÄ POISTETTU HENKILÖTIETOLAIN MUKAISESTI. ***
+
+Aika		23. maaliskuuta 2005 kello 14:00
+
+Paikka		Agora C301, Jyväskylä
+
+Läsnäolijat	Matti Katila, puheenjohtaja
+		Tuukka Hastrup, varapuheenjohtaja
+		Janne Kujala, hallituksen sihteeri
+		Antti-Juhani Kaijanaho, rahastonhoitaja-jäsensihteeri
+
+Pöytäkirjanpitäjä
+		Antti-Juhani Kaijanaho
+
+1 § Kokouksen avaus
+
+		Matti Katila avasi kokouksen kello 14:24.
+
+2 § Kokouksen järjestäytyminen
+
+		Todettiin kokouksen laillisuus ja päätösvaltaisuus.
+
+		Sovittiin, että pöytäkirjaa pitää poikkeuksellisesti
+		Antti-Juhani Kaijanaho.
+
+3 § Edellisen kokouksen pöytäkirjan tarkastaminen ja vahvistaminen
+
+		Tarkastettiin ja vahvistettiin hallituksen edellisen kokouksen
+		(21.3.) pöytäkirja.
+
+4 § Jäsenasioiden järjestäminen
+
+		LIITE 1: Vahvistettu rekisteriseloste
+		LIITE 2: Ohjeet jäseneksi haluaville (suomeksi ja englanniksi)
+
+		Perustettiin jäsenluettelo-jäsenrekisteri ja
+		vahvistettiin sille liitteenä 1 oleva rekisteriseloste.
+
+		Vahvistettiin liitteenä 2 oleva ohje jäseneksi haluaville.
+
+		Valtuutettiin jäsensihteeri (Kaijanaho) tekemään
+		rekisteriselosteeseen ja hakuohjeeseen teknisluontoisia
+		korjauksia tarpeen mukaan.
+
+		Määriteltiin jäsentunnuksen muoto seuraavanlaiseksi:
+		
+		  Jäsentunnuksen pohjana on juokseva numerointi, jota
+		  täydennetään niin, että tuloksena on muodollisesti kelpo
+		  tilisiirron viitenumero.  Jäsentunnuksen pohjanumerointi
+		  alkaa sadasta (100).  Pohjanumero kirjoitetaan
+		  kymmenkantaiseen esitykseen, josta lasketaan numeroiden
+		  painotettu summa, kun painot ovat 7, 3, 1, ... alkaen vähiten
+		  merkitsevän numeron painosta.  Tämä summa vähennetään
+		  seuraavasta tasakymmenestä ja saatu erotus kirjoitetaan
+		  pohjanumeron kymmenkantaisen esityksen perään
+		  tarkistemerkiksi.  Näin saatu merkkijono on pohjanumeroa
+		  vastaava jäsentunnus.
+		
+		Todettiin, että perustajajäsenten, joita oli kuusi,
+		jäsentunnukset ovat järjestyksessä 1009, 1012, 1025, 1038,
+		1041, 1054.
+
+		Arvottiin perustajajäsenten järjestys seuraavasti:
+		kullekin perustajajäsenelle arvottiin tietokoneen
+		satunnaislukugeneraattorilla kaksinumeroinen luku.  Jos
+		kahdelle tai useammalle jäsenelle olisi tullut sama luku,
+		arvonta olisi toistettu näiden osalta; näin ei kuitenkaan
+		käynyt.  Näiden lukujen nouseva suuruusjärjestys katsottiin
+		perustajajäsenten järjestykseksi, jonka perusteella heille
+		annettiin jäsentunnukset.  Seuraavassa taulukossa on kunkin
+		perustajajäsenen nimi, hänen arvontatuloksensa sekä hänen
+		jäsentunnuksensa.  Taulukko on järjestetty tulosjärjestyksen
+		mukaan.
+
+                    ** NIMET POISTETTU JULKISESTA KAPPALEESTA **
+		  **********************  27  1009
+   		  **********************  36  1012
+		  **********************  40  1025
+		  **********************  53  1038
+		  **********************  77  1041
+		  **********************  82  1054
+
+		Sovittiin, että tuleville jäsenille jäsennumerot annetaan
+		jäseneksihaluilmoitusten saapumisjärjestyksessä.
+
+		Valtuutettiin jäsensihteeri (Kaijanaho) keräämään
+		perustajajäseniltä jäsenrekisteriin merkittävät tiedot.
+
+		Otettiin hallituksen toimintaohjeeksi, että puutteellinen
+		jäseneksihaluilmoitus pääsääntöisesti hylätään ja sellainen
+		ilmoitus pääsääntöisesti hyväksytään, jossa on annettu
+		jäsenrekisteriin kirjattavat tiedot ja jossa hakija ilmoittaa
+		hyväksyvänsä seuran tarkoituksen.
+
+5 § Yhdistyksen kotisivut
+
+		Annettiin Tuukka Hastrupille tehtäväksi luoda yhdistykselle
+		kotisivut ja laittaa sisällöksi
+		 - säännöt
+		 - kokousasiakirjat liitteineen siltä osin, kuin ne ovat julkisia
+		 - ohjeet jäseneksi haluaville (sis. rekisteriseloste)
+
+6 § Muut esille tulevat asiat
+
+		Muita asioita ei tullut esille.
+
+7 § Kokouksen päättäminen
+
+		Matti Katila päätti kokouksen kello 15:23.
+
+
+
+		Tarkastettu ja hyväksytty hallituksen kokouksessa 25.4.2005.
+
+		MATTI KATILA			ANTTI-JUHANI KAIJANAHO
+		Matti Katila			Antti-Juhani Kaijanaho
+		puheenjohtaja			pöytäkirjanpitäjä
+
+LIITE 1: Vahvistettu rekisteriseloste
+
+The Fenfire Foundation              REKISTERISELOSTE
+                                    Henkilötietolaki 10 §
+
+                                    23.3.2005
+
+
+1. Rekisterinpitäjä    The Fenfire Foundation
+                       (yhdistys, rekisteröinti vireillä)
+
+   Yhteystiedot        c/o Antti-Juhani Kaijanaho
+                       Helokantie 1 A 16
+                       40640 JYVÄSKYLÄ
+                       puh. 040 571 6536
+
+2. Rekisteriasioista   Antti-Juhani Kaijanaho
+   vastaava henkilö    Helokantie 1 A 16
+                       40640 JYVÄSKYLÄ
+                       puh. 040 571 6536
+
+3. Rekisterin nimi     Jäsenluettelo
+
+4. Henkilötietojen     Rekisteri on yhdistyksen lakisääteinen jäsenluettelo
+   käsittelyn          (Yhdistyslaki 11 §) sekä sisältää jäsensuhteen
+   tarkoitus           hoitamisessa tarvittavia tietoja jäsenistä.
+
+5. Rekisterin          * yksilöivä jäsentunnus (ei henkilötunnus eikä
+   tietosisältö          y-tunnus)
+                       * jäsenen täydellinen nimi (Yhdistyslaki 11 §)
+                       * jäsenen nimi siinä muodossa, jota jäsen itse
+                         haluaa siitä käytettävän (arkinimi)
+                       * jäsenen kotipaikka (Yhdistyslaki 11 §)
+                       * jäsenen postiosoite
+                       * jäsenen sähköpostiosoite (ei pakollinen)
+                       * jäsenyyden alkamispäivä
+                       * tieto jäsenen maksamasta liittymismaksusta
+                         (kirjanpidon tositenumero tai tieto, että
+                         liittymismaksu oli liittymisvuonna 0 euroa)
+                       * tieto jäsenen maksamista jäsenmaksuista (kustakin
+                         kirjanpidon tositenumero tai tieto, että jäsenmaksu
+                         oli kyseisenä vuonna 0 euroa, sekä tieto siitä, minkä
+                         vuoden maksu on kyseessä)
+
+6. Säännönmukaiset     Maksutiedot saadaan kirjanpidosta, jäsenyyden
+   tietolähteet        alkamispäivä hallituksen pöytäkirjoista, muut tiedot
+                       jäseneltä itseltään.  Jäsentunnus luodaan, kun jäsen
+                       hyväksytään jäseneksi.
+
+7. Säännönmukaiset     Kaikilla jäsenillä on oikeus nähdä kaikkien jäsenten
+   tietojen            jäsenluettelotiedot (täydellinen nimi ja kotipaikka).
+   luovutukset ja      Tietoja ei muutoin luovutetan eikä siirretä EU:n tai
+   tietojen siirto     Euroopan talousalueen ulkopuolelle.
+   EU:n tai Euroopan
+   talousalueen
+   ulkopuolelle
+
+8. Rekisterin          Rekisterin tiedot on suojatuu asiattomalta
+   suojauksen          katselulta, muuttamiselta ja hävittämiseltä.
+   periaatteet         Suojaus perustuu henkilökohtaisiin käyttäjätunnuksiin
+                       ja käyttöoikeuksien rajaukseen.  Tietojen
+                       katselu- ja muuttamisoikeudet on rajattu,
+                       tietojen muuttaminen kirjataan.  Tietojen
+                       häviämättömyydestä huolehditaan varmuuskopioilla
+                       ja fyysisillä turvamenettelyillä.
+
+LIITE 2: Ohjeet jäseneksi haluaville (suomeksi ja englanniksi)
+
+
+The Fenfire Foundation on suomalainen yhdistys (rekisteröinti vireillä),
+jonka tarkoituksena on edistää teknisiä tiedonhallintamenetelmiä.
+
+The Fenfire Foundationin jäsenet ovat yksityisiä henkilöitä.
+Jäsenille ei ole asetettu muodollisia kelpoisuusvaatimuksia, mutta
+jokainen jäseneksi haluavan kelpoisuus harkitaan erikseen.  Päätöksen
+jäseneksi hyväksymisestä tekee yhdistyksen hallitus.
+
+Jäsenellä on lakisääteisiä ja sääntömääräisiä oikeuksia.  Tärkein
+niistä on äänioikeus yhdistyksen kokouksissa, jotka ovat yhdistyksen
+ylin päättävä elin.  Kerran vuodessa järjestettävässä syyskokouksessa
+valitaan yhdistyksen hallitus, jolla on yhdistyksessä
+toimeenpanovalta, ja tilintarkastajat, jotka jäsenistön edustajina
+tarkastavat yhdistyksen hallinnon ja talouden ja laativat niistä
+raportin joka vuosi järjestettävälle syyskokoukselle.
+
+Jäsenellä on velvollisuus maksaa syyskokouksen määräämä liittymismaksu
+ja vuotuinen jäsenmaksu.  Vuonna 2005 liittymismaksu on 0 euroa ja
+jäsenmaksu 10 euroa.  Maksut suoritetaan rahastonhoitajalle (tällä
+hetkellä Antti-Juhani Kaijanaho) käteisellä jäseneksi hyväksymisen
+jälkeen.  Jos käteissuoritus ei onnistu, voidaan vaihtoehtoisesta
+maksujärjestelystä sopia.
+
+The Fenfire Foundationin jäseneksi haluavan tulee ilmoittaa
+aikomuksestaan liittyä yhdistyksen jäseneksi.  Ilmoituksen tulee olla
+kirjallinen (sähköposti käy) ja eksplisiittinen.  Ilmoitukseen tulee
+liittää jäseneksi haluavan täydellinen nimi, arkinimi, kotipaikka sekä
+yhteystiedot (postiosoite ja mahdollinen sähköpostiosoite).  Siinä
+tulee myös mainita, että jäseneksi haluava hyväksyy yhdistyksen
+tarkoituksen.  Ilmoitus osoitetaan yhdistyksen hallitukselle ja
+lähetetään jäsensihteerille osoitteeseen
+   The Fenfire Foundation / hallitus
+   c/o Antti-Juhani Kaijanaho
+   Helokantie 1 A 16
+   40640 JYVÄSKYLÄ
+tai sähköpostilla osoitteeseen antti-juhani@kaijanaho.info (otsikossa
+mainittava sanat Fenfire Foundation).  Puutteellisen ilmoituksen
+perusteella ei jäsenyyttä voida antaa.
+
+Seuraavaa mallia voi käyttää apuna ilmoitusta laadittaessa:
+  8<-- 
+   From: Matti Meikäläinen <matti.meikalainen@example.com>
+   Subject: Jäseneksi The Fenfire Foundationiin
+   To: antti-juhani@kaijanaho.info
+
+   The Fenfire Foundationin hallitukselle
+
+   Hyväksyn The Fenfire Foundationin tarkoituksen ja haluan
+   liittyä sen jäseneksi.  Yhteystietoni ovat:
+
+     Matti Meikäläinen
+     Mallikuja 42
+     42100 JÄMSÄ
+     matti.meikalainen@example.com
+
+   Koko nimeni on Matti Teuvo Meikäläinen ja kotipaikkani on Jämsä.
+   Arkikäytössä pyydän käyttämään nimeäni muodossa Matti Meikäläinen.
+  8<--
+
+***
+
+The Fenfire Foundation is a Finnish not-for-profit association
+(incorporation in progress), whose purpose is to further technical
+means of managing information.
+
+Members of the Foundation are all individual persons.  There are no
+formal qualifications for membership, but each member candidate is
+evaluated individually by the executive committee, who makes the final
+decision on whether a candidate is admitted to the membership.
+
+Members have statutory and regular privileges, thee most important of
+which is a vote in general meetings of the Foundation, the organ
+exercising supreme authority in the Foundation.  An annual Fall
+Meeting elects the Executive Committee, which exercises executive
+authority in the Foundation, as well as the Auditors who audit the
+administration and finances of the Foundation as the membership's
+representatives.  The auditors present their report to each annual
+Spring Meeting.
+
+A member is obliged to pay a one-time admittance fee and an annual
+membership fee, both set at the previous Fall meeting.  In 2005, the
+admittance fee is nought, and the membership fee is 10 euros.  The
+fees are payable by cash to the Treasurer (currently Antti-Juhani
+Kaijanaho) after admittance to the membership.  If cash payment is
+inconvenient, alternate arrangements can be negotiated.
+
+One who wishes to become a member of the Foundation must inform the
+Foundation of this wish.  The notice must be in writing (an email is
+acceptable) and explicit.  The notice must include the candidate's
+full official name, a casual name to be used in correspondence, the
+official place of residence, and contact information (a postal address
+and an email address, if available).  The notice must also include a
+statement from the candidate that he or she approves of the purpose of the
+Foundation.  The notice is addressed to the executive committee and
+mailed to the secretary in charge of membership at
+  The Fenfire Foundation / Executive Committee
+  c/o Antti-Juhani Kaijanaho
+  Helokantie 1 A 16
+  40640 JYVÄSKYLÄ
+  FINLAND
+or emailed to antti-juhani@kaijanaho.info (subject should include the
+words The Fenfire Foundation).  A candidate cannot be admitted to the
+membership if the notice is incomplete.
+
+The following sample may be useful in crafting the notice:
+  8<--
+   From: John Smith <john.smith@example.com>
+   Subject: Becoming a member in The Fenfire Foundation
+   To: antti-juhani@kaijanaho.info
+
+   To the Executive Committee of The Fenfire Foundation
+
+   I approve of The Fenfire Foundation's purpose and herewith
+   seek membership in it.  My contact information:
+
+    Mr. John Smith
+    42 Example Drive
+    Cabot Cove, ME 52110
+    USA
+    john.smith@example.com
+
+   My full official name is Jonathan Barksdale Smith and my official
+   place of residence is Cabot Cove, Maine, the United States of
+   America.  For casual use of my name I recommend the form John
+   Smith.
+  8<--
+

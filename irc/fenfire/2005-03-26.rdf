@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:wn="http://xmlns.com/wordnet/1.6/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<foaf:ChatChannel rdf:about="irc://irc.freenode.org/fenfire">
+  <foaf:chatEventList>
+    <rdf:Seq>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-20-50">
+        <dc:date>2005-03-26T09:20:50Z</dc:date>
+        <dc:description>based on the recent slashdot article, I wonder how google does version control and releases on their unified codebase</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-22-06">
+        <dc:date>2005-03-26T10:22:06Z</dc:date>
+        <dc:description>hm?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-30-44">
+        <dc:date>2005-03-26T11:30:44Z</dc:date>
+        <dc:description>it sounded a lot like fenfire: they have a lot of code that is divided into subprojects and anyone can commit to anything</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-31-03">
+        <dc:date>2005-03-26T11:31:03Z</dc:date>
+        <dc:description>ref?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-31-13">
+        <dc:date>2005-03-26T11:31:13Z</dc:date>
+        <dc:description>* ibid does not read /. frequently:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-31-41">
+        <dc:date>2005-03-26T11:31:41Z</dc:date>
+        <dc:description>http://developers.slashdot.org/developers/05/03/25/2129248.shtml</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+        <dc:relation rdf:resource="http://developers.slashdot.org/developers/05/03/25/2129248.shtml"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-49-16">
+        <dc:date>2005-03-26T11:49:16Z</dc:date>
+        <dc:description>huomenta</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-52-43">
+        <dc:date>2005-03-26T11:52:43Z</dc:date>
+        <dc:description>menta</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-55-00">
+        <dc:date>2005-03-26T11:55:00Z</dc:date>
+        <dc:description>huomenta benja_</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-57-07">
+        <dc:date>2005-03-26T11:57:07Z</dc:date>
+        <dc:description>benja_: i don't know if you noticed, but i finally got fenfeed running for the first time :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-57-17">
+        <dc:date>2005-03-26T11:57:17Z</dc:date>
+        <dc:description>benja_: it helped when i realized i don't have to package it first... :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-57-54">
+        <dc:date>2005-03-26T11:57:54Z</dc:date>
+        <dc:description>:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-58-02">
+        <dc:date>2005-03-26T11:58:02Z</dc:date>
+        <dc:description>I hadn't yet noticed</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-59-06">
+        <dc:date>2005-03-26T11:59:06Z</dc:date>
+        <dc:description>do you know what causes the extreme slowness between the creation of the window and the showing of the ui components?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-59-23">
+        <dc:date>2005-03-26T11:59:23Z</dc:date>
+        <dc:description>doesn't sound like anything i'd guess</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-59-47">
+        <dc:date>2005-03-26T11:59:47Z</dc:date>
+        <dc:description>no, but I expect it to either have to do with threading problems or with smushing</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-59-57">
+        <dc:date>2005-03-26T11:59:57Z</dc:date>
+        <dc:description>hm?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-59-59">
+        <dc:date>2005-03-26T11:59:59Z</dc:date>
+        <dc:description>I haven't investigated</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-00-24">
+        <dc:date>2005-03-26T12:00:24Z</dc:date>
+        <dc:description>any guess where in the code, roughly?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-00-28">
+        <dc:date>2005-03-26T12:00:28Z</dc:date>
+        <dc:description>threading problems: the feeds are loaded on a different thread, then inserted into the main graph in a bg task on the main thread</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-00-43">
+        <dc:date>2005-03-26T12:00:43Z</dc:date>
+        <dc:description>this would be in org.fenfire.fenfeed :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-01-28">
+        <dc:date>2005-03-26T12:01:28Z</dc:date>
+        <dc:description>smushing: the current smushing impl is very non-optimized, but I don't have evidence it's a problem, yet; the code would be in org.fenfire.swamp.smush.SmushedQuadsGraph</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-01-46">
+        <dc:date>2005-03-26T12:01:46Z</dc:date>
+        <dc:description>i think i've been explained before what smushing is but can't remember</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-01-47">
+        <dc:date>2005-03-26T12:01:47Z</dc:date>
+        <dc:description>it would probably pay to profile</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-02-03">
+        <dc:date>2005-03-26T12:02:03Z</dc:date>
+        <dc:description>* ibid might try to review the code later today</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-02-08">
+        <dc:date>2005-03-26T12:02:08Z</dc:date>
+        <dc:description>no promises :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-02-16">
+        <dc:date>2005-03-26T12:02:16Z</dc:date>
+        <dc:description>ibid: making two bnodes (in our case URIs too) that represent the same resource into one</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-02-48">
+        <dc:date>2005-03-26T12:02:48Z</dc:date>
+        <dc:description>what's a bnode?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-03-34">
+        <dc:date>2005-03-26T12:03:34Z</dc:date>
+        <dc:description>a node without a uri. is graph-local. also known as anonymous node</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-03-40">
+        <dc:date>2005-03-26T12:03:40Z</dc:date>
+        <dc:description>bnode = blank node</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-03-42">
+        <dc:date>2005-03-26T12:03:42Z</dc:date>
+        <dc:description>(no label)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-03-45">
+        <dc:date>2005-03-26T12:03:45Z</dc:date>
+        <dc:description>ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-03-48">
+        <dc:date>2005-03-26T12:03:48Z</dc:date>
+        <dc:description>thanks :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-24-28">
+        <dc:date>2005-03-26T12:24:28Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-25-07">
+        <dc:date>2005-03-26T12:25:07Z</dc:date>
+        <dc:description>* rubberpaw checks to see if anyone is awake</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-26-21">
+        <dc:date>2005-03-26T12:26:21Z</dc:date>
+        <dc:description>hi rubberpaw. at least benja_, ibid and me :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-26-26">
+        <dc:date>2005-03-26T12:26:26Z</dc:date>
+        <dc:description>Hi tuukkah </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-26-36">
+        <dc:date>2005-03-26T12:26:36Z</dc:date>
+        <dc:description>I have a bit of a favor to ask, if it's possible</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-26-49">
+        <dc:date>2005-03-26T12:26:49Z</dc:date>
+        <dc:description>I'm just finishing up a paper for the ACM hypertext 2005</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-26-58">
+        <dc:date>2005-03-26T12:26:58Z</dc:date>
+        <dc:description>at least you can ask</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-27-00">
+        <dc:date>2005-03-26T12:27:00Z</dc:date>
+        <dc:description>and I want to see what happens if I put a particular dataset into Fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-27-09">
+        <dc:date>2005-03-26T12:27:09Z</dc:date>
+        <dc:description>(I was thinking about the screenshow I saw with the gnowsis stuff)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-27-16">
+        <dc:date>2005-03-26T12:27:16Z</dc:date>
+        <dc:description>(screentsho</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-27-21">
+        <dc:date>2005-03-26T12:27:21Z</dc:date>
+        <dc:description>screenshot, that is</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-27-36">
+        <dc:date>2005-03-26T12:27:36Z</dc:date>
+        <dc:description>(kb issues through this ssh tty, sorry)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-27-45">
+        <dc:date>2005-03-26T12:27:45Z</dc:date>
+        <dc:description>do you have the rdf file?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-28-02">
+        <dc:date>2005-03-26T12:28:02Z</dc:date>
+        <dc:description>and I didn't know if anyone had a build I might be able to run on OS/X</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-28-47">
+        <dc:date>2005-03-26T12:28:47Z</dc:date>
+        <dc:description>I think benja_ has OS/X</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-28-52">
+        <dc:date>2005-03-26T12:28:52Z</dc:date>
+        <dc:description>no RDF at this point, though I could probably whip it up. It might take a bit. I have a 60 node, geodesically-structured hypertext </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-29-50">
+        <dc:date>2005-03-26T12:29:50Z</dc:date>
+        <dc:description>I think Fenfire might be my best opportunity to find software that properly visualizes it</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-30-27">
+        <dc:date>2005-03-26T12:30:27Z</dc:date>
+        <dc:description>gZigZag does fairly well in MindSundew view, but the issue of directional links causes problems.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-31-19">
+        <dc:date>2005-03-26T12:31:19Z</dc:date>
+        <dc:description>hmm, what kind of problems? because rdf triples are directional too</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-32-58">
+        <dc:date>2005-03-26T12:32:58Z</dc:date>
+        <dc:description>well, gzz links are posward or negward</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-34-10">
+        <dc:date>2005-03-26T12:34:10Z</dc:date>
+        <dc:description>actually, gzz links are both posward and negward :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-34-16">
+        <dc:date>2005-03-26T12:34:16Z</dc:date>
+        <dc:description>when setting up the links in gzz, I used one dimension's posward and negward links to show links around pentagonal centers</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-34-29">
+        <dc:date>2005-03-26T12:34:29Z</dc:date>
+        <dc:description>ibid: yeah</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-34-54">
+        <dc:date>2005-03-26T12:34:54Z</dc:date>
+        <dc:description>which worked great</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-34-58">
+        <dc:date>2005-03-26T12:34:58Z</dc:date>
+        <dc:description>* ibid is writing a biting mail on identity to the course list :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-35-55">
+        <dc:date>2005-03-26T12:35:55Z</dc:date>
+        <dc:description>but then I created another dimension to store the third link for a triangle.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-36-41">
+        <dc:date>2005-03-26T12:36:41Z</dc:date>
+        <dc:description>This worked well, but when I linked pentagons to each other, moving outside of the pentagon would be either left or right -- I couldn't make it uniform </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-36-52">
+        <dc:date>2005-03-26T12:36:52Z</dc:date>
+        <dc:description>argh -- it's difficult to describe.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-37-07">
+        <dc:date>2005-03-26T12:37:07Z</dc:date>
+        <dc:description>let me try again.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-37-16">
+        <dc:date>2005-03-26T12:37:16Z</dc:date>
+        <dc:description>I think I get the picture</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-37-39">
+        <dc:date>2005-03-26T12:37:39Z</dc:date>
+        <dc:description>my geodesic structure contains 12 groups of 5 triangles</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-37-48">
+        <dc:date>2005-03-26T12:37:48Z</dc:date>
+        <dc:description>I made each of these a loop of nodes</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-37-54">
+        <dc:date>2005-03-26T12:37:54Z</dc:date>
+        <dc:description>in one dimension.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-37-57">
+        <dc:date>2005-03-26T12:37:57Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-38-18">
+        <dc:date>2005-03-26T12:38:18Z</dc:date>
+        <dc:description>now, each of these triangles also has one outward link to another pentagonal loop</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-38-38">
+        <dc:date>2005-03-26T12:38:38Z</dc:date>
+        <dc:description>I wanted each of these links to be in the same direction.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-39-03">
+        <dc:date>2005-03-26T12:39:03Z</dc:date>
+        <dc:description>ie, it would create something like a tree that would branch downward forever.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-39-58">
+        <dc:date>2005-03-26T12:39:58Z</dc:date>
+        <dc:description>do you know how you would represent this in rdf?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-40-19">
+        <dc:date>2005-03-26T12:40:19Z</dc:date>
+        <dc:description>but the posward/negward-ness of links meant that it was impossible to tell which direction one would have to move.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-40-34">
+        <dc:date>2005-03-26T12:40:34Z</dc:date>
+        <dc:description>Actually -- not at this point. I haven't put much thought into it.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-41-08">
+        <dc:date>2005-03-26T12:41:08Z</dc:date>
+        <dc:description>or as a general graph?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-41-23">
+        <dc:date>2005-03-26T12:41:23Z</dc:date>
+        <dc:description>hmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-42-07">
+        <dc:date>2005-03-26T12:42:07Z</dc:date>
+        <dc:description>no, I have not. I am, unfortunately deficient in that part of mathematics.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-42-19">
+        <dc:date>2005-03-26T12:42:19Z</dc:date>
+        <dc:description>basicly, you have 60 nodes, and some lines between them</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-42-46">
+        <dc:date>2005-03-26T12:42:46Z</dc:date>
+        <dc:description>right. I have already mapped it out in hypertext software.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-43-24">
+        <dc:date>2005-03-26T12:43:24Z</dc:date>
+        <dc:description>it's a general graph, when the lines don't have direction or colour or anything like that</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-43-25">
+        <dc:date>2005-03-26T12:43:25Z</dc:date>
+        <dc:description>2d spatial hypertext </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-43-31">
+        <dc:date>2005-03-26T12:43:31Z</dc:date>
+        <dc:description>ahh, ok.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-44-19">
+        <dc:date>2005-03-26T12:44:19Z</dc:date>
+        <dc:description>with zzstructure, you have to choose colours and arrowheads, and you can't have to arrows of same color be of same direction to one node</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-44-51">
+        <dc:date>2005-03-26T12:44:51Z</dc:date>
+        <dc:description>right.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-45-21">
+        <dc:date>2005-03-26T12:45:21Z</dc:date>
+        <dc:description>with rdf, you can choose colours, you have to choose arrowheads but you can always put arrow in both directions, as you don't have limit on the number of arrows in a node</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-45-57">
+        <dc:date>2005-03-26T12:45:57Z</dc:date>
+        <dc:description>right -- in zigzag you can have unlimited arrows, but only two per dimension.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-47-21">
+        <dc:date>2005-03-26T12:47:21Z</dc:date>
+        <dc:description>on some level of rdf, you can describe that some relation is of a type where the direction doesn't matter, but fenfire doesn't make use of such description at the moment</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-48-08">
+        <dc:date>2005-03-26T12:48:08Z</dc:date>
+        <dc:description>at least if we're discussing the fentwine structure view</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-49-23">
+        <dc:date>2005-03-26T12:49:23Z</dc:date>
+        <dc:description>am I correct in thinking that if something links to or is linked from a the currently-focused node, Fenfire will show it in the view?</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-49-34">
+        <dc:date>2005-03-26T12:49:34Z</dc:date>
+        <dc:description>my point is, I think in practise you'd want to choose a direction instead of making two-way connections</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-50-07">
+        <dc:date>2005-03-26T12:50:07Z</dc:date>
+        <dc:description>perhaps for the visualization, yes </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-50-23">
+        <dc:date>2005-03-26T12:50:23Z</dc:date>
+        <dc:description>in the actual hypertext (http://www.rubberpaw.com/philadelphia/), direction is meaningless.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+        <dc:relation rdf:resource="http://www.rubberpaw.com/philadelphia/"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-50-33">
+        <dc:date>2005-03-26T12:50:33Z</dc:date>
+        <dc:description>rubberpaw, yes. links to the node are on the left half of the wheel, and links from the node are on the right half of the wheel</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-51-05">
+        <dc:date>2005-03-26T12:51:05Z</dc:date>
+        <dc:description>that's what I need. Since the hypertext is spherical, this will look natural.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-56-41">
+        <dc:date>2005-03-26T12:56:41Z</dc:date>
+        <dc:description>a couple of screenshots can be seen at: http://www.rubberpaw.com/posts/musicoft.html</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+        <dc:relation rdf:resource="http://www.rubberpaw.com/posts/musicoft.html"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-59-21">
+        <dc:date>2005-03-26T12:59:21Z</dc:date>
+        <dc:description>for interface purposes, I suppose I could modify my gzz file to have two links between the pentagon edges</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-59-31">
+        <dc:date>2005-03-26T12:59:31Z</dc:date>
+        <dc:description>oh, you've managed to put it quite nicely into MindSundew! I wonder if it's even possible to get to look anything like that in current fetwine</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-00-06">
+        <dc:date>2005-03-26T13:00:06Z</dc:date>
+        <dc:description>but it only looks good up to a certain point. Because if I go down to any of the other pentagons</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-00-22">
+        <dc:date>2005-03-26T13:00:22Z</dc:date>
+        <dc:description>it messes up, since the link back to the pentagon currently viewed is negwawwrd</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-00-36">
+        <dc:date>2005-03-26T13:00:36Z</dc:date>
+        <dc:description>oh, right</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-00-46">
+        <dc:date>2005-03-26T13:00:46Z</dc:date>
+        <dc:description>so, I would be happy to settle for only seeing one node</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-00-49">
+        <dc:date>2005-03-26T13:00:49Z</dc:date>
+        <dc:description>and three surrounding nodes</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-01-08">
+        <dc:date>2005-03-26T13:01:08Z</dc:date>
+        <dc:description>we hope that it would at some point be easy to make your own views</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-01-16">
+        <dc:date>2005-03-26T13:01:16Z</dc:date>
+        <dc:description>which is what I imagine Fenfire would be able to do.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-04-23">
+        <dc:date>2005-03-26T13:04:23Z</dc:date>
+        <dc:description>ok, now I have a loop of five linked nodes in fenfire :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-05-24">
+        <dc:date>2005-03-26T13:05:24Z</dc:date>
+        <dc:description>I suppose I should write a script that creates the rdf data so that it could be faster to experiment with alternatives</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-07-11">
+        <dc:date>2005-03-26T13:07:11Z</dc:date>
+        <dc:description>wow -- if you really feel like it :-).</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-08-11">
+        <dc:date>2005-03-26T13:08:11Z</dc:date>
+        <dc:description>I feel like I haven't learned the rdf structure and the wheel view in the same way as I did gzigzag 0.6 at some point</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-08-20">
+        <dc:date>2005-03-26T13:08:20Z</dc:date>
+        <dc:description>so this could help</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-08-46">
+        <dc:date>2005-03-26T13:08:46Z</dc:date>
+        <dc:description>cool</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-09-13">
+        <dc:date>2005-03-26T13:09:13Z</dc:date>
+        <dc:description>*works to procure a screenshot of gzz mindsundew when it doesn't look so neat.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-10-45">
+        <dc:date>2005-03-26T13:10:45Z</dc:date>
+        <dc:description>* rubberpaw hompes he still has the dataset -- it was four months ago...</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-10-54">
+        <dc:date>2005-03-26T13:10:54Z</dc:date>
+        <dc:description>(argh. kb -- hopes)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-18-36">
+        <dc:date>2005-03-26T13:18:36Z</dc:date>
+        <dc:description>whew. Good.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-44-56">
+        <dc:date>2005-03-26T13:44:56Z</dc:date>
+        <dc:description>tuukkah, benja_: see my mail?:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-47-32">
+        <dc:date>2005-03-26T13:47:32Z</dc:date>
+        <dc:description>sorry, too long, I'm hacking ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-47-56">
+        <dc:date>2005-03-26T13:47:56Z</dc:date>
+        <dc:description>the answer is yes, then :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-48-33">
+        <dc:date>2005-03-26T13:48:33Z</dc:date>
+        <dc:description>i think i'll reprint that as a blog posting; any objections? :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-53-29">
+        <dc:date>2005-03-26T13:53:29Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-55-07">
+        <dc:date>2005-03-26T13:55:07Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-55-17">
+        <dc:date>2005-03-26T13:55:17Z</dc:date>
+        <dc:description>* rubberpaw is rebuilding the data so each trans-pentagon link consists of two links in gzz -- just to see if that fixes the visualization issues</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-55-25">
+        <dc:date>2005-03-26T13:55:25Z</dc:date>
+        <dc:description>whoops -- disconnected</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-56-27">
+        <dc:date>2005-03-26T13:56:27Z</dc:date>
+        <dc:description>I have the pentagons now, and I'm thinking how to connected them to each other in the right way</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-58-36">
+        <dc:date>2005-03-26T13:58:36Z</dc:date>
+        <dc:description>oh cool.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-09-16">
+        <dc:date>2005-03-26T14:09:16Z</dc:date>
+        <dc:description>this is what I have at the moment: http://iki.fi/Tuukka/tmp/fullerine.png</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+        <dc:relation rdf:resource="http://iki.fi/Tuukka/tmp/fullerine.png"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-10-48">
+        <dc:date>2005-03-26T14:10:48Z</dc:date>
+        <dc:description>(http://antti-juhani.kaijanaho.info/blog/en/stuff/identity.html)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+        <dc:relation rdf:resource="http://antti-juhani.kaijanaho.info/blog/en/stuff/identity.html"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-14-43">
+        <dc:date>2005-03-26T14:14:43Z</dc:date>
+        <dc:description>hmm. So it's showing more than just the immediately linked items</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-15-10">
+        <dc:date>2005-03-26T14:15:10Z</dc:date>
+        <dc:description>there are two parameters for controlling that in the view</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-15-33">
+        <dc:date>2005-03-26T14:15:33Z</dc:date>
+        <dc:description>that's the idea though. The reality is that the pentagons on the sculpture </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-15-54">
+        <dc:date>2005-03-26T14:15:54Z</dc:date>
+        <dc:description>are not supposed to be identified as groupings. Each triangle is the center of it's own three-linked universe</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-16-02">
+        <dc:date>2005-03-26T14:16:02Z</dc:date>
+        <dc:description>or at least, that's the goal.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-17-12">
+        <dc:date>2005-03-26T14:17:12Z</dc:date>
+        <dc:description>one is how many links to take when starting from the focused node. the other is how foggy nodes are still drawn</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-17-52">
+        <dc:date>2005-03-26T14:17:52Z</dc:date>
+        <dc:description>ahh, ok. So if I got a copy of fenfire and the dataset, I could tweak things?</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-19-22">
+        <dc:date>2005-03-26T14:19:22Z</dc:date>
+        <dc:description>actually, the only way to change the parameters at the moment is in the source code</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-19-36">
+        <dc:date>2005-03-26T14:19:36Z</dc:date>
+        <dc:description>ahh.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-20-09">
+        <dc:date>2005-03-26T14:20:09Z</dc:date>
+        <dc:description>* rubberpaw grumbles and considers whether he has time to install apple Dev tools</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-20-18">
+        <dc:date>2005-03-26T14:20:18Z</dc:date>
+        <dc:description>hmm, I'll finish the recoding in </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-20-38">
+        <dc:date>2005-03-26T14:20:38Z</dc:date>
+        <dc:description>gzigzag and then see where I stand. Thank you very much for your efforts.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-21-00">
+        <dc:date>2005-03-26T14:21:00Z</dc:date>
+        <dc:description>it was nothing</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-21-15">
+        <dc:date>2005-03-26T14:21:15Z</dc:date>
+        <dc:description>do you mind sending me the dataset? matiasj@etown.edu</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-21-39">
+        <dc:date>2005-03-26T14:21:39Z</dc:date>
+        <dc:description>the rdf file?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-21-39-1">
+        <dc:date>2005-03-26T14:21:39Z</dc:date>
+        <dc:description>* rubberpaw has a copy of the source, but just had a crash and is still restoring software packages.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-21-42">
+        <dc:date>2005-03-26T14:21:42Z</dc:date>
+        <dc:description>yeah.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-21-53">
+        <dc:date>2005-03-26T14:21:53Z</dc:date>
+        <dc:description>sure</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-22-58">
+        <dc:date>2005-03-26T14:22:58Z</dc:date>
+        <dc:description>I'll send you my gzigzag folder when I finish tweaking it.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-26-29">
+        <dc:date>2005-03-26T14:26:29Z</dc:date>
+        <dc:description>hmh, the parameters really don't work as I'd expect. I can get results such as no links showing at all, though</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-29-12">
+        <dc:date>2005-03-26T14:29:12Z</dc:date>
+        <dc:description>ahh.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-30-22">
+        <dc:date>2005-03-26T14:30:22Z</dc:date>
+        <dc:description>btw, when I make two links between trans-pentagon nodes, spreadsheet-type views look nice.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-33-01">
+        <dc:date>2005-03-26T14:33:01Z</dc:date>
+        <dc:description>ok, I thought this totally wrong =) it looks right when I set maxring to 0 and maxdepth to a big number like 10</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-34-28">
+        <dc:date>2005-03-26T14:34:28Z</dc:date>
+        <dc:description>:-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-37-24">
+        <dc:date>2005-03-26T14:37:24Z</dc:date>
+        <dc:description>btw, if you have the code from benja_, you could ask him to give you an http account so you can pull updates made to the unpublished code</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-37-48">
+        <dc:date>2005-03-26T14:37:48Z</dc:date>
+        <dc:description>ahh, ok. will do.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-38-21">
+        <dc:date>2005-03-26T14:38:21Z</dc:date>
+        <dc:description>I was using the source from the site.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-38-48">
+        <dc:date>2005-03-26T14:38:48Z</dc:date>
+        <dc:description>interestingly, after I reached a certain point, entering data became very easy (now that I have the double link)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-39-04">
+        <dc:date>2005-03-26T14:39:04Z</dc:date>
+        <dc:description>since I have a spatial model of the sphere in front of me, finding a particular node with the kb is very easy.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-39-15">
+        <dc:date>2005-03-26T14:39:15Z</dc:date>
+        <dc:description>s/spatial/physical/</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-39-25">
+        <dc:date>2005-03-26T14:39:25Z</dc:date>
+        <dc:description>yes :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-39-57">
+        <dc:date>2005-03-26T14:39:57Z</dc:date>
+        <dc:description>I don't have to use the screen even, since I know how the structure works.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-43-13">
+        <dc:date>2005-03-26T14:43:13Z</dc:date>
+        <dc:description>hmm, it's behaving much more nicely in the mindsundew now</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-43-46">
+        <dc:date>2005-03-26T14:43:46Z</dc:date>
+        <dc:description>I think I have it all linked properly.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-46-32">
+        <dc:date>2005-03-26T14:46:32Z</dc:date>
+        <dc:description>yeah. .zips the files...</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-47-14">
+        <dc:date>2005-03-26T14:47:14Z</dc:date>
+        <dc:description>13k -- should I upload or email?</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-49-07">
+        <dc:date>2005-03-26T14:49:07Z</dc:date>
+        <dc:description>upload would be easier for me</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-49-59">
+        <dc:date>2005-03-26T14:49:59Z</dc:date>
+        <dc:description>ok. I'll put it on my server in a few minutes...</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-51-58">
+        <dc:date>2005-03-26T14:51:58Z</dc:date>
+        <dc:description>whoops -- I misnamed my dimensions. I called trans-pentagon dim "clockwise" and the pentagon links "transagon"</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-52-24">
+        <dc:date>2005-03-26T14:52:24Z</dc:date>
+        <dc:description>just keep that in mind when you view.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-59-39">
+        <dc:date>2005-03-26T14:59:39Z</dc:date>
+        <dc:description>http://www.rubberpaw.com/philadelphia/philly.zip</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+        <dc:relation rdf:resource="http://www.rubberpaw.com/philadelphia/philly.zip"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-02-17">
+        <dc:date>2005-03-26T15:02:17Z</dc:date>
+        <dc:description>403 Forbidden</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-03-29">
+        <dc:date>2005-03-26T15:03:29Z</dc:date>
+        <dc:description>oh ak. let me change the perms...</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-03-45">
+        <dc:date>2005-03-26T15:03:45Z</dc:date>
+        <dc:description>try now</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-03-55">
+        <dc:date>2005-03-26T15:03:55Z</dc:date>
+        <dc:description>works</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-04-09">
+        <dc:date>2005-03-26T15:04:09Z</dc:date>
+        <dc:description>cool.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-07-54">
+        <dc:date>2005-03-26T15:07:54Z</dc:date>
+        <dc:description>the animation became a bit funny =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-08">
+        <dc:date>2005-03-26T15:08:08Z</dc:date>
+        <dc:description>:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-10">
+        <dc:date>2005-03-26T15:08:10Z</dc:date>
+        <dc:description>but it works?</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-24">
+        <dc:date>2005-03-26T15:08:24Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-43">
+        <dc:date>2005-03-26T15:08:43Z</dc:date>
+        <dc:description>cool.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-08-57">
+        <dc:date>2005-03-26T15:08:57Z</dc:date>
+        <dc:description>that is because the node immediately to the right</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-09-01">
+        <dc:date>2005-03-26T15:09:01Z</dc:date>
+        <dc:description>also appears below</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-09-31">
+        <dc:date>2005-03-26T15:09:31Z</dc:date>
+        <dc:description>and below that, the top pentagon is reproduced at the very bottom</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-09-44">
+        <dc:date>2005-03-26T15:09:44Z</dc:date>
+        <dc:description>this is a result of the double-linking along the "clockwise" dimension</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-11-16">
+        <dc:date>2005-03-26T15:11:16Z</dc:date>
+        <dc:description>argh. I would have fixed the naming error, but for some reason, renaming the dimension caused links to break.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-15-03">
+        <dc:date>2005-03-26T15:15:03Z</dc:date>
+        <dc:description>Well, I'm including you in the acknowledgements, if you don't mind. </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-15-36">
+        <dc:date>2005-03-26T15:15:36Z</dc:date>
+        <dc:description>it's ok if yoy want to</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-15-41">
+        <dc:date>2005-03-26T15:15:41Z</dc:date>
+        <dc:description>you</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-20-59">
+        <dc:date>2005-03-26T15:20:59Z</dc:date>
+        <dc:description>rubberpaw, I think I was able to change the dimensions. from the dataset directory, I renamed the file "transagon" as "clockwise" and vice versa</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-27-33">
+        <dc:date>2005-03-26T15:27:33Z</dc:date>
+        <dc:description>ahh, ok. </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-27-46">
+        <dc:date>2005-03-26T15:27:46Z</dc:date>
+        <dc:description>it still works? (I wasn't aware of how things worked on the file end)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-27-53">
+        <dc:date>2005-03-26T15:27:53Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-28-12">
+        <dc:date>2005-03-26T15:28:12Z</dc:date>
+        <dc:description>not very user-friendly way to achieve renaming, thougn ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-28-59">
+        <dc:date>2005-03-26T15:28:59Z</dc:date>
+        <dc:description>hehee. Can you email it to me?</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-29-39">
+        <dc:date>2005-03-26T15:29:39Z</dc:date>
+        <dc:description>I'm thinking wouldn't it be easier if you rename the files yourself?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-30-44">
+        <dc:date>2005-03-26T15:30:44Z</dc:date>
+        <dc:description>lol. This is what I get for having three monitors, and three desks of papers strewn about. A lack of focus.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-32-10">
+        <dc:date>2005-03-26T15:32:10Z</dc:date>
+        <dc:description>I have to go to the store before they close - I'll be back later</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T15-34-23">
+        <dc:date>2005-03-26T15:34:23Z</dc:date>
+        <dc:description>ok. ttyl</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-07-01">
+        <dc:date>2005-03-26T16:07:01Z</dc:date>
+        <dc:description>ttyl?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-15-33">
+        <dc:date>2005-03-26T16:15:33Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-03-38">
+        <dc:date>2005-03-26T17:03:38Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-03-52">
+        <dc:date>2005-03-26T17:03:52Z</dc:date>
+        <dc:description>*sigh* keeps disconnecting</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-05-29">
+        <dc:date>2005-03-26T17:05:29Z</dc:date>
+        <dc:description>reason: Read error: 60 (Operation timed out)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-05-33">
+        <dc:date>2005-03-26T17:05:33Z</dc:date>
+        <dc:description>on both occasions</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-06-00">
+        <dc:date>2005-03-26T17:06:00Z</dc:date>
+        <dc:description>weird. I have a good connection. It must be something about my client</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-06-10">
+        <dc:date>2005-03-26T17:06:10Z</dc:date>
+        <dc:description>thanks ibid</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-06-54">
+        <dc:date>2005-03-26T17:06:54Z</dc:date>
+        <dc:description>BitchX, but you already know that.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-09-57">
+        <dc:date>2005-03-26T17:09:57Z</dc:date>
+        <dc:description>google gives me nothing</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-12-24">
+        <dc:date>2005-03-26T17:12:24Z</dc:date>
+        <dc:description>oh well. Thanks</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-12-39">
+        <dc:date>2005-03-26T17:12:39Z</dc:date>
+        <dc:description>back</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-12-53">
+        <dc:date>2005-03-26T17:12:53Z</dc:date>
+        <dc:description>I looked at another channel and same error message there</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-14-07">
+        <dc:date>2005-03-26T17:14:07Z</dc:date>
+        <dc:description>but he has a bad connection</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-14-24">
+        <dc:date>2005-03-26T17:14:24Z</dc:date>
+        <dc:description>oh well.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-16-17">
+        <dc:date>2005-03-26T17:16:17Z</dc:date>
+        <dc:description>internet is so complex</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-16-30">
+        <dc:date>2005-03-26T17:16:30Z</dc:date>
+        <dc:description>:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-17-48">
+        <dc:date>2005-03-26T17:17:48Z</dc:date>
+        <dc:description>there must be a lot of attention already paid on simplicity, but I feel a lot more could be done</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-30">
+        <dc:date>2005-03-26T17:18:30Z</dc:date>
+        <dc:description>to make the 'net better?</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-06">
+        <dc:date>2005-03-26T17:19:06Z</dc:date>
+        <dc:description>would robust be the word?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-23">
+        <dc:date>2005-03-26T17:19:23Z</dc:date>
+        <dc:description>ahh. Well, it's pretty tough to do it. </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-34">
+        <dc:date>2005-03-26T17:19:34Z</dc:date>
+        <dc:description>I mean, it's supposed to in theory be very robust with packet switching</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-47">
+        <dc:date>2005-03-26T17:19:47Z</dc:date>
+        <dc:description>on that level, yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-49">
+        <dc:date>2005-03-26T17:19:49Z</dc:date>
+        <dc:description>but there are so many single points of failure</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-02">
+        <dc:date>2005-03-26T17:20:02Z</dc:date>
+        <dc:description>because it's wired by economic forces</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-30">
+        <dc:date>2005-03-26T17:20:30Z</dc:date>
+        <dc:description>they always tell how internet is meant to be the ultimate P2P without points of failure :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-30-1">
+        <dc:date>2005-03-26T17:20:30Z</dc:date>
+        <dc:description>I mean, in our area, Comcast had everything going through one piece of hardware</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-50">
+        <dc:date>2005-03-26T17:20:50Z</dc:date>
+        <dc:description>and when that piece of hw went down</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-57">
+        <dc:date>2005-03-26T17:20:57Z</dc:date>
+        <dc:description>half of the nodes on the net on the US east coast went down.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-05">
+        <dc:date>2005-03-26T17:21:05Z</dc:date>
+        <dc:description>this was just last month</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-32">
+        <dc:date>2005-03-26T17:21:32Z</dc:date>
+        <dc:description>what we need is wireless with GNURadio</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-34">
+        <dc:date>2005-03-26T17:21:34Z</dc:date>
+        <dc:description>probably because one piece of hardware was cheaper to buy and manage than several</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-46">
+        <dc:date>2005-03-26T17:21:46Z</dc:date>
+        <dc:description>or they were lazy</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-51">
+        <dc:date>2005-03-26T17:21:51Z</dc:date>
+        <dc:description>or</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-57">
+        <dc:date>2005-03-26T17:21:57Z</dc:date>
+        <dc:description>they needed to surveil the connection</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-08">
+        <dc:date>2005-03-26T17:22:08Z</dc:date>
+        <dc:description>right :-/</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-40">
+        <dc:date>2005-03-26T17:22:40Z</dc:date>
+        <dc:description>but if we all used auto-negotiating wireless devices</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-46">
+        <dc:date>2005-03-26T17:22:46Z</dc:date>
+        <dc:description>in an ad-hoc network</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-55">
+        <dc:date>2005-03-26T17:22:55Z</dc:date>
+        <dc:description>then we could leverage the robustness of the protocols</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-18">
+        <dc:date>2005-03-26T17:23:18Z</dc:date>
+        <dc:description>but the gov't and big biz wouldn't allow it here</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-27">
+        <dc:date>2005-03-26T17:23:27Z</dc:date>
+        <dc:description>but what about this irc server giving error messages that in addition to "read error", 60 and "operation timed out" would tell who and why does it matter :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-42">
+        <dc:date>2005-03-26T17:23:42Z</dc:date>
+        <dc:description>one of my profs built a supercomputer in his basement.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-24-03">
+        <dc:date>2005-03-26T17:24:03Z</dc:date>
+        <dc:description>and a week later, the FCC came to his door, since it was interfering with television signals</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-24-08">
+        <dc:date>2005-03-26T17:24:08Z</dc:date>
+        <dc:description>this was decades ago</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-24-08-1">
+        <dc:date>2005-03-26T17:24:08Z</dc:date>
+        <dc:description>rubberpaw, yeah, I've heard of the issue of radio spectrum monopoly</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-24-42">
+        <dc:date>2005-03-26T17:24:42Z</dc:date>
+        <dc:description>(well, it's sticky. I would have to maybe give the IRC my email, since the timeout could mean I lost connection) </dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-25-08">
+        <dc:date>2005-03-26T17:25:08Z</dc:date>
+        <dc:description>(and maybe I want to be anonymous)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-25-23">
+        <dc:date>2005-03-26T17:25:23Z</dc:date>
+        <dc:description>(but yeah -- the error message could be clearer)</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-25-48">
+        <dc:date>2005-03-26T17:25:48Z</dc:date>
+        <dc:description>but we'd want to know on which layer the trouble might lay</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-08">
+        <dc:date>2005-03-26T17:26:08Z</dc:date>
+        <dc:description>(right. Well. The server is OSS. Get the source and patch ;-) )</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-20">
+        <dc:date>2005-03-26T17:26:20Z</dc:date>
+        <dc:description>-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-24">
+        <dc:date>2005-03-26T17:26:24Z</dc:date>
+        <dc:description>if the connection goes down</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-34">
+        <dc:date>2005-03-26T17:26:34Z</dc:date>
+        <dc:description>perhaps you can get the irc server to remember my ip</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-40">
+        <dc:date>2005-03-26T17:26:40Z</dc:date>
+        <dc:description>and try to traceroute me</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-48">
+        <dc:date>2005-03-26T17:26:48Z</dc:date>
+        <dc:description>noting the point at which the connection dies</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-53">
+        <dc:date>2005-03-26T17:26:53Z</dc:date>
+        <dc:description>and reporting it</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-27-08">
+        <dc:date>2005-03-26T17:27:08Z</dc:date>
+        <dc:description>that would be bonus :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-27-45">
+        <dc:date>2005-03-26T17:27:45Z</dc:date>
+        <dc:description>but you're right. These things should be built into basic internet libs</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-27-59">
+        <dc:date>2005-03-26T17:27:59Z</dc:date>
+        <dc:description>there should be a high level diagnostic system that will try to identify issues like this</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-28-15">
+        <dc:date>2005-03-26T17:28:15Z</dc:date>
+        <dc:description>and let the programmer decide who/how to notify</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-28-29">
+        <dc:date>2005-03-26T17:28:29Z</dc:date>
+        <dc:description>you just basically write some really good error handlers.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-28-54">
+        <dc:date>2005-03-26T17:28:54Z</dc:date>
+        <dc:description>I know I could start with Fenfire ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-28-57">
+        <dc:date>2005-03-26T17:28:57Z</dc:date>
+        <dc:description>that can be overrided for particular actions but get passed a package of error data</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-29-09">
+        <dc:date>2005-03-26T17:29:09Z</dc:date>
+        <dc:description>there might already be a lib</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-29-17">
+        <dc:date>2005-03-26T17:29:17Z</dc:date>
+        <dc:description>I bet that it would be really useful for Storm</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-30-49">
+        <dc:date>2005-03-26T17:30:49Z</dc:date>
+        <dc:description>but we have even lots of simple things still like catching exceptions and turning them into something visible instead of proceeding quietly</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-31-34">
+        <dc:date>2005-03-26T17:31:34Z</dc:date>
+        <dc:description>in Storm?</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-32-18">
+        <dc:date>2005-03-26T17:32:18Z</dc:date>
+        <dc:description>probably there as well, but I'm thinking of the apps, FenFeed and Fentwine</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-32-30">
+        <dc:date>2005-03-26T17:32:30Z</dc:date>
+        <dc:description>ahh, ok.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-33-02">
+        <dc:date>2005-03-26T17:33:02Z</dc:date>
+        <dc:description>Good.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-33-43">
+        <dc:date>2005-03-26T17:33:43Z</dc:date>
+        <dc:description>in Storm, I guess we should start that kind of checks with getting through NATs and firewalls</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-34-00">
+        <dc:date>2005-03-26T17:34:00Z</dc:date>
+        <dc:description>as they are used everywhere these days</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-34-18">
+        <dc:date>2005-03-26T17:34:18Z</dc:date>
+        <dc:description>right.</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-46-26">
+        <dc:date>2005-03-26T17:46:26Z</dc:date>
+        <dc:description>ibid, I wouldn't call urn-5 "the brainchild of the Fenfire project" but "a brainchild ..." instead ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-46-39">
+        <dc:date>2005-03-26T17:46:39Z</dc:date>
+        <dc:description>heh</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-46-59">
+        <dc:date>2005-03-26T17:46:59Z</dc:date>
+        <dc:description>fixed in blog</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-49-50">
+        <dc:date>2005-03-26T17:49:50Z</dc:date>
+        <dc:description>sort-dctrl works!</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-49-56">
+        <dc:date>2005-03-26T17:49:56Z</dc:date>
+        <dc:description>I've been reading a lot of grammar lately, although not English. 2 points for each such failure, and 2 in every sentence would fail you</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-50-20">
+        <dc:date>2005-03-26T17:50:20Z</dc:date>
+        <dc:description>in what kind of a course?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-50-38">
+        <dc:date>2005-03-26T17:50:38Z</dc:date>
+        <dc:description>of course that would not be a submission in any course where that matters that much :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-51-00">
+        <dc:date>2005-03-26T17:51:00Z</dc:date>
+        <dc:description>grammar in swedish basic studies</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-51-12">
+        <dc:date>2005-03-26T17:51:12Z</dc:date>
+        <dc:description>in general terms, most of my emails and virtually all of my blog postings are "first draft" material, with little checks</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-51-40">
+        <dc:date>2005-03-26T17:51:40Z</dc:date>
+        <dc:description>if grammar was an issue, i'd certainly have read it a couple more times over</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-51-54">
+        <dc:date>2005-03-26T17:51:54Z</dc:date>
+        <dc:description>I didn't want to say you should check more</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-52-56">
+        <dc:date>2005-03-26T17:52:56Z</dc:date>
+        <dc:description>i didn't think you did :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-02-25">
+        <dc:date>2005-03-26T19:02:25Z</dc:date>
+        <dc:description>[Global Notice] Hi all. Sorry to disturb. Freenode is setting up an interim incident reporting page, and we need your help. If you have ideas for *specific* categories of problems to be reported or support requests to be made, please stop by #freenode-tracking and, erm, blurt them out on the channel? Remember, please show good netizenship and don't join just to be joining. Thanks! :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="lilo"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-19-04">
+        <dc:date>2005-03-26T19:19:04Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-39-57">
+        <dc:date>2005-03-26T20:39:57Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+    </rdf:Seq>
+  </foaf:chatEventList>
+</foaf:ChatChannel>
+</rdf:RDF>

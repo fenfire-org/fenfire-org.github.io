@@ -1,0 +1,60 @@
+<!-- Processed by Id: cwm.py,v 1.132 2003/07/18 20:33:02 timbl Exp -->
+<!--     using base file:/tmp/@26772.0-rdfconverter-->
+
+
+<rdf:RDF xmlns="http://example.org/foo#"
+    xmlns:ex="http://example.org/foo#"
+    xmlns:log="http://www.w3.org/2000/10/swap/log#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <rdf:Description rdf:about="http://example.org/foo#TODO">
+        <item rdf:resource="http://example.org/foo#todo1"/>
+        <item rdf:resource="http://example.org/foo#todo2"/>
+        <item rdf:resource="http://example.org/foo#todo3"/>
+        <rdfs:description>TODO</rdfs:description>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/foo#book">
+        <rdfs:description>book</rdfs:description>
+    </rdf:Description>
+
+    <Person rdf:about="http://example.org/foo#carli">
+        <birthday>1967-08-03</birthday>
+        <firstName>Carli</firstName>
+        <fullName>Carli Meander</fullName>
+        <hasBorrowed rdf:resource="http://example.org/foo#londonMap"/>
+    </Person>
+
+    <rdf:Description rdf:about="http://example.org/foo#londonMap">
+        <rdfs:description>my map of London</rdfs:description>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/foo#meeting">
+        <about rdf:resource="http://example.org/foo#book"/>
+        <where rdf:resource="http://example.org/foo#office"/>
+        <with rdf:resource="http://example.org/foo#carli"/>
+        <with rdf:resource="http://example.org/foo#mike"/>
+        <rdfs:description>Meeting 4/11</rdfs:description>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/foo#mike">
+        <firstName>Mike</firstName>
+        <rdf:type rdf:resource="http://example.org/foo#Person"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/foo#needToTakeOnVacation">
+        <item rdf:resource="http://example.org/foo#londonMap"/>
+        <rdfs:description>need to take with me on vacation</rdfs:description>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/foo#office">
+        <rdfs:description>office</rdfs:description>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/foo#todo1">
+        <about rdf:resource="http://example.org/foo#book"/>
+        <to rdf:resource="http://example.org/foo#carli"/>
+        <rdfs:description>need to write mail</rdfs:description>
+    </rdf:Description>
+</rdf:RDF>

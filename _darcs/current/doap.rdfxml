@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="">
+    <ns0:primaryTopic xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://fenfire.org/#project"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Benja Fallenstein</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">benja</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <ns0:mbox xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="mailto:benja.fallenstein@gmail.com"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Matti J. Katila</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">mudyc</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">majukati</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <ns0:mbox_sha1sum xmlns:ns0="http://xmlns.com/foaf/0.1/">6cd98902f9f6c5f7d2edf41176e746bb52262332</ns0:mbox_sha1sum>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Tuukka Hastrup</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">tuukkah</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <ns0:mbox xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="mailto:Tuukka.Hastrup@iki.fi"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.iki.fi/Tuukka.Hastrup/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <rdf:type rdf:resource="http://usefulinc.com/ns/doap#Project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:name xmlns:ns0="http://usefulinc.com/ns/doap#">Fenfire</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">Fenfire</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://fenfire.org/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:homepage xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:resource="http://fenfire.org/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:license xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:resource="http://usefulinc.com/doap/licenses/gpl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:repository xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:resource="http://himalia.it.jyu.fi/darcs/fenfire/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://himalia.it.jyu.fi/darcs/project/fenfire.turtle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:description xmlns:ns0="http://usefulinc.com/ns/doap#">RDF browser, editor, and kitchen sink</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:mailing-list xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:resource="mailto:fenfire-dev@nongnu.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:mailing-list xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:resource="http://lists.nongnu.org/mailman/listinfo/fenfire-dev"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:developer xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:developer xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:developer xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:nodeID="genid3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fenfire.org/#project">
+    <ns0:screenshots xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:resource="http://fenfire.org/screenshots/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://himalia.it.jyu.fi/darcs/fenfire/">
+    <ns0:browse xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:resource="http://himalia.it.jyu.fi/darcs/fenfire/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://himalia.it.jyu.fi/darcs/fenfire/">
+    <ns0:location xmlns:ns0="http://usefulinc.com/ns/doap#" rdf:resource="http://himalia.it.jyu.fi/darcs/fenfire/"/>
+  </rdf:Description>
+</rdf:RDF>

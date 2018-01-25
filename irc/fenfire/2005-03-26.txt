@@ -1,0 +1,282 @@
+09:20:50 <tuukkah> based on the recent slashdot article, I wonder how google does version control and releases on their unified codebase
+10:22:06 <ibid> hm?
+11:30:44 <tuukkah> it sounded a lot like fenfire: they have a lot of code that is divided into subprojects and anyone can commit to anything
+11:31:03 <ibid> ref?
+11:31:13 <ibid> * ibid does not read /. frequently:)
+11:31:41 <tuukkah> http://developers.slashdot.org/developers/05/03/25/2129248.shtml
+11:49:16 <benja_> huomenta
+11:52:43 <ibid> menta
+11:55:00 <tuukkah> huomenta benja_
+11:57:07 <ibid> benja_: i don't know if you noticed, but i finally got fenfeed running for the first time :)
+11:57:17 <ibid> benja_: it helped when i realized i don't have to package it first... :)
+11:57:54 <benja_> :)
+11:58:02 <benja_> I hadn't yet noticed
+11:59:06 <ibid> do you know what causes the extreme slowness between the creation of the window and the showing of the ui components?
+11:59:23 <ibid> doesn't sound like anything i'd guess
+11:59:47 <benja_> no, but I expect it to either have to do with threading problems or with smushing
+11:59:57 <ibid> hm?
+11:59:59 <benja_> I haven't investigated
+12:00:24 <ibid> any guess where in the code, roughly?
+12:00:28 <benja_> threading problems: the feeds are loaded on a different thread, then inserted into the main graph in a bg task on the main thread
+12:00:43 <benja_> this would be in org.fenfire.fenfeed :-)
+12:01:28 <benja_> smushing: the current smushing impl is very non-optimized, but I don't have evidence it's a problem, yet; the code would be in org.fenfire.swamp.smush.SmushedQuadsGraph
+12:01:46 <ibid> i think i've been explained before what smushing is but can't remember
+12:01:47 <benja_> it would probably pay to profile
+12:02:03 <ibid> * ibid might try to review the code later today
+12:02:08 <ibid> no promises :)
+12:02:16 <benja_> ibid: making two bnodes (in our case URIs too) that represent the same resource into one
+12:02:48 <ibid> what's a bnode?
+12:03:34 <benja_> a node without a uri. is graph-local. also known as anonymous node
+12:03:40 <benja_> bnode = blank node
+12:03:42 <benja_> (no label)
+12:03:45 <ibid> ok
+12:03:48 <ibid> thanks :)
+12:24:28 <rubberpaw> rubberpaw has joined #fenfire
+12:25:07 <rubberpaw> * rubberpaw checks to see if anyone is awake
+12:26:21 <tuukkah> hi rubberpaw. at least benja_, ibid and me :-)
+12:26:26 <rubberpaw> Hi tuukkah 
+12:26:36 <rubberpaw> I have a bit of a favor to ask, if it's possible
+12:26:49 <rubberpaw> I'm just finishing up a paper for the ACM hypertext 2005
+12:26:58 <tuukkah> at least you can ask
+12:27:00 <rubberpaw> and I want to see what happens if I put a particular dataset into Fenfire
+12:27:09 <rubberpaw> (I was thinking about the screenshow I saw with the gnowsis stuff)
+12:27:16 <rubberpaw> (screentsho
+12:27:21 <rubberpaw> screenshot, that is
+12:27:36 <rubberpaw> (kb issues through this ssh tty, sorry)
+12:27:45 <tuukkah> do you have the rdf file?
+12:28:02 <rubberpaw> and I didn't know if anyone had a build I might be able to run on OS/X
+12:28:47 <tuukkah> I think benja_ has OS/X
+12:28:52 <rubberpaw> no RDF at this point, though I could probably whip it up. It might take a bit. I have a 60 node, geodesically-structured hypertext 
+12:29:50 <rubberpaw> I think Fenfire might be my best opportunity to find software that properly visualizes it
+12:30:27 <rubberpaw> gZigZag does fairly well in MindSundew view, but the issue of directional links causes problems.
+12:31:19 <tuukkah> hmm, what kind of problems? because rdf triples are directional too
+12:32:58 <rubberpaw> well, gzz links are posward or negward
+12:34:10 <ibid> actually, gzz links are both posward and negward :)
+12:34:16 <rubberpaw> when setting up the links in gzz, I used one dimension's posward and negward links to show links around pentagonal centers
+12:34:29 <rubberpaw> ibid: yeah
+12:34:54 <rubberpaw> which worked great
+12:34:58 <ibid> * ibid is writing a biting mail on identity to the course list :)
+12:35:55 <rubberpaw> but then I created another dimension to store the third link for a triangle.
+12:36:41 <rubberpaw> This worked well, but when I linked pentagons to each other, moving outside of the pentagon would be either left or right -- I couldn't make it uniform 
+12:36:52 <rubberpaw> argh -- it's difficult to describe.
+12:37:07 <rubberpaw> let me try again.
+12:37:16 <tuukkah> I think I get the picture
+12:37:39 <rubberpaw> my geodesic structure contains 12 groups of 5 triangles
+12:37:48 <rubberpaw> I made each of these a loop of nodes
+12:37:54 <rubberpaw> in one dimension.
+12:37:57 <tuukkah> yes
+12:38:18 <rubberpaw> now, each of these triangles also has one outward link to another pentagonal loop
+12:38:38 <rubberpaw> I wanted each of these links to be in the same direction.
+12:39:03 <rubberpaw> ie, it would create something like a tree that would branch downward forever.
+12:39:58 <tuukkah> do you know how you would represent this in rdf?
+12:40:19 <rubberpaw> but the posward/negward-ness of links meant that it was impossible to tell which direction one would have to move.
+12:40:34 <rubberpaw> Actually -- not at this point. I haven't put much thought into it.
+12:41:08 <tuukkah> or as a general graph?
+12:41:23 <rubberpaw> hmm
+12:42:07 <rubberpaw> no, I have not. I am, unfortunately deficient in that part of mathematics.
+12:42:19 <tuukkah> basicly, you have 60 nodes, and some lines between them
+12:42:46 <rubberpaw> right. I have already mapped it out in hypertext software.
+12:43:24 <tuukkah> it's a general graph, when the lines don't have direction or colour or anything like that
+12:43:25 <rubberpaw> 2d spatial hypertext 
+12:43:31 <rubberpaw> ahh, ok.
+12:44:19 <tuukkah> with zzstructure, you have to choose colours and arrowheads, and you can't have to arrows of same color be of same direction to one node
+12:44:51 <rubberpaw> right.
+12:45:21 <tuukkah> with rdf, you can choose colours, you have to choose arrowheads but you can always put arrow in both directions, as you don't have limit on the number of arrows in a node
+12:45:57 <rubberpaw> right -- in zigzag you can have unlimited arrows, but only two per dimension.
+12:47:21 <tuukkah> on some level of rdf, you can describe that some relation is of a type where the direction doesn't matter, but fenfire doesn't make use of such description at the moment
+12:48:08 <tuukkah> at least if we're discussing the fentwine structure view
+12:49:23 <rubberpaw> am I correct in thinking that if something links to or is linked from a the currently-focused node, Fenfire will show it in the view?
+12:49:34 <tuukkah> my point is, I think in practise you'd want to choose a direction instead of making two-way connections
+12:50:07 <rubberpaw> perhaps for the visualization, yes 
+12:50:23 <rubberpaw> in the actual hypertext (http://www.rubberpaw.com/philadelphia/), direction is meaningless.
+12:50:33 <tuukkah> rubberpaw, yes. links to the node are on the left half of the wheel, and links from the node are on the right half of the wheel
+12:51:05 <rubberpaw> that's what I need. Since the hypertext is spherical, this will look natural.
+12:56:41 <rubberpaw> a couple of screenshots can be seen at: http://www.rubberpaw.com/posts/musicoft.html
+12:59:21 <rubberpaw> for interface purposes, I suppose I could modify my gzz file to have two links between the pentagon edges
+12:59:31 <tuukkah> oh, you've managed to put it quite nicely into MindSundew! I wonder if it's even possible to get to look anything like that in current fetwine
+13:00:06 <rubberpaw> but it only looks good up to a certain point. Because if I go down to any of the other pentagons
+13:00:22 <rubberpaw> it messes up, since the link back to the pentagon currently viewed is negwawwrd
+13:00:36 <tuukkah> oh, right
+13:00:46 <rubberpaw> so, I would be happy to settle for only seeing one node
+13:00:49 <rubberpaw> and three surrounding nodes
+13:01:08 <tuukkah> we hope that it would at some point be easy to make your own views
+13:01:16 <rubberpaw> which is what I imagine Fenfire would be able to do.
+13:04:23 <tuukkah> ok, now I have a loop of five linked nodes in fenfire :-)
+13:05:24 <tuukkah> I suppose I should write a script that creates the rdf data so that it could be faster to experiment with alternatives
+13:07:11 <rubberpaw> wow -- if you really feel like it :-).
+13:08:11 <tuukkah> I feel like I haven't learned the rdf structure and the wheel view in the same way as I did gzigzag 0.6 at some point
+13:08:20 <tuukkah> so this could help
+13:08:46 <rubberpaw> cool
+13:09:13 <rubberpaw> *works to procure a screenshot of gzz mindsundew when it doesn't look so neat.
+13:10:45 <rubberpaw> * rubberpaw hompes he still has the dataset -- it was four months ago...
+13:10:54 <rubberpaw> (argh. kb -- hopes)
+13:18:36 <rubberpaw> whew. Good.
+13:44:56 <ibid> tuukkah, benja_: see my mail?:)
+13:47:32 <tuukkah> sorry, too long, I'm hacking ;-)
+13:47:56 <ibid> the answer is yes, then :)
+13:48:33 <ibid> i think i'll reprint that as a blog posting; any objections? :)
+13:53:29 <rubberpaw> rubberpaw has quit
+13:55:07 <rubberpaw> rubberpaw has joined #fenfire
+13:55:17 <rubberpaw> * rubberpaw is rebuilding the data so each trans-pentagon link consists of two links in gzz -- just to see if that fixes the visualization issues
+13:55:25 <rubberpaw> whoops -- disconnected
+13:56:27 <tuukkah> I have the pentagons now, and I'm thinking how to connected them to each other in the right way
+13:58:36 <rubberpaw> oh cool.
+14:09:16 <tuukkah> this is what I have at the moment: http://iki.fi/Tuukka/tmp/fullerine.png
+14:10:48 <ibid> (http://antti-juhani.kaijanaho.info/blog/en/stuff/identity.html)
+14:14:43 <rubberpaw> hmm. So it's showing more than just the immediately linked items
+14:15:10 <tuukkah> there are two parameters for controlling that in the view
+14:15:33 <rubberpaw> that's the idea though. The reality is that the pentagons on the sculpture 
+14:15:54 <rubberpaw> are not supposed to be identified as groupings. Each triangle is the center of it's own three-linked universe
+14:16:02 <rubberpaw> or at least, that's the goal.
+14:17:12 <tuukkah> one is how many links to take when starting from the focused node. the other is how foggy nodes are still drawn
+14:17:52 <rubberpaw> ahh, ok. So if I got a copy of fenfire and the dataset, I could tweak things?
+14:19:22 <tuukkah> actually, the only way to change the parameters at the moment is in the source code
+14:19:36 <rubberpaw> ahh.
+14:20:09 <rubberpaw> * rubberpaw grumbles and considers whether he has time to install apple Dev tools
+14:20:18 <rubberpaw> hmm, I'll finish the recoding in 
+14:20:38 <rubberpaw> gzigzag and then see where I stand. Thank you very much for your efforts.
+14:21:00 <tuukkah> it was nothing
+14:21:15 <rubberpaw> do you mind sending me the dataset? matiasj@etown.edu
+14:21:39 <tuukkah> the rdf file?
+14:21:39 <rubberpaw> * rubberpaw has a copy of the source, but just had a crash and is still restoring software packages.
+14:21:42 <rubberpaw> yeah.
+14:21:53 <tuukkah> sure
+14:22:58 <rubberpaw> I'll send you my gzigzag folder when I finish tweaking it.
+14:26:29 <tuukkah> hmh, the parameters really don't work as I'd expect. I can get results such as no links showing at all, though
+14:29:12 <rubberpaw> ahh.
+14:30:22 <rubberpaw> btw, when I make two links between trans-pentagon nodes, spreadsheet-type views look nice.
+14:33:01 <tuukkah> ok, I thought this totally wrong =) it looks right when I set maxring to 0 and maxdepth to a big number like 10
+14:34:28 <rubberpaw> :-)
+14:37:24 <tuukkah> btw, if you have the code from benja_, you could ask him to give you an http account so you can pull updates made to the unpublished code
+14:37:48 <rubberpaw> ahh, ok. will do.
+14:38:21 <rubberpaw> I was using the source from the site.
+14:38:48 <rubberpaw> interestingly, after I reached a certain point, entering data became very easy (now that I have the double link)
+14:39:04 <rubberpaw> since I have a spatial model of the sphere in front of me, finding a particular node with the kb is very easy.
+14:39:15 <rubberpaw> s/spatial/physical/
+14:39:25 <tuukkah> yes :-)
+14:39:57 <rubberpaw> I don't have to use the screen even, since I know how the structure works.
+14:43:13 <rubberpaw> hmm, it's behaving much more nicely in the mindsundew now
+14:43:46 <rubberpaw> I think I have it all linked properly.
+14:46:32 <rubberpaw> yeah. .zips the files...
+14:47:14 <rubberpaw> 13k -- should I upload or email?
+14:49:07 <tuukkah> upload would be easier for me
+14:49:59 <rubberpaw> ok. I'll put it on my server in a few minutes...
+14:51:58 <rubberpaw> whoops -- I misnamed my dimensions. I called trans-pentagon dim "clockwise" and the pentagon links "transagon"
+14:52:24 <rubberpaw> just keep that in mind when you view.
+14:59:39 <rubberpaw> http://www.rubberpaw.com/philadelphia/philly.zip
+15:02:17 <tuukkah> 403 Forbidden
+15:03:29 <rubberpaw> oh ak. let me change the perms...
+15:03:45 <rubberpaw> try now
+15:03:55 <tuukkah> works
+15:04:09 <rubberpaw> cool.
+15:07:54 <tuukkah> the animation became a bit funny =)
+15:08:08 <rubberpaw> :)
+15:08:10 <rubberpaw> but it works?
+15:08:24 <tuukkah> yes
+15:08:43 <rubberpaw> cool.
+15:08:57 <rubberpaw> that is because the node immediately to the right
+15:09:01 <rubberpaw> also appears below
+15:09:31 <rubberpaw> and below that, the top pentagon is reproduced at the very bottom
+15:09:44 <rubberpaw> this is a result of the double-linking along the "clockwise" dimension
+15:11:16 <rubberpaw> argh. I would have fixed the naming error, but for some reason, renaming the dimension caused links to break.
+15:15:03 <rubberpaw> Well, I'm including you in the acknowledgements, if you don't mind. 
+15:15:36 <tuukkah> it's ok if yoy want to
+15:15:41 <tuukkah> you
+15:20:59 <tuukkah> rubberpaw, I think I was able to change the dimensions. from the dataset directory, I renamed the file "transagon" as "clockwise" and vice versa
+15:27:33 <rubberpaw> ahh, ok. 
+15:27:46 <rubberpaw> it still works? (I wasn't aware of how things worked on the file end)
+15:27:53 <tuukkah> yes
+15:28:12 <tuukkah> not very user-friendly way to achieve renaming, thougn ;-)
+15:28:59 <rubberpaw> hehee. Can you email it to me?
+15:29:39 <tuukkah> I'm thinking wouldn't it be easier if you rename the files yourself?
+15:30:44 <rubberpaw> lol. This is what I get for having three monitors, and three desks of papers strewn about. A lack of focus.
+15:32:10 <tuukkah> I have to go to the store before they close - I'll be back later
+15:34:23 <rubberpaw> ok. ttyl
+16:07:01 <ibid> ttyl?
+16:15:33 <rubberpaw> rubberpaw has quit
+17:03:38 <rubberpaw> rubberpaw has joined #fenfire
+17:03:52 <rubberpaw> *sigh* keeps disconnecting
+17:05:29 <ibid> reason: Read error: 60 (Operation timed out)
+17:05:33 <ibid> on both occasions
+17:06:00 <rubberpaw> weird. I have a good connection. It must be something about my client
+17:06:10 <rubberpaw> thanks ibid
+17:06:54 <rubberpaw> BitchX, but you already know that.
+17:09:57 <ibid> google gives me nothing
+17:12:24 <rubberpaw> oh well. Thanks
+17:12:39 <tuukkah> back
+17:12:53 <tuukkah> I looked at another channel and same error message there
+17:14:07 <tuukkah> but he has a bad connection
+17:14:24 <rubberpaw> oh well.
+17:16:17 <tuukkah> internet is so complex
+17:16:30 <rubberpaw> :)
+17:17:48 <tuukkah> there must be a lot of attention already paid on simplicity, but I feel a lot more could be done
+17:18:30 <rubberpaw> to make the 'net better?
+17:19:06 <tuukkah> would robust be the word?
+17:19:23 <rubberpaw> ahh. Well, it's pretty tough to do it. 
+17:19:34 <rubberpaw> I mean, it's supposed to in theory be very robust with packet switching
+17:19:47 <tuukkah> on that level, yes
+17:19:49 <rubberpaw> but there are so many single points of failure
+17:20:02 <rubberpaw> because it's wired by economic forces
+17:20:30 <tuukkah> they always tell how internet is meant to be the ultimate P2P without points of failure :-)
+17:20:30 <rubberpaw> I mean, in our area, Comcast had everything going through one piece of hardware
+17:20:50 <rubberpaw> and when that piece of hw went down
+17:20:57 <rubberpaw> half of the nodes on the net on the US east coast went down.
+17:21:05 <rubberpaw> this was just last month
+17:21:32 <rubberpaw> what we need is wireless with GNURadio
+17:21:34 <tuukkah> probably because one piece of hardware was cheaper to buy and manage than several
+17:21:46 <rubberpaw> or they were lazy
+17:21:51 <rubberpaw> or
+17:21:57 <rubberpaw> they needed to surveil the connection
+17:22:08 <tuukkah> right :-/
+17:22:40 <rubberpaw> but if we all used auto-negotiating wireless devices
+17:22:46 <rubberpaw> in an ad-hoc network
+17:22:55 <rubberpaw> then we could leverage the robustness of the protocols
+17:23:18 <rubberpaw> but the gov't and big biz wouldn't allow it here
+17:23:27 <tuukkah> but what about this irc server giving error messages that in addition to "read error", 60 and "operation timed out" would tell who and why does it matter :-)
+17:23:42 <rubberpaw> one of my profs built a supercomputer in his basement.
+17:24:03 <rubberpaw> and a week later, the FCC came to his door, since it was interfering with television signals
+17:24:08 <rubberpaw> this was decades ago
+17:24:08 <tuukkah> rubberpaw, yeah, I've heard of the issue of radio spectrum monopoly
+17:24:42 <rubberpaw> (well, it's sticky. I would have to maybe give the IRC my email, since the timeout could mean I lost connection) 
+17:25:08 <rubberpaw> (and maybe I want to be anonymous)
+17:25:23 <rubberpaw> (but yeah -- the error message could be clearer)
+17:25:48 <tuukkah> but we'd want to know on which layer the trouble might lay
+17:26:08 <rubberpaw> (right. Well. The server is OSS. Get the source and patch ;-) )
+17:26:20 <tuukkah> -)
+17:26:24 <rubberpaw> if the connection goes down
+17:26:34 <rubberpaw> perhaps you can get the irc server to remember my ip
+17:26:40 <rubberpaw> and try to traceroute me
+17:26:48 <rubberpaw> noting the point at which the connection dies
+17:26:53 <rubberpaw> and reporting it
+17:27:08 <tuukkah> that would be bonus :-)
+17:27:45 <rubberpaw> but you're right. These things should be built into basic internet libs
+17:27:59 <rubberpaw> there should be a high level diagnostic system that will try to identify issues like this
+17:28:15 <rubberpaw> and let the programmer decide who/how to notify
+17:28:29 <rubberpaw> you just basically write some really good error handlers.
+17:28:54 <tuukkah> I know I could start with Fenfire ;-)
+17:28:57 <rubberpaw> that can be overrided for particular actions but get passed a package of error data
+17:29:09 <rubberpaw> there might already be a lib
+17:29:17 <rubberpaw> I bet that it would be really useful for Storm
+17:30:49 <tuukkah> but we have even lots of simple things still like catching exceptions and turning them into something visible instead of proceeding quietly
+17:31:34 <rubberpaw> in Storm?
+17:32:18 <tuukkah> probably there as well, but I'm thinking of the apps, FenFeed and Fentwine
+17:32:30 <rubberpaw> ahh, ok.
+17:33:02 <rubberpaw> Good.
+17:33:43 <tuukkah> in Storm, I guess we should start that kind of checks with getting through NATs and firewalls
+17:34:00 <tuukkah> as they are used everywhere these days
+17:34:18 <rubberpaw> right.
+17:46:26 <tuukkah> ibid, I wouldn't call urn-5 "the brainchild of the Fenfire project" but "a brainchild ..." instead ;-)
+17:46:39 <ibid> heh
+17:46:59 <ibid> fixed in blog
+17:49:50 <ibid> sort-dctrl works!
+17:49:56 <tuukkah> I've been reading a lot of grammar lately, although not English. 2 points for each such failure, and 2 in every sentence would fail you
+17:50:20 <ibid> in what kind of a course?
+17:50:38 <ibid> of course that would not be a submission in any course where that matters that much :)
+17:51:00 <tuukkah> grammar in swedish basic studies
+17:51:12 <ibid> in general terms, most of my emails and virtually all of my blog postings are "first draft" material, with little checks
+17:51:40 <ibid> if grammar was an issue, i'd certainly have read it a couple more times over
+17:51:54 <tuukkah> I didn't want to say you should check more
+17:52:56 <ibid> i didn't think you did :)
+19:02:25 <lilo> [Global Notice] Hi all. Sorry to disturb. Freenode is setting up an interim incident reporting page, and we need your help. If you have ideas for *specific* categories of problems to be reported or support requests to be made, please stop by #freenode-tracking and, erm, blurt them out on the channel? Remember, please show good netizenship and don't join just to be joining. Thanks! :)
+19:19:04 <rubberpaw> rubberpaw has quit
+20:39:57 <rubberpaw> rubberpaw has joined #fenfire

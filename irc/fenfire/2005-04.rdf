@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <rdf:Seq>
+    <dc:title>2005-04</dc:title>
+    <rdf:li>
+      <rdf:Description rdf:about="2005-04-13.rdf">
+        <dc:title>2005-04-13</dc:title>
+      </rdf:Description>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Description rdf:about="2005-04-12.rdf">
+        <dc:title>2005-04-12</dc:title>
+      </rdf:Description>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Description rdf:about="2005-04-11.rdf">
+        <dc:title>2005-04-11</dc:title>
+      </rdf:Description>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Description rdf:about="2005-04-10.rdf">
+        <dc:title>2005-04-10</dc:title>
+      </rdf:Description>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Description rdf:about="2005-04-09.rdf">
+        <dc:title>2005-04-09</dc:title>
+      </rdf:Description>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Description rdf:about="2005-04-08.rdf">
+        <dc:title>2005-04-08</dc:title>
+      </rdf:Description>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Description rdf:about="2005-04-07.rdf">
+        <dc:title>2005-04-07</dc:title>
+      </rdf:Description>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Description rdf:about="2005-04-06.rdf">
+        <dc:title>2005-04-06</dc:title>
+      </rdf:Description>
+    </rdf:li>
+  </rdf:Seq>
+</rdf:RDF>

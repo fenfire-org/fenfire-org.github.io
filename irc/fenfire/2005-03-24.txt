@@ -1,0 +1,190 @@
+19:24:06 <irc.freenode.org> Disconnected from irc.freenode.org (ERROR :Closing Link:  (Connection Timed Out))
+19:27:14 <fflogbot> fflogbot has joined #fenfire
+19:27:14 <niven.freenode.net> topic is: http://fenfire.org - the channel may or may not be logged
+19:27:14 <niven.freenode.net> Users on #fenfire: fflogbot mudyc Gwl ibid antont humppake jvk benja_ majukati tuukkah 
+19:36:17 <benja_> hmm
+19:49:06 <benja_> well, there is now a cron script copying the logs to eppi
+19:49:21 <benja_> every 15 minutes
+20:15:14 <benja_> http://fenfire.org/irc/fenfire/
+20:32:43 <ibid> benja_: the rekisteriseloste has broken charset, i fixed that in my copy, can you pull?
+20:49:13 <ibid> it's amazing how much clearer the screen looks after i cleaned it :)
+20:49:19 <ibid> (physically cleaned, that is)
+20:59:18 <ibid> added draft minutes
+20:59:21 <ibid> pull?
+21:20:55 <benja_> done
+21:21:53 <benja_> The requested URL /foundation/saannot.html was not found on this server.
+21:29:12 <ibid> known problem
+21:29:17 <ibid> fixing as we write
+21:30:58 <ibid> pull
+21:31:10 <benja_> ok
+21:48:41 <tuukkah> benja_, looks fine otherwise, but you use static methods all too much
+21:49:08 <benja_> tuukkah: how so?
+21:49:17 <ibid> tuukkah: as you can see, i preempted you. sorry :)
+21:49:37 <ibid> benja had better response time :)
+21:50:10 <tuukkah> ibid, I was still waiting for your amended patch in the morning
+21:50:21 <ibid> yeah, i fell asleep
+21:50:39 <ibid> today afternoon, it seemed like benja was the faster route :)
+21:50:39 <tuukkah> benja_, couldn't rolecontext be an object?
+21:51:04 <benja_> tuukkah: that would not be in line with how other javolution contexts work
+21:51:24 <benja_> (they're objects, but using them happens through static methods)
+21:51:51 <tuukkah> benja_, ok :-)
+21:52:00 <tuukkah> ibid, I don't know what you're talking about
+21:52:10 <ibid> benja was talking :)
+21:52:11 <benja_> I really don't want to break convention there
+21:52:39 <benja_> tuukkah: I applied ibid's changes to fenfire.org
+21:52:47 <tuukkah> it's not that bad if the class is forwarding the messages to some object
+21:52:47 <benja_> (that's what ibid was talking about)
+21:53:25 <tuukkah> I don't have a problem with, I don't like applying patches or fixing charsets
+21:53:32 <ibid> :)
+21:53:46 <ibid> benja_ talked about adding me to the group
+21:53:52 <ibid> tuukkah: have you looked at the pages?
+21:53:59 <benja_> yeah, I see no reason not to
+21:54:00 <ibid> (the unix group, that is)
+21:54:06 <benja_> someone needs to ping the admins
+21:54:15 <ibid> somebody who's already in it
+21:54:21 <benja_> (if there isn't some userspace tool that group members can use that I'm not aware about)
+21:54:46 <ibid> there is a userspace tool but only root can use it :)
+21:57:11 <ibid> the asterisks do look a little amusing, though
+22:07:12 <ibid> pull, please (fixed the displays)
+22:08:27 <benja_> 'kay
+22:09:50 <ibid> (reminding benja_ on doing the joining bit:)
+22:15:09 <benja_> should we have a URI identifying the Fenfire project?
+22:15:50 <tuukkah> http://fenfire.org?
+22:16:23 <tuukkah> oh, that identifies a web page location
+22:16:27 <benja_> tuukkah: which URI would identify the homepage, then
+22:16:33 <ibid> benja_: for what purpose? (genuinely asking:)
+22:16:40 <tuukkah> I'm close to failing the course ;-)
+22:16:49 <benja_> tuukkah: =)
+22:17:02 <benja_> ibid: I'm writing a DOAP file (Description of a Project, like FOAF) for Fenfire
+22:17:23 <benja_> if we pick a canonical URI, that makes the project somewhat easier to refer to in RDF graphs
+22:17:26 <tuukkah> DOAP is famous from planet debian :-)
+22:17:36 <benja_> doap:homepage is an inverse functional property
+22:17:46 <benja_> i.e., used to uniquely identify the project
+22:18:01 <benja_> and everybody knows that <http://fenfire.org/> is our homepage
+22:18:32 <tuukkah> same trick as foaf:mbox? "the first project that had fenfire.org as their homepage"
+22:18:42 <benja_> y
+22:20:43 <benja_> one way is to use http://fenfire.org/#something
+22:22:14 <benja_> say, http://fenfire.org/#project
+22:22:34 <ibid> where in planet debian is a doap?
+22:22:45 <benja_> another way is, of course, to use a bnode
+22:37:58 <benja_> http://fenfire.org/doap.turtle
+22:58:23 <benja_> RoleContext implemented :-)
+23:18:03 <tuukkah> ibid, the developer of doap blogs there
+23:18:21 <ibid> who?
+23:18:47 <benja_> edd dumbill?
+23:18:50 <tuukkah> yes
+23:18:52 <ibid> oh
+23:18:54 <ibid> ok
+23:21:42 <benja_> I really liked earlier today to cd to the darcs archive on the web server and say, pull from this other http uri
+23:22:21 <benja_> in that kind of scenario, darcs feels like a versioning extension for http =]
+23:22:32 <ibid> :)
+23:22:40 <ibid> oh, now i get your exclamation :)
+23:22:47 <benja_> *g* :)
+23:23:04 <benja_> I think this should be an inspiration to Storm
+23:23:38 <ibid> * ibid has been pondering doing a nih-system based on some ideas in storm
+23:24:06 <benja_> hm, how do you do a system invented somewhere else? ;-)
+23:24:31 <benja_> but, do elaborate
+23:25:12 <ibid> nih in the same sense that i ponder doing my own web browser
+23:25:34 <ibid> ie., i'd rather start afresh than work on a previous design
+23:25:46 <ibid> i think it has to do with my 'world-building' attitude
+23:26:14 <ibid> but something fairly standalone anyway :)
+23:26:24 <benja_> things I'm missing in darcs (and I'm aware they're out-of-scope for the source code revision control system darcs is) are, not having rigid repository boundaries; having URIs for patches and versions; having rdf to track when you branch from somewhere else -- i.e., "what are places that branch from here?"
+23:27:04 <ibid> what does 'rigid repository boundaries' mean?
+23:28:11 <benja_> in darcs, it's clear where in the hierarchy a repository starts (the dir containing the _darcs dir) and where it ends (subdirs containing a _darcs dir are not part of repo) (and also non-added dirs and files aren't)
+23:28:42 <benja_> I'd like not to have the concept of a repo, if possible, only dirs and files with versions
+23:28:51 <benja_> hmm, this is a bit fuzzy
+23:29:02 <benja_> not clear how it interacts with the need for atomic commits
+23:29:15 <benja_> (i.e., changes to a number of files/dirs should be a single commit)
+23:29:51 <ibid> ah, you wanted to get rid of the boundaries. i wondered what kind of boundaries could you mean if the current ones are not enough ;)
+23:30:07 <benja_> :)
+23:30:17 <ibid> benja_: essentially, you want a versioned file system with acid transactions?
+23:30:21 <ibid> benja_: ie. a database :)
+23:31:01 <benja_> no :)
+23:31:18 <ibid> well, that's what it sounds like
+23:31:45 <ibid> (not a *relational* database, true:)
+23:32:01 <benja_> well, I think perhaps you misunderstand what I mean about atomic commits -- darcs has them, cvs doesn't, we need to keep them
+23:32:18 <ibid> atomic commits are what acid transactions are about
+23:32:18 <benja_> I want something that's less like a file system than darcs is, I think =)
+23:33:02 <ibid> acid = atomic, consistent, isolated, durable
+23:33:21 <ibid> in case you haven't heard, which you probably have :)
+23:33:56 <benja_> :)
+23:34:10 <ibid> have you?
+23:34:14 <benja_> yes
+23:34:22 <ibid> or should i lecture... probably not, then :)
+23:34:41 <benja_> it has even been part of the content of the distributed systems course I've recently taken
+23:34:46 <benja_> ibid: some other time :)
+23:34:49 <ibid> :)
+23:35:06 <benja_> I'm more interested in discussion about darcs and beyond...
+23:35:13 <ibid> * ibid is hot on transactions currently, thanks to spj et co's paper on software transactional memory
+23:35:21 <benja_> I want to be able to branch a single web page, for example
+23:35:54 <ibid> ok, fine-grained, nestable repos? :)
+23:36:00 <benja_> hmm
+23:36:26 <benja_> I mean, the single web page wouldn't be considered its own repo by its author
+23:36:42 <ibid> i got that
+23:36:54 <ibid> it's just the way my math-trained mind works :)
+23:36:56 <benja_> more interesting case: consider http://himalia.it.jyu.fi/darcs/fenfire/metacode/send_darcs_diffs.py :)
+23:37:04 <benja_> mhm
+23:37:11 <ibid> the author has a repo, then anybody can consider any "subset" of the repo a repo
+23:37:19 <benja_> yeah, that's what I mean
+23:37:36 <ibid> with proper subrepo semantics, of course
+23:37:40 <benja_> (cvs is somewhat like that actually)
+23:37:46 <benja_> ibid: subrepo semantics?
+23:38:16 <ibid> stuff like if i commit to the single-file repository, it is visible as a single-file commit in all superrepos
+23:38:29 <benja_> yeah
+23:38:32 <ibid> self-evident stuff, really :)
+23:38:41 <ibid> but that's how my math-trained mind works ;)
+23:39:16 <ibid> actually, a file portion repo would be nice, too
+23:39:22 <ibid> but becomes nasty
+23:39:29 <benja_> that's how your math-trained mind works ;)
+23:39:37 <ibid> at least with the unixish definition of file
+23:39:40 <ibid> benja_: more or less :)
+23:39:43 <benja_> =)
+23:39:58 <benja_> an interesting question is versioning of items in an rdf graph
+23:40:04 <benja_> (interesting and relevant to us)
+23:40:31 <benja_> basically, you must be able to take an arbitrary function selecting part of a graph, and then consider the history of the so-selected subgraph
+23:40:47 <benja_> since there are no rigid boundaries in hyperstructure, which is the point =)
+23:41:05 <ibid> so versioning should be subspace-invariant
+23:41:19 <ibid> or composable, or ...
+23:41:20 <benja_> what does invariant mean?
+23:41:29 <ibid> literally, not changing
+23:41:56 <ibid> as a technical term: a X-invariant is a property that stays the same even if the pov-X changes
+23:42:09 <benja_> ibid: what does it mean *here*?
+23:42:24 <ibid> something good :)
+23:42:29 <benja_> lol
+23:42:48 <ibid> it's rather fuzzy in my head currently
+23:42:53 <benja_> ok...
+23:43:11 <ibid> to describe it properly, i'd really have to solve the problem
+23:43:25 <ibid> since defining subspace-invariance is probably a large part of the solution :)
+23:43:36 <ibid> at least in theoretical terms, dunno about implementation
+23:43:43 <benja_> another issue is the relationship between patches and versions
+23:43:59 <benja_> I really want to be able to browse the "past versions of a page"
+23:44:23 <ibid> and link to a specific version, as well as "the current" version
+23:44:31 <benja_> true, yes
+23:45:06 <ibid> i suspect that under the hyperstructure versioning problem there lay several papers on graph theory :)
+23:45:17 <benja_> but it's also useful to have patches as a first-class concept
+23:45:34 <ibid> a patch is a node?
+23:46:02 <benja_> ?
+23:46:23 <benja_> I was thinking about darcs being patch-centric rather than version-centric
+23:46:37 <benja_> although a particular realization of a patch always has a version as context
+23:46:41 <ibid> i take it that first-class patch means that a patch is represented inside the versioned space
+23:46:50 <benja_> no
+23:46:52 <benja_> sorry
+23:46:58 <ibid> that's at least how my pl-trained brain works :)
+23:47:28 <benja_> in cvs, you have versions, and implicitly have patches as the gaps between the versions
+23:47:49 <benja_> in darcs, you have patches, and implicitly the versions as the gaps between the patches ;-)
+23:48:02 <benja_> you want to be able to link to both versions and patches, probably
+23:48:42 <benja_> "see this version"; "please apply this patch"; "this patch broke it because..."
+23:53:00 <benja_> "these patches have been applied"; "this patch has not been applied yet"
+23:53:41 <ibid> okay, if patches are first-class then versions are second-class :)
+23:53:51 <benja_> why?
+23:54:05 <benja_> why can't both be first-class?
+23:54:59 <ibid> then either patches are versions, versions are patches, or both are instances of some common superconcept
+23:55:11 <ibid> i don't say it cannot be
+23:56:17 <benja_> ibid: I think they're disjoint, and while they're related, they're not instances of the same concept
+23:57:09 <ibid> i mean, "first class X" implies, at least in pk parlance, a some sense of subsumption between all things first class
+23:57:30 <ibid> like, if functions are first class values, then they can be treated like any other value
+23:57:40 <ibid> s/pk/pl/
+23:58:12 <ibid> well, it doesn't matter
+23:58:35 <ibid> i think i need to go to sleep :)
+23:58:36 <benja_> they should both have URIs :-)
+23:58:40 <benja_> ok :-/

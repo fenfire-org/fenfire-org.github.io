@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>IRC log of fenfire on 2005-03-02</title>
+<meta name="generator" content="&#36;Id: logger,v 1.96 2004/04/27 22:56:54 cmdjb Exp &#36;" />
+ <style type="text/css">
+  .IRC { font-family: sans-serif }
+ </style>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1>IRC log of fenfire on 2005-03-02</h1>
+<p><em>Timestamps are in UTC.</em></p>
+<dl class="IRC">
+<dt id="T16-35-13">16:35:13 [fflogbot]</dt><dd>fflogbot has joined #fenfire</dd>
+<dt id="T16-35-13-1">16:35:13 [sterling.freenode.net]</dt><dd>topic is: <a href="http://fenfire.org">http://fenfire.org</a> - the channel may or may not be logged</dd>
+<dt id="T16-35-13-2">16:35:13 [sterling.freenode.net]</dt><dd>Users on #fenfire: fflogbot ffdarcsbot CaptSolo antont humppake tuukkah ibid mudyc majukati benja_ </dd>
+<dt id="T16-35-19">16:35:19 [tuukkah]</dt><dd>if the bot writes to a file in realtime, the file can't end in the xml close tag so it can't be an xml document</dd>
+<dt id="T16-35-40">16:35:40 [benja_]</dt><dd>tuukkah: they're re-created or something</dd>
+<dt id="T16-35-52">16:35:52 [benja_]</dt><dd>they're different per day, so the load isn't so big</dd>
+<dt id="T16-36-10">16:36:10 [benja_]</dt><dd>hmm</dd>
+<dt id="T16-36-11">16:36:11 [tuukkah]</dt><dd>hmm :-(</dd>
+<dt id="T16-36-19">16:36:19 [benja_]</dt><dd>"<a href="http://fenfire.org/irc/irc.freenode.org:6667/fenfire/2005-03-02.html">http://fenfire.org/irc/irc.freenode.org:6667/fenfire/2005-03-02.html</a>" -- argh</dd>
+<dt id="T16-36-39">16:36:39 [benja_]</dt><dd>need to change this</dd>
+<dt id="T16-36-48">16:36:48 [tuukkah]</dt><dd>;-D</dd>
+<dt id="T16-36-58">16:36:58 [antont]</dt><dd>:o</dd>
+<dt id="T16-38-34">16:38:34 [tuukkah]</dt><dd>and I thought the html file was a lot more verbose than plain text... :-)</dd>
+<dt id="T16-49-46">16:49:46 [fflogbot]</dt><dd>fflogbot has joined #fenfire</dd>
+<dt id="T16-49-46-1">16:49:46 [zelazny.freenode.net]</dt><dd>topic is: <a href="http://fenfire.org">http://fenfire.org</a> - the channel may or may not be logged</dd>
+<dt id="T16-49-46-2">16:49:46 [zelazny.freenode.net]</dt><dd>Users on #fenfire: fflogbot ffdarcsbot CaptSolo antont humppake tuukkah ibid mudyc majukati benja_ </dd>
+<dt id="T16-51-27">16:51:27 [benja_]</dt><dd>ok, <a href="http://fenfire.org/irc/fenfire/">http://fenfire.org/irc/fenfire/</a></dd>
+<dt id="T16-51-32">16:51:32 [benja_]</dt><dd>now it's barely working</dd>
+<dt id="T16-51-57">16:51:57 [benja_]</dt><dd>no index files yet</dd>
+<dt id="T16-52-45">16:52:45 [tuukkah]</dt><dd>so, I could load the nodes but how to see them?</dd>
+<dt id="T16-53-22">16:53:22 [benja_]</dt><dd>?</dd>
+<dt id="T16-53-23">16:53:23 [tuukkah]</dt><dd>oh, right...</dd>
+<dt id="T16-53-31">16:53:31 [tuukkah]</dt><dd>let me try</dd>
+<dt id="T16-53-56">16:53:56 [benja_]</dt><dd>they only use dc:description which is not a text property, so it's not very rewarding yet ;-)</dd>
+<dt id="T16-55-03">16:55:03 [antont]</dt><dd>what's rdf:li ?</dd>
+<dt id="T16-55-15">16:55:15 [antont]</dt><dd>not 'list item' like in html i suppose..</dd>
+<dt id="T16-55-31">16:55:31 [antont]</dt><dd>oh it is in &lt;rdf:Seq&gt; so perhaps yes</dd>
+<dt id="T16-55-45">16:55:45 [tuukkah]</dt><dd>after I went to irc://irc.freenode.org/fenfire I could see something but ran instantly out of memory</dd>
+<dt id="T16-56-07">16:56:07 [benja_]</dt><dd>tuukkah: huh, very weird</dd>
+<dt id="T16-56-10">16:56:10 [benja_]</dt><dd>there isn't a lot of data</dd>
+<dt id="T16-56-21">16:56:21 [benja_]</dt><dd>well, MX=256M =-)</dd>
+<dt id="T16-56-50">16:56:50 [benja_]</dt><dd>ah, I know</dd>
+<dt id="T16-56-58">16:56:58 [benja_]</dt><dd>there's some loop so the DFS bites =)</dd>
+<dt id="T16-57-18">16:57:18 [benja_]</dt><dd>you can set maxdepth to a lower number in StructureView</dd>
+<dt id="T16-57-30">16:57:30 [tuukkah]</dt><dd>or increase heap</dd>
+<dt id="T16-57-45">16:57:45 [benja_]</dt><dd>tuukkah: that was the MX comment</dd>
+<dt id="T16-57-57">16:57:57 [tuukkah]</dt><dd>yes</dd>
+<dt id="T16-58-36">16:58:36 [tuukkah]</dt><dd>oh, that was a makefile variable</dd>
+<dt id="T17-01-25">17:01:25 [tuukkah]</dt><dd>argh, all those rdf:_38 on the property list =)</dd>
+<dt id="T17-02-29">17:02:29 [benja_]</dt><dd><a href="http://www.ilrt.bris.ac.uk/discovery/chatlogs/swig/2005-03-02.html#T15-42-23">http://www.ilrt.bris.ac.uk/discovery/chatlogs/swig/2005-03-02.html#T15-42-23</a></dd>
+<dt id="T17-03-10">17:03:10 [tuukkah]</dt><dd>trying to got to eventlist node caused recursion limit to be exceeded</dd>
+<dt id="T17-03-38">17:03:38 [tuukkah]</dt><dd>at org.nongnu.libvob.impl.awt.DepthSorter.quicksort(DepthSorter.java:186)</dd>
+<dt id="T17-04-26">17:04:26 [benja_]</dt><dd>sigh</dd>
+<dt id="T17-07-06">17:07:06 [tuukkah]</dt><dd>with smaller limits it works</dd>
+<dt id="T17-07-21">17:07:21 [tuukkah]</dt><dd>maxdepth 4, maxring 3</dd>
+<dt id="T17-08-18">17:08:18 [tuukkah]</dt><dd>it doesn't really matter so much if dc:description isn't showed as node content</dd>
+<dt id="T17-08-41">17:08:41 [tuukkah]</dt><dd>worse is that rdf_n aren't sorted</dd>
+<dt id="T17-09-23">17:09:23 [tuukkah]</dt><dd>there's a lot to tweak...</dd>
+<dt id="T17-09-52">17:09:52 [tuukkah]</dt><dd>the different events from same nick aren't known to be from the same person</dd>
+<dt id="T17-11-55">17:11:55 [benja_]</dt><dd>yeah, I don't understand why they aren't sorted, will look into it sometime</dd>
+<dt id="T17-12-16">17:12:16 [benja_]</dt><dd>it does matter to me, the text should be in the node</dd>
+<dt id="T17-12-47">17:12:47 [tuukkah]</dt><dd>how would you sort them anyway? alphabetical isn't enough with rdf:_3 and rdf:_21</dd>
+<dt id="T17-12-50">17:12:50 [benja_]</dt><dd>tuukkah: true ... hard to see whether they should be</dd>
+<dt id="T17-13-10">17:13:10 [tuukkah]</dt><dd>matters, but not so much :-)</dd>
+<dt id="T17-13-13">17:13:13 [benja_]</dt><dd>since nicks aren't permanently associated with people. hmm</dd>
+<dt id="T17-13-34">17:13:34 [tuukkah]</dt><dd>first of all, freenode has registered nicks</dd>
+<dt id="T17-13-38">17:13:38 [benja_]</dt><dd>tuukkah: you would sort them by the number after the _ I suppose ;-)</dd>
+<dt id="T17-13-56">17:13:56 [benja_]</dt><dd>tuukkah: true...</dd>
+<dt id="T17-14-12">17:14:12 [tuukkah]</dt><dd>second, as long as you don't quit and join, the person can't change</dd>
+<dt id="T17-15-21">17:15:21 [antont]</dt><dd>except when you change the nicks, but it's quite uncommon, and also communicated to the channel</dd>
+<dt id="T17-15-48">17:15:48 [antont]</dt><dd>i agree that the speaker should be 'known', whatever that means</dd>
+<dt id="T17-15-52">17:15:52 [benja_]</dt><dd>antont: but not in a way that would help RDF =)</dd>
+<dt id="T17-16-28">17:16:28 [tuukkah]</dt><dd>so instead of "some benja_", you can have "benja_ who has registered the nick" or "the user who joined the channel on 2005-02-17T18:54:09, and is currently knows as benja"</dd>
+<dt id="T17-16-40">17:16:40 [benja_]</dt><dd>the bot could record the mbox_sha1sum if mbox is available, but not everybody has it set...</dd>
+<dt id="T17-16-59">17:16:59 [tuukkah]</dt><dd>why does it have to be mbox_sha1sum?</dd>
+<dt id="T17-17-06">17:17:06 [benja_]</dt><dd>tuukkah: ?</dd>
+<dt id="T17-17-30">17:17:30 [tuukkah]</dt><dd>why can't it be anything that identifies the person?</dd>
+<dt id="T17-17-54">17:17:54 [benja_]</dt><dd>tuukkah: well, because the bot can discover it</dd>
+<dt id="T17-18-04">17:18:04 [benja_]</dt><dd>homepage is the one other thing it could discover</dd>
+<dt id="T17-18-14">17:18:14 [tuukkah]</dt><dd>how could it discover those?</dd>
+<dt id="T17-18-15">17:18:15 [benja_]</dt><dd>I think</dd>
+<dt id="T17-18-21">17:18:21 [benja_]</dt><dd>tuukkah: you ask NickServ</dd>
+<dt id="T17-18-31">17:18:31 [tuukkah]</dt><dd>and how can't it discover if the nick is registered?</dd>
+<dt id="T17-18-43">17:18:43 [benja_]</dt><dd>tuukkah: ?</dd>
+<dt id="T17-18-58">17:18:58 [tuukkah]</dt><dd>&lt;benja_&gt; antont: but not in a way that would help RDF =)</dd>
+<dt id="T17-18-58-1">17:18:58 [benja_]</dt><dd>it can discover if the nick is registered and has these set</dd>
+<dt id="T17-19-27">17:19:27 [benja_]</dt><dd>tuukkah: 19:15 &lt; antont&gt; except when you change the nicks, but it's quite uncommon, and also communicated to the channel</dd>
+<dt id="T17-19-28">17:19:28 [tuukkah]</dt><dd>if it's registered then that is enough to connect the different log entries</dd>
+<dt id="T17-19-37">17:19:37 [benja_]</dt><dd>saying "I changed my nick" isn't helpful for RDF</dd>
+<dt id="T17-20-10">17:20:10 [tuukkah]</dt><dd>but the bot can understand the message and mark it in rdf in some more direct way</dd>
+<dt id="T17-20-17">17:20:17 [benja_]</dt><dd>tuukkah: so you want to make a new vocabulary with registeredFreenodeNick?</dd>
+<dt id="T17-20-27">17:20:27 [benja_]</dt><dd>of course these can still change owners</dd>
+<dt id="T17-20-48">17:20:48 [tuukkah]</dt><dd>why not?</dd>
+<dt id="T17-21-08">17:21:08 [tuukkah]</dt><dd>I can enter your email address in my nickserv records?</dd>
+<dt id="T17-21-22">17:21:22 [benja_]</dt><dd>tuukkah: what are you replying to?</dd>
+<dt id="T17-21-27">17:21:27 [antont]</dt><dd>if you want more spam, that is?</dd>
+<dt id="T17-22-04">17:22:04 [tuukkah]</dt><dd>or homepage url, if we're more against spam</dd>
+<dt id="T17-22-23">17:22:23 [antont]</dt><dd>yep</dd>
+<dt id="T17-22-26">17:22:26 [tuukkah]</dt><dd>benja_, why not have attribute registeredFreenodeNick?</dd>
+<dt id="T17-23-07">17:23:07 [benja_]</dt><dd>19:20 &lt; benja_&gt; tuukkah: so you want to make a new vocabulary with </dd>
+<dt id="T17-23-07-1">17:23:07 [benja_]</dt><dd>                registeredFreenodeNick?</dd>
+<dt id="T17-23-08">17:23:08 [tuukkah]</dt><dd>benja_, and if I have your contact info in my nickserv records, it doesn't make me you</dd>
+<dt id="T17-23-15">17:23:15 [benja_]</dt><dd>I wasn't saying you couldn't make one?</dd>
+<dt id="T17-23-37">17:23:37 [benja_]</dt><dd>tuukkah: it doesn't, but what's your point?</dd>
+<dt id="T17-23-50">17:23:50 [tuukkah]</dt><dd>isn't "why not" an appropriate way to say "yes" in this case?</dd>
+<dt id="T17-24-39">17:24:39 [tuukkah]</dt><dd>benja_, using email address from nickserv records has some problems too</dd>
+<dt id="T17-24-44">17:24:44 [tuukkah]</dt><dd>nothing else</dd>
+<dt id="T17-24-52">17:24:52 [antont]</dt><dd>but i'm off - cu. it was pretty interesting to see structured irc data. and i didn't even manage see that rdf-xml as very horrible. and with the improvements discussed seems nice. although i've no idea about the applications ppl have in mind .. but even just being able to link to arguments in discussions is useful i guess</dd>
+<dt id="T17-24-55">17:24:55 [benja_]</dt><dd>tuukkah: way to say yes: no, IMHO ;-)</dd>
+<dt id="T17-25-15">17:25:15 [benja_]</dt><dd>I didn't understand it as a "yes, I want to make a new vocab"</dd>
+<dt id="T17-25-43">17:25:43 [benja_]</dt><dd>tuukkah: ok, it does, but it's a general trust problem...</dd>
+<dt id="T17-25-47">17:25:47 [benja_]</dt><dd>hmm</dd>
+<dt id="T17-26-12">17:26:12 [tuukkah]</dt><dd>perhaps I don't want to. but why couldn't I... :-) I thought perhaps you had some convincing arguments, as you probably do :-)</dd>
+<dt id="T17-26-33">17:26:33 [benja_]</dt><dd>registeredFreenodeNick is a possibility, but of course they *can* change owners, we'd just ignore that problem</dd>
+<dt id="T17-26-42">17:26:42 [benja_]</dt><dd>tuukkah: =)</dd>
+<dt id="T17-27-28">17:27:28 [tuukkah]</dt><dd>is there anything that can't change owners ?-)</dd>
+<dt id="T17-28-34">17:28:34 [benja_]</dt><dd>social security numbers? =)</dd>
+<dt id="T17-29-01">17:29:01 [benja_]</dt><dd>well, it's true that foaf:mbox ignores the problem too</dd>
+<dt id="T17-30-26">17:30:26 [tuukkah]</dt><dd>could you do the old trick and somehow add a timestamp to the id, be it mbox or nick?</dd>
+<dt id="T17-31-16">17:31:16 [benja_]</dt><dd>there's foaf's holdsAccount --&gt; OnlineChatAccount</dd>
+<dt id="T17-31-32">17:31:32 [benja_]</dt><dd>tuukkah: no, that would require picking one</dd>
+<dt id="T17-31-44">17:31:44 [benja_]</dt><dd>which has the same problem as picking a URI</dd>
+<dt id="T17-31-50">17:31:50 [benja_]</dt><dd>how do you get people to agree on one?</dd>
+<dt id="T17-32-15">17:32:15 [tuukkah]</dt><dd>I don't see the problem</dd>
+<dt id="T17-32-18">17:32:18 [benja_]</dt><dd>because if you don't, you lose what you want to get: being able to know that different nodes identify the same resource</dd>
+<dt id="T17-33-29">17:33:29 [benja_]</dt><dd>if I use b.fallenstein@gmx.de/2004-01 and you use b.fallenstein@gmx.de/2004-07, the computer can't infer that the two are the same</dd>
+<dt id="T17-33-37">17:33:37 [benja_]</dt><dd>i.e., that we're talking about the same person</dd>
+<dt id="T17-34-03">17:34:03 [tuukkah]</dt><dd>true, but if I used 2004-01 as you've told me</dd>
+<dt id="T17-34-42">17:34:42 [tuukkah]</dt><dd>basicly, you could tell that your mbox is b.fallenstein+2004-01@gmx.de</dd>
+<dt id="T17-35-21">17:35:21 [benja_]</dt><dd>tuukkah: that's not a realistic proposal for use today, because most people have not picked such a date</dd>
+<dt id="T17-35-36">17:35:36 [benja_]</dt><dd>if they did, they could just as well pick a URI to represent themselves</dd>
+<dt id="T17-35-58">17:35:58 [benja_]</dt><dd>and we didn't need to identify them by mbox</dd>
+<dt id="T17-36-01">17:36:01 [tuukkah]</dt><dd>now someone else starts to use the box, they would stick with b.fallenstein+2005-04@gmx.de</dd>
+<dt id="T17-36-14">17:36:14 [tuukkah]</dt><dd>ok</dd>
+<dt id="T17-37-56">17:37:56 [tuukkah]</dt><dd>you can have several mboxes, right, so the dated one would be a more strict reference to you and the dateless one a less strict</dd>
+<dt id="T17-38-51">17:38:51 [tuukkah]</dt><dd>well, the trust just isn't there yet in the systems</dd>
+<dt id="T17-39-36">17:39:36 [benja_]</dt><dd>tuukkah: a reasonable workaround at the moment is to trust everything unless there's manual intervention =-)</dd>
+<dt id="T17-39-56">17:39:56 [benja_]</dt><dd>that's what all the semweb stuff does today</dd>
+<dt id="T17-40-55">17:40:55 [tuukkah]</dt><dd>at the moment I can publish FOAF that says my mbox_sha1sum is same as yours :-/ would any software be able to let the user say anything agains this?</dd>
+<dt id="T17-41-30">17:41:30 [benja_]</dt><dd>tuukkah: depends on who you consider the user =)</dd>
+<dt id="T17-41-33">17:41:33 [tuukkah]</dt><dd>that is, is manual intervention implemented in any software </dd>
+<dt id="T17-41-42">17:41:42 [benja_]</dt><dd>fenfire would allow the user not to load your foaf, for example ;-)</dd>
+<dt id="T17-42-01">17:42:01 [benja_]</dt><dd>foaf aggregators apparently usually allow the admins to exclude files</dd>
+<dt id="T17-42-14">17:42:14 [benja_]</dt><dd>I've asked about this and have been told it has happened, but rarely</dd>
+<dt id="T17-42-20">17:42:20 [benja_]</dt><dd>(and they fixed it manually)</dd>
+<dt id="T17-43-02">17:43:02 [tuukkah]</dt><dd>ok</dd>
+<dt id="T17-43-14">17:43:14 [benja_]</dt><dd>it's an active research topic of course</dd>
+<dt id="T17-43-32">17:43:32 [tuukkah]</dt><dd>as long as it's a quad graph, you can filter out the offensive source</dd>
+<dt id="T17-43-54">17:43:54 [tuukkah]</dt><dd>but I'm afraid you couldn't undo smushing, for example</dd>
+<dt id="T17-45-20">17:45:20 [benja_]</dt><dd>tuukkah: in Fenfire, you could</dd>
+<dt id="T17-45-29">17:45:29 [benja_]</dt><dd>in most smushing impls, you couldn't</dd>
+<dt id="T17-45-32">17:45:32 [benja_]</dt><dd>afaik</dd>
+<dt id="T17-45-49">17:45:49 [benja_]</dt><dd>I decided this was important to ff because the user could accidentally smush</dd>
+<dt id="T17-46-10">17:46:10 [tuukkah]</dt><dd>ok, this is very nice to hear</dd>
+<dt id="T17-46-40">17:46:40 [tuukkah]</dt><dd>(I did another ctrl-g on the irclog, and the update seems to have worked)</dd>
+<dt id="T17-46-48">17:46:48 [benja_]</dt><dd>i.e., the user mistypes mbox='hostmaster@news.fi', deletes 'fi' and types 'com'</dd>
+<dt id="T17-47-13">17:47:13 [benja_]</dt><dd>if 'hostmaster@news.fi' also exists in the system, the two nodes and all info about them would've become smushed</dd>
+<dt id="T17-47-29">17:47:29 [benja_]</dt><dd>but SmushedQuadsGraph will unsmush when the reason for smushing goes away</dd>
+<dt id="T17-48-31">17:48:31 [tuukkah]</dt><dd>so the smushing isn't ever permanent?</dd>
+<dt id="T17-48-41">17:48:41 [benja_]</dt><dd>hm, what do you think about just making it foo:freenodeNick for now -- i.e. not change registration? (much easier to do I believe)</dd>
+<dt id="T17-49-17">17:49:17 [tuukkah]</dt><dd>what do you mean "not change registration"?</dd>
+<dt id="T17-49-21">17:49:21 [benja_]</dt><dd>tuukkah: the unsmushed quads graph is always maintained and the relationship to the smushed graph is functional if there are no bugs</dd>
+<dt id="T17-49-42">17:49:42 [benja_]</dt><dd>s/not change registration/not check registration/, sorry</dd>
+<dt id="T17-50-32">17:50:32 [tuukkah]</dt><dd>it's not difficult to check registration, is it? at least on protocol level, each PRIVMSG is marked whether it's by a registered nick or not</dd>
+<dt id="T17-50-55">17:50:55 [benja_]</dt><dd>tuukkah: but adding freenodeNick likely involves no coding at all</dd>
+<dt id="T17-51-16">17:51:16 [benja_]</dt><dd>checking registration likely involves some perl and Net::IRC coding =-)</dd>
+<dt id="T17-51-24">17:51:24 [benja_]</dt><dd>(you're welcome to do it of course ;-))</dd>
+<dt id="T17-51-56">17:51:56 [tuukkah]</dt><dd>ok, it's not like this is security sensitive</dd>
+<dt id="T17-52-16">17:52:16 [tuukkah]</dt><dd>I know a perl hacker who is going to attend the course :-)</dd>
+<dt id="T17-53-52">17:53:52 [benja_]</dt><dd>the only way it would affect anything outside the logs is if you put the freenodeNick in your foaf</dd>
+<dt id="T17-53-58">17:53:58 [benja_]</dt><dd>or some other public location</dd>
+<dt id="T17-54-48">17:54:48 [tuukkah]</dt><dd>and if you do that, I think everybody understands that irc nicks can be stolen</dd>
+<dt id="T17-55-29">17:55:29 [benja_]</dt><dd>tuukkah: the only way it would cause a real problem is if you dropped your nick, somebody else picked it up, and put it in *their* foaf</dd>
+<dt id="T17-55-37">17:55:37 [benja_]</dt><dd>and that's extremely unlikely</dd>
+<dt id="T17-55-46">17:55:46 [benja_]</dt><dd>plus you'd remove it from your foaf most likely</dd>
+<dt id="T18-03-43">18:03:43 [tuukkah]</dt><dd>so, would you add dc:description to Fenfire.TEXT_PROPS?</dd>
+<dt id="T18-03-52">18:03:52 [benja_]</dt><dd>no</dd>
+<dt id="T18-04-04">18:04:04 [benja_]</dt><dd>I believe it's not really appropriate here</dd>
+<dt id="T18-04-34">18:04:34 [benja_]</dt><dd>rdfs:label would be more appropriate I think</dd>
+<dt id="T18-04-43">18:04:43 [benja_]</dt><dd>hmm</dd>
+<dt id="T18-05-03">18:05:03 [tuukkah]</dt><dd>shouldn't there be two things anyway: a text that someone says and type of message like privmsg, notice, join, part</dd>
+<dt id="T18-06-05">18:06:05 [tuukkah]</dt><dd>or would that be rdf:type</dd>
+<dt id="T18-06-13">18:06:13 [benja_]</dt><dd>well, it's just the text that someone said</dd>
+<dt id="T18-06-16">18:06:16 [benja_]</dt><dd>at the moment</dd>
+<dt id="T18-06-20">18:06:20 [tuukkah]</dt><dd>which is foaf:chatEvent now</dd>
+<dt id="T18-07-01">18:07:01 [tuukkah]</dt><dd>it's not strictly saying as stuff like title is a chatEvent as well</dd>
+<dt id="T18-07-24">18:07:24 [benja_]</dt><dd>well, ok</dd>
+<dt id="T18-07-52">18:07:52 [benja_]</dt><dd>I think making the model there more complex is unnecessary work at the moment</dd>
+<dt id="T18-08-05">18:08:05 [tuukkah]</dt><dd>ok</dd>
+<dt id="T18-08-19">18:08:19 [benja_]</dt><dd>I'm not opposed to it, just have no interest in doing it</dd>
+<dt id="T18-08-28">18:08:28 [tuukkah]</dt><dd>yes</dd>
+<dt id="T18-08-52">18:08:52 [tuukkah]</dt><dd>would all dc:dates be shown in the calendar view?</dd>
+<dt id="T18-09-03">18:09:03 [benja_]</dt><dd>ah, right, crschmidt mentioned <a href="http://crschmidt.net/ns/irc#">http://crschmidt.net/ns/irc#</a></dd>
+<dt id="T18-09-10">18:09:10 [benja_]</dt><dd>tuukkah: y</dd>
+<dt id="T18-09-15">18:09:15 [benja_]</dt><dd>well, for now</dd>
+<dt id="T18-09-21">18:09:21 [benja_]</dt><dd>in the future, we'd have selection by type</dd>
+<dt id="T18-10-10">18:10:10 [tuukkah]</dt><dd>how do i see the calendar view?</dd>
+<dt id="T18-10-21">18:10:21 [benja_]</dt><dd>when the user can create a new vocabulary with dates inside Fenfire, and make it an applitude with a specific calendar view in an integrated process, then we'll really have "fenfire"</dd>
+<dt id="T18-10-34">18:10:34 [benja_]</dt><dd>tuukkah: go on something with a date, hit Ctrl-V</dd>
+<dt id="T18-10-50">18:10:50 [benja_]</dt><dd>it may not be performant</dd>
+<dt id="T18-10-57">18:10:57 [benja_]</dt><dd>you have been warned</dd>
+<dt id="T18-10-59">18:10:59 [benja_]</dt><dd>;-)</dd>
+<dt id="T18-11-00">18:11:00 [tuukkah]</dt><dd>-)</dd>
+<dt id="T18-11-15">18:11:15 [benja_]</dt><dd>I need to go shopping, promised</dd>
+<dt id="T18-11-18">18:11:18 [benja_]</dt><dd>(shops close at eight)</dd>
+<dt id="T18-11-19">18:11:19 [benja_]</dt><dd>cu</dd>
+<dt id="T18-11-21">18:11:21 [tuukkah]</dt><dd>but this would be more useful than sorting the stupid property names</dd>
+<dt id="T18-11-30">18:11:30 [tuukkah]</dt><dd>bye</dd>
+<dt id="T18-12-07">18:12:07 [benja_]</dt><dd>tuukkah: a) sorting the stupid property names is important because many stupid rdf vocabs use containers ;) ;)</dd>
+<dt id="T18-12-48">18:12:48 [benja_]</dt><dd>b) I'd prefer to sort by date; dajobe said that different items can have the same date and order can be important (multiline paste)</dd>
+<dt id="T18-13-09">18:13:09 [benja_]</dt><dd>I'm thinking about having date + number-of-item-with-same-date</dd>
+<dt id="T18-13-18">18:13:18 [benja_]</dt><dd>I really dislike the use of a container</dd>
+<dt id="T18-13-43">18:13:43 [benja_]</dt><dd>it's ugly that there's a different container for every day and stuff...</dd>
+<dt id="T18-13-57">18:13:57 [benja_]</dt><dd>but, cu</dd>
+<dt id="T19-04-47">19:04:47 [benja_]</dt><dd> shops lo</dd>
+<dt id="T19-04-52">19:04:52 [benja_]</dt><dd>shops closed, benja_ back</dd>
+<dt id="T19-07-42">19:07:42 [tuukkah]</dt><dd>that was quick :-)</dd>
+<dt id="T19-08-25">19:08:25 [benja_]</dt><dd>btw, if you don't know channel101.com, have a look</dd>
+<dt id="T19-08-49">19:08:49 [benja_]</dt><dd>(a community making video series with 5min per episode and voting on them)</dd>
+<dt id="T19-10-33">19:10:33 [benja_]</dt><dd>(try, e.g., the first episode of The 'Bu @ <a href="http://www.channel101.com/media/shw_0010/epi_0034/the_bu_1.mp4">http://www.channel101.com/media/shw_0010/epi_0034/the_bu_1.mp4</a> -- I use noatun to watch them)</dd>
+<dt id="T19-16-15">19:16:15 [tuukkah]</dt><dd>umm, a truly funny squirrel</dd>
+<dt id="T19-16-42">19:16:42 [tuukkah]</dt><dd>unfortunately I don't think I have red-blue glasses nearby ;-)</dd>
+<dt id="T19-17-05">19:17:05 [benja_]</dt><dd>I did try it with glasses the second time, I think the images come from a single cam actually =)</dd>
+<dt id="T19-18-44">19:18:44 [tuukkah]</dt><dd>yes, I was wondering if they'd really had a stereo camera</dd>
+<dt id="T19-19-07">19:19:07 [benja_]</dt><dd>I thought they might've used two, don't know if that's really possible</dd>
+<dt id="T19-20-50">19:20:50 [benja_]</dt><dd>so now we have the magic potion, Lob/Model templates, and Tuomas' Functional system</dd>
+<dt id="T19-21-20">19:21:20 [tuukkah]</dt><dd>the languages?</dd>
+<dt id="T19-21-26">19:21:26 [benja_]</dt><dd>yeah...</dd>
+<dt id="T19-21-48">19:21:48 [tuukkah]</dt><dd>what's up next =)</dd>
+<dt id="T19-21-58">19:21:58 [tuukkah]</dt><dd>turn it all into common lisp %-)</dd>
+<dt id="T19-22-03">19:22:03 [benja_]</dt><dd>=*)</dd>
+<dt id="T19-22-33">19:22:33 [benja_]</dt><dd>hmmm</dd>
+<dt id="T19-22-44">19:22:44 [tuukkah]</dt><dd>or haskell that can output either Java and use AWT or C++ and use OpenGL</dd>
+<dt id="T19-23-04">19:23:04 [benja_]</dt><dd>lobs are an object system, really, but the template system is used as a kind of programming language</dd>
+<dt id="T19-23-43">19:23:43 [benja_]</dt><dd>models are something of a cross between an object and a function, or set of functions</dd>
+<dt id="T19-23-47">19:23:47 [benja_]</dt><dd>21:23 &lt; benja_&gt; lobs are an object system, really, but the template system is </dd>
+<dt id="T19-23-48">19:23:48 [benja_]</dt><dd>hups</dd>
+<dt id="T19-23-51">19:23:51 [benja_]</dt><dd>                used as a kind of programming language</dd>
+<dt id="T19-24-51">19:24:51 [benja_]</dt><dd>and then, lobs and models and graphs are observable</dd>
+<dt id="T19-25-18">19:25:18 [benja_]</dt><dd>there must be a way to simplify all this</dd>
+<dt id="T19-25-25">19:25:25 [benja_]</dt><dd>separate it into orthogonal parts</dd>
+<dt id="T19-25-41">19:25:41 [benja_]</dt><dd>in a way, a template is a function returning an object</dd>
+<dt id="T19-26-37">19:26:37 [benja_]</dt><dd>templates use parameter lists with named parameters, potion uses positional parameter lists, the functional stuff uses one parameter per function</dd>
+<dt id="T19-28-00">19:28:00 [tuukkah]</dt><dd>those all can be represented as one parameter that can be a dictionary with indexes as keys :-)</dd>
+<dt id="T19-29-01">19:29:01 [benja_]</dt><dd>which reminds me: functions and lobs have some constraints w.r.t. speed</dd>
+<dt id="T19-29-16">19:29:16 [benja_]</dt><dd>perhaps potions does too, when mixed with the two above</dd>
+<dt id="T19-29-30">19:29:30 [benja_]</dt><dd>i.e., when we use potions to specify views (view parameters)</dd>
+<dt id="T19-30-41">19:30:41 [benja_]</dt><dd>I failed an exam in "fundamentals of theoretical computer science"</dd>
+<dt id="T19-31-38">19:31:38 [tuukkah]</dt><dd>:-( graphs, logic, type theory?</dd>
+<dt id="T19-31-58">19:31:58 [benja_]</dt><dd>no. computability, turing machines, P/NP, languages</dd>
+<dt id="T19-32-12">19:32:12 [tuukkah]</dt><dd>oh, that stuff :-)</dd>
+<dt id="T19-32-20">19:32:20 [benja_]</dt><dd>I don't think I would have failed graphs, logic, type theory ;-)</dd>
+<dt id="T19-32-54">19:32:54 [tuukkah]</dt><dd>where these two classes track A and track B?</dd>
+<dt id="T19-33-18">19:33:18 [tuukkah]</dt><dd>majukati has documented some really funny procmail hackery</dd>
+<dt id="T19-36-14">19:36:14 [benja_]</dt><dd>tuukkah: they have nothing to do with this course</dd>
+<dt id="T19-36-37">19:36:37 [tuukkah]</dt><dd>neither a nor b?</dd>
+<dt id="T19-36-39">19:36:39 [majukati]</dt><dd>tuukkah: yep, that was awesome.</dd>
+<dt id="T19-37-15">19:37:15 [tuukkah]</dt><dd>don't the message headers break procmail reading the message as .procmailrc?</dd>
+<dt id="T19-38-14">19:38:14 [majukati]</dt><dd>fflogbot you are illegal to be run from eppi. we had only right to run archive changes commit bot</dd>
+<dt id="T19-41-35">19:41:35 [majukati]</dt><dd>benja_: you need to use another host</dd>
+<dt id="T19-42-20">19:42:20 [benja_]</dt><dd>majukati: I recall the conversation differently, I believe we explicitly talked about logging</dd>
+<dt id="T19-42-46">19:42:46 [majukati]</dt><dd>we explicitly talked about logging and the answer was no</dd>
+<dt id="T19-42-55">19:42:55 [benja_]</dt><dd>so what was the plan?</dd>
+<dt id="T19-43-10">19:43:10 [benja_]</dt><dd>since they don't want us to run a web server on siksak</dd>
+</dl>
+</body>
+</html>

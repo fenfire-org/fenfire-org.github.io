@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fentwine: A navigational RDF browser and editor</title>
+<link rel="stylesheet" href="article.css" type="text/css" />
+</head>
+<body>
+
+<div class="document" id="fentwine-a-navigational-rdf-browser-and-editor">
+<h1 class="title">Fentwine: A navigational RDF browser and editor</h1>
+<p style="text-align: center">
+Benja Fallenstein<br />
+Hyperstructure Group<br />
+Agora Center, University of Jyväskylä<br />
+P.O.Box 35, FIN-40014 Jyväskylä, Finland<br />
+E-mail: b.fallenstein@gmx.de
+</p>
+<div class="section" id="abstract">
+<h1><a name="abstract">Abstract</a></h1>
+<p>We present an approach to RDF visualization
+in which a <em>central</em> node is shown in the middle of the screen and
+the nodes directly connected to it are arranged around it,
+making a different node the central one when the user clicks
+on it. With this <em>navigational</em> approach, the user can see which nodes are
+connected to the central node without following long connective lines
+through a graph. However, experience with our 
+work-in-progress implementation suggests that more work is needed 
+on representing common structures in a concise manner.</p>
+</div>
+<div class="section" id="introduction">
+<h1><a name="introduction">Introduction</a></h1>
+<p>The usual approach to visualizing RDF graphs
+is to create a 2D layout of all nodes in a graph.
+This approach is taken by the <a class="reference" href="http://www.w3.org/2001/11/IsaViz/">IsaViz</a> and <a class="reference" href="http://www.ilrt.bris.ac.uk/discovery/rdf-dev/rudolf/rdfviz/">RdfViz</a> applications, 
+for example.
+However, this approach, it can be hard to see which nodes are connected 
+(Figures 1 and 2).</p>
+<div class="figure">
+<p><img src="isv6_th.png" /></p>
+<p class="caption">Figure 1: Screenshot of the IsaViz RDF editor.
+Taken from the IsaViz website.</p>
+</div>
+<div class="figure">
+<p><img src="isv4_th.gif" /></p>
+<p class="caption">Figure 2: A screenshot of IsaViz that shows how the spatial layout
+approach makes it difficult to follow connections in a large graph.
+Taken from the IsaViz website.</p>
+</div>
+<p>We propose to apply to RDF an approach
+originally developed for semantic network visualization by the SemNet
+research group (<a class="reference" href="#fisher-and-kibby-1996">Fisher and Kibby 1996</a>).
+The <a class="reference" href="http://www.semanticresearch.com/">Semantica</a> software is based on this (<a class="reference" href="#figure-3">Figure 3</a>).</p>
+<p>The SemNet approach is to show a <em>central</em> node in the middle
+of a screen, and show around it the nodes directly connected
+to it. When the user double-clicks on one of the connected nodes,
+it is made the central node. We call this approach <em>navigational</em>.</p>
+<a class="target" id="figure-3" name="figure-3"></a><div class="figure">
+<p><img src="fig3.png" /></p>
+<p class="caption">Figure 3: Screenshots of the Semantica software. 
+Left: An example network bundled with the Semantica software; 
+the central node is &quot;Charlotte's Web.&quot; Right: After the user has 
+double-clicked on the &quot;Charlotte&quot; node, it has become the central node.
+(Larger versions: <a class="reference" href="fig3a.png">Left image</a>, <a class="reference" href="fig3b.png">right image</a>.)</p>
+<div class="legend">
+</div>
+</div>
+</div>
+<div class="section" id="fentwine">
+<h1><a name="fentwine">Fentwine</a></h1>
+<p>In this section we introduce Fentwine, our prototype of a navigational 
+RDF browser and editor. Fentwine is part of the <a class="reference" href="http://fenfire.org/">Fenfire</a> project,
+which develops an RDF-based desktop environment 
+(<a class="reference" href="#fallenstein-and-lukka-2004">Fallenstein and Lukka 2004</a>).</p>
+<p>Fentwine shows the nodes connected directly to the central node
+on an ellipse around the central node. Nodes more than one step
+away from the central node are also shown, up to a maximum
+number of steps. Nodes further away from the center fade
+into the background.</p>
+<p>The property of each connection is shown
+between the two connected nodes. Each property is shown
+in a different color, computed deterministically from the
+property's URI. This allows the user to recognize
+the type of a connection without reading the property name.</p>
+<p>Fentwine hides nodes' and property's URIs if a natural language
+label is available. For example, this can be a person's name. 
+A pre-defined set of properties for finding the label
+of a node is provided (containing e.g. <tt class="literal"><span class="pre">rdf:label</span></tt> 
+and <tt class="literal"><span class="pre">foaf:name</span></tt>). The user can extend this set.</p>
+<p>We show the user a list of the properties in the current
+RDF graph, which allows them to show or hide each property separately.
+Properties can be grouped in categories which can be
+switched on and off as a whole. For example, when browsing
+a FOAF network, the user can hide all properties except <tt class="literal"><span class="pre">foaf:knows</span></tt>.
+This reduces clutter by hiding relationships irrelevant to the
+task at hand (for example, <tt class="literal"><span class="pre">foaf:workplaceHomepage</span></tt>). 
+This feature derives from Nelson's ZigZag (<a class="reference" href="#nelson-2004">Nelson 2004</a>).</p>
+<p>A screenshot is shown in Figure 4. Figure 5 shows
+how Fentwine uses animation to make moving from one central node
+to another smooth.</p>
+<div class="figure">
+<p><img src="fig4.png" /></p>
+<p class="caption">Figure 4: Screenshot of Fentwine, showing a semantic network 
+containing notes. The central node is &quot;Story Apr'04.&quot; 
+(<a class="reference" href="fig4a.png">Larger version</a>).</p>
+<div class="legend">
+</div>
+</div>
+<div class="figure">
+<p><img src="fig5.png" /></p>
+<p class="caption">Figure 5: The animation Fentwine shows when moving from one node
+to another. The example data is a subgraph of a <a class="reference" href="http://www.isb-sib.ch/~ejain/rdf/data/taxonomy.rdf.gz">biological taxonomy</a>,
+<a class="reference" href="http://www.isb-sib.ch/~ejain/rdf/">made available</a> by Eric Jain.
+(Larger versions: <a class="reference" href="fig5a.png">1</a>, <a class="reference" href="fig5b.png">2</a>, <a class="reference" href="fig5c.png">3</a>, <a class="reference" href="fig5d.png">4</a>)</p>
+</div>
+<p>Fentwine works reasonably well for graphs created with it, as well as
+for many RDF files on the Web, as long as the properties to use to find
+natural-language labels are specified. However, there are many
+RDF structures that it does not represent well, yet.</p>
+<p>An example is shown in Figure 6. The structure shown specifies 
+that ovo-vegetarian food is a subclass of the intersection of a class
+equivalent to food with the complement of the union of a subclass of meat, 
+including fish, with a subclass of dairy. (We didn't write the ontology.)</p>
+<div class="figure">
+<p><img src="fig6.png" /></p>
+<p class="caption">Figure 6: Fentwine showing an <a class="reference" href="http://www.schemaweb.info/schema/SchemaDetails.aspx?id=45">ontology describing different kinds of
+vegetarians</a>, highlighting problems with showing some kinds of RDF.
+One is tempted to make a comment 
+about mazes of twisty little passages, all alike.
+(<a class="reference" href="fig6a.png">Larger version</a>)</p>
+</div>
+<p>The problem seems to be that there are many interconnected
+anonymous nodes that don't have labels.
+We hope that this problem can be solved
+by providing special ways to render these structures, which map
+more directly to the user's mental model.</p>
+<p>We already use this approach to show RDF collections. In Figure 6,
+the values of e.g. <tt class="literal"><span class="pre">owl:unionOf</span></tt> are collections. Instead of 
+showing the internal RDF structure, we show different <tt class="literal"><span class="pre">unionOf</span></tt>
+&quot;connections&quot; between the union and each member of the collection.
+This appears to work well.
+(However, we have not yet decided how collection properties should be
+visually distinguished from ordinary properties; currently,
+we show connective lines between the elements of the collection.)</p>
+</div>
+<div class="section" id="conclusions">
+<h1><a name="conclusions">Conclusions</a></h1>
+<p>We have proposed to adapt SemNet's navigational approach to
+graph browsing to RDF, and reported on our work-in-progress implementation.
+Our software works reasonably well for some kinds of RDF, but
+structures that make use of many connected anonymous nodes without
+properties that could be used as labels (such as OWL intersections)
+are not yet shown well.</p>
+</div>
+<div class="section" id="references">
+<h1><a name="references">References</a></h1>
+<a class="target" id="fallenstein-and-lukka-2004" name="fallenstein-and-lukka-2004"></a><p>Fallenstein, B., and Lukka, T.J.: &quot;<a class="reference" href="http://fenfire.org/manuscripts/2004/hyperstructure/">Hyperstructure: Computers built around things that you care about</a>&quot;. Submitted to the Third Hyperstructure Workshop at the ACM Hypertext'2004 conference.</p>
+<a class="target" id="fisher-and-kibby-1996" name="fisher-and-kibby-1996"></a><p>Fisher, K.M., and Kibby, M. (Ed): <em>Knowledge Acquisition, Organization and Use in Biology</em>. Springer Verlag, New York, 1996.</p>
+<a class="target" id="nelson-2004" name="nelson-2004"></a><p>Nelson, T.H.: &quot;<a class="reference" href="http://jodi.ecs.soton.ac.uk/Articles/v05/i01/Nelson/">A Cosmology for a Different Computer Universe: Data Model, Mechanisms, Virtual Machine and Visualization Infrastructure</a>&quot;. Journal of Digital Information 5(1), 2004.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.3.7: http://docutils.sourceforge.net/" />
+<title>Java information</title>
+<link rel="stylesheet" href="../fenfire.css" type="text/css" />
+
+<style type="text/css">
+<!--
+body {background-image:url(../papers/13275522225691971015-paper.gen.jpg); background-repeat: repeat}
+-->
+</style>
+</head>
+<body>
+<div class="document" id="java-information">
+<h1 class="title">Java information</h1>
+<p>Most of Fenfire has been written as a Java application to achieve
+platform independency. To use Fenfire software, you need a
+sufficiently advanced Java runtime. At the moment, <a class="reference" href="http://java.sun.com/getjava/">Sun's JRE</a> 1.4 or
+the latest <a class="reference" href="http://www.kaffe.org/">Kaffe</a> are enough. To compile Fenfire from source code,
+<a class="reference" href="http://java.sun.com/j2se">Sun's JDK</a> 1.4 or latest <a class="reference" href="http://jikes.sourceforge.net/">Jikes</a> are enough.</p>
+<div class="section" id="runtime">
+<h1><a name="runtime">Runtime</a></h1>
+<p>The development versions of Fenfire use <tt class="docutils literal"><span class="pre">java</span></tt> from system <tt class="docutils literal"><span class="pre">PATH</span></tt>
+by default, but you can change this by setting variable <tt class="docutils literal"><span class="pre">JAVA</span></tt> in
+the environment or by adding the setting to <tt class="docutils literal"><span class="pre">make</span></tt> commands.</p>
+<p><a class="reference" href="http://www.kaffe.org/">Kaffe</a> is a good implementation of Java as Free Software. If it's not
+installed as <tt class="docutils literal"><span class="pre">java</span></tt>, you can give command <tt class="docutils literal"><span class="pre">export</span> <span class="pre">JAVA=kaffe</span></tt>.</p>
+<p>If you run Debian, you can install Kaffe with</p>
+<p><tt class="docutils literal"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">kaffe</span></tt></p>
+<p>When you try to find out what's going on or want to report a problem
+to us, see the version of the runtime you are using by</p>
+<p><tt class="docutils literal"><span class="pre">java</span> <span class="pre">-fullversion</span></tt></p>
+<p>or if you have set <tt class="docutils literal"><span class="pre">JAVA</span></tt></p>
+<p><tt class="docutils literal"><span class="pre">$JAVA</span> <span class="pre">-fullversion</span></tt></p>
+</div>
+<div class="section" id="compiler">
+<h1><a name="compiler">Compiler</a></h1>
+<p>The build system of Fenfire uses <tt class="docutils literal"><span class="pre">javac</span></tt> from system <tt class="docutils literal"><span class="pre">PATH</span></tt> by
+default. To use another compiler or set options, define variable
+<tt class="docutils literal"><span class="pre">JAVAC</span></tt> in the environment or in the <tt class="docutils literal"><span class="pre">make</span></tt> command lines.</p>
+<p>The Java compiler that comes with Kaffe doesn't understand all our
+code, but the best compiler called <a class="reference" href="http://jikes.sourceforge.net/">Jikes</a> does and is also Free
+Software. If you have Debian, installation can be done with</p>
+<p><tt class="docutils literal"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">jikes</span></tt></p>
+<p>To use Jikes as the compiler, give command</p>
+<p><tt class="docutils literal"><span class="pre">export</span> <span class="pre">JAVAC=&quot;jikes</span> <span class="pre">+Z0&quot;</span></tt></p>
+<p>In addition, Jikes needs to know where the basic Java library is
+found. For Debian and Kaffe this is
+<tt class="docutils literal"><span class="pre">/usr/share/kaffe-common/lib/rt.jar</span></tt> so give command</p>
+<p><tt class="docutils literal"><span class="pre">export</span> <span class="pre">BOOTCLASSPATH=/usr/share/kaffe-common/lib/rt.jar</span></tt></p>
+<p>But on Debian, there is an even better way to use Jikes with
+Kaffe. You can install a package called <tt class="docutils literal"><span class="pre">jikes-kaffe</span></tt>, which takes
+care of the Java library when you set the Java compiler as</p>
+<p><tt class="docutils literal"><span class="pre">export</span> <span class="pre">JAVAC=&quot;jikes-kaffe</span> <span class="pre">+Z0&quot;</span></tt></p>
+</div>
+</div>
+<!-- NavBar begin -->
+<hr class="footer" />
+<center class="navigation-title">Navigation</center>
+<div class="left">
+<div class="left-bar">
+<p class="boxhead"><a href="../">Fenfire</a></p>
+<div class="boxcontent"><ul>
+<li class="boxitem"><a href="../apps">Applications</a><ul>
+<li class="boxitem"><a href="../apps/editing.html">Browsing and editing</a></li>
+</ul>
+</li>
+<li class="boxitem"><a href="../doc">Documentation</a><ul>
+<li class="boxitem"><a href="../doc/devel.html">Developer information</a></li>
+<li class="boxitem">Java information</li>
+</ul>
+</li>
+<li class="boxitem"><a href="../foundation">The Fenfire Foundation</a><ul>
+<li class="boxitem"><a href="../foundation/joining.html">Joining</a></li>
+<li class="boxitem"><a href="../foundation/liittyminen.html">Jäseneksi</a></li>
+</ul>
+</li>
+<li class="boxitem"><a href="../shots.html">Screenshots</a></li>
+<li class="boxitem"><a href="../vision.html">Vision of Fenfire</a></li>
+</ul></div>
+</div>
+<div class="logo-bar" style="text-align: center">
+<a href="../"><img src="../logo.png" alt="The Fenfire logo (a purple flame)"/></a></div>
+</div>
+<!-- NavBar end -->
+<hr class="docutils footer" />
+<div class="footer">
+Generated on: Mon Jul 25 11:46:29 2005.
+</div>
+</body>
+</html>

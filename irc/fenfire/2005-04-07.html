@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>IRC log of fenfire on 2005-04-07</title>
+<meta name="generator" content="&#36;Id: logger,v 1.96 2004/04/27 22:56:54 cmdjb Exp &#36;" />
+ <style type="text/css">
+  .IRC { font-family: sans-serif }
+ </style>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1>IRC log of fenfire on 2005-04-07</h1>
+<p><em>Timestamps are in UTC.</em></p>
+<dl class="IRC">
+<dt id="T06-31-09">06:31:09 [tuukkah]</dt><dd>here I am, waiting for the lecture :-)</dd>
+<dt id="T06-31-45">06:31:45 [ibid]</dt><dd>in the auditorium?</dd>
+<dt id="T06-32-12">06:32:12 [tuukkah]</dt><dd>yes</dd>
+<dt id="T06-34-33">06:34:33 [ibid]</dt><dd>korppi says there is no reservation of the aud</dd>
+<dt id="T06-35-47">06:35:47 [tuukkah]</dt><dd>there's some bug in it or something. it showed the same last week and for the following weeks, but if you go see the auditorium reservation list, it's reserved for the course each week</dd>
+<dt id="T06-36-04">06:36:04 [ibid]</dt><dd>yeah, i just did :)</dd>
+<dt id="T06-36-28">06:36:28 [ibid]</dt><dd>i suppose it's just a case of the reservation being disconnected from the course in korppi</dd>
+<dt id="T06-36-30">06:36:30 [tuukkah]</dt><dd>besides, as there isn't another reservation and I was here first ... :-)</dd>
+<dt id="T06-36-41">06:36:41 [ibid]</dt><dd>matti should be able to correct that</dd>
+<dt id="T06-37-56">06:37:56 [tuukkah]</dt><dd>unless he has better things to do than fight with the software</dd>
+<dt id="T06-38-09">06:38:09 [ibid]</dt><dd>that does not alter his ability to do it :)</dd>
+<dt id="T06-38-27">06:38:27 [ibid]</dt><dd>i suppose i could come down too</dd>
+<dt id="T06-39-41">06:39:41 [rubberpaw]</dt><dd>rubberpaw has quit</dd>
+<dt id="T07-38-17">07:38:17 [rubberpaw]</dt><dd>rubberpaw has joined #fenfire</dd>
+<dt id="T07-43-29">07:43:29 [benja_]</dt><dd>argl, I'm much too late :-(</dd>
+<dt id="T07-43-41">07:43:41 [ffdarcsbot]</dt><dd>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, fixes to make CanvasSpatialView work more</dd>
+<dt id="T07-43-50">07:43:50 [ffdarcsbot]</dt><dd>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, add check for null key</dd>
+<dt id="T07-43-55">07:43:55 [benja_]</dt><dd>will be there for last part of lecture</dd>
+<dt id="T07-43-58">07:43:58 [ffdarcsbot]</dt><dd>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, don't thow error when detecting a 'cycle in hashtable' -- not a fix, just hiding a problem, I guess :-(</dd>
+<dt id="T07-47-44">07:47:44 [ffdarcsbot]</dt><dd>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, fixes to CanvasSpatialView, can click to move now but often gives exceptions</dd>
+<dt id="T08-19-00">08:19:00 [tuukkah]</dt><dd>benja_, no problem, we're doing fine</dd>
+<dt id="T08-26-11">08:26:11 [benja_]</dt><dd>tuukkah, it's fine, it's fine, I'll just look at the pictures =)</dd>
+<dt id="T08-26-31">08:26:31 [tuukkah]</dt><dd>oh, we can have a translation service here :-)</dd>
+<dt id="T08-26-53">08:26:53 [benja_]</dt><dd>ok, so what's janne talking about? :)</dd>
+<dt id="T08-27-03">08:27:03 [babel]</dt><dd>babel has joined #fenfire</dd>
+<dt id="T08-27-17">08:27:17 [babel]</dt><dd>babel is now known as babel_janne</dd>
+<dt id="T08-27-37">08:27:37 [babel_janne]</dt><dd>this is the implementation of jagged edges</dd>
+<dt id="T08-28-00">08:28:00 [benja_]</dt><dd>took me a moment to understand the name ;-)</dd>
+<dt id="T08-28-15">08:28:15 [benja_]</dt><dd>so what do the shades of gray mean?</dd>
+<dt id="T08-28-18">08:28:18 [babel_janne]</dt><dd>we start with a square, then create an irregular shape</dd>
+<dt id="T08-28-35">08:28:35 [babel_janne]</dt><dd>they are like a 3d height map</dd>
+<dt id="T08-28-55">08:28:55 [babel_janne]</dt><dd>and some level of grey is choosen to be "water level"</dd>
+<dt id="T08-29-05">08:29:05 [babel_janne]</dt><dd>lower than that is transparent</dd>
+<dt id="T08-29-09">08:29:09 [benja_]</dt><dd>ah, I was wondering why I caught a 'vesi' :)</dd>
+<dt id="T08-29-21">08:29:21 [babel_janne]</dt><dd>and now to last subject...</dd>
+<dt id="T08-29-24">08:29:24 [benja_]</dt><dd>so how is the map generated?</dd>
+<dt id="T08-29-35">08:29:35 [babel_janne]</dt><dd>random basicly</dd>
+<dt id="T08-30-09">08:30:09 [babel_janne]</dt><dd>zigzag structure was more restricted</dd>
+<dt id="T08-30-13">08:30:13 [babel_janne]</dt><dd>(the zigzag axiom)</dd>
+<dt id="T08-30-50">08:30:50 [babel_janne]</dt><dd>it meant that nodes had a pretty fixed place in the vie</dd>
+<dt id="T08-30-51">08:30:51 [babel_janne]</dt><dd>w</dd>
+<dt id="T08-31-05">08:31:05 [benja_]</dt><dd>hmm</dd>
+<dt id="T08-31-17">08:31:17 [babel_janne]</dt><dd>so there were complex connections</dd>
+<dt id="T08-31-53">08:31:53 [babel_janne]</dt><dd>so it can be difficult to see how they go</dd>
+<dt id="T08-32-23">08:32:23 [babel_janne]</dt><dd>it would be better to layout so that connections don't cross, but in zigzag we couldn't</dd>
+<dt id="T08-32-40">08:32:40 [babel_janne]</dt><dd>so the solution was fillets</dd>
+<dt id="T08-32-56">08:32:56 [babel_janne]</dt><dd>and fillet is a term from molding</dd>
+<dt id="T08-33-39">08:33:39 [babel_janne]</dt><dd>so we did an experiment with several visualisations</dd>
+<dt id="T08-35-24">08:35:24 [babel_janne]</dt><dd>the subjects were asked to find the irregular connection on screen</dd>
+<dt id="T08-35-41">08:35:41 [babel_janne]</dt><dd>and with fillets, the amount of nodes didn't affect much the time to do this</dd>
+<dt id="T08-36-09">08:36:09 [rubberpaw]</dt><dd>rubberpaw has quit</dd>
+<dt id="T08-36-15">08:36:15 [babel_janne]</dt><dd>but this experiment might have shown more advance than there really is</dd>
+<dt id="T08-36-29">08:36:29 [babel_janne]</dt><dd>the experiment with arbitrary graphs isn't finished yet</dd>
+<dt id="T08-36-36">08:36:36 [benja_]</dt><dd>heh, I hadn't seen that demo before</dd>
+<dt id="T08-36-42">08:36:42 [benja_]</dt><dd>neat =)</dd>
+<dt id="T08-38-04">08:38:04 [babel_janne]</dt><dd>fillets take a lot of screen space</dd>
+<dt id="T08-38-44">08:38:44 [benja_]</dt><dd>right...</dd>
+<dt id="T08-38-52">08:38:52 [benja_]</dt><dd>huh :)</dd>
+<dt id="T08-39-28">08:39:28 [babel_janne]</dt><dd>I think the other demos on the background are making this slower</dd>
+<dt id="T08-39-54">08:39:54 [babel_janne]</dt><dd>there are all details that can be smoothed out</dd>
+<dt id="T08-40-02">08:40:02 [babel_janne]</dt><dd>and there are other effects</dd>
+<dt id="T08-40-27">08:40:27 [babel_janne]</dt><dd>by accident, you can find interesting things, like this texture</dd>
+<dt id="T08-45-11">08:45:11 [babel_janne]</dt><dd>so these are related to fenfire so that we needed these technologies for a usable user interface</dd>
+<dt id="T08-45-32">08:45:32 [babel_janne]</dt><dd>fillets aren't related to identity directly</dd>
+<dt id="T08-45-43">08:45:43 [babel_janne]</dt><dd>babel_janne is now known as babel_audience</dd>
+<dt id="T08-45-52">08:45:52 [babel_audience]</dt><dd>ok, now I understand why it looks so bad</dd>
+<dt id="T08-45-59">08:45:59 [babel_audience]</dt><dd>so it's more usable</dd>
+<dt id="T08-46-06">08:46:06 [babel_audience]</dt><dd>babel_audience is now known as babel</dd>
+<dt id="T08-46-09">08:46:09 [benja_]</dt><dd>mv babel_audience babel_matti</dd>
+<dt id="T08-47-17">08:47:17 [babel]</dt><dd>babel is now known as babel_matti</dd>
+<dt id="T08-47-24">08:47:24 [babel_matti]</dt><dd>you can try the legos if you want</dd>
+<dt id="T08-47-37">08:47:37 [benja_]</dt><dd>ah :)</dd>
+<dt id="T08-47-45">08:47:45 [babel_matti]</dt><dd>(sorry about the lag)</dd>
+<dt id="T08-52-24">08:52:24 [vegai]</dt><dd>hmm, what looks bad?</dd>
+<dt id="T08-52-38">08:52:38 [vegai]</dt><dd>the fillets?</dd>
+<dt id="T08-57-11">08:57:11 [babel_matti]</dt><dd>babel_matti is now known as babel</dd>
+<dt id="T08-58-32">08:58:32 [vegai]</dt><dd><a href="http://www-128.ibm.com/developerworks/web/library/wa-cranky50.html?ca=dgr-lnxw06BabyDuck">http://www-128.ibm.com/developerworks/web/library/wa-cranky50.html?ca=dgr-lnxw06BabyDuck</a></dd>
+<dt id="T09-00-42">09:00:42 [babel]</dt><dd>the speaker meant the fenpdf user interface as a whole</dd>
+<dt id="T09-01-02">09:01:02 [vegai]</dt><dd>thank you</dd>
+<dt id="T09-01-29">09:01:29 [babel]</dt><dd>babel has quit</dd>
+<dt id="T09-02-14">09:02:14 [tuukkah]</dt><dd>well, the translation service might also be useful for distance learners and for archival purposes :-)</dd>
+<dt id="T09-02-56">09:02:56 [ffdarcsbot]</dt><dd>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, fix</dd>
+<dt id="T09-03-19">09:03:19 [tuukkah]</dt><dd>although I should ask jvk if the translation matched what he meant and benja_ if it helped follow the situation</dd>
+<dt id="T09-03-28">09:03:28 [tuukkah]</dt><dd>hmm, one of these really nice commit messages</dd>
+<dt id="T09-04-17">09:04:17 [tuukkah]</dt><dd>I used luminocity on the lecture to best humppake and his Mac ;-)</dd>
+<dt id="T09-04-48">09:04:48 [tuukkah]</dt><dd>but, the lecture has transformed into lunch in Piato -&gt;</dd>
+<dt id="T09-13-16">09:13:16 [vegai]</dt><dd><a href="http://www.ok-cancel.com/archives/week_2003_10_03.html">http://www.ok-cancel.com/archives/week_2003_10_03.html</a></dd>
+<dt id="T09-49-40">09:49:40 [rubberpaw]</dt><dd>rubberpaw has joined #fenfire</dd>
+<dt id="T09-55-55">09:55:55 [ibid]</dt><dd>vegai: which is correct, "you are I" or "you are me"?</dd>
+<dt id="T09-56-32">09:56:32 [vegai]</dt><dd>you are me</dd>
+<dt id="T09-56-35">09:56:35 [ibid]</dt><dd>that</dd>
+<dt id="T09-56-42">09:56:42 [vegai]</dt><dd>or it's a trick question :)</dd>
+<dt id="T09-56-43">09:56:43 [ibid]</dt><dd>'s what we agreed on :)</dd>
+<dt id="T09-56-45">09:56:45 [ibid]</dt><dd>thanks :)</dd>
+<dt id="T09-56-49">09:56:49 [vegai]</dt><dd>yeah, ok</dd>
+<dt id="T09-57-01">09:57:01 [ibid]</dt><dd>i was just making a joke about URI, and benja said it was ungrammatical :)</dd>
+<dt id="T09-57-09">09:57:09 [vegai]</dt><dd>ah :)</dd>
+<dt id="T09-58-25">09:58:25 [ibid]</dt><dd>i am he as you are he as you are me and we are all together</dd>
+<dt id="T09-58-46">09:58:46 [vegai]</dt><dd>they're both incorrect, since I am not you.</dd>
+<dt id="T09-58-52">09:58:52 [vegai]</dt><dd>(har har har)</dd>
+<dt id="T09-59-31">09:59:31 [ibid]</dt><dd>yes, but that's semantic incorrectness, not grammatical :)</dd>
+<dt id="T09-59-38">09:59:38 [vegai]</dt><dd>yep</dd>
+<dt id="T10-03-37">10:03:37 [benja_]</dt><dd>ibid, we did agree? nice :-)</dd>
+<dt id="T10-04-36">10:04:36 [ibid]</dt><dd>:)</dd>
+<dt id="T10-04-50">10:04:50 [ibid]</dt><dd>i didn't make a big deal out of it</dd>
+<dt id="T11-47-18">11:47:18 [ffdarcsbot]</dt><dd>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, add a lob that ignores all key events sent to it</dd>
+<dt id="T12-43-12">12:43:12 [ffdarcsbot]</dt><dd>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, check arguments better, throw exceptions when not acceptable</dd>
+<dt id="T12-46-55">12:46:55 [ffdarcsbot]</dt><dd>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, check argument better, throw exception if not acceptable</dd>
+<dt id="T12-47-01">12:47:01 [ffdarcsbot]</dt><dd>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, remove crud</dd>
+<dt id="T12-51-44">12:51:44 [rubberpaw]</dt><dd>rubberpaw has quit</dd>
+<dt id="T13-50-35">13:50:35 [rubberpaw]</dt><dd>rubberpaw has joined #fenfire</dd>
+<dt id="T14-08-39">14:08:39 [majukati]</dt><dd>b</dd>
+<dt id="T14-17-11">14:17:11 [rubberpaw]</dt><dd>rubberpaw has quit</dd>
+<dt id="T14-26-24">14:26:24 [ffdarcsbot]</dt><dd>project: Matti J. Katila &lt;majukati@cc.jyu.fi&gt;, Add third lecture notes.</dd>
+<dt id="T14-32-44">14:32:44 [ffdarcsbot]</dt><dd>project: Matti J. Katila &lt;majukati@cc.jyu.fi&gt;, link to main page</dd>
+<dt id="T14-39-02">14:39:02 [ffdarcsbot]</dt><dd>project: Matti J. Katila &lt;majukati@cc.jyu.fi&gt;, hups, forgot to translate the page.</dd>
+<dt id="T14-39-07">14:39:07 [ffdarcsbot]</dt><dd>project: Matti J. Katila &lt;majukati@cc.jyu.fi&gt;, fix</dd>
+<dt id="T15-50-41">15:50:41 [rubberpaw]</dt><dd>rubberpaw has joined #fenfire</dd>
+<dt id="T18-19-49">18:19:49 [rubberpaw]</dt><dd>rubberpaw has quit</dd>
+<dt id="T19-51-44">19:51:44 [rubberpaw]</dt><dd>rubberpaw has joined #fenfire</dd>
+<dt id="T19-55-48">19:55:48 [ffdarcsbot]</dt><dd>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, implement single checkbox component (a checkbox without a label)</dd>
+<dt id="T20-17-36">20:17:36 [vmiklos]</dt><dd>vmiklos has joined #fenfire</dd>
+<dt id="T20-17-47">20:17:47 [vmiklos]</dt><dd>hi</dd>
+<dt id="T20-19-30">20:19:30 [vmiklos]</dt><dd>Antti-Juhani Kaijanaho suggested me to came here, if i have any comments about your send_darcs_diffs.py script</dd>
+<dt id="T20-19-46">20:19:46 [vmiklos]</dt><dd>it works fine, but i just discovered a small bug</dd>
+<dt id="T20-19-52">20:19:52 [vmiklos]</dt><dd>if a patch has been recorded</dd>
+<dt id="T20-19-56">20:19:56 [vmiklos]</dt><dd>then unrecorded</dd>
+<dt id="T20-20-11">20:20:11 [vmiklos]</dt><dd>then till i don't delete manually it from _darcs/patches</dd>
+<dt id="T20-20-14">20:20:14 [ibid]</dt><dd>hi vmiklos :)</dd>
+<dt id="T20-20-59">20:20:59 [vmiklos]</dt><dd>the script tries to do a darcs diff --match 'hash id'</dd>
+<dt id="T20-21-01">20:21:01 [ffdarcsbot]</dt><dd>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, even if ClickController handles a mouse event, pass it on to the child to see whether it wants to handle it too (then both handle it)</dd>
+<dt id="T20-21-17">20:21:17 [vmiklos]</dt><dd>but as it's not recorded</dd>
+<dt id="T20-21-20">20:21:20 [benja_]</dt><dd>vmiklos: I wouldn't call it a bug, but it's not neat :)</dd>
+<dt id="T20-21-21">20:21:21 [vmiklos]</dt><dd>it will fail</dd>
+<dt id="T20-21-35">20:21:35 [benja_]</dt><dd>it would be better to use darcs to get the set of patches</dd>
+<dt id="T20-21-46">20:21:46 [vmiklos]</dt><dd>maybe</dd>
+<dt id="T20-22-15">20:22:15 [benja_]</dt><dd>I asked on the darcs mailing list what was going on and with help figured out it was an unrecorded patch :)</dd>
+<dt id="T20-22-22">20:22:22 [benja_]</dt><dd>and they recommended using darcs to get the patchset</dd>
+<dt id="T20-22-35">20:22:35 [benja_]</dt><dd>haven't felt the need to figure it out, though</dd>
+<dt id="T20-22-42">20:22:42 [vmiklos]</dt><dd>ofcoz this is only a small notice, if haven't known about it get</dd>
+<dt id="T20-22-43">20:22:43 [benja_]</dt><dd>because the current way works</dd>
+<dt id="T20-22-52">20:22:52 [vmiklos]</dt><dd>yet</dd>
+<dt id="T20-23-18">20:23:18 [benja_]</dt><dd>it just prints out some ugly stuff, but does the right thing ;-)</dd>
+<dt id="T20-23-45">20:23:45 [vmiklos]</dt><dd>yes, but i debugget half an hour till i figured out that this is only a warning :)</dd>
+<dt id="T20-23-51">20:23:51 [vmiklos]</dt><dd>debugged</dd>
+<dt id="T20-24-02">20:24:02 [benja_]</dt><dd>sorry about that :)</dd>
+<dt id="T20-24-31">20:24:31 [benja_]</dt><dd>'darcs changes' gives the correct set of changes</dd>
+<dt id="T20-24-57">20:24:57 [vmiklos]</dt><dd>yes</dd>
+<dt id="T20-25-30">20:25:30 [benja_]</dt><dd>argh, half past 11 ... should go to bed. cu! :)</dd>
+<dt id="T20-25-36">20:25:36 [ibid]</dt><dd>* ibid too</dd>
+<dt id="T20-25-40">20:25:40 [ibid]</dt><dd>night</dd>
+<dt id="T20-25-47">20:25:47 [benja_]</dt><dd>night</dd>
+<dt id="T20-25-54">20:25:54 [vmiklos]</dt><dd>bye</dd>
+<dt id="T20-25-57">20:25:57 [vmiklos]</dt><dd>and thanks :)</dd>
+<dt id="T20-26-01">20:26:01 [benja_]</dt><dd>welcome :)</dd>
+<dt id="T20-26-04">20:26:04 [vmiklos]</dt><dd>vmiklos has left #fenfire</dd>
+<dt id="T20-26-08">20:26:08 [rubberpaw]</dt><dd>rubberpaw has quit</dd>
+<dt id="T21-44-31">21:44:31 [tuukkah]</dt><dd>kaffe has recently started to get in infinite loop pretty often</dd>
+<dt id="T21-51-49">21:51:49 [rubberpaw]</dt><dd>rubberpaw has joined #fenfire</dd>
+</dl>
+</body>
+</html>

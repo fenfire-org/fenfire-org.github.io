@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /2005/
+
+RewriteRule ^resource ../cgi-bin/resource.py

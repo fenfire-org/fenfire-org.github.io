@@ -1,0 +1,617 @@
+00:10:59 <rubberpaw> rubberpaw has joined #fenfire
+05:51:01 <majukati> huomenta
+06:08:06 <rubberpaw> rubberpaw has quit
+06:23:40 <rubberpaw> rubberpaw has joined #fenfire
+06:34:32 <tuukkah> cool, a lod system
+08:47:32 <majukati> it's a bit slow
+08:55:54 <majukati> but now benja can implement mouse dragging etc ;)
+08:57:58 <majukati> but the lecture is more important currently
+09:04:39 <rubberpaw> rubberpaw has quit
+09:14:59 <benja_> huomenta!
+10:12:00 <tuukkah> hello
+10:24:45 <antont> hei
+10:35:06 <rubberpaw> rubberpaw has joined #fenfire
+11:31:50 <tuukkah> this seminar feels pretty pessimistic so far
+11:32:29 <babel> babel has joined #fenfire
+11:32:38 <babel> any need for me?
+11:32:56 <babel> I would love to serve anyone
+11:34:20 <babel> isn't it a warm and sunny day :-)
+11:35:32 <benja_> moi babel
+11:35:39 <babel> moin moin benja_
+11:35:51 <benja_> yes, please translate the interesting points! :)
+11:35:51 <babel> how can I help you?
+11:36:04 <benja_> tuukkah, why is it pessimistic?
+11:36:16 <babel> babel is now known as siltala_digest
+11:36:40 <tuukkah> the first one didn't say much positive
+11:36:54 <tuukkah> things are going badly and free software is bad
+11:37:21 <benja_> <siltala_digest> sha1: dic4f6gsd7bf5zhxslexzecbnvlalg2a, tigertree: o4kjuefkjlsnkraobccclvuq24coibpen34r2ri
+11:37:53 <siltala_digest> some developers want to study, some want something for themselves, some work in pay-job
+11:38:29 <siltala_digest> BSD is a exclusive development by uber-hackers how know everything better than others
+11:38:47 <benja_> * community-oriented non-profit associations
+11:39:07 <benja_> * community-oriented startup non-profit associations, that is
+11:39:19 <benja_> s/BSD/Fenfire/
+11:39:32 <benja_> ;-)
+11:39:43 <siltala_digest> Linux is popular because anybody could get their code included in it, and can, and it shows
+11:39:56 <vegai> * vegai agrees with that notion
+11:40:09 <vegai> well, not completely. "Anybody" is relative
+11:40:22 <benja_> mhm
+11:40:34 <benja_> and so is 'their code' ;-)
+11:40:35 <vegai> linux *is* pretty laisser-faire
+11:40:43 <rubberpaw> rubberpaw has quit
+11:40:44 <siltala_digest> community help in FLUG has changed into commercial help
+11:41:16 <vegai> they tend to change highly critical parts of the kernel in a fast pace... in 'stable' versions 
+11:41:17 <benja_> flug on 'flight' englanniksi
+11:41:43 <siltala_digest> * siltala_digest has registered the correction. thank you.
+11:42:04 <vegai> ?
+11:42:58 <siltala_digest> 'commons' here comes from when english lands were privatized in the name of capitalism.
+11:43:21 <benja_> so what does it mean?
+11:43:29 <benja_> the land before it was privatized, or what
+11:43:33 <siltala_digest> and serious FLOSS people try to stop this from happening with IP
+11:43:42 <benja_> hmm
+11:43:43 <siltala_digest> I suppose so
+11:44:16 <benja_> it makes sense when talking about patents
+11:44:17 <siltala_digest> they fear that development will stop with privatation
+11:44:34 <tuukkah> benja_, I think with other stuff as well
+11:44:47 <tuukkah> like the copyright on mickey mouse
+11:44:59 <tuukkah> or DRM that stops you from quoting etc.
+11:45:22 <benja_> hmm
+11:45:34 <benja_> ok
+11:46:24 <siltala_digest> essential was that torvalds started as opposing minix and its exclusive and slow devel process
+11:47:22 <siltala_digest> linus's terminal emulator started to ressemble emacs (which is the text editor from hell)
+11:47:42 <siltala_digest> and so it became an OS called Linux
+11:48:10 <siltala_digest> others have tried to copy the success of Linux
+11:49:01 <siltala_digest> (... technical stuff ...)
+11:49:13 <vegai> [is this lecturer ok?]
+11:49:39 <tuukkah> he promised in the start he wouldn't talk about business, law or technology
+11:49:51 <benja_> =)
+11:49:53 <tuukkah> vegai, in which sense?
+11:50:10 <benja_> so far it seems all pretty well-known stuff
+11:50:20 <vegai> does he know what he's talking about? I'm been to some lectures about free software, and usually they don't seem to
+11:50:25 <siltala_digest> (... are proprietary drivers in the kernel ok ...)
+11:50:26 <benja_> the point that linux isn't an average project was somewhat interesting
+11:50:58 <tuukkah> vegai, he's an activity theory researcher at hel.fi
+11:51:07 <tuukkah> sorry, helsinki.fi ;-)
+11:51:33 <benja_> "People don't drive cars. They drive Hondas and Fords" -- hmm, I disagree =)
+11:52:03 <siltala_digest> in practise
+11:52:03 <benja_> vegai, the slides give the impression that the lecturer understands the topic
+11:52:28 <tuukkah> sorry if babel isn't doing a good job
+11:52:28 <vegai> yep, ok. Is that Juha Siltala?
+11:52:36 <benja_> but they don't contain stuff I didn't know already
+11:52:39 <tuukkah> juha k. siltala
+11:52:57 <vegai> yep. Somehow I know that name but can't remember from where
+11:53:04 <vegai> that's probably a good sign :)
+11:53:16 <tuukkah> he has perhaps visited the fenfire project
+11:53:51 <benja_> uh, 'userland' and 'frontier' (in title of current slide) remind me of a proprietary product...
+11:54:12 <tuukkah> at least his colleagues have: Jussi Silvonen and Juha-Matti Leminen
+11:55:12 <benja_> games: well, it seems we're starting to get games =)
+11:55:24 <benja_> although we're well behind
+11:55:35 <vegai> depends
+11:55:39 <vegai> nethack was here first
+11:55:53 <vegai> depends on what rocks your boat, that is :)
+11:55:55 <tuukkah> contemporary video games
+11:56:05 <benja_> I mean 'behind' mostly in terms of graphics and related technology
+11:56:11 <siltala_digest> in entertainment there is no free software
+11:56:30 <benja_> we're somewhere where DOS/Win was in the mid-90s, I think
+11:56:42 <vegai> only with a much better foundation
+11:56:46 <vegai> but otherwise, yeah
+11:56:47 <siltala_digest> there are games that are used long, like nethack that is played through generations
+11:57:02 <benja_> gameplay hasn't improved much at all, so not in that sense =)
+11:57:10 <siltala_digest> this is linux desktop from 1992
+11:57:24 <vegai> I'd actually argue that gameplay has deteriorated greatly since 1986
+11:57:34 <vegai> but that's another issue ;)
+11:57:49 <siltala_digest> looks dark, networking works, traditional unix workstation...
+11:58:10 <siltala_digest> this is linux desktop a bit later, FVWM
+11:58:22 <siltala_digest> graphical web browser
+11:58:38 <siltala_digest> this is linux desktop 1997, Gnome 1.0
+11:58:42 <vegai> * vegai fears what he will say that is the linux desktop of 2005.
+11:59:38 <tuukkah> he had to show Gnome 2.10 in newest Ubuntu already, because that's what we're having for the presentation
+11:59:44 <benja_> now we see FreeCiv :-)
+11:59:52 <siltala_digest> usability is bad
+12:00:05 <siltala_digest> control center has thousands of buttons
+12:00:22 <siltala_digest> this wasn't suitable for office work
+12:01:08 <benja_> uh, the slides are from 2002 :-/
+12:01:13 <siltala_digest> Havoc Pennington in 1997 "Configurability is always preferrable", and then in 2002 "Make it just work"
+12:01:37 <siltala_digest> now a recent gnome desktop
+12:01:57 <siltala_digest> and a configuration editor like regedit.exe
+12:02:00 <benja_> but ok, they appear to have been updated later
+12:02:07 <benja_> (the (c) on the slides says 2002 still)
+12:02:21 <siltala_digest> but the user normally sees only a simple interface
+12:02:47 <siltala_digest> and the settings are worded to be understandable
+12:03:35 <siltala_digest> so in the end, the desktop is more interesting than traditional unix tools, because this can be for everyone
+12:03:54 <siltala_digest> 1. software has to be free
+12:03:57 <benja_> ubuntu says "software should be free of charge"? cool, *now* I learned something new I'm interested in :)
+12:04:01 <siltala_digest> 2. it has to be on the local language
+12:04:10 <benja_> siltala_digest: free of charge, the slide says
+12:04:26 <siltala_digest> 3. it has to be accessible to blind etc.
+12:04:37 <vegai> "Ubuntu is Free Software, and available to you free of charge. It's also Free in the sense of giving you rights of Software Freedom, but you probably knew that already!"
+12:04:38 <siltala_digest> * siltala_digest is sorry again
+12:04:40 <vegai> (says ubuntu.com)
+12:04:55 <vegai> sorry, ubuntulinux.org
+12:05:00 <tuukkah> taululla lukee "Ubuntu manifesto"
+12:05:00 <benja_> vegai: the slides refer to a manifesto
+12:05:02 <benja_> *googles*
+12:05:40 <siltala_digest> in afrika there's one gnome hacker
+12:06:06 <siltala_digest> most are in europe or the us
+12:06:21 <siltala_digest> one is in antarctica
+12:06:27 <siltala_digest> the the debian map
+12:06:36 <benja_> one in greenland
+12:06:42 <siltala_digest> about the same, with this guy in antarctica
+12:07:33 <benja_> * benja_ cannot find the 'ubuntu manifesto'
+12:08:18 <benja_> siltala_digest, what is he saying about this integration hunt?
+12:08:26 <vegai> benja_: me neither
+12:08:37 <vegai> but the frontpage of ubuntulinux.org *mentions* it anyway 
+12:09:06 <siltala_digest> miguel had to make a non-free connector between gnome and microsoft mail server
+12:09:11 <benja_> yeah, including "available free of charge"
+12:09:25 <siltala_digest> now Novell has free'ed them
+12:09:53 <vegai> benja_: but it mentions the 'real' freedom in the next paragraph
+12:10:16 <siltala_digest> Novell is now ready to pay big bounties on integration features, but the features don't make it into official gnome
+12:10:35 <siltala_digest> gnome isn't very inclusive in terms of development
+12:10:36 <benja_> vegai: I was aware they are committed to free as in speech, but I'm delighted to see they're committed to free as in 'beer', too
+12:10:46 <siltala_digest> I built this organization chart yesterday
+12:10:46 <benja_> 'free as in ware' :-)
+12:10:46 <vegai> ah, that was your point. Ok
+12:11:25 <siltala_digest> "everybody else" contains gnome foundation and interested businesses
+12:11:29 <benja_> the organization chart is great :)
+12:11:43 <benja_> a great piece of satire
+12:11:46 <siltala_digest> "maintainers" decide everything
+12:11:50 <benja_> both on Gnome and on organization charts :)
+12:12:06 <tuukkah> benja_, please argue something sensible
+12:12:29 <benja_> tuukkah, ?
+12:12:41 <siltala_digest> novell needs to maintain a fork, which is expensive and removes the advantages of free software
+12:12:51 <tuukkah> benja_ :-/
+12:12:59 <tuukkah> this is so pessimistic again
+12:13:05 <tuukkah> I fail to see the humour :-/
+12:13:17 <siltala_digest> Sun doesn't get any contribution
+12:13:26 <siltala_digest> (to OO.org)
+12:13:39 <benja_> it reminds me of that pie chart where the pie was divided into two equal parts, the left part saying "50%" and the right part also saying "50%"
+12:14:34 <siltala_digest> OO.org codebase was originally by a little German team, and it's structured so that no-one can help easily
+12:14:39 <benja_> tuukkah, I don't know, perhaps I don't find it so pessimistic because I'm not that interested in GNOME anyway -- dunno
+12:14:52 <siltala_digest> now Sun wants the new features in Java, which people like even less
+12:15:13 <tuukkah> benja_, well, overall, as this is what he took as the example
+12:15:20 <benja_> I think the OO.o stuff isn't completely true
+12:15:43 <benja_> I also found the mentions of Ubuntu non-depressing
+12:15:46 <siltala_digest> there is no community, but there's a network
+12:16:33 <siltala_digest> it's not developed in developing countries
+12:16:49 <siltala_digest> (localization is different)
+12:16:59 <benja_> in the sense that, Ubuntu is looks like it can become an end-user-useful distro that isn't like the distro version of the problems he described with OO.o
+12:17:47 <siltala_digest> KDE has more open development model
+12:17:53 <benja_> yeah
+12:18:15 <siltala_digest> KDE is dynamic and has crazy unsuitable features
+12:18:40 <siltala_digest> siltala_digest is now known as babel_asko
+12:18:48 <babel_asko> how to sum this up?
+12:19:18 <babel_asko> perhaps developing countries should get software development resources
+12:19:34 <babel_asko> babel_asko is now known as babel_audience
+12:19:39 <babel_audience> they don't have free time
+12:20:01 <babel_audience> babel_audience is now known as babel_siltala
+12:20:18 <babel_siltala> I only took the examples of really relevant, commercial projects
+12:20:32 <benja_> hmm
+12:20:58 <babel_siltala> sun should create an oo.org development institute in India, because they would want to develop there
+12:21:12 <babel_siltala> babel_siltala is now known as babel_humppake
+12:21:15 <babel_humppake> let's move on
+12:21:36 <babel_humppake> tapani tarvainen and software patents
+12:22:50 <babel_humppake> babel_humppake is now known as babel_tarvainen
+12:23:04 <benja_> *sigh* another finnish prezn
+12:23:05 <babel_tarvainen> legal terms are difficult so I'll talk in Finnish
+12:23:10 <babel_tarvainen> there's not much time
+12:23:21 <tuukkah> benja_, sorry :-(
+12:23:21 <benja_> maybe you want to skip the translation of this
+12:23:27 <tuukkah> ok
+12:23:32 <babel_tarvainen> ok
+12:23:41 <babel_tarvainen> babel_tarvainen is now known as tarvainen_digest
+12:23:56 <benja_> (I mean, translating legal terms probably isn't much easier than speaking in English in the first place =))
+12:23:58 <tarvainen_digest> GPL depends on copyright law
+12:25:23 <benja_> hmm, I just had this weird idea because Tapani's using HTML slides
+12:25:38 <tuukkah> yes?
+12:25:41 <benja_> how about having slides with HTML links to external resources, and giving the audience the URI?
+12:25:54 <tuukkah> benja_, sure!
+12:25:57 <benja_> and saying in the presentation, "click here if you want to know more about..."
+12:26:24 <benja_> i.e., using the audience's computers to hypertextualize your presentation or something ;-)
+12:27:29 <tarvainen_digest> the new suggested laws make harsh punishment for stuff you can do accidentally 
+12:28:54 <tarvainen_digest> laws talk of commercial use in ways that are incompatible with free software
+12:29:21 <tarvainen_digest> such as you can make interoperable if there is significant commercial use
+12:35:11 <rubberpaw> rubberpaw has joined #fenfire
+12:38:56 <benja_> what does the time limit mean -- what would the law require of whom
+12:38:57 <tarvainen_digest> this is what you can send to your representatives as suggestions
+12:39:16 <benja_> (would it make it illegal to publish DRM tech w/o time limit, or...)
+12:40:05 <tarvainen_digest> you shouldn't use DRM to get limits that aren't included in law
+12:40:36 <tarvainen_digest> there should be a time limit in DRM so that when copyright expires the DRM expires too
+12:44:36 <tarvainen_digest> is music industry 'industry'
+12:46:53 <tarvainen_digest> even if you write the software yourself, you are not allowed to use it in your work
+12:47:28 <benja_> the third point from bottom on current slide applies to ff, by the way
+12:47:36 <tarvainen_digest> I can't see
+12:48:00 <benja_> "If 'invention' is a process involving a computer program, selling or distributing the program is only indirect (contributory) infringement, its use by the end user is a direct one"
+12:48:22 <tuukkah> what's the implications?
+12:48:27 <benja_> I don't know
+12:48:36 <benja_> that the end users can be sued, too? :-(
+12:48:57 <tuukkah> well, if they use it otherwise than at home
+12:49:01 <benja_> y
+12:49:03 <benja_> true
+12:49:08 <benja_> you want to ask?
+12:49:16 <tuukkah> you can ask yourself :-)
+12:49:22 <benja_> you asked here :-)
+12:49:24 <tuukkah> he sai you can stop him :-)
+12:50:11 <tarvainen_digest> selling a kit to build is direct infringement
+12:50:26 <tarvainen_digest> but a program is indirect
+12:51:39 <tuukkah> so
+12:52:18 <tuukkah> indirect means that you can defend by saying you didn't know of the patent
+12:52:35 <tuukkah> and the punishment is smaller
+12:54:29 <tarvainen_digest> digi-tv recording is patented, so if you publish free software for it you infringe
+12:57:37 <tarvainen_digest> under the current law, almost all cases of software have been able to be patented
+12:59:08 <vegai> * vegai thinks about patenting Cata ;-P
+12:59:26 <vegai> "A method for transferring the tree structure of an optical media to a RAM media." ;-)
+12:59:57 <tarvainen_digest> patent should help spread information, but as a program is only information, patent can't help here
+13:00:39 <tarvainen_digest> to distribute a patent description can't infringe, but if you publish an explanation of the description, you may infrigne
+13:01:44 <tarvainen_digest> microsoft is going to try to crush samba and oo.org with their patents
+13:04:31 <tarvainen_digest> lot of the same problems that apply to free software apply to university research too
+13:45:10 <vegai> GPL3 didn't pop up in any discussion, I guess?
+13:51:12 <benja_> vegai: not in any English one ;)
+13:52:28 <benja_> I don't think there's much to say about GPL 3 until the FSF publish their first draft...
+13:54:09 <vegai> yeah, I guess. Expect gossip
+13:59:24 <vegai> so... I wonder how dangerous and wrong it would be to make a URN-generating function pure
+13:59:36 <vegai> with unsafePerformIO
+14:00:56 <vegai> I mean... URNs are supposed to be unique, so their generating should be independant of the environment, right?
+14:02:13 <rubberpaw> rubberpaw has quit
+14:10:23 <benja_> vegai, I don't really understand
+14:10:41 <benja_> it's not pure because it returns something different every time
+14:10:50 <benja_> but I think you're aware of that ;)
+14:33:25 <jvk> jvk has quit
+14:33:58 <jvk> jvk has joined #fenfire
+15:04:54 <vegai> ok, not pure
+15:04:58 <vegai> non-monadic, still
+15:05:52 <vegai> because the order of the action (generating a new URN) doesn't matter, does it?
+15:06:57 <ibid> good evening :)
+15:07:05 <vegai> ah, ibid
+15:07:09 <vegai> you probably have an opinion
+15:07:29 <ibid> siltala stood in for me there ;)
+15:07:33 <ibid> on what?
+15:07:53 <vegai> on how crazy it is to use unsafePerformIO when generating new URNs
+15:08:18 <ibid> depends on if you need it
+15:08:30 <ibid> there's no point in discussing it in the abstract
+15:09:51 <vegai> yeah..
+15:10:41 <ibid> ah, i read the above now
+15:11:02 <rubberpaw> rubberpaw has joined #fenfire
+15:11:06 <ibid> well, it can only be pure if its return value is a function of its parameter(s)
+15:11:40 <vegai> so anything with random numbers isn't.. ok
+15:11:44 <ibid> i suppose you want to have a newURI :: URI which calls a rng under uPIO; that's definitely not a pure function
+15:11:45 <vegai> I guess I knew that already
+15:12:02 <vegai> yes, exactly
+15:12:35 <ibid> the problem is, how many times will it be called :)
+15:12:47 <ibid> say, in let uri = newURI in (uri, uri)
+15:14:24 <vegai> right
+15:14:41 <ibid> or (newURI, newURI) ;)
+15:14:50 <ibid> (the answer is the same to both questions)
+15:16:29 <ibid> what you could in principle do is to have a uriOf :: Document -> URI function, which generates a new URI when it first sees a document and remembers the URI for subsequent calls with the same document
+15:16:48 <ibid> that'd be a legit use of uPIO, though you still need to be careful
+15:19:47 <vegai> yep, that sounds good
+15:20:37 <ibid> of course, you need to be careful with what is a "same" document :)
+15:21:32 <vegai> perhars uriOf would always check from a database backend (or whatever) if a document already exists 
+15:21:52 <vegai> and uriOf, when generating a new URI, would always write to the backend before returing 
+15:21:59 <vegai> though that would be very side-effecty there
+15:22:25 <ibid> i think it's better to first check an unsafe identifier (eg. pointers) and if that fails, check a digest
+15:24:34 <vegai> sounds dangerous
+15:27:47 <ibid> why?
+15:28:10 <vegai> because I don't understand it fully
+15:28:29 <majukati> sounds a great programming language
+15:28:41 <ibid> majukati: hm?
+15:30:21 <vegai> perhaps I should just play it safe and make it newURI :: IO Uri
+15:31:37 <vegai> well, I could use that even if I go with the uriOf -way
+15:34:14 <vegai> it's just kinda sad if you have to be in the IO monad all the time to use this stuff
+15:34:33 <ibid> well, if you think that IO is sad ...
+15:36:02 <tarvainen_digest> tarvainen_digest has quit
+15:36:39 <vegai> no, not particularily ;)
+15:36:52 <vegai> but its absence is happy
+15:37:11 <vegai> or ..... fun!
+16:27:31 <benja_> [back]
+16:32:38 <antont> antont has quit
+16:32:38 <jvk> jvk has quit
+16:32:38 <vegai> vegai has quit
+16:32:38 <rubberpaw> rubberpaw has quit
+16:32:38 <ibid> ibid has quit
+16:32:38 <mudyc_> mudyc_ has quit
+16:32:38 <benja_> benja_ has quit
+16:32:38 <majukati> majukati has quit
+16:32:38 <humppake> humppake has quit
+16:32:38 <tuukkah> tuukkah has quit
+16:33:40 <rubberpaw> rubberpaw has joined #fenfire
+16:33:40 <jvk> jvk has joined #fenfire
+16:33:40 <ibid> ibid has joined #fenfire
+16:33:40 <mudyc_> mudyc_ has joined #fenfire
+16:33:40 <vegai> vegai has joined #fenfire
+16:33:40 <benja_> benja_ has joined #fenfire
+16:33:40 <majukati> majukati has joined #fenfire
+16:33:40 <humppake> humppake has joined #fenfire
+16:33:40 <tuukkah> tuukkah has joined #fenfire
+16:33:40 <antont> antont has joined #fenfire
+16:35:57 <rubberpaw> rubberpaw has quit
+16:56:01 <majukati> benja_: read your mail
+16:56:01 <humppake> humppake has quit
+16:56:15 <benja_> what, all of it?
+16:56:29 <benja_> :)
+17:00:16 <majukati> and i want the plan what we wrote for the course to fill in the course page, please
+17:05:58 <humppake> humppake has joined #fenfire
+17:07:27 <benja_> I have no idea what you are talking about
+17:07:35 <majukati> ok
+17:07:58 <majukati> in mail or the request above?
+17:08:19 <benja_> the request above
+17:09:45 <majukati> you wrote a plan file where all dates and topics are written, i am interested to see it
+17:10:33 <majukati> date and topics of lectures
+17:10:50 <majukati> s/ate/ates/
+17:11:45 <benja_> did I? I can't find such a file
+17:11:51 <benja_> I'll reconstruct from memory
+17:12:18 <majukati> we wrote it together
+17:12:35 <benja_> majukati: I don't believe we wrote a file
+17:12:53 <rubberpaw> rubberpaw has joined #fenfire
+17:12:54 <benja_> I think we made a list but didn't save it
+17:13:01 <majukati> ugh
+17:13:09 <majukati> sounds good ;)
+17:13:10 <benja_> 14.4.: Fenfire programming
+17:13:22 <benja_> 21.4.: Storm or Alph
+17:13:29 <benja_> 28.4. (1): Storm or Alph
+17:13:36 <benja_> 28.4. (2): Libvob
+17:13:44 <benja_> 10.5. Seminar
+17:14:03 <benja_> I think we should cover Storm and Alph in one lecture, though
+17:14:30 <benja_> [5.5.: No lecture]
+17:15:41 <majukati> Fenfire programming sounds broad :)
+17:17:04 <majukati> Lobs on sommiteoliot =)
+17:18:25 <majukati> benja_: one thing for one lecture is good enough
+17:19:20 <majukati> i have a fear that no programming projects are presented at ending seminar
+17:19:56 <benja_> majukati: I think it's unbalanced
+17:20:14 <majukati> which is unbalanced?
+17:20:33 <benja_> having separate lectures for storm and alph, especially alph
+17:20:54 <benja_> especially looking at your plan for the next lecture ;)
+17:21:44 <majukati> benja_: you write a feedback then ;)
+17:22:06 <benja_> yes, that's what I'm doing
+17:22:25 <benja_> (actually, writing a counter-proposal :))
+17:28:10 <benja_> sent
+17:49:51 <majukati> thinking..
+18:07:12 <rubberpaw> rubberpaw has quit
+18:07:24 <majukati> sent
+18:13:36 <benja_> majukati, I feel frustrated because you don't seem to be interested at all in making this a course with a practical component. Lecture notes are more important than having something the students can use, for the lecture?
+18:15:37 <benja_> I thought this lecture was about how to do something with Fenfire
+18:19:02 <majukati> yes, and there is a point where you need to start pickking the fruits and leave coding to background :)
+18:19:54 <majukati> sorry if i frustate you but that's not how i can work. i need to process these things longer
+18:20:13 <benja_> we have talked about EXACTLY this plan last friday
+18:20:25 <benja_> now you want to do something completely different
+18:22:47 <majukati> yes, broad consept - now we need to split it to smaller parts
+18:23:03 <tuukkah> I think this situation was pretty much inevitable when you decided to make this course. fenfire is not proven and stable technology, identities are a new subject for course (first in the world?) etc. but the course doesn't have to be perfect
+18:24:10 <benja_> so are you saying you want to bump writing Fenfire views to another lecture?
+18:24:54 <benja_> I don't see a reason for that, frankly
+18:25:05 <majukati> benja_: i can not follow
+18:25:15 <benja_> 21:22 < majukati> yes, broad consept - now we need to split it to smaller parts
+18:25:27 <benja_> you don't want to do view programming in this lecture
+18:25:47 <benja_> ("Graah, we don't have this yet. We should start writing lecture notes
+18:25:49 <benja_> already and not grumble with code..")
+18:25:54 <benja_> so how should I understand this?
+18:27:42 <benja_> (I need to go soon, back around 11pm)
+18:27:49 <benja_> (not yet, but soon)
+18:28:46 <majukati> i don't know since i don't know that eather - maybe i feel frustated since there's no simple task that i could start working on :/
+18:28:56 <majukati> s/eather/either/
+18:29:18 <benja_> what kind of task? (programming? lecture notes? other?)
+18:30:47 <majukati> let's say that we need lecture notes for all stuff but how we are going to schedule that is not decided yet
+18:31:29 <benja_> you mean schedule when to have the lecture notes?
+18:31:51 <majukati> no, who lectures each part and so on
+18:32:59 <majukati> when is before lecture, i.e., 12:15 on Thursday
+18:33:38 <benja_> I don't understand what you mean, sorry :-(
+18:37:04 <majukati> do you want to lecture the whole lecture or do we divide it to pieces?
+18:37:50 <benja_> I would like to divide it, but of course you need to say which parts you feel you could give
+18:38:10 <majukati> ok, no we are at the point :)
+18:39:03 <majukati> (is that phrase the same as in Finnish?)
+18:39:15 <benja_> I don't know it as a special phrase :)
+18:39:17 <majukati> meaning that now we are in the business
+18:39:27 <majukati> or something related
+18:39:37 <benja_> so, give me some business then and tell me which parts you want :)
+18:41:57 <majukati> do you like odds or the opposite of odds?
+18:42:24 <majukati> odd, even
+18:42:30 <benja_> I don't care I think\
+18:43:21 <majukati> ok, i would like to take odd(s)
+18:44:08 <majukati> from your list
+18:44:11 <benja_> note that "the javolution preprocessor" would be pretty short, these are not trying to be equal sized
+18:45:03 <majukati> yes i can add some words about memory areas and how this seems to be quite nice system after all
+18:45:13 <benja_> ?
+18:45:35 <benja_> a) javolution is an even one, b) I think the lecture is very full, not too empty
+18:46:39 <majukati> ah yes
+18:46:39 <benja_> (I need to go in 3 minutes or so, back around 11 as I said)
+18:46:48 <majukati> see you then
+18:46:54 <benja_> ok
+18:47:16 <benja_> (it's the laundry thing again ;))
+18:48:20 <majukati> good, you are clean and tidy tomorrow :)
+19:07:37 <Tulitar> Tulitar has joined #fenfire
+19:10:02 <benja_> back already, I'm too tired to sit in the laundry room till 11
+19:10:09 <benja_> majukati, :-)
+19:10:26 <benja_> yes, I wanted to put on different trousers today but didn't have any left :-(
+19:11:07 <benja_> I'll probably just have to leave the laundry in the laundry room till tomorrow
+19:12:10 <tuukkah> I gave someone instructions how they should be able to develop fenfire on ubuntu live, and told them there's probably more trouble and they should start a discussion on the list when they hit the first problem
+19:13:43 <tuukkah> so, there's one thing solved. either they send mail, or they don't
+19:13:52 <benja_> * benja_ wonders what Hanna meant by netquota
+19:14:22 <benja_> tuukkah, I think we should give them a jar to develop against, then they can use Win if they like -- what do you think?
+19:14:50 <tuukkah> I wholeheartedly agree
+19:15:07 <majukati> benja_: in ylioppilaskylä they have netquota, i.e., if you download too much your connection gets very very slow
+19:15:16 <tuukkah> otoh, so much about linux, darcs, emacs then ...
+19:16:28 <benja_> tuukkah, hm? did you want them to learn darcs? :)
+19:16:54 <tuukkah> yes. otherwise they don't know how to update, merge, and send patches :-)
+19:17:15 <benja_> oh well, we just don't give them the source with the jar ;-)
+19:17:36 <tuukkah> makes sense =)
+19:18:36 <benja_>  /. reports that a museum director got indicted for selling an astronaut's in-flight t-shirt
+19:18:59 <benja_> news for nerds, stuff that matters :)
+19:20:21 <benja_> * benja_ should do some work on the linebreaker thing -- well, after reading this article [*]
+19:20:29 <benja_> [*] not the t-shirt one
+19:22:32 <rubberpaw> rubberpaw has joined #fenfire
+19:32:11 <tuukkah> hmm, is there anything else to think about jar than .rj preprocessor?
+19:32:47 <tuukkah> and that there probably are some file reads that aren't made to work from jar
+19:33:26 <benja_> tuukkah: .rj preprocessor: we just need to distribute the preprocessor py file as well
+19:34:04 <tuukkah> well well
+19:34:05 <benja_> file reads: only one I'm aware of, the XSLT for converting RSS2.0 / Atom to RSS 1.0
+19:34:16 <tuukkah> yes, that one :-)
+19:35:02 <tuukkah> if you distribute a py file, should you distribute it as a jar file with jython runtime and a proper main class
+19:36:24 <benja_> I don't want to do that -- it's work and the result is very slow
+19:37:17 <benja_> although admittedly easier to use if you have Java anyway
+19:37:35 <benja_> but then again, if you do it the other way you get people to start using Python ;)
+19:37:38 <tuukkah> do you want them to install python?
+19:37:46 <benja_> tuukkah: yeah
+19:37:53 <tuukkah> but not darcs...
+19:38:09 <benja_> tuukkah, the compile process is not easy to make work on Windows
+19:38:26 <tuukkah> which compile process?
+19:38:39 <benja_> tuukkah: the thing you do after 'darcs get' and before 'make run'
+19:39:22 <tuukkah> well, wasn't the only problem these .rj files?
+19:39:36 <benja_> that tool called 'make'?
+19:39:49 <benja_> the order of dependencies?
+19:39:51 <tuukkah> does it do anything interesting?
+19:40:03 <tuukkah> I don't think we use it for that
+19:40:13 <benja_> tuukkah, order of dependencies of projects
+19:40:21 <benja_> it doesn't do anything interesting. so?
+19:40:27 <benja_> it does boring things
+19:40:30 <tuukkah> we don't do even that with make
+19:40:43 <benja_> tuukkah: I didn't say we did. I was making a list
+19:40:44 <benja_> 1. make
+19:40:48 <benja_> 2. order of dependencies
+19:41:33 <tuukkah> I think you make one jar of the sources, extract it and type javac org/fenfire/Main.java
+19:41:53 <benja_> you want the students to do that?
+19:42:04 <tuukkah> the last to steps?
+19:42:07 <tuukkah> two
+19:42:26 <benja_> tuukkah, then they don't learn how to use darcs -- I totally fail to see your point :-(
+19:42:55 <tuukkah> I'm sorry
+19:42:56 <benja_> 22:37 < tuukkah> do you want them to install python?
+19:42:56 <benja_> 22:37 < benja_> tuukkah: yeah
+19:42:56 <benja_> 22:37 < tuukkah> but not darcs...
+19:43:49 <benja_> so I told you that the point was not that I don't want them to install darcs, but that compiling from source obtained through darcs is too hard
+19:44:05 <benja_> installing python is not
+19:44:27 <benja_> did at least I get my point across now or are we still both failing to? ;)
+19:44:40 <tuukkah> ok, compiling from repo source is not difficult
+19:44:57 <benja_> if you have the tools, it isn't
+19:45:40 <tuukkah> cd fenfire && javac -cp ../fenfire.jar org/fenfire/Main.java
+19:46:39 <tuukkah> perhaps javac even uses classpath to locate java files
+19:47:10 <tuukkah> so we don't need fenfire.jar and you can modify more than one subproject at a time
+19:47:27 <benja_> tuukkah, that doesn't compile the .rj
+19:48:04 <benja_> otherwise, the one with the classpath does recompile ff source, true
+19:48:12 <benja_> s/classpath/fenfire.jar/
+19:48:29 <tuukkah> when you edit a .rj, you run java -jar rj.jar file.rj
+19:48:30 <benja_> " so we don't need fenfire.jar" -- but do need to set a complex classpath?
+19:49:31 <tuukkah> something like -cp fenfire.jar:../navidoc:../storm:../alph:../libvob
+19:49:43 <benja_> erm, that includes fenfire.jar
+19:49:53 <benja_> then you don't need the ../navidoc etc?
+19:50:00 <benja_> if you haven't changed them
+19:50:07 <tuukkah> well, you need those you have changed
+19:50:24 <benja_> anyway, this discussion seems orthogonal to whether to have rj.jar or ask the students to install py
+19:50:29 <tuukkah> we need something like fenfire.jar because of all the dependensies
+19:50:41 <benja_> yes
+19:50:58 <tuukkah> so we can as well have everything there
+19:51:20 <tuukkah> installing py on windows is nothing I know
+19:51:35 <benja_> tuukkah, it's something I know
+19:51:39 <benja_> it's trivial
+19:52:42 <benja_> * benja_ started using Python on Windows
+19:53:57 <benja_> I mean, I'd be more interested in the jar if it didn't mean that it'll take say 40 seconds instead of 5 to compile
+19:55:14 <tuukkah> ok, then python install it is :-)
+19:55:17 <benja_> :)
+19:55:37 <tuukkah> bbl
+19:55:43 <benja_> cu
+19:56:09 <majukati> dragController is needed
+19:56:43 <benja_> mhm
+19:57:56 <benja_> for which cases do we need it right now?
+19:58:07 <benja_> (trying to think how it should work)
+19:58:11 <majukati> hm, it's not really important
+19:58:39 <majukati> did you already pushed the non-content-but-something-else view?-)
+19:58:54 <benja_> no, because of bugs
+19:59:00 <benja_> that happen sometimes
+19:59:03 <benja_> I'll push it now, anyway
+19:59:09 <majukati> :~)
+19:59:31 <majukati> if you push now, they are just features
+19:59:45 <benja_> -)
+19:59:56 <majukati> since nobody pushes buggy code ;)
+20:01:23 <benja_> is there
+20:01:40 <benja_> make run in fenfire, hit Alt-V
+20:05:03 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fixes to ScaleLob and Tray
+20:06:00 <majukati> benja_: do we now need property check box view too to have less information on these boxes?
+20:07:25 <majukati> and add click controller so you can edit these boxes, or what was the idea of editing data?-)
+20:08:34 <benja_> majukati, making them editable is a bit hard (because how should the focus be handled?)
+20:08:57 <benja_> property check box listbox may be good
+20:09:16 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, a content view showing multiple properties of a node, somewhat similar to Naked Objects' view
+20:25:05 <majukati> demo (show how to use it -- show FOAF/DOAP data)  what is needed for this?  (i'm still a bit unsure how the user moves in the structure..
+20:25:46 <benja_> majukati: unfortunately, I am, too. :-( :-( -- but I would suggest that we do something really simple for now; I could add left-click-to-move trivially
+20:25:46 <majukati> s/what is needed for this?/what was the idea how to move with these views in the structure/
+20:26:18 <benja_> of course, that would give us only moving *forward* in the current system
+20:26:43 <benja_> because the proplist view shows only forward connection
+20:26:45 <benja_> connections
+20:27:06 <majukati> maybe we can add backward connections
+20:27:17 <majukati> before the "Foo"
+20:27:42 <benja_> yrgh -- the Foo is like a title...
+20:27:54 <majukati> yes, then it's in the center :)
+20:27:54 <benja_> how about having a three-column table
+20:28:07 <benja_> property in middle, and connections left/right from it
+20:29:42 <majukati> if we add left-click-to focus so we infring the patent?
+20:29:49 <majukati> s/so/do/
+20:30:15 <benja_> majukati, it could be argued that we do
+20:30:29 <benja_> depending on how broad you see it, it could be argued that web browsers infringe it, too
+20:30:37 <benja_> (web browsers predate the patent)
+20:32:14 <majukati> just we say that these aren't ideas but standard vocabularies and there isn't strong extension to web browser
+20:32:53 <benja_> sorry, I don't understand
+20:33:38 <rubberpaw> rubberpaw has quit
+20:33:40 <majukati> i don't know
+20:34:13 <majukati> mowing always infrings if next thing is in the focus
+20:34:42 <majukati> on the other hand, next thing is more like a title with set of properties - not an idea
+20:35:36 <benja_> majukati, the patent does not define what a "thought" is -- I don't think we can know what they might argue in court what this word means
+20:35:52 <benja_> in their software, it can even be a Word document, I think
+20:37:17 <majukati> let's not discuss this now if that's ok. let's make them pretty much like current web links
+20:37:29 <benja_> which left click does
+20:37:30 <vegai> so, here's where I'm going to build my stuff: http://iki.fi/vegai/darcs/fenspark/
+20:37:46 <vegai> it's already buildable... alas, it has no features
+20:37:54 <vegai> but I dare say that it has no bugs!
+20:38:01 <majukati> with *blue* _underscores_ !
+20:38:16 <benja_> blah
+20:38:18 <vegai> (sorry for the disturbance, carry on :)
+20:38:24 <benja_> vegai: =)
+20:38:47 <benja_> vegai, isn't having both URN-5.hs and URN5.hs a bug in itself ;)
+20:38:58 <vegai> ach
+20:39:03 <vegai> that's a bug of rsync
+20:39:07 <benja_> -)
+20:39:11 <vegai> I believe if you darcs get it, you only get URN5.hs
+20:39:39 <vegai> yep
+20:41:23 <majukati> "Fenfire Clone written in Haskell" -- It seems that everyone is trying to make his/her own port of fenfire :)
+20:41:42 <vegai> those who do not understand Foo are bound to reimplement it, poorly
+20:42:20 <vegai> the description may have to change to "Tools for Fenfire, written in Haskell"
+20:42:38 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, show both forward and backward links
+20:43:10 <vegai> there are many parts of fenfire that I won't touch
+20:43:25 <vegai> GUIs is one of those
+20:43:29 <vegai> isare
+20:44:05 <majukati> so which part is the cloning thing then?
+20:44:27 <vegai> I'm not sure yet
+20:44:40 <vegai> that's why I think that "tools" might be a better name
+20:44:56 <vegai> or "library"
+20:45:31 <vegai> but isn't the name cute? =)
+20:46:36 <majukati> anyway, good that someone is actively developing his software project so we can grade others than ourselvs too to have credits :)
+20:49:47 <benja_>     =)
+20:50:14 <vegai> I fixed the .cabal to be more 'accurate'
+20:50:23 <vegai> heh
+20:50:46 <vegai> should I give some sort of project plan to you?
+20:52:02 <majukati> you will present the whole thing at the seminar but if you want you can, as well of ask help :)
+20:54:32 <majukati> as well as you can ask help if needed (but we will only answer questions about fenfire code  ;)
+20:56:01 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, make click-to-move work, grey out "<no value>"
+20:57:49 <majukati> benja_: how to make the title bigger and centered? i put hbox and added glue, resulting XXX Error negative diff size 
+20:58:11 <benja_> making it bigger: scale more. center it: try alignlob
+20:58:35 <benja_> the negative diff size is a difficult problem, let's talk about it tomorrow
+20:58:44 <benja_> (or after thursday perhaps)
+21:01:00 <vegai> eep, seminar
+21:01:14 <vegai> * vegai is not a big fan.
+21:03:19 <majukati> it has been marked as informal so don't take too much stress
+21:05:52 <majukati> that is, if you don't present your software, someone else do :))
+21:08:39 <majukati> benja_: vbox doesn't seem to care much about foo
+21:08:44 <majukati> 's scale
+21:09:21 <majukati> aha, that's because of align
+21:10:22 <majukati> and scale doesn't make any change
+21:10:31 <majukati> if run without align
+21:10:40 <majukati> there's something broken in the system
+21:12:49 <benja_> majukati, you have pulled in libvob?
+21:17:22 <majukati> no, that seems to fix scale bug
+21:22:03 <majukati> now the vbox doesn't count the maxium of that box, should it?
+21:28:16 <benja_> I don't understand
+21:28:30 <benja_> I should go to bed, let's discuss additional bugs tomorrow ;)
+21:28:44 <majukati> ok, i will go to bed too
+21:28:58 <benja_> ok, cu :)
+22:09:01 <rubberpaw> rubberpaw has joined #fenfire
+22:16:53 <Tulitar> Tulitar has quit
+23:17:28 <benja_> argh, stayed up much longer than I wanted to :-(
+23:17:42 <benja_> because I wanted to root out the linebreaking bugs
+23:17:57 <benja_> well, at least it works now ;)
+23:18:01 <benja_> (g'night)
+23:21:14 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix TableLob.layoutOneAxis to do "the right thing" generally; add DebugLob which prints out debug info about the methods called; fixes
+23:25:17 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, fixes
+23:34:27 <rubberpaw> rubberpaw has quit

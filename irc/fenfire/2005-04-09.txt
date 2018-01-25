@@ -1,0 +1,189 @@
+07:27:39 <majukati> it's not nice that installation stops to floating point error or segmentation fault
+07:44:44 <rubberpaw> rubberpaw has quit
+08:14:37 <rubberpaw> rubberpaw has joined #fenfire
+09:04:41 <tuukkah> benja_, we forgot to try an ad-hoc irc server yesterday :-)
+09:11:21 <majukati> whaat?
+09:21:51 <rubberpaw> rubberpaw has quit
+09:32:24 <tuukkah> we had an ad-hoc wireless network, but we only used it for supertux
+10:25:59 <rubberpaw> rubberpaw has joined #fenfire
+10:34:31 <tuukkah> antont, I read from the news that Oulu is getting a wlan network. but about price they said something like "free use will be free and you have to pay for pay-services"
+10:44:14 <vegai> nice piece of art: http://www.eviltree.de/zoomquilt/zoom.htm
+10:52:40 <majukati> tseh, i used classpath's MemoryImageSource - then there's nothing to see =)
+10:54:39 <tuukkah> oh, was it java? I thought javascript
+11:02:47 <tuukkah> would it be a good idea to add a darcs test that tries to compile before darcs push?
+11:04:43 <tuukkah> oh, this time it was only my problem: I had made a comment inside a region that was commented in a patch I built. and you can't nest comments in Java :-/
+11:13:06 <majukati> oh, now it seems to work
+11:13:11 <majukati> bufferedimage
+12:48:23 <tuukkah> majukati, so you're having luck with ImageVob?
+12:56:55 <rubberpaw> rubberpaw has quit
+13:19:54 <majukati> yep
+13:20:13 <tuukkah> nice :-)
+13:42:19 <\||> \|| has joined #fenfire
+13:42:20 <\||> \|| has left #fenfire
+14:26:12 <rubberpaw> rubberpaw has joined #fenfire
+15:06:07 <benja_> moi
+15:06:24 <benja_> anybody here?
+15:07:11 <majukati> moin!
+15:07:19 <benja_> hei :)
+15:07:57 <majukati> i fell stupid of trying to use wrong class for the image thing :/
+15:08:03 <majukati> feel
+15:08:05 <benja_> :-(
+15:08:34 <benja_> I'm unhappy that I cannot do my studies faster
+15:08:42 <benja_> I mean, that reading takes so long
+15:08:53 <tuukkah> moin
+15:10:18 <benja_> * benja_ is at agora atm
+15:10:35 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, add NoGrowLob to Lobs; support non-clipped Components.frame()s
+15:10:36 <benja_> majukati: I tried to be less of a zombie today but you weren't at Wilhelmiina as far as I could tell ;)
+15:10:42 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, fix ClipLob.mouse()
+15:10:50 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, sanity check
+15:10:59 <majukati> benja_: we ate at home because of it was raining
+15:11:21 <benja_> ok :)
+15:11:43 <benja_> how's the appartment coming along?
+15:12:13 <majukati> well, we have the internet already.. :)
+15:12:18 <benja_> =)
+15:12:25 <benja_> still many boxes?
+15:12:49 <majukati> no
+15:13:26 <ibid> good evening :)
+15:13:42 <benja_> good :)
+15:13:45 <benja_> ibid: hei
+15:13:47 <ibid> hei
+15:13:51 <ibid> good?
+15:14:02 <ibid> i sense a plan to do away with my head
+15:14:07 <ibid> ("pääni menoksi":)
+15:14:39 <rubberpaw> rubberpaw has quit
+15:14:43 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, put a frame around the view-changing sidebar again; don't stretch the views
+15:14:48 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, factor out view changing box into different class; fix it
+15:14:58 <benja_> ibid: it's good that Matti and Heidi have unpacked their boxes
+15:15:04 <ibid> heh
+15:15:51 <majukati> the store is not that good since it's long but narrow. so we don't have a certain algorith for getting stuff out of there except "take all out to corridor to take one thing out"
+15:20:51 <benja_> =)
+15:23:01 <vegai> is it like tetris or like hanoi's tower?
+15:25:02 <ibid> if the priests complete hanoi's tower, the world ends
+15:26:00 <tuukkah> pushed small updates to fenfire.org. I wonder if I should remove references to kaffe, as it doesn't work anymore :-/
+15:29:23 <benja_> tuukkah: why?
+15:29:29 <benja_> (doesn't it)
+15:31:35 <tuukkah> although I have same kind of problems with sablevm. crashes, freezes and endless loops all the time
+15:33:37 <benja_> tuukkah, why doesn't kaffe work?
+15:34:12 <tuukkah> now why, that's a good question...
+15:34:20 <benja_> what's the symptom?
+15:34:33 <tuukkah> crashes, freezes and endless loops all the time
+15:34:47 <benja_> ah, "same kind of problems'
+15:34:56 <benja_> are they at the same places?
+15:35:31 <tuukkah> every place, I'd say
+15:35:44 <benja_> huh, weird
+15:35:49 <benja_> have you tried non-FF programs?
+15:35:57 <tuukkah> no
+15:56:52 <tuukkah> anyway, Sun's never has these problems
+15:58:11 <benja_> let's say it has them less often
+15:58:25 <benja_> I have seen crashes in Sun's VM that were not related to native code
+16:05:09 <tuukkah> if I can see somewhere when I've upgraded kaffe packages I should
+16:26:21 <rubberpaw> rubberpaw has joined #fenfire
+17:04:36 <majukati> 1024x2048 is not enough to read but 256x512 seems to be enough for buoys
+17:07:52 <benja_> you mean in images?
+17:08:02 <majukati> for a one a4 page
+17:08:17 <benja_> shouldn't the buoys be zoomed in so that they're readable?
+17:08:35 <benja_> or do you mean the buoys showing the whole article...
+17:08:44 <majukati> perhaps
+17:08:59 <benja_> btw, I'm very happy that you're working on FenPDF :-)
+17:09:15 <majukati> why?
+17:09:18 <benja_> I'd like to use it but don't want to spend much time on implementing it
+17:09:24 <majukati> ah
+17:09:53 <benja_> it would be nice for learning for the exam -- will not be finished in time, but perhaps in time for the next one :-)
+17:10:22 <majukati> heh, yes
+17:11:08 <benja_> (since my uni puts the learning materials online as pdfs)
+17:11:33 <benja_> I've been working on putting back a tree of properties, like Loom had earlier
+17:11:40 <benja_> but specified in RDF, this time
+17:11:50 <benja_> need to debug more later, going home now
+17:11:58 <benja_> (actually not now but soon :-)
+17:12:12 <benja_> * benja_ is tired of sitting in Agora all day, need some fresh air
+17:19:39 <benja_> going now, cu
+17:19:47 <majukati> cu
+17:22:05 <rubberpaw> rubberpaw has quit
+18:19:59 <benja_> back
+18:20:13 <benja_> huh, a whole hour? =-]
+18:26:30 <rubberpaw> rubberpaw has joined #fenfire
+18:37:15 <tuukkah> benja_, you took a long walk or what?
+18:37:25 <benja_> yeah, apparently =)
+18:37:44 <benja_> went home on one of my usual paths, but not the shortest one
+18:38:00 <tuukkah> we went to sauna for an hour and now we're making pizza. it seems when you eat pizza you might as well eat pizza the next day too
+18:38:09 <benja_> =)
+18:38:24 <benja_> * benja_ is eating pasta
+18:38:39 <ibid> * ibid should put the chicken parts in the oven
+18:38:42 <tuukkah> pasta, pizza, pasta, pizza... :-)
+18:38:53 <tuukkah> late dinners :-)
+18:39:13 <benja_> :)
+18:39:44 <tuukkah> benja_, we're using pasta sauce from tuesday or wednesday on the pizza ;-)
+18:39:45 <benja_> but home-made pizza is different from pizza place pizza, of course
+19:05:28 <tuukkah> we didn't have enough cheese left so it definitely is different :-)
+19:05:40 <benja_> ouch =)
+19:05:53 <tuukkah> less fat :-)
+19:06:30 <tuukkah> unless sun-dried tomatos in oil are taken into account
+19:07:25 <tuukkah> oops, toma-toes
+19:07:36 <benja_> what's a toma?
+19:07:48 <benja_> is it like coma-tose?
+19:08:22 <tuukkah> I don't know, but at least it's related to tomes
+19:08:30 <benja_> :)
+19:21:53 <rubberpaw> rubberpaw has quit
+20:29:57 <tuukkah> hmm, the memory requirement has grown because I can't use structureview with the default heap size anymore
+20:30:32 <benja_> tuukkah: you should run the heap profiler and figure out what's taking the memory
+20:31:02 <benja_> what dataset are you using?
+20:31:33 <tuukkah> I was more like thinking how to change the Makefile so that even if I specify JAVA=kaffe the -mx512M part will still get included ;-)
+20:31:56 <tuukkah> doap.turtle
+20:32:01 <benja_> huh
+20:32:12 <benja_> that shouldn't need 512M :_)
+20:32:13 <tuukkah> but happens after a while with demo.turtle too
+20:32:27 <tuukkah> I don't know what the default is, 64M?
+20:33:14 <benja_> something like that, I think
+20:33:58 <benja_> perhaps we should implement BFS soon =)
+20:34:09 <benja_> (note that I haven't profiled, so that's just a guess)
+20:38:12 <rubberpaw> rubberpaw has joined #fenfire
+20:38:50 <tuukkah> mm, I got it running with -mx256M
+20:39:14 <tuukkah> looks like maxring and maxdepth aren't honoured anymore
+20:39:44 <benja_> I wouldn't know what would have broken them, if they aren't
+20:40:12 <tuukkah> i'll try then
+20:42:11 <tuukkah> oh, they work fine
+20:42:14 <benja_> :)
+20:42:28 <tuukkah> I've just made them lower before
+22:37:57 <benja_> tuukkah, btw, according to wikipedia, the Greater Helsinki area "has a population of 975,000 to 1.3 million" depending on the boundaries you draw
+22:38:57 <benja_> http://en.wikipedia.org/wiki/Suur-Helsinki
+22:41:33 <benja_> the urban area has about one million inhabitants
+22:41:38 <benja_> http://en.wikipedia.org/wiki/Largest_urban_areas_of_the_European_Union
+22:42:31 <benja_> it's the second fastest growing urban area of the EU (same page)
+22:42:49 <vegai> auch ;/
+22:42:50 <benja_> and almost tied for first place with Toulouse, France
+22:42:58 <vegai> that can't be good, can it?
+22:43:28 <benja_> uh, 'good' or 'bad' seem a bit too simple terms for a phenomenon like that ;)
+22:44:13 <vegai> it clearly implies a trend that the other areas are diminishing
+22:44:24 <benja_> vegai: I don't think so
+22:44:30 <vegai> or possibly that Helsinki-dwellers are very fertile, but I don't think that is it
+22:44:34 <benja_> I think that it's the small areas that lose
+22:44:46 <benja_> look at the number of building projects in Jyvaskyla
+22:45:23 <benja_> i.e., I think that it's country -> city, not other cities -> helsinki
+22:45:33 <vegai> hmm, according to wikipedia, the number of violent crimes in JKL is higher than the average in Finland
+22:45:52 <vegai> yes, of course
+22:45:56 <vegai> I'm worried about the countryside
+22:46:01 <benja_> ok
+22:46:13 <benja_> does it lose from having less people? ;-)
+22:46:47 <vegai> I fear it vanishes from having less people
+22:46:49 <benja_> jyvaskyla population is "ranked 9st"
+22:47:00 <vegai> but JKL isn't exactly countryside anymore
+22:47:06 <vegai> (whatever the folks down south think ;)
+22:47:06 <benja_> certainly not
+22:50:30 <vegai> on the other hand, I don't think that the natural order of things needs to meddled with much
+22:50:49 <vegai> and it seems that the natural order of things currently is that people move to the central areas
+22:51:06 <benja_> mmm
+22:51:17 <benja_> the more interesting phenomenon is the degree, here
+22:51:24 <benja_> (here being Finland)
+22:51:43 <vegai> can you elaborate?
+22:52:18 <benja_> well, I think it influences the types of housing built, for example
+22:52:33 <benja_> and it's really noticeable that you see new big houses being built everywhere
+22:53:13 <benja_> I mean, Germany has the country -> city trend too AFAIK, like the whole world has, but you can *see* it in Finland
+22:53:24 <vegai> hmm
+22:53:35 <vegai> that's probably because we're always late, so we're in a hurry to catch up
+22:54:37 <vegai> I happen to know that many of the large buildings recently built may end up empty
+22:54:46 <benja_> hmm?
+22:54:47 <vegai> or that the prices of the flats are going down sharply
+22:55:09 <vegai> I just bought a new home, and the topic came up with my realtor
+22:55:14 <benja_> ah
+22:55:34 <vegai> so it seems they're actually building bit too fast
+22:55:43 <benja_> right

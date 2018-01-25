@@ -1,0 +1,322 @@
+02:31:11 <mudyc_> mudyc_ has joined #fenfire
+02:48:05 <rubberpaw> rubberpaw has quit
+02:48:13 <mudyc> mudyc has quit
+04:03:22 <rubberpaw> rubberpaw has joined #fenfire
+06:11:33 <vegai> http://news.com.com/Teachers+leave+grading+up+to+the+computer/2100-1032_3-5659366.html?part=rss&tag=5659366&subj=news
+06:11:48 <tuukkah> yes, scary
+06:14:33 <majukati> huomenta
+06:21:06 <tuukkah> huomenta majukati
+06:22:00 <vegai> have to start thinking about programs that write essays too, just for balance
+06:25:46 <majukati> ;)
+06:27:01 <tuukkah> vegai, yeah
+06:33:41 <benja_> hi
+06:33:47 <majukati> hello
+06:33:53 <tuukkah> huomenta benja_ 
+06:34:01 <benja_> * benja_ woke up too late to be at uni at 10
+06:34:06 <tuukkah> did you get home well yesterday?
+06:34:06 <benja_> sorry
+06:34:22 <majukati> benja_: ok, not a problem. i need to walk there
+06:34:23 <benja_> tuukkah: yeah, I took the bus to the center and walked from there
+06:34:30 <benja_> majukati, ok
+06:34:43 <benja_> BUT I forgot I had my washing machine turn yesterday
+06:34:53 <benja_> and I really needed to wash. ARGH ARGH :-(
+06:35:22 <tuukkah> perhaps you wash now while eating breakfast and before coming to university ?-)
+06:35:36 <majukati> it's good that there aren't smellies yet ;)
+06:36:01 <benja_> I should probably go there at 10 and see whether the person takes their turn
+06:36:15 <ibid> it turns out i didn't lose the elections after all
+06:36:21 <benja_> hm? :)
+06:36:23 <ibid> i'll be the fifth(!) deputy member
+06:36:41 <ibid> (of the faculty council in the second staff group)
+06:38:10 <tuukkah> hmm, moin 1.3.4-1 has come to Sarge
+06:38:50 <ibid> * ibid upgrades flowerpot
+06:39:21 <tuukkah> * tuukkah wonders how it handles data migration
+06:39:37 <majukati> ibid: is the function of that machine of being a flowerpot?
+06:39:54 <ibid> nope
+06:42:01 <majukati> benja_: so, when we see then?
+06:43:04 <benja_> depends on whether the machine is free or not :-)
+06:43:52 <benja_> if it's not, 10:40 perhaps
+06:44:47 <tuukkah> how come we always have these freedom issues
+06:45:10 <majukati> tuukkah: ?
+06:45:52 <tuukkah> now free software isn't enough, we need a free machine too ;-)
+06:47:22 <tuukkah> ibid, the upgrade breaks the wikis until they're manually migrated
+06:48:36 <ibid> tuukkah: can you migrate them?
+06:48:41 <tuukkah> yes
+06:51:02 <tuukkah> an impressive version number: libtheora0 0.0.0.alpha3-1
+06:59:05 <ibid> Preparing to replace moin 1.2.4-1 (using .../archives/moin_1.3.4-1_all.deb) ...
+06:59:05 <ibid> Unpacking replacement moin ...
+07:03:29 <benja_> hmm
+07:03:39 <benja_> someone reserved the machines from 9-11
+07:03:54 <tuukkah> -(
+07:03:56 <benja_> looks like they'll probably be finished in 30min, though
+07:04:16 <ibid> Setting up moin (1.3.4-1) ...
+07:04:19 <ibid> done
+07:04:22 <benja_> so I could probably use the machines for the last half of the hour
+07:04:46 <benja_> majukati: how about meeting at 12 for lunch?
+07:04:55 <benja_> and doing some work on IRC before that
+07:05:27 <vegai> have you ever seen this when trying rsync over ssh
+07:05:32 <vegai> [vegai@kontu haskell-skeleton]$ sync-darcs.sh
+07:05:32 <vegai> filter rules are too modern for remote rsync.
+07:05:32 <vegai> rsync error: syntax or usage error (code 1) at exclude.c(1119)
+07:05:42 <majukati> benja_: ok
+07:07:02 <tuukkah> vegai, perhaps you should set some simpler rules then :-)
+07:07:32 <vegai> of course, I wouldn't be wondering about this if it weren't for the fact that this used to work
+07:07:46 <vegai> I have no idea what filtering rules it's even talking about
+07:07:50 <ibid> tuukkah: upgrade complete
+07:08:27 <vegai> agh, server rsync: "rsync  version 2.5.6cvs  protocol version 26
+07:08:28 <vegai> "
+07:09:00 <vegai> debian :-(
+07:09:40 <vegai> is that really the version in debian stable?
+07:09:43 <tuukkah> ibid, noticed
+07:10:03 <tuukkah> rsync   2.5.5-0.6       stable
+07:10:33 <vegai> yep, that's the one
+07:12:59 <tuukkah> what's wrong with that ?-)
+07:13:37 <vegai> the "cvs" in the version line makes me fear
+07:14:27 <vegai> I think I'll just compile my own rsync until the admin updates
+07:19:07 <vegai> is the next major version of debian stable coming soon, btw?
+07:19:46 <benja_> MWHAHAHWHAHAHWHAHAHA
+07:19:57 <benja_> (anteeksi)
+07:20:13 <tuukkah> vegai, it always is ;-)
+07:20:22 <vegai> heh
+07:21:33 <tuukkah> and like this moin upgrade, it took them ages to prepare it, and I don
+07:21:46 <tuukkah> I don't see anything better than in upstream
+07:22:14 <antont> moin? that's not moinmoin i suppose?
+07:22:23 <tuukkah> that exactly
+07:22:57 <benja_> do you guys know what 'moin' / 'moin, moin' mean, actually? :)
+07:23:00 <vegai> ah, bugger.
+07:23:19 <vegai> for some reason, the "--cvs-exclude" command doesn't work for rsync over ssh anymore
+07:23:40 <tuukkah> benja_, yes. there's this nice bot on #moin that you need to say "Moin!" to :-)
+07:23:47 <benja_> =-}
+07:24:16 <benja_> it's northern German (and perhaps used in other languages/countries too, dunno 'bout that)
+07:24:28 <tuukkah> Finnish!
+07:24:36 <benja_> with an 'n'?
+07:24:43 <benja_> heh :)
+07:24:44 <tuukkah> well, without :-)
+07:24:49 <benja_> oh, ok :)
+07:24:55 <majukati> moro
+07:26:03 <antont> is upstream some wiki too, then?
+07:26:27 <tuukkah> at least in debian, "upstream" means the original developers
+07:27:41 <benja_> somehow I'm wondering whether all the moin-saying in northern Germany is partly a game for tourists ;-)
+07:27:58 <benja_> as in, you can feel like you belong if you say 'moin' like everybody =)
+07:28:08 <benja_> but perhaps it's really just sort of local pride =)
+07:29:21 <vegai> yep, this is a feature of rsync-2.6.4
+07:29:50 <antont> ah yes i know that 'upstream' but read you somehow wrong that thouth it couldn't mean that
+07:30:12 <antont> "better than in upstream" has an extra 'than' i guess
+07:31:54 <tuukkah> antont, no, at least I mean that while it took Debian a long time to package the new moin, it doesn't have any enhancements if compared to the upstream release
+07:39:03 <benja_> ok, they did let me use the machine for the last part of their turn :)
+07:39:10 <antont> ah now i finally got you :)
+07:39:25 <antont> (busy here talking with students)
+07:39:36 <antont> yeah i've never looked at moin really
+07:40:09 <tuukkah> well, it's wiki and it's in python, so you'd suppose there couldn't be anything better %-)
+07:40:10 <antont> we've been using zwikis 'cause happened to have zope for some other reason, but are not too happy with them
+07:40:33 <antont> though zwiki has been developing .. quite a lot actually, it has seemed on the surface
+07:40:58 <antont> yeah .. but there are more php written things and they are used more
+07:41:46 <tuukkah> well, perhaps I'm a language elitist
+07:42:10 <antont> there seem to be (a lot of?) people moving from php to python, tho
+07:42:33 <antont> and (at least some) php ppl tend to agree that python is better for complex systems
+07:42:43 <antont> of course wikis can be simple too :o
+07:43:02 <antont> but dunno how it goes
+07:44:37 <antont> of to eat now, bbl.
+08:13:15 <benja_> laundry's in the dryer =)
+08:13:22 <majukati> good
+08:13:38 <tuukkah> benja_, va du e dukti :-)
+08:14:40 <benja_> du va så dukti du er ser kul
+08:15:04 <benja_> whatever that means
+08:15:06 <majukati> GRRAAAAHH
+08:15:14 <benja_> (what you said -- what I said probably means nothing =))
+08:15:16 <benja_> majukati, ?
+08:15:37 <majukati> benja_: I don't want to work with awt anymore
+08:15:47 <tuukkah> benja_, well, drop the last three words and it makes sense :-)
+08:16:17 <benja_> majukati, what's the problem?
+08:16:37 <benja_> tuukkah: so what did we say?
+08:16:53 <tuukkah> the same thing, basicly, just formulated differently =)
+08:17:10 <benja_> tuukkah: can you translate?
+08:17:21 <tuukkah> but I don't think I know how to say it in any other language
+08:17:27 <benja_> blah! :)
+08:18:58 <majukati> benja_: i use awt.image.MemoryImageSource but it's not working at all
+08:19:31 <benja_> ah, images...
+08:19:55 <ibid> actually, stable sarge is now closer than ever
+08:20:00 <ibid> freeze is imminent
+08:20:04 <tuukkah> benja_, literally, I said "what you are hard-working" and you replied "you were so hard-working, you"
+08:20:09 <ibid> if one believes the rms, naturally
+08:20:49 <ibid> tuukkah: in which language? it looks like swedish but isn't...
+08:21:20 <tuukkah> spoken swedish, not written
+08:21:33 <ibid> heh
+08:21:38 <benja_> rms?
+08:22:06 <tuukkah> benja_, the cabal ;-)
+08:22:09 <ibid> release managers
+08:22:15 <tuukkah> oops
+08:22:34 <ibid> hm?
+08:22:42 <benja_> and I was wondering what Stallman had to do with Sarge releases :)
+08:22:46 <ibid> :)
+08:22:46 <tuukkah> nothing :-)
+08:22:53 <vegai> speaking of the cabal, I started a haskell skeleton for Cabalized programs: http://iki.fi/vegai/darcs/haskell-skeleton
+08:23:23 <vegai> "mule's bridge" of the millennium, eh?
+08:23:28 <ibid> i didn't know he uses the definitive article before his initials
+08:24:06 <ibid> i see my one suggestion to cabal actually was used :)
+08:24:20 <vegai> wussat?
+08:24:36 <benja_> is anybody opposed to me making the iterators used by swamp into javolution Realtime objects?
+08:25:03 <benja_> i.e., if you use them inside a Javolution PoolContext, they'll be re-used when the pool context is exited
+08:25:21 <benja_> s/use/create/
+08:25:30 <ibid> i suggested the use of the dctrl format :)
+08:25:59 <tuukkah> benja_, I think that's good. I suppose it'll make the code a lot faster? you did profile, didn't you?
+08:26:41 <benja_> tuukkah: yes, it looks like currently most objects created are swamp iterators
+08:26:53 <majukati> benja_: it's fine
+08:26:53 <vegai> ah, right
+08:26:54 <benja_> it *is* possible to work around that in a couple of ways, but this seems more elegant
+08:27:39 <tuukkah> ok
+08:29:39 <tuukkah> vegai, something like that can be useful in cabal, yes
+08:30:16 <rubberpaw> rubberpaw has quit
+08:30:30 <vegai> I'll just need to come up with the test-runners and I can actually start doing something 
+08:31:55 <tuukkah> wouldn't it be funny to try to beat javolution perfomance with Haskell ?-)
+08:32:14 <vegai> would that be a challenge? :P
+08:32:17 <vegai> what's javolution?
+08:32:41 <tuukkah> was it javolution.org. java framework for realtime apps
+08:33:49 <antont> how is haskell performance, then? i saw something somewhere that scheme people or someone was concerned about it
+08:34:03 <vegai> it's getting better
+08:34:19 <tuukkah> and probably depends on the application
+08:34:24 <vegai> ghc moves in a steady pace, afaik
+08:34:55 <vegai> on the usenet, somebody tested the naive fibonacci function with both ghc-6.4 and ocaml, and it was faster in ghc
+08:34:56 <tuukkah> in some microbenchmark it did really well, didn't it?
+08:35:17 <vegai> yes, some
+08:35:21 <vegai> and awful in most
+08:35:39 <tuukkah> hmm, I didn't read them as awful :-)
+08:36:04 <vegai> "worse than Java" is equal to "awful" in my vocabulary :P
+08:37:04 <benja_> it *is* possible to work around that in a couple of ways, but this seems more elegant
+08:37:07 <benja_> argh
+08:37:12 <benja_> ww (wrong window)
+08:39:15 <tuukkah> vegai, in some microbenchmarks, java does better than gcc. so...?
+08:39:43 <vegai> riight :)
+08:40:13 <vegai> gcj?
+08:40:55 <tuukkah> what about it?
+08:41:17 <vegai> I guess you meant Sun's java, right?
+08:41:44 <tuukkah> probably, that's what people usually mean with java
+08:42:22 <vegai> antont: anyway, the implementations obviously all have their strong and weak sides
+08:42:53 <vegai> Gambit, for instance, seems to be a very snappy scheme implementation
+08:46:30 <vegai> but I believe that in a larger program (especially when you're past prototyping), features like strong static typing can be very helpful
+08:48:21 <vegai> (too bad this isn't a religion)
+08:55:13 <tuukkah> you would have to think a bit before porting org.fenfire.swamp into Haskell...
+08:55:52 <antont> yeah, i've been reading a bit of some of the proposed typing systems for Python
+08:56:08 <antont> like zope3 has this Interface system
+08:56:18 <vegai> huh?
+08:56:29 <vegai> python's getting weirder and weirder
+08:56:39 <antont> well zope3 is not python
+08:56:53 <antont> and the typing things that people do with/for python are not python either
+08:56:56 <vegai> well no, but
+08:57:20 <antont> i don't know if python will ever adopt any of those mechanisms
+08:57:26 <antont> but several have been proposed
+08:59:11 <antont> the "Python Enterprise Application Kit" http://peak.telecommunity.com/ has one, there when you get an object, and you need it to conform to some interface / be of some type, you call somehow call adapt(object), and it rises an exception if there's a problem (wrong type / does not implement the interface)
+08:59:47 <antont> ah that seems to be the PyProtocols thing, http://peak.telecommunity.com/PyProtocols.html
+09:00:16 <antont> the zope3 thing was more like in java
+09:02:09 <antont> or well perhaps that is similar too, 'cause it says it can use the zope (and twisted) interfaces
+09:04:39 <antont> vegai: how do you think it has gotten weird(er), btw?-)
+09:04:57 <vegai> well, they were just talking about removing map/filter/lambda
+09:05:12 <antont> for python 3000, yes
+09:05:25 <antont> i guess map&filter because of list comprehensions
+09:06:04 <antont> lambda i don't know why really, nor why should .. i guess it has it's uses
+09:06:20 <vegai> not as many if you remove map and filter :)
+09:06:36 <antont> well the list comprehensions are there
+09:06:54 <antont> i guess the only reason to remove map&filter is if list comprehensions are a better syntax for them
+09:07:06 <vegai> that's a big if
+09:07:26 <antont> yes, and there's still a lot of time for everyone to think & argue about it
+09:07:43 <tuukkah> list comprehension syntax is [variable for variable in ... if variable ...] :-)
+09:08:02 <benja_> tuukkah: if <any condition> actually
+09:08:04 <antont> i've found myself always using list comprehensions, 'cause i never remember the order or arguments for map directly, and even less for filter
+09:08:22 <tuukkah> benja_, is that of any use?
+09:09:00 <benja_> tuukkah, well, for one thing, the expression can involve the variable at an arbitrary point
+09:09:04 <antont> [show(vob) for vob in vobs if vob.visible]
+09:09:06 <tuukkah> oh, I know: [variable for variable in ... if random() % 2 == 0]
+09:09:15 <benja_> expressions not involving the variable are probably useful in some very edge cases :)
+09:09:22 <benja_> tuukkah: hey, yeah, that's nice :)
+09:09:30 <antont> yeah tuukkah's was a good one :)
+09:10:50 <vegai> interesting that % is defined for floats
+09:11:00 <vegai> or is it? 
+09:11:04 <antont> dunno
+09:11:11 <vegai> is it interesting, I meant :)
+09:11:15 <antont> >>> 1.1 % 1
+09:11:15 <antont> 0.10000000000000009
+09:12:04 <vegai> there we have a nastiness in python, kinda
+09:12:13 <vegai> tuukkah's expression would give empty list every time
+09:12:41 <vegai> I guess some language might give a type error
+09:12:42 <tuukkah> oops, [variable for variable in ... if random() < 0.5]
+09:13:00 <antont> this i found nasty too:
+09:13:09 <antont> >>> 0.01 == float('nan')
+09:13:09 <antont> True
+09:13:17 <antont> >>> float('nan') is float('nan')
+09:13:17 <antont> False
+09:14:21 <vegai> huh... what's nan as float?
+09:14:23 <antont> .. so i ended up doing > 0 to check it is not 'nan'
+09:14:45 <antont> it's a float that's not a number
+09:15:04 <antont> at least this 3d engine i'm using (soya) can return it sometimes when getting the angle between two vectors etc
+09:15:59 <tuukkah> if one of the vectors is 0
+09:17:31 <antont> Vector is a class in Soya
+09:17:52 <tuukkah> a vector of length 0, that is
+09:18:07 <antont> ah right
+09:20:08 <antont> hm i'm still not able to reproduce that
+09:21:01 <antont> anyhow, one stand people take regarding the weaknesses & flaws in Python is that it's better to try to fix them, instead of making a new language
+09:21:19 <antont> but surely at least in research there's always room for more :)
+09:24:32 <vegai> I wonder what Jonne's mystery language 
+09:24:34 <vegai> ...is
+09:24:49 <tuukkah> smalltalk?
+09:25:04 <antont> http://mail.python.org/pipermail/python-bugs-list/2004-February/022126.html seems to be about that float('nan') comparison
+09:33:02 <benja_> argl! 12:32
+09:33:21 <benja_> majukati: I've taken the laundry out of the dryer, will take the next bus to uni
+09:33:31 <benja_> should be there at ca 13:05
+09:33:38 <benja_> where should I look for you?
+09:39:04 <tuukkah> ibid, the migration should be complete now
+09:39:28 <majukati> benja_: we may start at piato
+09:40:39 <benja_> ok
+09:42:02 <ibid> right :)
+09:45:02 <tuukkah> right to what?
+09:49:30 <ibid> 12:38  <tuukkah> ibid, the migration should be complete now
+09:50:54 <rubberpaw> rubberpaw has joined #fenfire
+10:20:33 <tuukkah> could it have been wrong, then?
+10:22:50 <ibid> :)
+10:29:05 <rubberpaw> rubberpaw has quit
+11:29:58 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, make mouse events in ViewportLob work
+11:51:02 <rubberpaw> rubberpaw has joined #fenfire
+12:41:55 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, optimizations (create less objects)
+12:54:32 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, ARGH
+12:59:03 <rubberpaw> rubberpaw has quit
+13:13:21 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, start a non-patent-related public version of Fenfire ('FenHaystack' :-))
+14:02:26 <rubberpaw> rubberpaw has joined #fenfire
+14:22:59 <ibid> majukati: this may be relevant to your thesis -> http://dx.doi.org/10.1016/j.entcs.2004.08.050
+14:39:28 <rubberpaw> rubberpaw has quit
+16:02:33 <rubberpaw> rubberpaw has joined #fenfire
+16:49:10 <ffdarcsbot> libvob: Benja Fallenstein <b.fallenstein@gmx.de>, hack ClipLob to not change the matching parent, but to place nested clipping cses with the same matching parent into a vobmatcher hierarchy
+16:49:20 <ffdarcsbot> libvob: Tuukka Hastrup <Tuukka.Hastrup@iki.fi>, fix awt line drawing by substracting one pixel
+16:59:29 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, add a list of thumbnails of other spatial views for thhis node to the 'public Fenfire'
+17:05:39 <rubberpaw> rubberpaw has quit
+17:18:44 <ffdarcsbot> fenfire: Benja Fallenstein <b.fallenstein@gmx.de>, fix bug that prevented nodes on the canvas from being shown in a canvas buoy
+17:43:31 <ibid> ibid has quit
+18:02:43 <rubberpaw> rubberpaw has joined #fenfire
+18:06:08 <ibid> ibid has joined #fenfire
+18:19:17 <ibid> wow, shfs is so cool :)
+18:28:00 <rubberpaw> rubberpaw has quit
+19:37:32 <majukati> plaah, installing a debian is not fun
+19:40:39 <majukati> why to have four broken cds?-/
+19:51:29 <ibid> don't get broken cds, get good cds :)
+19:53:49 <majukati> no, this just stops where i press 'install base'
+19:54:01 <majukati> when eventually
+19:54:41 <ibid> well, i can't help you there
+19:54:46 <ibid> it works for me :)
+19:55:51 <majukati> install the base system and it starts the installing program again
+19:56:14 <majukati> i have no idea, i see no errors
+19:58:48 <ibid> is this on a laptop?
+19:58:58 <majukati> no, an old machine
+19:59:39 <ibid> which version of debian?
+20:00:00 <majukati> 3.0r0
+20:00:06 <ibid> ok
+20:00:17 <ibid> look for any errors in the second virtual console
+20:00:25 <majukati> there are none
+20:00:40 <ibid> i'd have to see it to help further :(
+20:02:49 <majukati> var/log/messages says that /sbin/udbootstrap exited
+20:02:54 <rubberpaw> rubberpaw has joined #fenfire
+20:03:08 <majukati> but it has the command line that i can run myself :)
+20:04:05 <majukati> oh, in virtual console 4 i have the message: Segmentation fault
+20:04:16 <majukati> good
+20:04:28 <ibid> how much memory?
+20:04:36 <majukati> 256Mt
+20:05:01 <ibid> not very old, then? :)
+20:10:45 <majukati> i used to had older stable but lost those cds in a move
+20:21:06 <majukati> or actually i just didn't find those. will use *floppies* tomorrow!
+20:24:18 <ibid> you only need two if you have net access from the comp

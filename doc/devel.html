@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.3.7: http://docutils.sourceforge.net/" />
+<title>Developer information</title>
+<link rel="stylesheet" href="../fenfire.css" type="text/css" />
+
+<style type="text/css">
+<!--
+body {background-image:url(../papers/10580155203896878836-paper.gen.jpg); background-repeat: repeat}
+-->
+</style>
+</head>
+<body>
+<div class="document" id="developer-information">
+<h1 class="title">Developer information</h1>
+<p>Fenfire is a Free Software project. Anyone is free to look into what 
+we're doing. If the project <a class="reference" href="../vision.html">vision</a> attracts you, we welcome you 
+to collaboration.</p>
+<div class="contents topic" id="contents">
+<p class="topic-title first"><a name="contents">Contents</a></p>
+<ul class="simple">
+<li><a class="reference" href="#developer-resources" id="id1" name="id1">Developer resources</a></li>
+<li><a class="reference" href="#getting-started" id="id2" name="id2">Getting started</a></li>
+<li><a class="reference" href="#old-resources" id="id3" name="id3">Old resources</a></li>
+</ul>
+</div>
+<div class="section" id="developer-resources">
+<h1><a class="toc-backref" href="#id1" name="developer-resources">Developer resources</a></h1>
+<ul>
+<li><p class="first">Official source code in <a class="reference" href="http://abridgegame.org/darcs/">Darcs</a> repositories under <a class="reference" href="http://himalia.it.jyu.fi/darcs">http://himalia.it.jyu.fi/darcs</a>:
+alph, callgl, depends, fenfire, libvob, navidoc, storm</p>
+</li>
+<li><p class="first">Mailing lists: <a class="reference" href="http://mail.nongnu.org/mailman/listinfo/fenfire-dev">fenfire-dev</a> for developers and users;
+<a class="reference" href="http://lists.jyu.fi/mailman/listinfo/fencommits">fencommits</a> for automatic notification of commits to the
+Darcs repositories</p>
+</li>
+<li><p class="first">IRC discussion on channel #fenfire at Freenode servers (eg. irc.freenode.net)
+and <a class="reference" href="http://fenfire.org/irc/fenfire">discussion logs</a></p>
+</li>
+<li><dl class="first docutils">
+<dt>compiled versions of <a class="reference" href="http://himalia.it.jyu.fi/ffdoc/fenfire">documentation from CVS</a> (not updated at the moment!)</dt>
+<dd><ul class="first last simple">
+<li>information on <a class="reference" href="http://himalia.it.jyu.fi/ffdoc/fenfire/projects.gen.html">subprojects</a></li>
+<li><a class="reference" href="http://himalia.it.jyu.fi/ffdoc/fenfire/pegboard">Proposals for enhancing Fenfire</a></li>
+<li><a class="reference" href="http://himalia.it.jyu.fi/ffdoc/fenfire/javadoc">Javadocs</a> of source code</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="getting-started">
+<h1><a class="toc-backref" href="#id2" name="getting-started">Getting started</a></h1>
+<p>We use <a class="reference" href="http://abridgegame.org/darcs/">Darcs</a> for source code version control, so you should have it
+installed first. Programming language is mostly Java so you should
+have a <a class="reference" href="java.html">suitable Java</a> compiler and runtime installed, but there are
+optional pieces written in C, C++, Perl and Jython (Python running in
+Java) as well. We use the <a class="reference" href="http://www.gnu.org/software/make/make.html">GNU Make</a> to build the project, if you
+don't have it you'll have to type the compile and run commands
+yourself.</p>
+<ul>
+<li><p class="first">To get a fresh copy of the official repositories, &quot;darcs get&quot; each 
+repository, for instance in shell:</p>
+<p><tt class="docutils literal"><span class="pre">for</span> <span class="pre">d</span> <span class="pre">in</span> <span class="pre">alph</span> <span class="pre">callgl</span> <span class="pre">depends</span> <span class="pre">fenfire</span> <span class="pre">libvob</span> <span class="pre">navidoc</span> <span class="pre">storm;</span> <span class="pre">do</span> 
+<span class="pre">darcs</span> <span class="pre">get</span> <span class="pre">http://himalia.it.jyu.fi/darcs/$d</span> <span class="pre">;</span> <span class="pre">done</span></tt></p>
+</li>
+<li><p class="first">To get updates, &quot;darcs pull&quot; in each repository, for instance:</p>
+<p><tt class="docutils literal"><span class="pre">for</span> <span class="pre">d</span> <span class="pre">in</span> <span class="pre">alph</span> <span class="pre">callgl</span> <span class="pre">depends</span> <span class="pre">fenfire</span> <span class="pre">libvob</span> <span class="pre">navidoc</span> <span class="pre">storm;</span> <span class="pre">do</span> <span class="pre">(</span> 
+<span class="pre">cd</span> <span class="pre">&quot;$d&quot;</span> <span class="pre">&amp;&amp;</span> <span class="pre">darcs</span> <span class="pre">pull</span> <span class="pre">)</span> <span class="pre">done</span></tt></p>
+</li>
+<li><p class="first">To compile Java code, &quot;make&quot; or &quot;make java&quot; in each directory in the order, 
+for instance:</p>
+<p><tt class="docutils literal"><span class="pre">for</span> <span class="pre">d</span> <span class="pre">in</span> <span class="pre">navidoc</span> <span class="pre">storm</span> <span class="pre">alph</span> <span class="pre">libvob</span> <span class="pre">fenfire;</span> <span class="pre">do</span> 
+<span class="pre">(</span> <span class="pre">cd</span> <span class="pre">&quot;$d&quot;</span> <span class="pre">&amp;&amp;</span> <span class="pre">make</span> <span class="pre">java</span> <span class="pre">)</span> <span class="pre">done</span></tt></p>
+</li>
+<li><p class="first">To start the applications, &quot;make run*&quot; in some repository, for instance:</p>
+<p><tt class="docutils literal"><span class="pre">(</span> <span class="pre">cd</span> <span class="pre">fenfire</span> <span class="pre">&amp;&amp;</span> <span class="pre">make</span> <span class="pre">run</span> <span class="pre">)</span></tt></p>
+</li>
+</ul>
+</div>
+<div class="section" id="old-resources">
+<h1><a class="toc-backref" href="#id3" name="old-resources">Old resources</a></h1>
+<p>The following resources contain historical stuff, they're not in active use.</p>
+<dl class="docutils">
+<dt>Fenfire project page <a class="reference" href="http://savannah.nongnu.org/projects/fenfire">at Savannah</a></dt>
+<dd><ul class="first last simple">
+<li>List of <a class="reference" href="http://savannah.nongnu.org/mail/?group=fenfire">mailing lists</a>, including the old <a class="reference" href="http://mail.nongnu.org/mailman/listinfo/gzz-dev">gzz-dev</a>,
+the old <a class="reference" href="http://mail.nongnu.org/mailman/listinfo/fenfire-commits">fenfire-commits</a>, and <a class="reference" href="http://mail.nongnu.org/mailman/listinfo/fenfire-rdf-discuss">fenfire-rdf-discuss</a> which was
+never really used</li>
+<li>pre-2004 browsable source code <a class="reference" href="http://savannah.nongnu.org/cgi-bin/viewcvs/fenfire">in CVS</a></li>
+</ul>
+</dd>
+</dl>
+<p><a class="reference" href="http://himalia.it.jyu.fi/irc">Old IRC logs</a> (from IRCNet, not in use after 2003)</p>
+</div>
+</div>
+<!-- NavBar begin -->
+<hr class="footer" />
+<center class="navigation-title">Navigation</center>
+<div class="left">
+<div class="left-bar">
+<p class="boxhead"><a href="../">Fenfire</a></p>
+<div class="boxcontent"><ul>
+<li class="boxitem"><a href="../apps">Applications</a><ul>
+<li class="boxitem"><a href="../apps/editing.html">Browsing and editing</a></li>
+</ul>
+</li>
+<li class="boxitem"><a href="../doc">Documentation</a><ul>
+<li class="boxitem">Developer information</li>
+<li class="boxitem"><a href="../doc/java.html">Java information</a></li>
+</ul>
+</li>
+<li class="boxitem"><a href="../foundation">The Fenfire Foundation</a><ul>
+<li class="boxitem"><a href="../foundation/joining.html">Joining</a></li>
+<li class="boxitem"><a href="../foundation/liittyminen.html">Jäseneksi</a></li>
+</ul>
+</li>
+<li class="boxitem"><a href="../shots.html">Screenshots</a></li>
+<li class="boxitem"><a href="../vision.html">Vision of Fenfire</a></li>
+</ul></div>
+</div>
+<div class="logo-bar" style="text-align: center">
+<a href="../"><img src="../logo.png" alt="The Fenfire logo (a purple flame)"/></a></div>
+</div>
+<!-- NavBar end -->
+<hr class="docutils footer" />
+<div class="footer">
+Generated on: Mon Jul 25 11:46:28 2005.
+</div>
+</body>
+</html>

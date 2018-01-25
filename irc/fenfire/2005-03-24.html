@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>IRC log of fenfire on 2005-03-24</title>
+<meta name="generator" content="&#36;Id: logger,v 1.96 2004/04/27 22:56:54 cmdjb Exp &#36;" />
+ <style type="text/css">
+  .IRC { font-family: sans-serif }
+ </style>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1>IRC log of fenfire on 2005-03-24</h1>
+<p><em>Timestamps are in UTC.</em></p>
+<dl class="IRC">
+<dt id="T19-27-14">19:27:14 [fflogbot]</dt><dd>fflogbot has joined #fenfire</dd>
+<dt id="T19-27-14-1">19:27:14 [niven.freenode.net]</dt><dd>topic is: <a href="http://fenfire.org">http://fenfire.org</a> - the channel may or may not be logged</dd>
+<dt id="T19-27-14-2">19:27:14 [niven.freenode.net]</dt><dd>Users on #fenfire: fflogbot mudyc Gwl ibid antont humppake jvk benja_ majukati tuukkah </dd>
+<dt id="T19-36-17">19:36:17 [benja_]</dt><dd>hmm</dd>
+<dt id="T19-49-06">19:49:06 [benja_]</dt><dd>well, there is now a cron script copying the logs to eppi</dd>
+<dt id="T19-49-21">19:49:21 [benja_]</dt><dd>every 15 minutes</dd>
+<dt id="T20-15-14">20:15:14 [benja_]</dt><dd><a href="http://fenfire.org/irc/fenfire/">http://fenfire.org/irc/fenfire/</a></dd>
+<dt id="T20-32-43">20:32:43 [ibid]</dt><dd>benja_: the rekisteriseloste has broken charset, i fixed that in my copy, can you pull?</dd>
+<dt id="T20-49-13">20:49:13 [ibid]</dt><dd>it's amazing how much clearer the screen looks after i cleaned it :)</dd>
+<dt id="T20-49-19">20:49:19 [ibid]</dt><dd>(physically cleaned, that is)</dd>
+<dt id="T20-59-18">20:59:18 [ibid]</dt><dd>added draft minutes</dd>
+<dt id="T20-59-21">20:59:21 [ibid]</dt><dd>pull?</dd>
+<dt id="T21-20-55">21:20:55 [benja_]</dt><dd>done</dd>
+<dt id="T21-21-53">21:21:53 [benja_]</dt><dd>The requested URL /foundation/saannot.html was not found on this server.</dd>
+<dt id="T21-29-12">21:29:12 [ibid]</dt><dd>known problem</dd>
+<dt id="T21-29-17">21:29:17 [ibid]</dt><dd>fixing as we write</dd>
+<dt id="T21-30-58">21:30:58 [ibid]</dt><dd>pull</dd>
+<dt id="T21-31-10">21:31:10 [benja_]</dt><dd>ok</dd>
+<dt id="T21-48-41">21:48:41 [tuukkah]</dt><dd>benja_, looks fine otherwise, but you use static methods all too much</dd>
+<dt id="T21-49-08">21:49:08 [benja_]</dt><dd>tuukkah: how so?</dd>
+<dt id="T21-49-17">21:49:17 [ibid]</dt><dd>tuukkah: as you can see, i preempted you. sorry :)</dd>
+<dt id="T21-49-37">21:49:37 [ibid]</dt><dd>benja had better response time :)</dd>
+<dt id="T21-50-10">21:50:10 [tuukkah]</dt><dd>ibid, I was still waiting for your amended patch in the morning</dd>
+<dt id="T21-50-21">21:50:21 [ibid]</dt><dd>yeah, i fell asleep</dd>
+<dt id="T21-50-39">21:50:39 [ibid]</dt><dd>today afternoon, it seemed like benja was the faster route :)</dd>
+<dt id="T21-50-39-1">21:50:39 [tuukkah]</dt><dd>benja_, couldn't rolecontext be an object?</dd>
+<dt id="T21-51-04">21:51:04 [benja_]</dt><dd>tuukkah: that would not be in line with how other javolution contexts work</dd>
+<dt id="T21-51-24">21:51:24 [benja_]</dt><dd>(they're objects, but using them happens through static methods)</dd>
+<dt id="T21-51-51">21:51:51 [tuukkah]</dt><dd>benja_, ok :-)</dd>
+<dt id="T21-52-00">21:52:00 [tuukkah]</dt><dd>ibid, I don't know what you're talking about</dd>
+<dt id="T21-52-10">21:52:10 [ibid]</dt><dd>benja was talking :)</dd>
+<dt id="T21-52-11">21:52:11 [benja_]</dt><dd>I really don't want to break convention there</dd>
+<dt id="T21-52-39">21:52:39 [benja_]</dt><dd>tuukkah: I applied ibid's changes to fenfire.org</dd>
+<dt id="T21-52-47">21:52:47 [tuukkah]</dt><dd>it's not that bad if the class is forwarding the messages to some object</dd>
+<dt id="T21-52-47-1">21:52:47 [benja_]</dt><dd>(that's what ibid was talking about)</dd>
+<dt id="T21-53-25">21:53:25 [tuukkah]</dt><dd>I don't have a problem with, I don't like applying patches or fixing charsets</dd>
+<dt id="T21-53-32">21:53:32 [ibid]</dt><dd>:)</dd>
+<dt id="T21-53-46">21:53:46 [ibid]</dt><dd>benja_ talked about adding me to the group</dd>
+<dt id="T21-53-52">21:53:52 [ibid]</dt><dd>tuukkah: have you looked at the pages?</dd>
+<dt id="T21-53-59">21:53:59 [benja_]</dt><dd>yeah, I see no reason not to</dd>
+<dt id="T21-54-00">21:54:00 [ibid]</dt><dd>(the unix group, that is)</dd>
+<dt id="T21-54-06">21:54:06 [benja_]</dt><dd>someone needs to ping the admins</dd>
+<dt id="T21-54-15">21:54:15 [ibid]</dt><dd>somebody who's already in it</dd>
+<dt id="T21-54-21">21:54:21 [benja_]</dt><dd>(if there isn't some userspace tool that group members can use that I'm not aware about)</dd>
+<dt id="T21-54-46">21:54:46 [ibid]</dt><dd>there is a userspace tool but only root can use it :)</dd>
+<dt id="T21-57-11">21:57:11 [ibid]</dt><dd>the asterisks do look a little amusing, though</dd>
+<dt id="T22-07-12">22:07:12 [ibid]</dt><dd>pull, please (fixed the displays)</dd>
+<dt id="T22-08-27">22:08:27 [benja_]</dt><dd>'kay</dd>
+<dt id="T22-09-50">22:09:50 [ibid]</dt><dd>(reminding benja_ on doing the joining bit:)</dd>
+<dt id="T22-15-09">22:15:09 [benja_]</dt><dd>should we have a URI identifying the Fenfire project?</dd>
+<dt id="T22-15-50">22:15:50 [tuukkah]</dt><dd><a href="http://fenfire.org?">http://fenfire.org?</a></dd>
+<dt id="T22-16-23">22:16:23 [tuukkah]</dt><dd>oh, that identifies a web page location</dd>
+<dt id="T22-16-27">22:16:27 [benja_]</dt><dd>tuukkah: which URI would identify the homepage, then</dd>
+<dt id="T22-16-33">22:16:33 [ibid]</dt><dd>benja_: for what purpose? (genuinely asking:)</dd>
+<dt id="T22-16-40">22:16:40 [tuukkah]</dt><dd>I'm close to failing the course ;-)</dd>
+<dt id="T22-16-49">22:16:49 [benja_]</dt><dd>tuukkah: =)</dd>
+<dt id="T22-17-02">22:17:02 [benja_]</dt><dd>ibid: I'm writing a DOAP file (Description of a Project, like FOAF) for Fenfire</dd>
+<dt id="T22-17-23">22:17:23 [benja_]</dt><dd>if we pick a canonical URI, that makes the project somewhat easier to refer to in RDF graphs</dd>
+<dt id="T22-17-26">22:17:26 [tuukkah]</dt><dd>DOAP is famous from planet debian :-)</dd>
+<dt id="T22-17-36">22:17:36 [benja_]</dt><dd>doap:homepage is an inverse functional property</dd>
+<dt id="T22-17-46">22:17:46 [benja_]</dt><dd>i.e., used to uniquely identify the project</dd>
+<dt id="T22-18-01">22:18:01 [benja_]</dt><dd>and everybody knows that &lt;<a href="http://fenfire.org/">http://fenfire.org/</a>&gt; is our homepage</dd>
+<dt id="T22-18-32">22:18:32 [tuukkah]</dt><dd>same trick as foaf:mbox? "the first project that had fenfire.org as their homepage"</dd>
+<dt id="T22-18-42">22:18:42 [benja_]</dt><dd>y</dd>
+<dt id="T22-20-43">22:20:43 [benja_]</dt><dd>one way is to use <a href="http://fenfire.org/#something">http://fenfire.org/#something</a></dd>
+<dt id="T22-22-14">22:22:14 [benja_]</dt><dd>say, <a href="http://fenfire.org/#project">http://fenfire.org/#project</a></dd>
+<dt id="T22-22-34">22:22:34 [ibid]</dt><dd>where in planet debian is a doap?</dd>
+<dt id="T22-22-45">22:22:45 [benja_]</dt><dd>another way is, of course, to use a bnode</dd>
+<dt id="T22-37-58">22:37:58 [benja_]</dt><dd><a href="http://fenfire.org/doap.turtle">http://fenfire.org/doap.turtle</a></dd>
+<dt id="T22-58-23">22:58:23 [benja_]</dt><dd>RoleContext implemented :-)</dd>
+<dt id="T23-18-03">23:18:03 [tuukkah]</dt><dd>ibid, the developer of doap blogs there</dd>
+<dt id="T23-18-21">23:18:21 [ibid]</dt><dd>who?</dd>
+<dt id="T23-18-47">23:18:47 [benja_]</dt><dd>edd dumbill?</dd>
+<dt id="T23-18-50">23:18:50 [tuukkah]</dt><dd>yes</dd>
+<dt id="T23-18-52">23:18:52 [ibid]</dt><dd>oh</dd>
+<dt id="T23-18-54">23:18:54 [ibid]</dt><dd>ok</dd>
+<dt id="T23-21-42">23:21:42 [benja_]</dt><dd>I really liked earlier today to cd to the darcs archive on the web server and say, pull from this other http uri</dd>
+<dt id="T23-22-21">23:22:21 [benja_]</dt><dd>in that kind of scenario, darcs feels like a versioning extension for http =]</dd>
+<dt id="T23-22-32">23:22:32 [ibid]</dt><dd>:)</dd>
+<dt id="T23-22-40">23:22:40 [ibid]</dt><dd>oh, now i get your exclamation :)</dd>
+<dt id="T23-22-47">23:22:47 [benja_]</dt><dd>*g* :)</dd>
+<dt id="T23-23-04">23:23:04 [benja_]</dt><dd>I think this should be an inspiration to Storm</dd>
+<dt id="T23-23-38">23:23:38 [ibid]</dt><dd>* ibid has been pondering doing a nih-system based on some ideas in storm</dd>
+<dt id="T23-24-06">23:24:06 [benja_]</dt><dd>hm, how do you do a system invented somewhere else? ;-)</dd>
+<dt id="T23-24-31">23:24:31 [benja_]</dt><dd>but, do elaborate</dd>
+<dt id="T23-25-12">23:25:12 [ibid]</dt><dd>nih in the same sense that i ponder doing my own web browser</dd>
+<dt id="T23-25-34">23:25:34 [ibid]</dt><dd>ie., i'd rather start afresh than work on a previous design</dd>
+<dt id="T23-25-46">23:25:46 [ibid]</dt><dd>i think it has to do with my 'world-building' attitude</dd>
+<dt id="T23-26-14">23:26:14 [ibid]</dt><dd>but something fairly standalone anyway :)</dd>
+<dt id="T23-26-24">23:26:24 [benja_]</dt><dd>things I'm missing in darcs (and I'm aware they're out-of-scope for the source code revision control system darcs is) are, not having rigid repository boundaries; having URIs for patches and versions; having rdf to track when you branch from somewhere else -- i.e., "what are places that branch from here?"</dd>
+<dt id="T23-27-04">23:27:04 [ibid]</dt><dd>what does 'rigid repository boundaries' mean?</dd>
+<dt id="T23-28-11">23:28:11 [benja_]</dt><dd>in darcs, it's clear where in the hierarchy a repository starts (the dir containing the _darcs dir) and where it ends (subdirs containing a _darcs dir are not part of repo) (and also non-added dirs and files aren't)</dd>
+<dt id="T23-28-42">23:28:42 [benja_]</dt><dd>I'd like not to have the concept of a repo, if possible, only dirs and files with versions</dd>
+<dt id="T23-28-51">23:28:51 [benja_]</dt><dd>hmm, this is a bit fuzzy</dd>
+<dt id="T23-29-02">23:29:02 [benja_]</dt><dd>not clear how it interacts with the need for atomic commits</dd>
+<dt id="T23-29-15">23:29:15 [benja_]</dt><dd>(i.e., changes to a number of files/dirs should be a single commit)</dd>
+<dt id="T23-29-51">23:29:51 [ibid]</dt><dd>ah, you wanted to get rid of the boundaries. i wondered what kind of boundaries could you mean if the current ones are not enough ;)</dd>
+<dt id="T23-30-07">23:30:07 [benja_]</dt><dd>:)</dd>
+<dt id="T23-30-17">23:30:17 [ibid]</dt><dd>benja_: essentially, you want a versioned file system with acid transactions?</dd>
+<dt id="T23-30-21">23:30:21 [ibid]</dt><dd>benja_: ie. a database :)</dd>
+<dt id="T23-31-01">23:31:01 [benja_]</dt><dd>no :)</dd>
+<dt id="T23-31-18">23:31:18 [ibid]</dt><dd>well, that's what it sounds like</dd>
+<dt id="T23-31-45">23:31:45 [ibid]</dt><dd>(not a *relational* database, true:)</dd>
+<dt id="T23-32-01">23:32:01 [benja_]</dt><dd>well, I think perhaps you misunderstand what I mean about atomic commits -- darcs has them, cvs doesn't, we need to keep them</dd>
+<dt id="T23-32-18">23:32:18 [ibid]</dt><dd>atomic commits are what acid transactions are about</dd>
+<dt id="T23-32-18-1">23:32:18 [benja_]</dt><dd>I want something that's less like a file system than darcs is, I think =)</dd>
+<dt id="T23-33-02">23:33:02 [ibid]</dt><dd>acid = atomic, consistent, isolated, durable</dd>
+<dt id="T23-33-21">23:33:21 [ibid]</dt><dd>in case you haven't heard, which you probably have :)</dd>
+<dt id="T23-33-56">23:33:56 [benja_]</dt><dd>:)</dd>
+<dt id="T23-34-10">23:34:10 [ibid]</dt><dd>have you?</dd>
+<dt id="T23-34-14">23:34:14 [benja_]</dt><dd>yes</dd>
+<dt id="T23-34-22">23:34:22 [ibid]</dt><dd>or should i lecture... probably not, then :)</dd>
+<dt id="T23-34-41">23:34:41 [benja_]</dt><dd>it has even been part of the content of the distributed systems course I've recently taken</dd>
+<dt id="T23-34-46">23:34:46 [benja_]</dt><dd>ibid: some other time :)</dd>
+<dt id="T23-34-49">23:34:49 [ibid]</dt><dd>:)</dd>
+<dt id="T23-35-06">23:35:06 [benja_]</dt><dd>I'm more interested in discussion about darcs and beyond...</dd>
+<dt id="T23-35-13">23:35:13 [ibid]</dt><dd>* ibid is hot on transactions currently, thanks to spj et co's paper on software transactional memory</dd>
+<dt id="T23-35-21">23:35:21 [benja_]</dt><dd>I want to be able to branch a single web page, for example</dd>
+<dt id="T23-35-54">23:35:54 [ibid]</dt><dd>ok, fine-grained, nestable repos? :)</dd>
+<dt id="T23-36-00">23:36:00 [benja_]</dt><dd>hmm</dd>
+<dt id="T23-36-26">23:36:26 [benja_]</dt><dd>I mean, the single web page wouldn't be considered its own repo by its author</dd>
+<dt id="T23-36-42">23:36:42 [ibid]</dt><dd>i got that</dd>
+<dt id="T23-36-54">23:36:54 [ibid]</dt><dd>it's just the way my math-trained mind works :)</dd>
+<dt id="T23-36-56">23:36:56 [benja_]</dt><dd>more interesting case: consider <a href="http://himalia.it.jyu.fi/darcs/fenfire/metacode/send_darcs_diffs.py">http://himalia.it.jyu.fi/darcs/fenfire/metacode/send_darcs_diffs.py</a> :)</dd>
+<dt id="T23-37-04">23:37:04 [benja_]</dt><dd>mhm</dd>
+<dt id="T23-37-11">23:37:11 [ibid]</dt><dd>the author has a repo, then anybody can consider any "subset" of the repo a repo</dd>
+<dt id="T23-37-19">23:37:19 [benja_]</dt><dd>yeah, that's what I mean</dd>
+<dt id="T23-37-36">23:37:36 [ibid]</dt><dd>with proper subrepo semantics, of course</dd>
+<dt id="T23-37-40">23:37:40 [benja_]</dt><dd>(cvs is somewhat like that actually)</dd>
+<dt id="T23-37-46">23:37:46 [benja_]</dt><dd>ibid: subrepo semantics?</dd>
+<dt id="T23-38-16">23:38:16 [ibid]</dt><dd>stuff like if i commit to the single-file repository, it is visible as a single-file commit in all superrepos</dd>
+<dt id="T23-38-29">23:38:29 [benja_]</dt><dd>yeah</dd>
+<dt id="T23-38-32">23:38:32 [ibid]</dt><dd>self-evident stuff, really :)</dd>
+<dt id="T23-38-41">23:38:41 [ibid]</dt><dd>but that's how my math-trained mind works ;)</dd>
+<dt id="T23-39-16">23:39:16 [ibid]</dt><dd>actually, a file portion repo would be nice, too</dd>
+<dt id="T23-39-22">23:39:22 [ibid]</dt><dd>but becomes nasty</dd>
+<dt id="T23-39-29">23:39:29 [benja_]</dt><dd>that's how your math-trained mind works ;)</dd>
+<dt id="T23-39-37">23:39:37 [ibid]</dt><dd>at least with the unixish definition of file</dd>
+<dt id="T23-39-40">23:39:40 [ibid]</dt><dd>benja_: more or less :)</dd>
+<dt id="T23-39-43">23:39:43 [benja_]</dt><dd>=)</dd>
+<dt id="T23-39-58">23:39:58 [benja_]</dt><dd>an interesting question is versioning of items in an rdf graph</dd>
+<dt id="T23-40-04">23:40:04 [benja_]</dt><dd>(interesting and relevant to us)</dd>
+<dt id="T23-40-31">23:40:31 [benja_]</dt><dd>basically, you must be able to take an arbitrary function selecting part of a graph, and then consider the history of the so-selected subgraph</dd>
+<dt id="T23-40-47">23:40:47 [benja_]</dt><dd>since there are no rigid boundaries in hyperstructure, which is the point =)</dd>
+<dt id="T23-41-05">23:41:05 [ibid]</dt><dd>so versioning should be subspace-invariant</dd>
+<dt id="T23-41-19">23:41:19 [ibid]</dt><dd>or composable, or ...</dd>
+<dt id="T23-41-20">23:41:20 [benja_]</dt><dd>what does invariant mean?</dd>
+<dt id="T23-41-29">23:41:29 [ibid]</dt><dd>literally, not changing</dd>
+<dt id="T23-41-56">23:41:56 [ibid]</dt><dd>as a technical term: a X-invariant is a property that stays the same even if the pov-X changes</dd>
+<dt id="T23-42-09">23:42:09 [benja_]</dt><dd>ibid: what does it mean *here*?</dd>
+<dt id="T23-42-24">23:42:24 [ibid]</dt><dd>something good :)</dd>
+<dt id="T23-42-29">23:42:29 [benja_]</dt><dd>lol</dd>
+<dt id="T23-42-48">23:42:48 [ibid]</dt><dd>it's rather fuzzy in my head currently</dd>
+<dt id="T23-42-53">23:42:53 [benja_]</dt><dd>ok...</dd>
+<dt id="T23-43-11">23:43:11 [ibid]</dt><dd>to describe it properly, i'd really have to solve the problem</dd>
+<dt id="T23-43-25">23:43:25 [ibid]</dt><dd>since defining subspace-invariance is probably a large part of the solution :)</dd>
+<dt id="T23-43-36">23:43:36 [ibid]</dt><dd>at least in theoretical terms, dunno about implementation</dd>
+<dt id="T23-43-43">23:43:43 [benja_]</dt><dd>another issue is the relationship between patches and versions</dd>
+<dt id="T23-43-59">23:43:59 [benja_]</dt><dd>I really want to be able to browse the "past versions of a page"</dd>
+<dt id="T23-44-23">23:44:23 [ibid]</dt><dd>and link to a specific version, as well as "the current" version</dd>
+<dt id="T23-44-31">23:44:31 [benja_]</dt><dd>true, yes</dd>
+<dt id="T23-45-06">23:45:06 [ibid]</dt><dd>i suspect that under the hyperstructure versioning problem there lay several papers on graph theory :)</dd>
+<dt id="T23-45-17">23:45:17 [benja_]</dt><dd>but it's also useful to have patches as a first-class concept</dd>
+<dt id="T23-45-34">23:45:34 [ibid]</dt><dd>a patch is a node?</dd>
+<dt id="T23-46-02">23:46:02 [benja_]</dt><dd>?</dd>
+<dt id="T23-46-23">23:46:23 [benja_]</dt><dd>I was thinking about darcs being patch-centric rather than version-centric</dd>
+<dt id="T23-46-37">23:46:37 [benja_]</dt><dd>although a particular realization of a patch always has a version as context</dd>
+<dt id="T23-46-41">23:46:41 [ibid]</dt><dd>i take it that first-class patch means that a patch is represented inside the versioned space</dd>
+<dt id="T23-46-50">23:46:50 [benja_]</dt><dd>no</dd>
+<dt id="T23-46-52">23:46:52 [benja_]</dt><dd>sorry</dd>
+<dt id="T23-46-58">23:46:58 [ibid]</dt><dd>that's at least how my pl-trained brain works :)</dd>
+<dt id="T23-47-28">23:47:28 [benja_]</dt><dd>in cvs, you have versions, and implicitly have patches as the gaps between the versions</dd>
+<dt id="T23-47-49">23:47:49 [benja_]</dt><dd>in darcs, you have patches, and implicitly the versions as the gaps between the patches ;-)</dd>
+<dt id="T23-48-02">23:48:02 [benja_]</dt><dd>you want to be able to link to both versions and patches, probably</dd>
+<dt id="T23-48-42">23:48:42 [benja_]</dt><dd>"see this version"; "please apply this patch"; "this patch broke it because..."</dd>
+<dt id="T23-53-00">23:53:00 [benja_]</dt><dd>"these patches have been applied"; "this patch has not been applied yet"</dd>
+<dt id="T23-53-41">23:53:41 [ibid]</dt><dd>okay, if patches are first-class then versions are second-class :)</dd>
+<dt id="T23-53-51">23:53:51 [benja_]</dt><dd>why?</dd>
+<dt id="T23-54-05">23:54:05 [benja_]</dt><dd>why can't both be first-class?</dd>
+<dt id="T23-54-59">23:54:59 [ibid]</dt><dd>then either patches are versions, versions are patches, or both are instances of some common superconcept</dd>
+<dt id="T23-55-11">23:55:11 [ibid]</dt><dd>i don't say it cannot be</dd>
+<dt id="T23-56-17">23:56:17 [benja_]</dt><dd>ibid: I think they're disjoint, and while they're related, they're not instances of the same concept</dd>
+<dt id="T23-57-09">23:57:09 [ibid]</dt><dd>i mean, "first class X" implies, at least in pk parlance, a some sense of subsumption between all things first class</dd>
+<dt id="T23-57-30">23:57:30 [ibid]</dt><dd>like, if functions are first class values, then they can be treated like any other value</dd>
+<dt id="T23-57-40">23:57:40 [ibid]</dt><dd>s/pk/pl/</dd>
+<dt id="T23-58-12">23:58:12 [ibid]</dt><dd>well, it doesn't matter</dd>
+<dt id="T23-58-35">23:58:35 [ibid]</dt><dd>i think i need to go to sleep :)</dd>
+<dt id="T23-58-36">23:58:36 [benja_]</dt><dd>they should both have URIs :-)</dd>
+<dt id="T23-58-40">23:58:40 [benja_]</dt><dd>ok :-/</dd>
+</dl>
+</body>
+</html>

@@ -1,0 +1,114 @@
+div.left {
+	width: 160px;
+        position: absolute;
+	left: 0;
+        top:0;
+ 	margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+}
+
+div.left-bar {
+        font-size:80%;
+	margin-bottom: 25px;
+}
+
+div.left img {
+	border: none;
+}
+
+div.left-bar, div.logo-bar, div.document, h1.title {
+	background: #CCCCFF;
+
+	border-style: solid;
+	border-color: #9999CC;
+	border-width: 2px;
+}
+
+.navigation-title, hr.footer {
+	visibility: hidden;
+
+	/* Setting the position to absolute means that this
+           element isn't counted as vertical space, and this
+           means the footer isn't moved further down. */
+	position: absolute;
+}
+
+.boxhead, .boxhead :link, .boxhead :visited {
+	font-size: 12pt;
+	font-family: sans-serif;
+	font-weight: bold;
+	background: #9999CC;
+	color: #ffffff;
+	margin-top: 0;
+}
+
+.boxcontent {
+	margin-top: -1em;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+.boxitem {
+	display: block;
+}
+
+.left-bar ul {
+	/* no indentation for navigation list items */
+	padding-left: 1em;
+}
+
+h1.title { 	
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div.document {
+	margin-top: 20px;
+	padding-bottom: 1em;
+}
+
+/* we leave some place on the side using the margin-* properties */
+div.document, .footer {
+        margin-left:200px;
+	margin-right: 20px;
+        padding-left:1em;
+        padding-right:1em;
+}
+
+div.footer {
+	margin-top: 2em;
+}
+
+
+
+/* Overall */
+body {
+	color: black;
+	background: #666699; 
+	text-align: left; 
+	font-size: medium;
+	font-family: sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 { font-family: sans-serif; font-weight: bold; }
+h1.title { text-align: center; }
+
+.footer { 
+	font-size: 80%; 
+	color: #000000;
+	/* color: #cccccc; */
+	text-align: center;
+}
+
+/*
+.footer :link { color: #9999ff; }
+.footer :visited { color: #999999; }
+*/
+table.docinfo {
+  margin: 2em 4em }
+.docinfo-name {
+  font-weight: bold;
+  text-align: left;
+  margin-right: .75em }

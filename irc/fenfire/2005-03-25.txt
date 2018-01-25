@@ -1,0 +1,5 @@
+05:46:35 <humppake> humppake has quit
+05:47:34 <humppake> humppake has joined #fenfire
+09:58:49 <tuukkah> hmm, could this be good for fenfire: "For example, when you press page down, evince will slightly darken the area on the screen where your page was as it smooth scrolls. That lets your eye track its position much easier, so once the scroll is over you just keep reading without a visual "seek"."
+16:18:33 <ibid> gv puts a line where the bottom of the window was for a second or two
+16:18:53 <ibid> * ibid apparently slept for 15 hours

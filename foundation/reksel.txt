@@ -1,0 +1,63 @@
+The Fenfire Foundation              REKISTERISELOSTE
+                                    Henkilötietolaki 10 §
+
+                                    23.3.2005
+
+
+1. Rekisterinpitäjä    The Fenfire Foundation
+                       (yhdistys, rekisteröinti vireillä)
+
+   Yhteystiedot        c/o Antti-Juhani Kaijanaho
+                       Helokantie 1 A 16
+                       40640 JYVÄSKYLÄ
+                       puh. 040 571 6536
+
+2. Rekisteriasioista   Antti-Juhani Kaijanaho
+   vastaava henkilö    Helokantie 1 A 16
+                       40640 JYVÄSKYLÄ
+                       puh. 040 571 6536
+
+3. Rekisterin nimi     Jäsenluettelo
+
+4. Henkilötietojen     Rekisteri on yhdistyksen lakisääteinen jäsenluettelo
+   käsittelyn          (Yhdistyslaki 11 §) sekä sisältää jäsensuhteen
+   tarkoitus           hoitamisessa tarvittavia tietoja jäsenistä.
+
+5. Rekisterin          * yksilöivä jäsentunnus (ei henkilötunnus eikä
+   tietosisältö          y-tunnus)
+                       * jäsenen täydellinen nimi (Yhdistyslaki 11 §)
+                       * jäsenen nimi siinä muodossa, jota jäsen itse
+                         haluaa siitä käytettävän (arkinimi)
+                       * jäsenen kotipaikka (Yhdistyslaki 11 §)
+                       * jäsenen postiosoite
+                       * jäsenen sähköpostiosoite (ei pakollinen)
+                       * jäsenyyden alkamispäivä
+                       * tieto jäsenen maksamasta liittymismaksusta
+                         (kirjanpidon tositenumero tai tieto, että
+                         liittymismaksu oli liittymisvuonna 0 euroa)
+                       * tieto jäsenen maksamista jäsenmaksuista (kustakin
+                         kirjanpidon tositenumero tai tieto, että jäsenmaksu
+                         oli kyseisenä vuonna 0 euroa, sekä tieto siitä, minkä
+                         vuoden maksu on kyseessä)
+
+6. Säännönmukaiset     Maksutiedot saadaan kirjanpidosta, jäsenyyden
+   tietolähteet        alkamispäivä hallituksen pöytäkirjoista, muut tiedot
+                       jäseneltä itseltään.  Jäsentunnus luodaan, kun jäsen
+                       hyväksytään jäseneksi.
+
+7. Säännönmukaiset     Kaikilla jäsenillä on oikeus nähdä kaikkien jäsenten
+   tietojen            jäsenluettelotiedot (täydellinen nimi ja kotipaikka).
+   luovutukset ja      Tietoja ei muutoin luovutetan eikä siirretä EU:n tai
+   tietojen siirto     Euroopan talousalueen ulkopuolelle.
+   EU:n tai Euroopan
+   talousalueen
+   ulkopuolelle
+
+8. Rekisterin          Rekisterin tiedot on suojatuu asiattomalta
+   suojauksen          katselulta, muuttamiselta ja hävittämiseltä.
+   periaatteet         Suojaus perustuu henkilökohtaisiin käyttäjätunnuksiin
+                       ja käyttöoikeuksien rajaukseen.  Tietojen
+                       katselu- ja muuttamisoikeudet on rajattu,
+                       tietojen muuttaminen kirjataan.  Tietojen
+                       häviämättömyydestä huolehditaan varmuuskopioilla
+                       ja fyysisillä turvamenettelyillä.

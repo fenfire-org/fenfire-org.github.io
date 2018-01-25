@@ -1,0 +1,254 @@
+16:35:13 <fflogbot> fflogbot has joined #fenfire
+16:35:13 <sterling.freenode.net> topic is: http://fenfire.org - the channel may or may not be logged
+16:35:13 <sterling.freenode.net> Users on #fenfire: fflogbot ffdarcsbot CaptSolo antont humppake tuukkah ibid mudyc majukati benja_ 
+16:35:19 <tuukkah> if the bot writes to a file in realtime, the file can't end in the xml close tag so it can't be an xml document
+16:35:40 <benja_> tuukkah: they're re-created or something
+16:35:52 <benja_> they're different per day, so the load isn't so big
+16:36:10 <benja_> hmm
+16:36:11 <tuukkah> hmm :-(
+16:36:19 <benja_> "http://fenfire.org/irc/irc.freenode.org:6667/fenfire/2005-03-02.html" -- argh
+16:36:39 <benja_> need to change this
+16:36:48 <tuukkah> ;-D
+16:36:58 <antont> :o
+16:38:34 <tuukkah> and I thought the html file was a lot more verbose than plain text... :-)
+16:49:46 <fflogbot> fflogbot has joined #fenfire
+16:49:46 <zelazny.freenode.net> topic is: http://fenfire.org - the channel may or may not be logged
+16:49:46 <zelazny.freenode.net> Users on #fenfire: fflogbot ffdarcsbot CaptSolo antont humppake tuukkah ibid mudyc majukati benja_ 
+16:51:27 <benja_> ok, http://fenfire.org/irc/fenfire/
+16:51:32 <benja_> now it's barely working
+16:51:57 <benja_> no index files yet
+16:52:45 <tuukkah> so, I could load the nodes but how to see them?
+16:53:22 <benja_> ?
+16:53:23 <tuukkah> oh, right...
+16:53:31 <tuukkah> let me try
+16:53:56 <benja_> they only use dc:description which is not a text property, so it's not very rewarding yet ;-)
+16:55:03 <antont> what's rdf:li ?
+16:55:15 <antont> not 'list item' like in html i suppose..
+16:55:31 <antont> oh it is in <rdf:Seq> so perhaps yes
+16:55:45 <tuukkah> after I went to irc://irc.freenode.org/fenfire I could see something but ran instantly out of memory
+16:56:07 <benja_> tuukkah: huh, very weird
+16:56:10 <benja_> there isn't a lot of data
+16:56:21 <benja_> well, MX=256M =-)
+16:56:50 <benja_> ah, I know
+16:56:58 <benja_> there's some loop so the DFS bites =)
+16:57:18 <benja_> you can set maxdepth to a lower number in StructureView
+16:57:30 <tuukkah> or increase heap
+16:57:45 <benja_> tuukkah: that was the MX comment
+16:57:57 <tuukkah> yes
+16:58:36 <tuukkah> oh, that was a makefile variable
+17:01:25 <tuukkah> argh, all those rdf:_38 on the property list =)
+17:02:29 <benja_> http://www.ilrt.bris.ac.uk/discovery/chatlogs/swig/2005-03-02.html#T15-42-23
+17:03:10 <tuukkah> trying to got to eventlist node caused recursion limit to be exceeded
+17:03:38 <tuukkah> at org.nongnu.libvob.impl.awt.DepthSorter.quicksort(DepthSorter.java:186)
+17:04:26 <benja_> sigh
+17:07:06 <tuukkah> with smaller limits it works
+17:07:21 <tuukkah> maxdepth 4, maxring 3
+17:08:18 <tuukkah> it doesn't really matter so much if dc:description isn't showed as node content
+17:08:41 <tuukkah> worse is that rdf_n aren't sorted
+17:09:23 <tuukkah> there's a lot to tweak...
+17:09:52 <tuukkah> the different events from same nick aren't known to be from the same person
+17:11:55 <benja_> yeah, I don't understand why they aren't sorted, will look into it sometime
+17:12:16 <benja_> it does matter to me, the text should be in the node
+17:12:47 <tuukkah> how would you sort them anyway? alphabetical isn't enough with rdf:_3 and rdf:_21
+17:12:50 <benja_> tuukkah: true ... hard to see whether they should be
+17:13:10 <tuukkah> matters, but not so much :-)
+17:13:13 <benja_> since nicks aren't permanently associated with people. hmm
+17:13:34 <tuukkah> first of all, freenode has registered nicks
+17:13:38 <benja_> tuukkah: you would sort them by the number after the _ I suppose ;-)
+17:13:56 <benja_> tuukkah: true...
+17:14:12 <tuukkah> second, as long as you don't quit and join, the person can't change
+17:15:21 <antont> except when you change the nicks, but it's quite uncommon, and also communicated to the channel
+17:15:48 <antont> i agree that the speaker should be 'known', whatever that means
+17:15:52 <benja_> antont: but not in a way that would help RDF =)
+17:16:28 <tuukkah> so instead of "some benja_", you can have "benja_ who has registered the nick" or "the user who joined the channel on 2005-02-17T18:54:09, and is currently knows as benja"
+17:16:40 <benja_> the bot could record the mbox_sha1sum if mbox is available, but not everybody has it set...
+17:16:59 <tuukkah> why does it have to be mbox_sha1sum?
+17:17:06 <benja_> tuukkah: ?
+17:17:30 <tuukkah> why can't it be anything that identifies the person?
+17:17:54 <benja_> tuukkah: well, because the bot can discover it
+17:18:04 <benja_> homepage is the one other thing it could discover
+17:18:14 <tuukkah> how could it discover those?
+17:18:15 <benja_> I think
+17:18:21 <benja_> tuukkah: you ask NickServ
+17:18:31 <tuukkah> and how can't it discover if the nick is registered?
+17:18:43 <benja_> tuukkah: ?
+17:18:58 <tuukkah> <benja_> antont: but not in a way that would help RDF =)
+17:18:58 <benja_> it can discover if the nick is registered and has these set
+17:19:27 <benja_> tuukkah: 19:15 < antont> except when you change the nicks, but it's quite uncommon, and also communicated to the channel
+17:19:28 <tuukkah> if it's registered then that is enough to connect the different log entries
+17:19:37 <benja_> saying "I changed my nick" isn't helpful for RDF
+17:20:10 <tuukkah> but the bot can understand the message and mark it in rdf in some more direct way
+17:20:17 <benja_> tuukkah: so you want to make a new vocabulary with registeredFreenodeNick?
+17:20:27 <benja_> of course these can still change owners
+17:20:48 <tuukkah> why not?
+17:21:08 <tuukkah> I can enter your email address in my nickserv records?
+17:21:22 <benja_> tuukkah: what are you replying to?
+17:21:27 <antont> if you want more spam, that is?
+17:22:04 <tuukkah> or homepage url, if we're more against spam
+17:22:23 <antont> yep
+17:22:26 <tuukkah> benja_, why not have attribute registeredFreenodeNick?
+17:23:07 <benja_> 19:20 < benja_> tuukkah: so you want to make a new vocabulary with 
+17:23:07 <benja_>                 registeredFreenodeNick?
+17:23:08 <tuukkah> benja_, and if I have your contact info in my nickserv records, it doesn't make me you
+17:23:15 <benja_> I wasn't saying you couldn't make one?
+17:23:37 <benja_> tuukkah: it doesn't, but what's your point?
+17:23:50 <tuukkah> isn't "why not" an appropriate way to say "yes" in this case?
+17:24:39 <tuukkah> benja_, using email address from nickserv records has some problems too
+17:24:44 <tuukkah> nothing else
+17:24:52 <antont> but i'm off - cu. it was pretty interesting to see structured irc data. and i didn't even manage see that rdf-xml as very horrible. and with the improvements discussed seems nice. although i've no idea about the applications ppl have in mind .. but even just being able to link to arguments in discussions is useful i guess
+17:24:55 <benja_> tuukkah: way to say yes: no, IMHO ;-)
+17:25:15 <benja_> I didn't understand it as a "yes, I want to make a new vocab"
+17:25:43 <benja_> tuukkah: ok, it does, but it's a general trust problem...
+17:25:47 <benja_> hmm
+17:26:12 <tuukkah> perhaps I don't want to. but why couldn't I... :-) I thought perhaps you had some convincing arguments, as you probably do :-)
+17:26:33 <benja_> registeredFreenodeNick is a possibility, but of course they *can* change owners, we'd just ignore that problem
+17:26:42 <benja_> tuukkah: =)
+17:27:28 <tuukkah> is there anything that can't change owners ?-)
+17:28:34 <benja_> social security numbers? =)
+17:29:01 <benja_> well, it's true that foaf:mbox ignores the problem too
+17:30:26 <tuukkah> could you do the old trick and somehow add a timestamp to the id, be it mbox or nick?
+17:31:16 <benja_> there's foaf's holdsAccount --> OnlineChatAccount
+17:31:32 <benja_> tuukkah: no, that would require picking one
+17:31:44 <benja_> which has the same problem as picking a URI
+17:31:50 <benja_> how do you get people to agree on one?
+17:32:15 <tuukkah> I don't see the problem
+17:32:18 <benja_> because if you don't, you lose what you want to get: being able to know that different nodes identify the same resource
+17:33:29 <benja_> if I use b.fallenstein@gmx.de/2004-01 and you use b.fallenstein@gmx.de/2004-07, the computer can't infer that the two are the same
+17:33:37 <benja_> i.e., that we're talking about the same person
+17:34:03 <tuukkah> true, but if I used 2004-01 as you've told me
+17:34:42 <tuukkah> basicly, you could tell that your mbox is b.fallenstein+2004-01@gmx.de
+17:35:21 <benja_> tuukkah: that's not a realistic proposal for use today, because most people have not picked such a date
+17:35:36 <benja_> if they did, they could just as well pick a URI to represent themselves
+17:35:58 <benja_> and we didn't need to identify them by mbox
+17:36:01 <tuukkah> now someone else starts to use the box, they would stick with b.fallenstein+2005-04@gmx.de
+17:36:14 <tuukkah> ok
+17:37:56 <tuukkah> you can have several mboxes, right, so the dated one would be a more strict reference to you and the dateless one a less strict
+17:38:51 <tuukkah> well, the trust just isn't there yet in the systems
+17:39:36 <benja_> tuukkah: a reasonable workaround at the moment is to trust everything unless there's manual intervention =-)
+17:39:56 <benja_> that's what all the semweb stuff does today
+17:40:55 <tuukkah> at the moment I can publish FOAF that says my mbox_sha1sum is same as yours :-/ would any software be able to let the user say anything agains this?
+17:41:30 <benja_> tuukkah: depends on who you consider the user =)
+17:41:33 <tuukkah> that is, is manual intervention implemented in any software 
+17:41:42 <benja_> fenfire would allow the user not to load your foaf, for example ;-)
+17:42:01 <benja_> foaf aggregators apparently usually allow the admins to exclude files
+17:42:14 <benja_> I've asked about this and have been told it has happened, but rarely
+17:42:20 <benja_> (and they fixed it manually)
+17:43:02 <tuukkah> ok
+17:43:14 <benja_> it's an active research topic of course
+17:43:32 <tuukkah> as long as it's a quad graph, you can filter out the offensive source
+17:43:54 <tuukkah> but I'm afraid you couldn't undo smushing, for example
+17:45:20 <benja_> tuukkah: in Fenfire, you could
+17:45:29 <benja_> in most smushing impls, you couldn't
+17:45:32 <benja_> afaik
+17:45:49 <benja_> I decided this was important to ff because the user could accidentally smush
+17:46:10 <tuukkah> ok, this is very nice to hear
+17:46:40 <tuukkah> (I did another ctrl-g on the irclog, and the update seems to have worked)
+17:46:48 <benja_> i.e., the user mistypes mbox='hostmaster@news.fi', deletes 'fi' and types 'com'
+17:47:13 <benja_> if 'hostmaster@news.fi' also exists in the system, the two nodes and all info about them would've become smushed
+17:47:29 <benja_> but SmushedQuadsGraph will unsmush when the reason for smushing goes away
+17:48:31 <tuukkah> so the smushing isn't ever permanent?
+17:48:41 <benja_> hm, what do you think about just making it foo:freenodeNick for now -- i.e. not change registration? (much easier to do I believe)
+17:49:17 <tuukkah> what do you mean "not change registration"?
+17:49:21 <benja_> tuukkah: the unsmushed quads graph is always maintained and the relationship to the smushed graph is functional if there are no bugs
+17:49:42 <benja_> s/not change registration/not check registration/, sorry
+17:50:32 <tuukkah> it's not difficult to check registration, is it? at least on protocol level, each PRIVMSG is marked whether it's by a registered nick or not
+17:50:55 <benja_> tuukkah: but adding freenodeNick likely involves no coding at all
+17:51:16 <benja_> checking registration likely involves some perl and Net::IRC coding =-)
+17:51:24 <benja_> (you're welcome to do it of course ;-))
+17:51:56 <tuukkah> ok, it's not like this is security sensitive
+17:52:16 <tuukkah> I know a perl hacker who is going to attend the course :-)
+17:53:52 <benja_> the only way it would affect anything outside the logs is if you put the freenodeNick in your foaf
+17:53:58 <benja_> or some other public location
+17:54:48 <tuukkah> and if you do that, I think everybody understands that irc nicks can be stolen
+17:55:29 <benja_> tuukkah: the only way it would cause a real problem is if you dropped your nick, somebody else picked it up, and put it in *their* foaf
+17:55:37 <benja_> and that's extremely unlikely
+17:55:46 <benja_> plus you'd remove it from your foaf most likely
+18:03:43 <tuukkah> so, would you add dc:description to Fenfire.TEXT_PROPS?
+18:03:52 <benja_> no
+18:04:04 <benja_> I believe it's not really appropriate here
+18:04:34 <benja_> rdfs:label would be more appropriate I think
+18:04:43 <benja_> hmm
+18:05:03 <tuukkah> shouldn't there be two things anyway: a text that someone says and type of message like privmsg, notice, join, part
+18:06:05 <tuukkah> or would that be rdf:type
+18:06:13 <benja_> well, it's just the text that someone said
+18:06:16 <benja_> at the moment
+18:06:20 <tuukkah> which is foaf:chatEvent now
+18:07:01 <tuukkah> it's not strictly saying as stuff like title is a chatEvent as well
+18:07:24 <benja_> well, ok
+18:07:52 <benja_> I think making the model there more complex is unnecessary work at the moment
+18:08:05 <tuukkah> ok
+18:08:19 <benja_> I'm not opposed to it, just have no interest in doing it
+18:08:28 <tuukkah> yes
+18:08:52 <tuukkah> would all dc:dates be shown in the calendar view?
+18:09:03 <benja_> ah, right, crschmidt mentioned http://crschmidt.net/ns/irc#
+18:09:10 <benja_> tuukkah: y
+18:09:15 <benja_> well, for now
+18:09:21 <benja_> in the future, we'd have selection by type
+18:10:10 <tuukkah> how do i see the calendar view?
+18:10:21 <benja_> when the user can create a new vocabulary with dates inside Fenfire, and make it an applitude with a specific calendar view in an integrated process, then we'll really have "fenfire"
+18:10:34 <benja_> tuukkah: go on something with a date, hit Ctrl-V
+18:10:50 <benja_> it may not be performant
+18:10:57 <benja_> you have been warned
+18:10:59 <benja_> ;-)
+18:11:00 <tuukkah> -)
+18:11:15 <benja_> I need to go shopping, promised
+18:11:18 <benja_> (shops close at eight)
+18:11:19 <benja_> cu
+18:11:21 <tuukkah> but this would be more useful than sorting the stupid property names
+18:11:30 <tuukkah> bye
+18:12:07 <benja_> tuukkah: a) sorting the stupid property names is important because many stupid rdf vocabs use containers ;) ;)
+18:12:48 <benja_> b) I'd prefer to sort by date; dajobe said that different items can have the same date and order can be important (multiline paste)
+18:13:09 <benja_> I'm thinking about having date + number-of-item-with-same-date
+18:13:18 <benja_> I really dislike the use of a container
+18:13:43 <benja_> it's ugly that there's a different container for every day and stuff...
+18:13:57 <benja_> but, cu
+19:04:47 <benja_>  shops lo
+19:04:52 <benja_> shops closed, benja_ back
+19:07:42 <tuukkah> that was quick :-)
+19:08:25 <benja_> btw, if you don't know channel101.com, have a look
+19:08:49 <benja_> (a community making video series with 5min per episode and voting on them)
+19:10:33 <benja_> (try, e.g., the first episode of The 'Bu @ http://www.channel101.com/media/shw_0010/epi_0034/the_bu_1.mp4 -- I use noatun to watch them)
+19:16:15 <tuukkah> umm, a truly funny squirrel
+19:16:42 <tuukkah> unfortunately I don't think I have red-blue glasses nearby ;-)
+19:17:05 <benja_> I did try it with glasses the second time, I think the images come from a single cam actually =)
+19:18:44 <tuukkah> yes, I was wondering if they'd really had a stereo camera
+19:19:07 <benja_> I thought they might've used two, don't know if that's really possible
+19:20:50 <benja_> so now we have the magic potion, Lob/Model templates, and Tuomas' Functional system
+19:21:20 <tuukkah> the languages?
+19:21:26 <benja_> yeah...
+19:21:48 <tuukkah> what's up next =)
+19:21:58 <tuukkah> turn it all into common lisp %-)
+19:22:03 <benja_> =*)
+19:22:33 <benja_> hmmm
+19:22:44 <tuukkah> or haskell that can output either Java and use AWT or C++ and use OpenGL
+19:23:04 <benja_> lobs are an object system, really, but the template system is used as a kind of programming language
+19:23:43 <benja_> models are something of a cross between an object and a function, or set of functions
+19:23:47 <benja_> 21:23 < benja_> lobs are an object system, really, but the template system is 
+19:23:48 <benja_> hups
+19:23:51 <benja_>                 used as a kind of programming language
+19:24:51 <benja_> and then, lobs and models and graphs are observable
+19:25:18 <benja_> there must be a way to simplify all this
+19:25:25 <benja_> separate it into orthogonal parts
+19:25:41 <benja_> in a way, a template is a function returning an object
+19:26:37 <benja_> templates use parameter lists with named parameters, potion uses positional parameter lists, the functional stuff uses one parameter per function
+19:28:00 <tuukkah> those all can be represented as one parameter that can be a dictionary with indexes as keys :-)
+19:29:01 <benja_> which reminds me: functions and lobs have some constraints w.r.t. speed
+19:29:16 <benja_> perhaps potions does too, when mixed with the two above
+19:29:30 <benja_> i.e., when we use potions to specify views (view parameters)
+19:30:41 <benja_> I failed an exam in "fundamentals of theoretical computer science"
+19:31:38 <tuukkah> :-( graphs, logic, type theory?
+19:31:58 <benja_> no. computability, turing machines, P/NP, languages
+19:32:12 <tuukkah> oh, that stuff :-)
+19:32:20 <benja_> I don't think I would have failed graphs, logic, type theory ;-)
+19:32:54 <tuukkah> where these two classes track A and track B?
+19:33:18 <tuukkah> majukati has documented some really funny procmail hackery
+19:36:14 <benja_> tuukkah: they have nothing to do with this course
+19:36:37 <tuukkah> neither a nor b?
+19:36:39 <majukati> tuukkah: yep, that was awesome.
+19:37:15 <tuukkah> don't the message headers break procmail reading the message as .procmailrc?
+19:38:14 <majukati> fflogbot you are illegal to be run from eppi. we had only right to run archive changes commit bot
+19:41:35 <majukati> benja_: you need to use another host
+19:42:20 <benja_> majukati: I recall the conversation differently, I believe we explicitly talked about logging
+19:42:46 <majukati> we explicitly talked about logging and the answer was no
+19:42:55 <benja_> so what was the plan?
+19:43:10 <benja_> since they don't want us to run a web server on siksak

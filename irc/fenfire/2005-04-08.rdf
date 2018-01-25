@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:wn="http://xmlns.com/wordnet/1.6/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<foaf:ChatChannel rdf:about="irc://irc.freenode.org/fenfire">
+  <foaf:chatEventList>
+    <rdf:Seq>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T02-31-11">
+        <dc:date>2005-04-08T02:31:11Z</dc:date>
+        <dc:description>mudyc_ has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T02-48-05">
+        <dc:date>2005-04-08T02:48:05Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T02-48-13">
+        <dc:date>2005-04-08T02:48:13Z</dc:date>
+        <dc:description>mudyc has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="mudyc"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T04-03-22">
+        <dc:date>2005-04-08T04:03:22Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-11-33">
+        <dc:date>2005-04-08T06:11:33Z</dc:date>
+        <dc:description>http://news.com.com/Teachers+leave+grading+up+to+the+computer/2100-1032_3-5659366.html?part=rss&amp;tag=5659366&amp;subj=news</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+        <dc:relation rdf:resource="http://news.com.com/Teachers+leave+grading+up+to+the+computer/2100-1032_3-5659366.html?part=rss&amp;tag=5659366&amp;subj=news"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-11-48">
+        <dc:date>2005-04-08T06:11:48Z</dc:date>
+        <dc:description>yes, scary</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-14-33">
+        <dc:date>2005-04-08T06:14:33Z</dc:date>
+        <dc:description>huomenta</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-21-06">
+        <dc:date>2005-04-08T06:21:06Z</dc:date>
+        <dc:description>huomenta majukati</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-22-00">
+        <dc:date>2005-04-08T06:22:00Z</dc:date>
+        <dc:description>have to start thinking about programs that write essays too, just for balance</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-25-46">
+        <dc:date>2005-04-08T06:25:46Z</dc:date>
+        <dc:description>;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-27-01">
+        <dc:date>2005-04-08T06:27:01Z</dc:date>
+        <dc:description>vegai, yeah</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-33-41">
+        <dc:date>2005-04-08T06:33:41Z</dc:date>
+        <dc:description>hi</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-33-47">
+        <dc:date>2005-04-08T06:33:47Z</dc:date>
+        <dc:description>hello</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-33-53">
+        <dc:date>2005-04-08T06:33:53Z</dc:date>
+        <dc:description>huomenta benja_ </dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-34-01">
+        <dc:date>2005-04-08T06:34:01Z</dc:date>
+        <dc:description>* benja_ woke up too late to be at uni at 10</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-34-06">
+        <dc:date>2005-04-08T06:34:06Z</dc:date>
+        <dc:description>did you get home well yesterday?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-34-06-1">
+        <dc:date>2005-04-08T06:34:06Z</dc:date>
+        <dc:description>sorry</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-34-22">
+        <dc:date>2005-04-08T06:34:22Z</dc:date>
+        <dc:description>benja_: ok, not a problem. i need to walk there</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-34-23">
+        <dc:date>2005-04-08T06:34:23Z</dc:date>
+        <dc:description>tuukkah: yeah, I took the bus to the center and walked from there</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-34-30">
+        <dc:date>2005-04-08T06:34:30Z</dc:date>
+        <dc:description>majukati, ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-34-43">
+        <dc:date>2005-04-08T06:34:43Z</dc:date>
+        <dc:description>BUT I forgot I had my washing machine turn yesterday</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-34-53">
+        <dc:date>2005-04-08T06:34:53Z</dc:date>
+        <dc:description>and I really needed to wash. ARGH ARGH :-(</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-35-22">
+        <dc:date>2005-04-08T06:35:22Z</dc:date>
+        <dc:description>perhaps you wash now while eating breakfast and before coming to university ?-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-35-36">
+        <dc:date>2005-04-08T06:35:36Z</dc:date>
+        <dc:description>it's good that there aren't smellies yet ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-36-01">
+        <dc:date>2005-04-08T06:36:01Z</dc:date>
+        <dc:description>I should probably go there at 10 and see whether the person takes their turn</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-36-15">
+        <dc:date>2005-04-08T06:36:15Z</dc:date>
+        <dc:description>it turns out i didn't lose the elections after all</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-36-21">
+        <dc:date>2005-04-08T06:36:21Z</dc:date>
+        <dc:description>hm? :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-36-23">
+        <dc:date>2005-04-08T06:36:23Z</dc:date>
+        <dc:description>i'll be the fifth(!) deputy member</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-36-41">
+        <dc:date>2005-04-08T06:36:41Z</dc:date>
+        <dc:description>(of the faculty council in the second staff group)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-38-10">
+        <dc:date>2005-04-08T06:38:10Z</dc:date>
+        <dc:description>hmm, moin 1.3.4-1 has come to Sarge</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-38-50">
+        <dc:date>2005-04-08T06:38:50Z</dc:date>
+        <dc:description>* ibid upgrades flowerpot</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-39-21">
+        <dc:date>2005-04-08T06:39:21Z</dc:date>
+        <dc:description>* tuukkah wonders how it handles data migration</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-39-37">
+        <dc:date>2005-04-08T06:39:37Z</dc:date>
+        <dc:description>ibid: is the function of that machine of being a flowerpot?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-39-54">
+        <dc:date>2005-04-08T06:39:54Z</dc:date>
+        <dc:description>nope</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-42-01">
+        <dc:date>2005-04-08T06:42:01Z</dc:date>
+        <dc:description>benja_: so, when we see then?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-43-04">
+        <dc:date>2005-04-08T06:43:04Z</dc:date>
+        <dc:description>depends on whether the machine is free or not :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-43-52">
+        <dc:date>2005-04-08T06:43:52Z</dc:date>
+        <dc:description>if it's not, 10:40 perhaps</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-44-47">
+        <dc:date>2005-04-08T06:44:47Z</dc:date>
+        <dc:description>how come we always have these freedom issues</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-45-10">
+        <dc:date>2005-04-08T06:45:10Z</dc:date>
+        <dc:description>tuukkah: ?</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-45-52">
+        <dc:date>2005-04-08T06:45:52Z</dc:date>
+        <dc:description>now free software isn't enough, we need a free machine too ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-47-22">
+        <dc:date>2005-04-08T06:47:22Z</dc:date>
+        <dc:description>ibid, the upgrade breaks the wikis until they're manually migrated</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-48-36">
+        <dc:date>2005-04-08T06:48:36Z</dc:date>
+        <dc:description>tuukkah: can you migrate them?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-48-41">
+        <dc:date>2005-04-08T06:48:41Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-51-02">
+        <dc:date>2005-04-08T06:51:02Z</dc:date>
+        <dc:description>an impressive version number: libtheora0 0.0.0.alpha3-1</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-59-05">
+        <dc:date>2005-04-08T06:59:05Z</dc:date>
+        <dc:description>Preparing to replace moin 1.2.4-1 (using .../archives/moin_1.3.4-1_all.deb) ...</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T06-59-05-1">
+        <dc:date>2005-04-08T06:59:05Z</dc:date>
+        <dc:description>Unpacking replacement moin ...</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-03-29">
+        <dc:date>2005-04-08T07:03:29Z</dc:date>
+        <dc:description>hmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-03-39">
+        <dc:date>2005-04-08T07:03:39Z</dc:date>
+        <dc:description>someone reserved the machines from 9-11</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-03-54">
+        <dc:date>2005-04-08T07:03:54Z</dc:date>
+        <dc:description>-(</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-03-56">
+        <dc:date>2005-04-08T07:03:56Z</dc:date>
+        <dc:description>looks like they'll probably be finished in 30min, though</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-04-16">
+        <dc:date>2005-04-08T07:04:16Z</dc:date>
+        <dc:description>Setting up moin (1.3.4-1) ...</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-04-19">
+        <dc:date>2005-04-08T07:04:19Z</dc:date>
+        <dc:description>done</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-04-22">
+        <dc:date>2005-04-08T07:04:22Z</dc:date>
+        <dc:description>so I could probably use the machines for the last half of the hour</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-04-46">
+        <dc:date>2005-04-08T07:04:46Z</dc:date>
+        <dc:description>majukati: how about meeting at 12 for lunch?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-04-55">
+        <dc:date>2005-04-08T07:04:55Z</dc:date>
+        <dc:description>and doing some work on IRC before that</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-05-27">
+        <dc:date>2005-04-08T07:05:27Z</dc:date>
+        <dc:description>have you ever seen this when trying rsync over ssh</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-05-32">
+        <dc:date>2005-04-08T07:05:32Z</dc:date>
+        <dc:description>[vegai@kontu haskell-skeleton]$ sync-darcs.sh</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-05-32-1">
+        <dc:date>2005-04-08T07:05:32Z</dc:date>
+        <dc:description>filter rules are too modern for remote rsync.</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-05-32-2">
+        <dc:date>2005-04-08T07:05:32Z</dc:date>
+        <dc:description>rsync error: syntax or usage error (code 1) at exclude.c(1119)</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-05-42">
+        <dc:date>2005-04-08T07:05:42Z</dc:date>
+        <dc:description>benja_: ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-07-02">
+        <dc:date>2005-04-08T07:07:02Z</dc:date>
+        <dc:description>vegai, perhaps you should set some simpler rules then :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-07-32">
+        <dc:date>2005-04-08T07:07:32Z</dc:date>
+        <dc:description>of course, I wouldn't be wondering about this if it weren't for the fact that this used to work</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-07-46">
+        <dc:date>2005-04-08T07:07:46Z</dc:date>
+        <dc:description>I have no idea what filtering rules it's even talking about</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-07-50">
+        <dc:date>2005-04-08T07:07:50Z</dc:date>
+        <dc:description>tuukkah: upgrade complete</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-08-27">
+        <dc:date>2005-04-08T07:08:27Z</dc:date>
+        <dc:description>agh, server rsync: "rsync  version 2.5.6cvs  protocol version 26</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-08-28">
+        <dc:date>2005-04-08T07:08:28Z</dc:date>
+        <dc:description>"</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-09-00">
+        <dc:date>2005-04-08T07:09:00Z</dc:date>
+        <dc:description>debian :-(</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-09-40">
+        <dc:date>2005-04-08T07:09:40Z</dc:date>
+        <dc:description>is that really the version in debian stable?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-09-43">
+        <dc:date>2005-04-08T07:09:43Z</dc:date>
+        <dc:description>ibid, noticed</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-10-03">
+        <dc:date>2005-04-08T07:10:03Z</dc:date>
+        <dc:description>rsync   2.5.5-0.6       stable</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-10-33">
+        <dc:date>2005-04-08T07:10:33Z</dc:date>
+        <dc:description>yep, that's the one</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-12-59">
+        <dc:date>2005-04-08T07:12:59Z</dc:date>
+        <dc:description>what's wrong with that ?-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-13-37">
+        <dc:date>2005-04-08T07:13:37Z</dc:date>
+        <dc:description>the "cvs" in the version line makes me fear</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-14-27">
+        <dc:date>2005-04-08T07:14:27Z</dc:date>
+        <dc:description>I think I'll just compile my own rsync until the admin updates</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-19-07">
+        <dc:date>2005-04-08T07:19:07Z</dc:date>
+        <dc:description>is the next major version of debian stable coming soon, btw?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-19-46">
+        <dc:date>2005-04-08T07:19:46Z</dc:date>
+        <dc:description>MWHAHAHWHAHAHWHAHAHA</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-19-57">
+        <dc:date>2005-04-08T07:19:57Z</dc:date>
+        <dc:description>(anteeksi)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-20-13">
+        <dc:date>2005-04-08T07:20:13Z</dc:date>
+        <dc:description>vegai, it always is ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-20-22">
+        <dc:date>2005-04-08T07:20:22Z</dc:date>
+        <dc:description>heh</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-21-33">
+        <dc:date>2005-04-08T07:21:33Z</dc:date>
+        <dc:description>and like this moin upgrade, it took them ages to prepare it, and I don</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-21-46">
+        <dc:date>2005-04-08T07:21:46Z</dc:date>
+        <dc:description>I don't see anything better than in upstream</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-22-14">
+        <dc:date>2005-04-08T07:22:14Z</dc:date>
+        <dc:description>moin? that's not moinmoin i suppose?</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-22-23">
+        <dc:date>2005-04-08T07:22:23Z</dc:date>
+        <dc:description>that exactly</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-22-57">
+        <dc:date>2005-04-08T07:22:57Z</dc:date>
+        <dc:description>do you guys know what 'moin' / 'moin, moin' mean, actually? :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-23-00">
+        <dc:date>2005-04-08T07:23:00Z</dc:date>
+        <dc:description>ah, bugger.</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-23-19">
+        <dc:date>2005-04-08T07:23:19Z</dc:date>
+        <dc:description>for some reason, the "--cvs-exclude" command doesn't work for rsync over ssh anymore</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-23-40">
+        <dc:date>2005-04-08T07:23:40Z</dc:date>
+        <dc:description>benja_, yes. there's this nice bot on #moin that you need to say "Moin!" to :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-23-47">
+        <dc:date>2005-04-08T07:23:47Z</dc:date>
+        <dc:description>=-}</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-24-16">
+        <dc:date>2005-04-08T07:24:16Z</dc:date>
+        <dc:description>it's northern German (and perhaps used in other languages/countries too, dunno 'bout that)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-24-28">
+        <dc:date>2005-04-08T07:24:28Z</dc:date>
+        <dc:description>Finnish!</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-24-36">
+        <dc:date>2005-04-08T07:24:36Z</dc:date>
+        <dc:description>with an 'n'?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-24-43">
+        <dc:date>2005-04-08T07:24:43Z</dc:date>
+        <dc:description>heh :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-24-44">
+        <dc:date>2005-04-08T07:24:44Z</dc:date>
+        <dc:description>well, without :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-24-49">
+        <dc:date>2005-04-08T07:24:49Z</dc:date>
+        <dc:description>oh, ok :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-24-55">
+        <dc:date>2005-04-08T07:24:55Z</dc:date>
+        <dc:description>moro</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-26-03">
+        <dc:date>2005-04-08T07:26:03Z</dc:date>
+        <dc:description>is upstream some wiki too, then?</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-26-27">
+        <dc:date>2005-04-08T07:26:27Z</dc:date>
+        <dc:description>at least in debian, "upstream" means the original developers</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-27-41">
+        <dc:date>2005-04-08T07:27:41Z</dc:date>
+        <dc:description>somehow I'm wondering whether all the moin-saying in northern Germany is partly a game for tourists ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-27-58">
+        <dc:date>2005-04-08T07:27:58Z</dc:date>
+        <dc:description>as in, you can feel like you belong if you say 'moin' like everybody =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-28-08">
+        <dc:date>2005-04-08T07:28:08Z</dc:date>
+        <dc:description>but perhaps it's really just sort of local pride =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-29-21">
+        <dc:date>2005-04-08T07:29:21Z</dc:date>
+        <dc:description>yep, this is a feature of rsync-2.6.4</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-29-50">
+        <dc:date>2005-04-08T07:29:50Z</dc:date>
+        <dc:description>ah yes i know that 'upstream' but read you somehow wrong that thouth it couldn't mean that</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-30-12">
+        <dc:date>2005-04-08T07:30:12Z</dc:date>
+        <dc:description>"better than in upstream" has an extra 'than' i guess</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-31-54">
+        <dc:date>2005-04-08T07:31:54Z</dc:date>
+        <dc:description>antont, no, at least I mean that while it took Debian a long time to package the new moin, it doesn't have any enhancements if compared to the upstream release</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-39-03">
+        <dc:date>2005-04-08T07:39:03Z</dc:date>
+        <dc:description>ok, they did let me use the machine for the last part of their turn :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-39-10">
+        <dc:date>2005-04-08T07:39:10Z</dc:date>
+        <dc:description>ah now i finally got you :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-39-25">
+        <dc:date>2005-04-08T07:39:25Z</dc:date>
+        <dc:description>(busy here talking with students)</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-39-36">
+        <dc:date>2005-04-08T07:39:36Z</dc:date>
+        <dc:description>yeah i've never looked at moin really</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-40-09">
+        <dc:date>2005-04-08T07:40:09Z</dc:date>
+        <dc:description>well, it's wiki and it's in python, so you'd suppose there couldn't be anything better %-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-40-10">
+        <dc:date>2005-04-08T07:40:10Z</dc:date>
+        <dc:description>we've been using zwikis 'cause happened to have zope for some other reason, but are not too happy with them</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-40-33">
+        <dc:date>2005-04-08T07:40:33Z</dc:date>
+        <dc:description>though zwiki has been developing .. quite a lot actually, it has seemed on the surface</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-40-58">
+        <dc:date>2005-04-08T07:40:58Z</dc:date>
+        <dc:description>yeah .. but there are more php written things and they are used more</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-41-46">
+        <dc:date>2005-04-08T07:41:46Z</dc:date>
+        <dc:description>well, perhaps I'm a language elitist</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-42-10">
+        <dc:date>2005-04-08T07:42:10Z</dc:date>
+        <dc:description>there seem to be (a lot of?) people moving from php to python, tho</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-42-33">
+        <dc:date>2005-04-08T07:42:33Z</dc:date>
+        <dc:description>and (at least some) php ppl tend to agree that python is better for complex systems</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-42-43">
+        <dc:date>2005-04-08T07:42:43Z</dc:date>
+        <dc:description>of course wikis can be simple too :o</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-43-02">
+        <dc:date>2005-04-08T07:43:02Z</dc:date>
+        <dc:description>but dunno how it goes</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T07-44-37">
+        <dc:date>2005-04-08T07:44:37Z</dc:date>
+        <dc:description>of to eat now, bbl.</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-13-15">
+        <dc:date>2005-04-08T08:13:15Z</dc:date>
+        <dc:description>laundry's in the dryer =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-13-22">
+        <dc:date>2005-04-08T08:13:22Z</dc:date>
+        <dc:description>good</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-13-38">
+        <dc:date>2005-04-08T08:13:38Z</dc:date>
+        <dc:description>benja_, va du e dukti :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-14-40">
+        <dc:date>2005-04-08T08:14:40Z</dc:date>
+        <dc:description>du va så dukti du er ser kul</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-15-04">
+        <dc:date>2005-04-08T08:15:04Z</dc:date>
+        <dc:description>whatever that means</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-15-06">
+        <dc:date>2005-04-08T08:15:06Z</dc:date>
+        <dc:description>GRRAAAAHH</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-15-14">
+        <dc:date>2005-04-08T08:15:14Z</dc:date>
+        <dc:description>(what you said -- what I said probably means nothing =))</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-15-16">
+        <dc:date>2005-04-08T08:15:16Z</dc:date>
+        <dc:description>majukati, ?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-15-37">
+        <dc:date>2005-04-08T08:15:37Z</dc:date>
+        <dc:description>benja_: I don't want to work with awt anymore</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-15-47">
+        <dc:date>2005-04-08T08:15:47Z</dc:date>
+        <dc:description>benja_, well, drop the last three words and it makes sense :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-16-17">
+        <dc:date>2005-04-08T08:16:17Z</dc:date>
+        <dc:description>majukati, what's the problem?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-16-37">
+        <dc:date>2005-04-08T08:16:37Z</dc:date>
+        <dc:description>tuukkah: so what did we say?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-16-53">
+        <dc:date>2005-04-08T08:16:53Z</dc:date>
+        <dc:description>the same thing, basicly, just formulated differently =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-17-10">
+        <dc:date>2005-04-08T08:17:10Z</dc:date>
+        <dc:description>tuukkah: can you translate?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-17-21">
+        <dc:date>2005-04-08T08:17:21Z</dc:date>
+        <dc:description>but I don't think I know how to say it in any other language</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-17-27">
+        <dc:date>2005-04-08T08:17:27Z</dc:date>
+        <dc:description>blah! :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-18-58">
+        <dc:date>2005-04-08T08:18:58Z</dc:date>
+        <dc:description>benja_: i use awt.image.MemoryImageSource but it's not working at all</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-19-31">
+        <dc:date>2005-04-08T08:19:31Z</dc:date>
+        <dc:description>ah, images...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-19-55">
+        <dc:date>2005-04-08T08:19:55Z</dc:date>
+        <dc:description>actually, stable sarge is now closer than ever</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-20-00">
+        <dc:date>2005-04-08T08:20:00Z</dc:date>
+        <dc:description>freeze is imminent</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-20-04">
+        <dc:date>2005-04-08T08:20:04Z</dc:date>
+        <dc:description>benja_, literally, I said "what you are hard-working" and you replied "you were so hard-working, you"</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-20-09">
+        <dc:date>2005-04-08T08:20:09Z</dc:date>
+        <dc:description>if one believes the rms, naturally</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-20-49">
+        <dc:date>2005-04-08T08:20:49Z</dc:date>
+        <dc:description>tuukkah: in which language? it looks like swedish but isn't...</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-21-20">
+        <dc:date>2005-04-08T08:21:20Z</dc:date>
+        <dc:description>spoken swedish, not written</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-21-33">
+        <dc:date>2005-04-08T08:21:33Z</dc:date>
+        <dc:description>heh</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-21-38">
+        <dc:date>2005-04-08T08:21:38Z</dc:date>
+        <dc:description>rms?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-22-06">
+        <dc:date>2005-04-08T08:22:06Z</dc:date>
+        <dc:description>benja_, the cabal ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-22-09">
+        <dc:date>2005-04-08T08:22:09Z</dc:date>
+        <dc:description>release managers</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-22-15">
+        <dc:date>2005-04-08T08:22:15Z</dc:date>
+        <dc:description>oops</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-22-34">
+        <dc:date>2005-04-08T08:22:34Z</dc:date>
+        <dc:description>hm?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-22-42">
+        <dc:date>2005-04-08T08:22:42Z</dc:date>
+        <dc:description>and I was wondering what Stallman had to do with Sarge releases :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-22-46">
+        <dc:date>2005-04-08T08:22:46Z</dc:date>
+        <dc:description>:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-22-46-1">
+        <dc:date>2005-04-08T08:22:46Z</dc:date>
+        <dc:description>nothing :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-22-53">
+        <dc:date>2005-04-08T08:22:53Z</dc:date>
+        <dc:description>speaking of the cabal, I started a haskell skeleton for Cabalized programs: http://iki.fi/vegai/darcs/haskell-skeleton</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+        <dc:relation rdf:resource="http://iki.fi/vegai/darcs/haskell-skeleton"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-23-23">
+        <dc:date>2005-04-08T08:23:23Z</dc:date>
+        <dc:description>"mule's bridge" of the millennium, eh?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-23-28">
+        <dc:date>2005-04-08T08:23:28Z</dc:date>
+        <dc:description>i didn't know he uses the definitive article before his initials</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-24-06">
+        <dc:date>2005-04-08T08:24:06Z</dc:date>
+        <dc:description>i see my one suggestion to cabal actually was used :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-24-20">
+        <dc:date>2005-04-08T08:24:20Z</dc:date>
+        <dc:description>wussat?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-24-36">
+        <dc:date>2005-04-08T08:24:36Z</dc:date>
+        <dc:description>is anybody opposed to me making the iterators used by swamp into javolution Realtime objects?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-25-03">
+        <dc:date>2005-04-08T08:25:03Z</dc:date>
+        <dc:description>i.e., if you use them inside a Javolution PoolContext, they'll be re-used when the pool context is exited</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-25-21">
+        <dc:date>2005-04-08T08:25:21Z</dc:date>
+        <dc:description>s/use/create/</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-25-30">
+        <dc:date>2005-04-08T08:25:30Z</dc:date>
+        <dc:description>i suggested the use of the dctrl format :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-25-59">
+        <dc:date>2005-04-08T08:25:59Z</dc:date>
+        <dc:description>benja_, I think that's good. I suppose it'll make the code a lot faster? you did profile, didn't you?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-26-41">
+        <dc:date>2005-04-08T08:26:41Z</dc:date>
+        <dc:description>tuukkah: yes, it looks like currently most objects created are swamp iterators</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-26-53">
+        <dc:date>2005-04-08T08:26:53Z</dc:date>
+        <dc:description>benja_: it's fine</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-26-53-1">
+        <dc:date>2005-04-08T08:26:53Z</dc:date>
+        <dc:description>ah, right</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-26-54">
+        <dc:date>2005-04-08T08:26:54Z</dc:date>
+        <dc:description>it *is* possible to work around that in a couple of ways, but this seems more elegant</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-27-39">
+        <dc:date>2005-04-08T08:27:39Z</dc:date>
+        <dc:description>ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-29-39">
+        <dc:date>2005-04-08T08:29:39Z</dc:date>
+        <dc:description>vegai, something like that can be useful in cabal, yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-30-16">
+        <dc:date>2005-04-08T08:30:16Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-30-30">
+        <dc:date>2005-04-08T08:30:30Z</dc:date>
+        <dc:description>I'll just need to come up with the test-runners and I can actually start doing something </dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-31-55">
+        <dc:date>2005-04-08T08:31:55Z</dc:date>
+        <dc:description>wouldn't it be funny to try to beat javolution perfomance with Haskell ?-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-32-14">
+        <dc:date>2005-04-08T08:32:14Z</dc:date>
+        <dc:description>would that be a challenge? :P</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-32-17">
+        <dc:date>2005-04-08T08:32:17Z</dc:date>
+        <dc:description>what's javolution?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-32-41">
+        <dc:date>2005-04-08T08:32:41Z</dc:date>
+        <dc:description>was it javolution.org. java framework for realtime apps</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-33-49">
+        <dc:date>2005-04-08T08:33:49Z</dc:date>
+        <dc:description>how is haskell performance, then? i saw something somewhere that scheme people or someone was concerned about it</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-34-03">
+        <dc:date>2005-04-08T08:34:03Z</dc:date>
+        <dc:description>it's getting better</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-34-19">
+        <dc:date>2005-04-08T08:34:19Z</dc:date>
+        <dc:description>and probably depends on the application</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-34-24">
+        <dc:date>2005-04-08T08:34:24Z</dc:date>
+        <dc:description>ghc moves in a steady pace, afaik</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-34-55">
+        <dc:date>2005-04-08T08:34:55Z</dc:date>
+        <dc:description>on the usenet, somebody tested the naive fibonacci function with both ghc-6.4 and ocaml, and it was faster in ghc</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-34-56">
+        <dc:date>2005-04-08T08:34:56Z</dc:date>
+        <dc:description>in some microbenchmark it did really well, didn't it?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-35-17">
+        <dc:date>2005-04-08T08:35:17Z</dc:date>
+        <dc:description>yes, some</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-35-21">
+        <dc:date>2005-04-08T08:35:21Z</dc:date>
+        <dc:description>and awful in most</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-35-39">
+        <dc:date>2005-04-08T08:35:39Z</dc:date>
+        <dc:description>hmm, I didn't read them as awful :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-36-04">
+        <dc:date>2005-04-08T08:36:04Z</dc:date>
+        <dc:description>"worse than Java" is equal to "awful" in my vocabulary :P</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-37-04">
+        <dc:date>2005-04-08T08:37:04Z</dc:date>
+        <dc:description>it *is* possible to work around that in a couple of ways, but this seems more elegant</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-37-07">
+        <dc:date>2005-04-08T08:37:07Z</dc:date>
+        <dc:description>argh</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-37-12">
+        <dc:date>2005-04-08T08:37:12Z</dc:date>
+        <dc:description>ww (wrong window)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-39-15">
+        <dc:date>2005-04-08T08:39:15Z</dc:date>
+        <dc:description>vegai, in some microbenchmarks, java does better than gcc. so...?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-39-43">
+        <dc:date>2005-04-08T08:39:43Z</dc:date>
+        <dc:description>riight :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-40-13">
+        <dc:date>2005-04-08T08:40:13Z</dc:date>
+        <dc:description>gcj?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-40-55">
+        <dc:date>2005-04-08T08:40:55Z</dc:date>
+        <dc:description>what about it?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-41-17">
+        <dc:date>2005-04-08T08:41:17Z</dc:date>
+        <dc:description>I guess you meant Sun's java, right?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-41-44">
+        <dc:date>2005-04-08T08:41:44Z</dc:date>
+        <dc:description>probably, that's what people usually mean with java</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-42-22">
+        <dc:date>2005-04-08T08:42:22Z</dc:date>
+        <dc:description>antont: anyway, the implementations obviously all have their strong and weak sides</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-42-53">
+        <dc:date>2005-04-08T08:42:53Z</dc:date>
+        <dc:description>Gambit, for instance, seems to be a very snappy scheme implementation</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-46-30">
+        <dc:date>2005-04-08T08:46:30Z</dc:date>
+        <dc:description>but I believe that in a larger program (especially when you're past prototyping), features like strong static typing can be very helpful</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-48-21">
+        <dc:date>2005-04-08T08:48:21Z</dc:date>
+        <dc:description>(too bad this isn't a religion)</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-55-13">
+        <dc:date>2005-04-08T08:55:13Z</dc:date>
+        <dc:description>you would have to think a bit before porting org.fenfire.swamp into Haskell...</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-55-52">
+        <dc:date>2005-04-08T08:55:52Z</dc:date>
+        <dc:description>yeah, i've been reading a bit of some of the proposed typing systems for Python</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-56-08">
+        <dc:date>2005-04-08T08:56:08Z</dc:date>
+        <dc:description>like zope3 has this Interface system</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-56-18">
+        <dc:date>2005-04-08T08:56:18Z</dc:date>
+        <dc:description>huh?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-56-29">
+        <dc:date>2005-04-08T08:56:29Z</dc:date>
+        <dc:description>python's getting weirder and weirder</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-56-39">
+        <dc:date>2005-04-08T08:56:39Z</dc:date>
+        <dc:description>well zope3 is not python</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-56-53">
+        <dc:date>2005-04-08T08:56:53Z</dc:date>
+        <dc:description>and the typing things that people do with/for python are not python either</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-56-56">
+        <dc:date>2005-04-08T08:56:56Z</dc:date>
+        <dc:description>well no, but</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-57-20">
+        <dc:date>2005-04-08T08:57:20Z</dc:date>
+        <dc:description>i don't know if python will ever adopt any of those mechanisms</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-57-26">
+        <dc:date>2005-04-08T08:57:26Z</dc:date>
+        <dc:description>but several have been proposed</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-59-11">
+        <dc:date>2005-04-08T08:59:11Z</dc:date>
+        <dc:description>the "Python Enterprise Application Kit" http://peak.telecommunity.com/ has one, there when you get an object, and you need it to conform to some interface / be of some type, you call somehow call adapt(object), and it rises an exception if there's a problem (wrong type / does not implement the interface)</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+        <dc:relation rdf:resource="http://peak.telecommunity.com/"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T08-59-47">
+        <dc:date>2005-04-08T08:59:47Z</dc:date>
+        <dc:description>ah that seems to be the PyProtocols thing, http://peak.telecommunity.com/PyProtocols.html</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+        <dc:relation rdf:resource="http://peak.telecommunity.com/PyProtocols.html"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-00-16">
+        <dc:date>2005-04-08T09:00:16Z</dc:date>
+        <dc:description>the zope3 thing was more like in java</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-02-09">
+        <dc:date>2005-04-08T09:02:09Z</dc:date>
+        <dc:description>or well perhaps that is similar too, 'cause it says it can use the zope (and twisted) interfaces</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-04-39">
+        <dc:date>2005-04-08T09:04:39Z</dc:date>
+        <dc:description>vegai: how do you think it has gotten weird(er), btw?-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-04-57">
+        <dc:date>2005-04-08T09:04:57Z</dc:date>
+        <dc:description>well, they were just talking about removing map/filter/lambda</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-05-12">
+        <dc:date>2005-04-08T09:05:12Z</dc:date>
+        <dc:description>for python 3000, yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-05-25">
+        <dc:date>2005-04-08T09:05:25Z</dc:date>
+        <dc:description>i guess map&amp;filter because of list comprehensions</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-06-04">
+        <dc:date>2005-04-08T09:06:04Z</dc:date>
+        <dc:description>lambda i don't know why really, nor why should .. i guess it has it's uses</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-06-20">
+        <dc:date>2005-04-08T09:06:20Z</dc:date>
+        <dc:description>not as many if you remove map and filter :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-06-36">
+        <dc:date>2005-04-08T09:06:36Z</dc:date>
+        <dc:description>well the list comprehensions are there</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-06-54">
+        <dc:date>2005-04-08T09:06:54Z</dc:date>
+        <dc:description>i guess the only reason to remove map&amp;filter is if list comprehensions are a better syntax for them</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-07-06">
+        <dc:date>2005-04-08T09:07:06Z</dc:date>
+        <dc:description>that's a big if</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-07-26">
+        <dc:date>2005-04-08T09:07:26Z</dc:date>
+        <dc:description>yes, and there's still a lot of time for everyone to think &amp; argue about it</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-07-43">
+        <dc:date>2005-04-08T09:07:43Z</dc:date>
+        <dc:description>list comprehension syntax is [variable for variable in ... if variable ...] :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-08-02">
+        <dc:date>2005-04-08T09:08:02Z</dc:date>
+        <dc:description>tuukkah: if &lt;any condition&gt; actually</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-08-04">
+        <dc:date>2005-04-08T09:08:04Z</dc:date>
+        <dc:description>i've found myself always using list comprehensions, 'cause i never remember the order or arguments for map directly, and even less for filter</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-08-22">
+        <dc:date>2005-04-08T09:08:22Z</dc:date>
+        <dc:description>benja_, is that of any use?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-09-00">
+        <dc:date>2005-04-08T09:09:00Z</dc:date>
+        <dc:description>tuukkah, well, for one thing, the expression can involve the variable at an arbitrary point</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-09-04">
+        <dc:date>2005-04-08T09:09:04Z</dc:date>
+        <dc:description>[show(vob) for vob in vobs if vob.visible]</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-09-06">
+        <dc:date>2005-04-08T09:09:06Z</dc:date>
+        <dc:description>oh, I know: [variable for variable in ... if random() % 2 == 0]</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-09-15">
+        <dc:date>2005-04-08T09:09:15Z</dc:date>
+        <dc:description>expressions not involving the variable are probably useful in some very edge cases :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-09-22">
+        <dc:date>2005-04-08T09:09:22Z</dc:date>
+        <dc:description>tuukkah: hey, yeah, that's nice :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-09-30">
+        <dc:date>2005-04-08T09:09:30Z</dc:date>
+        <dc:description>yeah tuukkah's was a good one :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-10-50">
+        <dc:date>2005-04-08T09:10:50Z</dc:date>
+        <dc:description>interesting that % is defined for floats</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-11-00">
+        <dc:date>2005-04-08T09:11:00Z</dc:date>
+        <dc:description>or is it? </dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-11-04">
+        <dc:date>2005-04-08T09:11:04Z</dc:date>
+        <dc:description>dunno</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-11-11">
+        <dc:date>2005-04-08T09:11:11Z</dc:date>
+        <dc:description>is it interesting, I meant :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-11-15">
+        <dc:date>2005-04-08T09:11:15Z</dc:date>
+        <dc:description>&gt;&gt;&gt; 1.1 % 1</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-11-15-1">
+        <dc:date>2005-04-08T09:11:15Z</dc:date>
+        <dc:description>0.10000000000000009</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-12-04">
+        <dc:date>2005-04-08T09:12:04Z</dc:date>
+        <dc:description>there we have a nastiness in python, kinda</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-12-13">
+        <dc:date>2005-04-08T09:12:13Z</dc:date>
+        <dc:description>tuukkah's expression would give empty list every time</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-12-41">
+        <dc:date>2005-04-08T09:12:41Z</dc:date>
+        <dc:description>I guess some language might give a type error</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-12-42">
+        <dc:date>2005-04-08T09:12:42Z</dc:date>
+        <dc:description>oops, [variable for variable in ... if random() &lt; 0.5]</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-13-00">
+        <dc:date>2005-04-08T09:13:00Z</dc:date>
+        <dc:description>this i found nasty too:</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-13-09">
+        <dc:date>2005-04-08T09:13:09Z</dc:date>
+        <dc:description>&gt;&gt;&gt; 0.01 == float('nan')</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-13-09-1">
+        <dc:date>2005-04-08T09:13:09Z</dc:date>
+        <dc:description>True</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-13-17">
+        <dc:date>2005-04-08T09:13:17Z</dc:date>
+        <dc:description>&gt;&gt;&gt; float('nan') is float('nan')</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-13-17-1">
+        <dc:date>2005-04-08T09:13:17Z</dc:date>
+        <dc:description>False</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-14-21">
+        <dc:date>2005-04-08T09:14:21Z</dc:date>
+        <dc:description>huh... what's nan as float?</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-14-23">
+        <dc:date>2005-04-08T09:14:23Z</dc:date>
+        <dc:description>.. so i ended up doing &gt; 0 to check it is not 'nan'</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-14-45">
+        <dc:date>2005-04-08T09:14:45Z</dc:date>
+        <dc:description>it's a float that's not a number</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-15-04">
+        <dc:date>2005-04-08T09:15:04Z</dc:date>
+        <dc:description>at least this 3d engine i'm using (soya) can return it sometimes when getting the angle between two vectors etc</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-15-59">
+        <dc:date>2005-04-08T09:15:59Z</dc:date>
+        <dc:description>if one of the vectors is 0</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-17-31">
+        <dc:date>2005-04-08T09:17:31Z</dc:date>
+        <dc:description>Vector is a class in Soya</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-17-52">
+        <dc:date>2005-04-08T09:17:52Z</dc:date>
+        <dc:description>a vector of length 0, that is</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-18-07">
+        <dc:date>2005-04-08T09:18:07Z</dc:date>
+        <dc:description>ah right</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-20-08">
+        <dc:date>2005-04-08T09:20:08Z</dc:date>
+        <dc:description>hm i'm still not able to reproduce that</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-21-01">
+        <dc:date>2005-04-08T09:21:01Z</dc:date>
+        <dc:description>anyhow, one stand people take regarding the weaknesses &amp; flaws in Python is that it's better to try to fix them, instead of making a new language</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-21-19">
+        <dc:date>2005-04-08T09:21:19Z</dc:date>
+        <dc:description>but surely at least in research there's always room for more :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-24-32">
+        <dc:date>2005-04-08T09:24:32Z</dc:date>
+        <dc:description>I wonder what Jonne's mystery language </dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-24-34">
+        <dc:date>2005-04-08T09:24:34Z</dc:date>
+        <dc:description>...is</dc:description>
+        <dc:creator><wn:Person foaf:nick="vegai"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-24-49">
+        <dc:date>2005-04-08T09:24:49Z</dc:date>
+        <dc:description>smalltalk?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-25-04">
+        <dc:date>2005-04-08T09:25:04Z</dc:date>
+        <dc:description>http://mail.python.org/pipermail/python-bugs-list/2004-February/022126.html seems to be about that float('nan') comparison</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+        <dc:relation rdf:resource="http://mail.python.org/pipermail/python-bugs-list/2004-February/022126.html"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-33-02">
+        <dc:date>2005-04-08T09:33:02Z</dc:date>
+        <dc:description>argl! 12:32</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-33-21">
+        <dc:date>2005-04-08T09:33:21Z</dc:date>
+        <dc:description>majukati: I've taken the laundry out of the dryer, will take the next bus to uni</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-33-31">
+        <dc:date>2005-04-08T09:33:31Z</dc:date>
+        <dc:description>should be there at ca 13:05</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-33-38">
+        <dc:date>2005-04-08T09:33:38Z</dc:date>
+        <dc:description>where should I look for you?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-39-04">
+        <dc:date>2005-04-08T09:39:04Z</dc:date>
+        <dc:description>ibid, the migration should be complete now</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-39-28">
+        <dc:date>2005-04-08T09:39:28Z</dc:date>
+        <dc:description>benja_: we may start at piato</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-40-39">
+        <dc:date>2005-04-08T09:40:39Z</dc:date>
+        <dc:description>ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-42-02">
+        <dc:date>2005-04-08T09:42:02Z</dc:date>
+        <dc:description>right :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-45-02">
+        <dc:date>2005-04-08T09:45:02Z</dc:date>
+        <dc:description>right to what?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-49-30">
+        <dc:date>2005-04-08T09:49:30Z</dc:date>
+        <dc:description>12:38  &lt;tuukkah&gt; ibid, the migration should be complete now</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T09-50-54">
+        <dc:date>2005-04-08T09:50:54Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-20-33">
+        <dc:date>2005-04-08T10:20:33Z</dc:date>
+        <dc:description>could it have been wrong, then?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-22-50">
+        <dc:date>2005-04-08T10:22:50Z</dc:date>
+        <dc:description>:)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T10-29-05">
+        <dc:date>2005-04-08T10:29:05Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-29-58">
+        <dc:date>2005-04-08T11:29:58Z</dc:date>
+        <dc:description>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, make mouse events in ViewportLob work</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T11-51-02">
+        <dc:date>2005-04-08T11:51:02Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-41-55">
+        <dc:date>2005-04-08T12:41:55Z</dc:date>
+        <dc:description>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, optimizations (create less objects)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-54-32">
+        <dc:date>2005-04-08T12:54:32Z</dc:date>
+        <dc:description>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, ARGH</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T12-59-03">
+        <dc:date>2005-04-08T12:59:03Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T13-13-21">
+        <dc:date>2005-04-08T13:13:21Z</dc:date>
+        <dc:description>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, start a non-patent-related public version of Fenfire ('FenHaystack' :-))</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-02-26">
+        <dc:date>2005-04-08T14:02:26Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-22-59">
+        <dc:date>2005-04-08T14:22:59Z</dc:date>
+        <dc:description>majukati: this may be relevant to your thesis -&gt; http://dx.doi.org/10.1016/j.entcs.2004.08.050</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+        <dc:relation rdf:resource="http://dx.doi.org/10.1016/j.entcs.2004.08.050"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T14-39-28">
+        <dc:date>2005-04-08T14:39:28Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-02-33">
+        <dc:date>2005-04-08T16:02:33Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-10">
+        <dc:date>2005-04-08T16:49:10Z</dc:date>
+        <dc:description>libvob: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, hack ClipLob to not change the matching parent, but to place nested clipping cses with the same matching parent into a vobmatcher hierarchy</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-20">
+        <dc:date>2005-04-08T16:49:20Z</dc:date>
+        <dc:description>libvob: Tuukka Hastrup &lt;Tuukka.Hastrup@iki.fi&gt;, fix awt line drawing by substracting one pixel</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-59-29">
+        <dc:date>2005-04-08T16:59:29Z</dc:date>
+        <dc:description>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, add a list of thumbnails of other spatial views for thhis node to the 'public Fenfire'</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-05-39">
+        <dc:date>2005-04-08T17:05:39Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-44">
+        <dc:date>2005-04-08T17:18:44Z</dc:date>
+        <dc:description>fenfire: Benja Fallenstein &lt;b.fallenstein@gmx.de&gt;, fix bug that prevented nodes on the canvas from being shown in a canvas buoy</dc:description>
+        <dc:creator><wn:Person foaf:nick="ffdarcsbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-43-31">
+        <dc:date>2005-04-08T17:43:31Z</dc:date>
+        <dc:description>ibid has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-02-43">
+        <dc:date>2005-04-08T18:02:43Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-06-08">
+        <dc:date>2005-04-08T18:06:08Z</dc:date>
+        <dc:description>ibid has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-19-17">
+        <dc:date>2005-04-08T18:19:17Z</dc:date>
+        <dc:description>wow, shfs is so cool :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-28-00">
+        <dc:date>2005-04-08T18:28:00Z</dc:date>
+        <dc:description>rubberpaw has quit</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-37-32">
+        <dc:date>2005-04-08T19:37:32Z</dc:date>
+        <dc:description>plaah, installing a debian is not fun</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-40-39">
+        <dc:date>2005-04-08T19:40:39Z</dc:date>
+        <dc:description>why to have four broken cds?-/</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-51-29">
+        <dc:date>2005-04-08T19:51:29Z</dc:date>
+        <dc:description>don't get broken cds, get good cds :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-53-49">
+        <dc:date>2005-04-08T19:53:49Z</dc:date>
+        <dc:description>no, this just stops where i press 'install base'</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-54-01">
+        <dc:date>2005-04-08T19:54:01Z</dc:date>
+        <dc:description>when eventually</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-54-41">
+        <dc:date>2005-04-08T19:54:41Z</dc:date>
+        <dc:description>well, i can't help you there</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-54-46">
+        <dc:date>2005-04-08T19:54:46Z</dc:date>
+        <dc:description>it works for me :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-55-51">
+        <dc:date>2005-04-08T19:55:51Z</dc:date>
+        <dc:description>install the base system and it starts the installing program again</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-56-14">
+        <dc:date>2005-04-08T19:56:14Z</dc:date>
+        <dc:description>i have no idea, i see no errors</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-58-48">
+        <dc:date>2005-04-08T19:58:48Z</dc:date>
+        <dc:description>is this on a laptop?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-58-58">
+        <dc:date>2005-04-08T19:58:58Z</dc:date>
+        <dc:description>no, an old machine</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-59-39">
+        <dc:date>2005-04-08T19:59:39Z</dc:date>
+        <dc:description>which version of debian?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-00-00">
+        <dc:date>2005-04-08T20:00:00Z</dc:date>
+        <dc:description>3.0r0</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-00-06">
+        <dc:date>2005-04-08T20:00:06Z</dc:date>
+        <dc:description>ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-00-17">
+        <dc:date>2005-04-08T20:00:17Z</dc:date>
+        <dc:description>look for any errors in the second virtual console</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-00-25">
+        <dc:date>2005-04-08T20:00:25Z</dc:date>
+        <dc:description>there are none</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-00-40">
+        <dc:date>2005-04-08T20:00:40Z</dc:date>
+        <dc:description>i'd have to see it to help further :(</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-02-49">
+        <dc:date>2005-04-08T20:02:49Z</dc:date>
+        <dc:description>var/log/messages says that /sbin/udbootstrap exited</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-02-54">
+        <dc:date>2005-04-08T20:02:54Z</dc:date>
+        <dc:description>rubberpaw has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="rubberpaw"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-03-08">
+        <dc:date>2005-04-08T20:03:08Z</dc:date>
+        <dc:description>but it has the command line that i can run myself :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-04-05">
+        <dc:date>2005-04-08T20:04:05Z</dc:date>
+        <dc:description>oh, in virtual console 4 i have the message: Segmentation fault</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-04-16">
+        <dc:date>2005-04-08T20:04:16Z</dc:date>
+        <dc:description>good</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-04-28">
+        <dc:date>2005-04-08T20:04:28Z</dc:date>
+        <dc:description>how much memory?</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-04-36">
+        <dc:date>2005-04-08T20:04:36Z</dc:date>
+        <dc:description>256Mt</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-05-01">
+        <dc:date>2005-04-08T20:05:01Z</dc:date>
+        <dc:description>not very old, then? :)</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-10-45">
+        <dc:date>2005-04-08T20:10:45Z</dc:date>
+        <dc:description>i used to had older stable but lost those cds in a move</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-21-06">
+        <dc:date>2005-04-08T20:21:06Z</dc:date>
+        <dc:description>or actually i just didn't find those. will use *floppies* tomorrow!</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T20-24-18">
+        <dc:date>2005-04-08T20:24:18Z</dc:date>
+        <dc:description>you only need two if you have net access from the comp</dc:description>
+        <dc:creator><wn:Person foaf:nick="ibid"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+    </rdf:Seq>
+  </foaf:chatEventList>
+</foaf:ChatChannel>
+</rdf:RDF>

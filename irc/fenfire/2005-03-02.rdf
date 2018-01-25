@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:wn="http://xmlns.com/wordnet/1.6/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<foaf:ChatChannel rdf:about="irc://irc.freenode.org/fenfire">
+  <foaf:chatEventList>
+    <rdf:Seq>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-35-13">
+        <dc:date>2005-03-02T16:35:13Z</dc:date>
+        <dc:description>fflogbot has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="fflogbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-35-13-1">
+        <dc:date>2005-03-02T16:35:13Z</dc:date>
+        <dc:description>topic is: http://fenfire.org - the channel may or may not be logged</dc:description>
+        <dc:creator><wn:Person foaf:nick="sterling.freenode.net"/></dc:creator>
+        <dc:relation rdf:resource="http://fenfire.org"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-35-13-2">
+        <dc:date>2005-03-02T16:35:13Z</dc:date>
+        <dc:description>Users on #fenfire: fflogbot ffdarcsbot CaptSolo antont humppake tuukkah ibid mudyc majukati benja_ </dc:description>
+        <dc:creator><wn:Person foaf:nick="sterling.freenode.net"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-35-19">
+        <dc:date>2005-03-02T16:35:19Z</dc:date>
+        <dc:description>if the bot writes to a file in realtime, the file can't end in the xml close tag so it can't be an xml document</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-35-40">
+        <dc:date>2005-03-02T16:35:40Z</dc:date>
+        <dc:description>tuukkah: they're re-created or something</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-35-52">
+        <dc:date>2005-03-02T16:35:52Z</dc:date>
+        <dc:description>they're different per day, so the load isn't so big</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-36-10">
+        <dc:date>2005-03-02T16:36:10Z</dc:date>
+        <dc:description>hmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-36-11">
+        <dc:date>2005-03-02T16:36:11Z</dc:date>
+        <dc:description>hmm :-(</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-36-19">
+        <dc:date>2005-03-02T16:36:19Z</dc:date>
+        <dc:description>"http://fenfire.org/irc/irc.freenode.org:6667/fenfire/2005-03-02.html" -- argh</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+        <dc:relation rdf:resource="http://fenfire.org/irc/irc.freenode.org:6667/fenfire/2005-03-02.html"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-36-39">
+        <dc:date>2005-03-02T16:36:39Z</dc:date>
+        <dc:description>need to change this</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-36-48">
+        <dc:date>2005-03-02T16:36:48Z</dc:date>
+        <dc:description>;-D</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-36-58">
+        <dc:date>2005-03-02T16:36:58Z</dc:date>
+        <dc:description>:o</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-38-34">
+        <dc:date>2005-03-02T16:38:34Z</dc:date>
+        <dc:description>and I thought the html file was a lot more verbose than plain text... :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-46">
+        <dc:date>2005-03-02T16:49:46Z</dc:date>
+        <dc:description>fflogbot has joined #fenfire</dc:description>
+        <dc:creator><wn:Person foaf:nick="fflogbot"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-46-1">
+        <dc:date>2005-03-02T16:49:46Z</dc:date>
+        <dc:description>topic is: http://fenfire.org - the channel may or may not be logged</dc:description>
+        <dc:creator><wn:Person foaf:nick="zelazny.freenode.net"/></dc:creator>
+        <dc:relation rdf:resource="http://fenfire.org"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-49-46-2">
+        <dc:date>2005-03-02T16:49:46Z</dc:date>
+        <dc:description>Users on #fenfire: fflogbot ffdarcsbot CaptSolo antont humppake tuukkah ibid mudyc majukati benja_ </dc:description>
+        <dc:creator><wn:Person foaf:nick="zelazny.freenode.net"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-51-27">
+        <dc:date>2005-03-02T16:51:27Z</dc:date>
+        <dc:description>ok, http://fenfire.org/irc/fenfire/</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+        <dc:relation rdf:resource="http://fenfire.org/irc/fenfire/"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-51-32">
+        <dc:date>2005-03-02T16:51:32Z</dc:date>
+        <dc:description>now it's barely working</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-51-57">
+        <dc:date>2005-03-02T16:51:57Z</dc:date>
+        <dc:description>no index files yet</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-52-45">
+        <dc:date>2005-03-02T16:52:45Z</dc:date>
+        <dc:description>so, I could load the nodes but how to see them?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-53-22">
+        <dc:date>2005-03-02T16:53:22Z</dc:date>
+        <dc:description>?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-53-23">
+        <dc:date>2005-03-02T16:53:23Z</dc:date>
+        <dc:description>oh, right...</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-53-31">
+        <dc:date>2005-03-02T16:53:31Z</dc:date>
+        <dc:description>let me try</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-53-56">
+        <dc:date>2005-03-02T16:53:56Z</dc:date>
+        <dc:description>they only use dc:description which is not a text property, so it's not very rewarding yet ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-55-03">
+        <dc:date>2005-03-02T16:55:03Z</dc:date>
+        <dc:description>what's rdf:li ?</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-55-15">
+        <dc:date>2005-03-02T16:55:15Z</dc:date>
+        <dc:description>not 'list item' like in html i suppose..</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-55-31">
+        <dc:date>2005-03-02T16:55:31Z</dc:date>
+        <dc:description>oh it is in &lt;rdf:Seq&gt; so perhaps yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-55-45">
+        <dc:date>2005-03-02T16:55:45Z</dc:date>
+        <dc:description>after I went to irc://irc.freenode.org/fenfire I could see something but ran instantly out of memory</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-56-07">
+        <dc:date>2005-03-02T16:56:07Z</dc:date>
+        <dc:description>tuukkah: huh, very weird</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-56-10">
+        <dc:date>2005-03-02T16:56:10Z</dc:date>
+        <dc:description>there isn't a lot of data</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-56-21">
+        <dc:date>2005-03-02T16:56:21Z</dc:date>
+        <dc:description>well, MX=256M =-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-56-50">
+        <dc:date>2005-03-02T16:56:50Z</dc:date>
+        <dc:description>ah, I know</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-56-58">
+        <dc:date>2005-03-02T16:56:58Z</dc:date>
+        <dc:description>there's some loop so the DFS bites =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-57-18">
+        <dc:date>2005-03-02T16:57:18Z</dc:date>
+        <dc:description>you can set maxdepth to a lower number in StructureView</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-57-30">
+        <dc:date>2005-03-02T16:57:30Z</dc:date>
+        <dc:description>or increase heap</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-57-45">
+        <dc:date>2005-03-02T16:57:45Z</dc:date>
+        <dc:description>tuukkah: that was the MX comment</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-57-57">
+        <dc:date>2005-03-02T16:57:57Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T16-58-36">
+        <dc:date>2005-03-02T16:58:36Z</dc:date>
+        <dc:description>oh, that was a makefile variable</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-01-25">
+        <dc:date>2005-03-02T17:01:25Z</dc:date>
+        <dc:description>argh, all those rdf:_38 on the property list =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-02-29">
+        <dc:date>2005-03-02T17:02:29Z</dc:date>
+        <dc:description>http://www.ilrt.bris.ac.uk/discovery/chatlogs/swig/2005-03-02.html#T15-42-23</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+        <dc:relation rdf:resource="http://www.ilrt.bris.ac.uk/discovery/chatlogs/swig/2005-03-02.html#T15-42-23"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-03-10">
+        <dc:date>2005-03-02T17:03:10Z</dc:date>
+        <dc:description>trying to got to eventlist node caused recursion limit to be exceeded</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-03-38">
+        <dc:date>2005-03-02T17:03:38Z</dc:date>
+        <dc:description>at org.nongnu.libvob.impl.awt.DepthSorter.quicksort(DepthSorter.java:186)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-04-26">
+        <dc:date>2005-03-02T17:04:26Z</dc:date>
+        <dc:description>sigh</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-07-06">
+        <dc:date>2005-03-02T17:07:06Z</dc:date>
+        <dc:description>with smaller limits it works</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-07-21">
+        <dc:date>2005-03-02T17:07:21Z</dc:date>
+        <dc:description>maxdepth 4, maxring 3</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-08-18">
+        <dc:date>2005-03-02T17:08:18Z</dc:date>
+        <dc:description>it doesn't really matter so much if dc:description isn't showed as node content</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-08-41">
+        <dc:date>2005-03-02T17:08:41Z</dc:date>
+        <dc:description>worse is that rdf_n aren't sorted</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-09-23">
+        <dc:date>2005-03-02T17:09:23Z</dc:date>
+        <dc:description>there's a lot to tweak...</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-09-52">
+        <dc:date>2005-03-02T17:09:52Z</dc:date>
+        <dc:description>the different events from same nick aren't known to be from the same person</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-11-55">
+        <dc:date>2005-03-02T17:11:55Z</dc:date>
+        <dc:description>yeah, I don't understand why they aren't sorted, will look into it sometime</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-12-16">
+        <dc:date>2005-03-02T17:12:16Z</dc:date>
+        <dc:description>it does matter to me, the text should be in the node</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-12-47">
+        <dc:date>2005-03-02T17:12:47Z</dc:date>
+        <dc:description>how would you sort them anyway? alphabetical isn't enough with rdf:_3 and rdf:_21</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-12-50">
+        <dc:date>2005-03-02T17:12:50Z</dc:date>
+        <dc:description>tuukkah: true ... hard to see whether they should be</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-13-10">
+        <dc:date>2005-03-02T17:13:10Z</dc:date>
+        <dc:description>matters, but not so much :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-13-13">
+        <dc:date>2005-03-02T17:13:13Z</dc:date>
+        <dc:description>since nicks aren't permanently associated with people. hmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-13-34">
+        <dc:date>2005-03-02T17:13:34Z</dc:date>
+        <dc:description>first of all, freenode has registered nicks</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-13-38">
+        <dc:date>2005-03-02T17:13:38Z</dc:date>
+        <dc:description>tuukkah: you would sort them by the number after the _ I suppose ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-13-56">
+        <dc:date>2005-03-02T17:13:56Z</dc:date>
+        <dc:description>tuukkah: true...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-14-12">
+        <dc:date>2005-03-02T17:14:12Z</dc:date>
+        <dc:description>second, as long as you don't quit and join, the person can't change</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-15-21">
+        <dc:date>2005-03-02T17:15:21Z</dc:date>
+        <dc:description>except when you change the nicks, but it's quite uncommon, and also communicated to the channel</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-15-48">
+        <dc:date>2005-03-02T17:15:48Z</dc:date>
+        <dc:description>i agree that the speaker should be 'known', whatever that means</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-15-52">
+        <dc:date>2005-03-02T17:15:52Z</dc:date>
+        <dc:description>antont: but not in a way that would help RDF =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-16-28">
+        <dc:date>2005-03-02T17:16:28Z</dc:date>
+        <dc:description>so instead of "some benja_", you can have "benja_ who has registered the nick" or "the user who joined the channel on 2005-02-17T18:54:09, and is currently knows as benja"</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-16-40">
+        <dc:date>2005-03-02T17:16:40Z</dc:date>
+        <dc:description>the bot could record the mbox_sha1sum if mbox is available, but not everybody has it set...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-16-59">
+        <dc:date>2005-03-02T17:16:59Z</dc:date>
+        <dc:description>why does it have to be mbox_sha1sum?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-17-06">
+        <dc:date>2005-03-02T17:17:06Z</dc:date>
+        <dc:description>tuukkah: ?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-17-30">
+        <dc:date>2005-03-02T17:17:30Z</dc:date>
+        <dc:description>why can't it be anything that identifies the person?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-17-54">
+        <dc:date>2005-03-02T17:17:54Z</dc:date>
+        <dc:description>tuukkah: well, because the bot can discover it</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-04">
+        <dc:date>2005-03-02T17:18:04Z</dc:date>
+        <dc:description>homepage is the one other thing it could discover</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-14">
+        <dc:date>2005-03-02T17:18:14Z</dc:date>
+        <dc:description>how could it discover those?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-15">
+        <dc:date>2005-03-02T17:18:15Z</dc:date>
+        <dc:description>I think</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-21">
+        <dc:date>2005-03-02T17:18:21Z</dc:date>
+        <dc:description>tuukkah: you ask NickServ</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-31">
+        <dc:date>2005-03-02T17:18:31Z</dc:date>
+        <dc:description>and how can't it discover if the nick is registered?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-43">
+        <dc:date>2005-03-02T17:18:43Z</dc:date>
+        <dc:description>tuukkah: ?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-58">
+        <dc:date>2005-03-02T17:18:58Z</dc:date>
+        <dc:description>&lt;benja_&gt; antont: but not in a way that would help RDF =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-18-58-1">
+        <dc:date>2005-03-02T17:18:58Z</dc:date>
+        <dc:description>it can discover if the nick is registered and has these set</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-27">
+        <dc:date>2005-03-02T17:19:27Z</dc:date>
+        <dc:description>tuukkah: 19:15 &lt; antont&gt; except when you change the nicks, but it's quite uncommon, and also communicated to the channel</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-28">
+        <dc:date>2005-03-02T17:19:28Z</dc:date>
+        <dc:description>if it's registered then that is enough to connect the different log entries</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-19-37">
+        <dc:date>2005-03-02T17:19:37Z</dc:date>
+        <dc:description>saying "I changed my nick" isn't helpful for RDF</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-10">
+        <dc:date>2005-03-02T17:20:10Z</dc:date>
+        <dc:description>but the bot can understand the message and mark it in rdf in some more direct way</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-17">
+        <dc:date>2005-03-02T17:20:17Z</dc:date>
+        <dc:description>tuukkah: so you want to make a new vocabulary with registeredFreenodeNick?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-27">
+        <dc:date>2005-03-02T17:20:27Z</dc:date>
+        <dc:description>of course these can still change owners</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-20-48">
+        <dc:date>2005-03-02T17:20:48Z</dc:date>
+        <dc:description>why not?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-08">
+        <dc:date>2005-03-02T17:21:08Z</dc:date>
+        <dc:description>I can enter your email address in my nickserv records?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-22">
+        <dc:date>2005-03-02T17:21:22Z</dc:date>
+        <dc:description>tuukkah: what are you replying to?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-21-27">
+        <dc:date>2005-03-02T17:21:27Z</dc:date>
+        <dc:description>if you want more spam, that is?</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-04">
+        <dc:date>2005-03-02T17:22:04Z</dc:date>
+        <dc:description>or homepage url, if we're more against spam</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-23">
+        <dc:date>2005-03-02T17:22:23Z</dc:date>
+        <dc:description>yep</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-22-26">
+        <dc:date>2005-03-02T17:22:26Z</dc:date>
+        <dc:description>benja_, why not have attribute registeredFreenodeNick?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-07">
+        <dc:date>2005-03-02T17:23:07Z</dc:date>
+        <dc:description>19:20 &lt; benja_&gt; tuukkah: so you want to make a new vocabulary with </dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-07-1">
+        <dc:date>2005-03-02T17:23:07Z</dc:date>
+        <dc:description>                registeredFreenodeNick?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-08">
+        <dc:date>2005-03-02T17:23:08Z</dc:date>
+        <dc:description>benja_, and if I have your contact info in my nickserv records, it doesn't make me you</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-15">
+        <dc:date>2005-03-02T17:23:15Z</dc:date>
+        <dc:description>I wasn't saying you couldn't make one?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-37">
+        <dc:date>2005-03-02T17:23:37Z</dc:date>
+        <dc:description>tuukkah: it doesn't, but what's your point?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-23-50">
+        <dc:date>2005-03-02T17:23:50Z</dc:date>
+        <dc:description>isn't "why not" an appropriate way to say "yes" in this case?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-24-39">
+        <dc:date>2005-03-02T17:24:39Z</dc:date>
+        <dc:description>benja_, using email address from nickserv records has some problems too</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-24-44">
+        <dc:date>2005-03-02T17:24:44Z</dc:date>
+        <dc:description>nothing else</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-24-52">
+        <dc:date>2005-03-02T17:24:52Z</dc:date>
+        <dc:description>but i'm off - cu. it was pretty interesting to see structured irc data. and i didn't even manage see that rdf-xml as very horrible. and with the improvements discussed seems nice. although i've no idea about the applications ppl have in mind .. but even just being able to link to arguments in discussions is useful i guess</dc:description>
+        <dc:creator><wn:Person foaf:nick="antont"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-24-55">
+        <dc:date>2005-03-02T17:24:55Z</dc:date>
+        <dc:description>tuukkah: way to say yes: no, IMHO ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-25-15">
+        <dc:date>2005-03-02T17:25:15Z</dc:date>
+        <dc:description>I didn't understand it as a "yes, I want to make a new vocab"</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-25-43">
+        <dc:date>2005-03-02T17:25:43Z</dc:date>
+        <dc:description>tuukkah: ok, it does, but it's a general trust problem...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-25-47">
+        <dc:date>2005-03-02T17:25:47Z</dc:date>
+        <dc:description>hmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-12">
+        <dc:date>2005-03-02T17:26:12Z</dc:date>
+        <dc:description>perhaps I don't want to. but why couldn't I... :-) I thought perhaps you had some convincing arguments, as you probably do :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-33">
+        <dc:date>2005-03-02T17:26:33Z</dc:date>
+        <dc:description>registeredFreenodeNick is a possibility, but of course they *can* change owners, we'd just ignore that problem</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-26-42">
+        <dc:date>2005-03-02T17:26:42Z</dc:date>
+        <dc:description>tuukkah: =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-27-28">
+        <dc:date>2005-03-02T17:27:28Z</dc:date>
+        <dc:description>is there anything that can't change owners ?-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-28-34">
+        <dc:date>2005-03-02T17:28:34Z</dc:date>
+        <dc:description>social security numbers? =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-29-01">
+        <dc:date>2005-03-02T17:29:01Z</dc:date>
+        <dc:description>well, it's true that foaf:mbox ignores the problem too</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-30-26">
+        <dc:date>2005-03-02T17:30:26Z</dc:date>
+        <dc:description>could you do the old trick and somehow add a timestamp to the id, be it mbox or nick?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-31-16">
+        <dc:date>2005-03-02T17:31:16Z</dc:date>
+        <dc:description>there's foaf's holdsAccount --&gt; OnlineChatAccount</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-31-32">
+        <dc:date>2005-03-02T17:31:32Z</dc:date>
+        <dc:description>tuukkah: no, that would require picking one</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-31-44">
+        <dc:date>2005-03-02T17:31:44Z</dc:date>
+        <dc:description>which has the same problem as picking a URI</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-31-50">
+        <dc:date>2005-03-02T17:31:50Z</dc:date>
+        <dc:description>how do you get people to agree on one?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-32-15">
+        <dc:date>2005-03-02T17:32:15Z</dc:date>
+        <dc:description>I don't see the problem</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-32-18">
+        <dc:date>2005-03-02T17:32:18Z</dc:date>
+        <dc:description>because if you don't, you lose what you want to get: being able to know that different nodes identify the same resource</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-33-29">
+        <dc:date>2005-03-02T17:33:29Z</dc:date>
+        <dc:description>if I use b.fallenstein@gmx.de/2004-01 and you use b.fallenstein@gmx.de/2004-07, the computer can't infer that the two are the same</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-33-37">
+        <dc:date>2005-03-02T17:33:37Z</dc:date>
+        <dc:description>i.e., that we're talking about the same person</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-34-03">
+        <dc:date>2005-03-02T17:34:03Z</dc:date>
+        <dc:description>true, but if I used 2004-01 as you've told me</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-34-42">
+        <dc:date>2005-03-02T17:34:42Z</dc:date>
+        <dc:description>basicly, you could tell that your mbox is b.fallenstein+2004-01@gmx.de</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-35-21">
+        <dc:date>2005-03-02T17:35:21Z</dc:date>
+        <dc:description>tuukkah: that's not a realistic proposal for use today, because most people have not picked such a date</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-35-36">
+        <dc:date>2005-03-02T17:35:36Z</dc:date>
+        <dc:description>if they did, they could just as well pick a URI to represent themselves</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-35-58">
+        <dc:date>2005-03-02T17:35:58Z</dc:date>
+        <dc:description>and we didn't need to identify them by mbox</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-36-01">
+        <dc:date>2005-03-02T17:36:01Z</dc:date>
+        <dc:description>now someone else starts to use the box, they would stick with b.fallenstein+2005-04@gmx.de</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-36-14">
+        <dc:date>2005-03-02T17:36:14Z</dc:date>
+        <dc:description>ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-37-56">
+        <dc:date>2005-03-02T17:37:56Z</dc:date>
+        <dc:description>you can have several mboxes, right, so the dated one would be a more strict reference to you and the dateless one a less strict</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-38-51">
+        <dc:date>2005-03-02T17:38:51Z</dc:date>
+        <dc:description>well, the trust just isn't there yet in the systems</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-39-36">
+        <dc:date>2005-03-02T17:39:36Z</dc:date>
+        <dc:description>tuukkah: a reasonable workaround at the moment is to trust everything unless there's manual intervention =-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-39-56">
+        <dc:date>2005-03-02T17:39:56Z</dc:date>
+        <dc:description>that's what all the semweb stuff does today</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-40-55">
+        <dc:date>2005-03-02T17:40:55Z</dc:date>
+        <dc:description>at the moment I can publish FOAF that says my mbox_sha1sum is same as yours :-/ would any software be able to let the user say anything agains this?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-41-30">
+        <dc:date>2005-03-02T17:41:30Z</dc:date>
+        <dc:description>tuukkah: depends on who you consider the user =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-41-33">
+        <dc:date>2005-03-02T17:41:33Z</dc:date>
+        <dc:description>that is, is manual intervention implemented in any software </dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-41-42">
+        <dc:date>2005-03-02T17:41:42Z</dc:date>
+        <dc:description>fenfire would allow the user not to load your foaf, for example ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-42-01">
+        <dc:date>2005-03-02T17:42:01Z</dc:date>
+        <dc:description>foaf aggregators apparently usually allow the admins to exclude files</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-42-14">
+        <dc:date>2005-03-02T17:42:14Z</dc:date>
+        <dc:description>I've asked about this and have been told it has happened, but rarely</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-42-20">
+        <dc:date>2005-03-02T17:42:20Z</dc:date>
+        <dc:description>(and they fixed it manually)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-43-02">
+        <dc:date>2005-03-02T17:43:02Z</dc:date>
+        <dc:description>ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-43-14">
+        <dc:date>2005-03-02T17:43:14Z</dc:date>
+        <dc:description>it's an active research topic of course</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-43-32">
+        <dc:date>2005-03-02T17:43:32Z</dc:date>
+        <dc:description>as long as it's a quad graph, you can filter out the offensive source</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-43-54">
+        <dc:date>2005-03-02T17:43:54Z</dc:date>
+        <dc:description>but I'm afraid you couldn't undo smushing, for example</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-45-20">
+        <dc:date>2005-03-02T17:45:20Z</dc:date>
+        <dc:description>tuukkah: in Fenfire, you could</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-45-29">
+        <dc:date>2005-03-02T17:45:29Z</dc:date>
+        <dc:description>in most smushing impls, you couldn't</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-45-32">
+        <dc:date>2005-03-02T17:45:32Z</dc:date>
+        <dc:description>afaik</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-45-49">
+        <dc:date>2005-03-02T17:45:49Z</dc:date>
+        <dc:description>I decided this was important to ff because the user could accidentally smush</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-46-10">
+        <dc:date>2005-03-02T17:46:10Z</dc:date>
+        <dc:description>ok, this is very nice to hear</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-46-40">
+        <dc:date>2005-03-02T17:46:40Z</dc:date>
+        <dc:description>(I did another ctrl-g on the irclog, and the update seems to have worked)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-46-48">
+        <dc:date>2005-03-02T17:46:48Z</dc:date>
+        <dc:description>i.e., the user mistypes mbox='hostmaster@news.fi', deletes 'fi' and types 'com'</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-47-13">
+        <dc:date>2005-03-02T17:47:13Z</dc:date>
+        <dc:description>if 'hostmaster@news.fi' also exists in the system, the two nodes and all info about them would've become smushed</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-47-29">
+        <dc:date>2005-03-02T17:47:29Z</dc:date>
+        <dc:description>but SmushedQuadsGraph will unsmush when the reason for smushing goes away</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-48-31">
+        <dc:date>2005-03-02T17:48:31Z</dc:date>
+        <dc:description>so the smushing isn't ever permanent?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-48-41">
+        <dc:date>2005-03-02T17:48:41Z</dc:date>
+        <dc:description>hm, what do you think about just making it foo:freenodeNick for now -- i.e. not change registration? (much easier to do I believe)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-49-17">
+        <dc:date>2005-03-02T17:49:17Z</dc:date>
+        <dc:description>what do you mean "not change registration"?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-49-21">
+        <dc:date>2005-03-02T17:49:21Z</dc:date>
+        <dc:description>tuukkah: the unsmushed quads graph is always maintained and the relationship to the smushed graph is functional if there are no bugs</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-49-42">
+        <dc:date>2005-03-02T17:49:42Z</dc:date>
+        <dc:description>s/not change registration/not check registration/, sorry</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-50-32">
+        <dc:date>2005-03-02T17:50:32Z</dc:date>
+        <dc:description>it's not difficult to check registration, is it? at least on protocol level, each PRIVMSG is marked whether it's by a registered nick or not</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-50-55">
+        <dc:date>2005-03-02T17:50:55Z</dc:date>
+        <dc:description>tuukkah: but adding freenodeNick likely involves no coding at all</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-51-16">
+        <dc:date>2005-03-02T17:51:16Z</dc:date>
+        <dc:description>checking registration likely involves some perl and Net::IRC coding =-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-51-24">
+        <dc:date>2005-03-02T17:51:24Z</dc:date>
+        <dc:description>(you're welcome to do it of course ;-))</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-51-56">
+        <dc:date>2005-03-02T17:51:56Z</dc:date>
+        <dc:description>ok, it's not like this is security sensitive</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-52-16">
+        <dc:date>2005-03-02T17:52:16Z</dc:date>
+        <dc:description>I know a perl hacker who is going to attend the course :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-53-52">
+        <dc:date>2005-03-02T17:53:52Z</dc:date>
+        <dc:description>the only way it would affect anything outside the logs is if you put the freenodeNick in your foaf</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-53-58">
+        <dc:date>2005-03-02T17:53:58Z</dc:date>
+        <dc:description>or some other public location</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-54-48">
+        <dc:date>2005-03-02T17:54:48Z</dc:date>
+        <dc:description>and if you do that, I think everybody understands that irc nicks can be stolen</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-55-29">
+        <dc:date>2005-03-02T17:55:29Z</dc:date>
+        <dc:description>tuukkah: the only way it would cause a real problem is if you dropped your nick, somebody else picked it up, and put it in *their* foaf</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-55-37">
+        <dc:date>2005-03-02T17:55:37Z</dc:date>
+        <dc:description>and that's extremely unlikely</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T17-55-46">
+        <dc:date>2005-03-02T17:55:46Z</dc:date>
+        <dc:description>plus you'd remove it from your foaf most likely</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-03-43">
+        <dc:date>2005-03-02T18:03:43Z</dc:date>
+        <dc:description>so, would you add dc:description to Fenfire.TEXT_PROPS?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-03-52">
+        <dc:date>2005-03-02T18:03:52Z</dc:date>
+        <dc:description>no</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-04-04">
+        <dc:date>2005-03-02T18:04:04Z</dc:date>
+        <dc:description>I believe it's not really appropriate here</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-04-34">
+        <dc:date>2005-03-02T18:04:34Z</dc:date>
+        <dc:description>rdfs:label would be more appropriate I think</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-04-43">
+        <dc:date>2005-03-02T18:04:43Z</dc:date>
+        <dc:description>hmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-05-03">
+        <dc:date>2005-03-02T18:05:03Z</dc:date>
+        <dc:description>shouldn't there be two things anyway: a text that someone says and type of message like privmsg, notice, join, part</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-06-05">
+        <dc:date>2005-03-02T18:06:05Z</dc:date>
+        <dc:description>or would that be rdf:type</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-06-13">
+        <dc:date>2005-03-02T18:06:13Z</dc:date>
+        <dc:description>well, it's just the text that someone said</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-06-16">
+        <dc:date>2005-03-02T18:06:16Z</dc:date>
+        <dc:description>at the moment</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-06-20">
+        <dc:date>2005-03-02T18:06:20Z</dc:date>
+        <dc:description>which is foaf:chatEvent now</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-07-01">
+        <dc:date>2005-03-02T18:07:01Z</dc:date>
+        <dc:description>it's not strictly saying as stuff like title is a chatEvent as well</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-07-24">
+        <dc:date>2005-03-02T18:07:24Z</dc:date>
+        <dc:description>well, ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-07-52">
+        <dc:date>2005-03-02T18:07:52Z</dc:date>
+        <dc:description>I think making the model there more complex is unnecessary work at the moment</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-08-05">
+        <dc:date>2005-03-02T18:08:05Z</dc:date>
+        <dc:description>ok</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-08-19">
+        <dc:date>2005-03-02T18:08:19Z</dc:date>
+        <dc:description>I'm not opposed to it, just have no interest in doing it</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-08-28">
+        <dc:date>2005-03-02T18:08:28Z</dc:date>
+        <dc:description>yes</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-08-52">
+        <dc:date>2005-03-02T18:08:52Z</dc:date>
+        <dc:description>would all dc:dates be shown in the calendar view?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-09-03">
+        <dc:date>2005-03-02T18:09:03Z</dc:date>
+        <dc:description>ah, right, crschmidt mentioned http://crschmidt.net/ns/irc#</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+        <dc:relation rdf:resource="http://crschmidt.net/ns/irc#"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-09-10">
+        <dc:date>2005-03-02T18:09:10Z</dc:date>
+        <dc:description>tuukkah: y</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-09-15">
+        <dc:date>2005-03-02T18:09:15Z</dc:date>
+        <dc:description>well, for now</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-09-21">
+        <dc:date>2005-03-02T18:09:21Z</dc:date>
+        <dc:description>in the future, we'd have selection by type</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-10-10">
+        <dc:date>2005-03-02T18:10:10Z</dc:date>
+        <dc:description>how do i see the calendar view?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-10-21">
+        <dc:date>2005-03-02T18:10:21Z</dc:date>
+        <dc:description>when the user can create a new vocabulary with dates inside Fenfire, and make it an applitude with a specific calendar view in an integrated process, then we'll really have "fenfire"</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-10-34">
+        <dc:date>2005-03-02T18:10:34Z</dc:date>
+        <dc:description>tuukkah: go on something with a date, hit Ctrl-V</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-10-50">
+        <dc:date>2005-03-02T18:10:50Z</dc:date>
+        <dc:description>it may not be performant</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-10-57">
+        <dc:date>2005-03-02T18:10:57Z</dc:date>
+        <dc:description>you have been warned</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-10-59">
+        <dc:date>2005-03-02T18:10:59Z</dc:date>
+        <dc:description>;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-11-00">
+        <dc:date>2005-03-02T18:11:00Z</dc:date>
+        <dc:description>-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-11-15">
+        <dc:date>2005-03-02T18:11:15Z</dc:date>
+        <dc:description>I need to go shopping, promised</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-11-18">
+        <dc:date>2005-03-02T18:11:18Z</dc:date>
+        <dc:description>(shops close at eight)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-11-19">
+        <dc:date>2005-03-02T18:11:19Z</dc:date>
+        <dc:description>cu</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-11-21">
+        <dc:date>2005-03-02T18:11:21Z</dc:date>
+        <dc:description>but this would be more useful than sorting the stupid property names</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-11-30">
+        <dc:date>2005-03-02T18:11:30Z</dc:date>
+        <dc:description>bye</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-12-07">
+        <dc:date>2005-03-02T18:12:07Z</dc:date>
+        <dc:description>tuukkah: a) sorting the stupid property names is important because many stupid rdf vocabs use containers ;) ;)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-12-48">
+        <dc:date>2005-03-02T18:12:48Z</dc:date>
+        <dc:description>b) I'd prefer to sort by date; dajobe said that different items can have the same date and order can be important (multiline paste)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-13-09">
+        <dc:date>2005-03-02T18:13:09Z</dc:date>
+        <dc:description>I'm thinking about having date + number-of-item-with-same-date</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-13-18">
+        <dc:date>2005-03-02T18:13:18Z</dc:date>
+        <dc:description>I really dislike the use of a container</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-13-43">
+        <dc:date>2005-03-02T18:13:43Z</dc:date>
+        <dc:description>it's ugly that there's a different container for every day and stuff...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T18-13-57">
+        <dc:date>2005-03-02T18:13:57Z</dc:date>
+        <dc:description>but, cu</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-04-47">
+        <dc:date>2005-03-02T19:04:47Z</dc:date>
+        <dc:description> shops lo</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-04-52">
+        <dc:date>2005-03-02T19:04:52Z</dc:date>
+        <dc:description>shops closed, benja_ back</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-07-42">
+        <dc:date>2005-03-02T19:07:42Z</dc:date>
+        <dc:description>that was quick :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-08-25">
+        <dc:date>2005-03-02T19:08:25Z</dc:date>
+        <dc:description>btw, if you don't know channel101.com, have a look</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-08-49">
+        <dc:date>2005-03-02T19:08:49Z</dc:date>
+        <dc:description>(a community making video series with 5min per episode and voting on them)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-10-33">
+        <dc:date>2005-03-02T19:10:33Z</dc:date>
+        <dc:description>(try, e.g., the first episode of The 'Bu @ http://www.channel101.com/media/shw_0010/epi_0034/the_bu_1.mp4 -- I use noatun to watch them)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+        <dc:relation rdf:resource="http://www.channel101.com/media/shw_0010/epi_0034/the_bu_1.mp4"/>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-16-15">
+        <dc:date>2005-03-02T19:16:15Z</dc:date>
+        <dc:description>umm, a truly funny squirrel</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-16-42">
+        <dc:date>2005-03-02T19:16:42Z</dc:date>
+        <dc:description>unfortunately I don't think I have red-blue glasses nearby ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-17-05">
+        <dc:date>2005-03-02T19:17:05Z</dc:date>
+        <dc:description>I did try it with glasses the second time, I think the images come from a single cam actually =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-18-44">
+        <dc:date>2005-03-02T19:18:44Z</dc:date>
+        <dc:description>yes, I was wondering if they'd really had a stereo camera</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-19-07">
+        <dc:date>2005-03-02T19:19:07Z</dc:date>
+        <dc:description>I thought they might've used two, don't know if that's really possible</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-20-50">
+        <dc:date>2005-03-02T19:20:50Z</dc:date>
+        <dc:description>so now we have the magic potion, Lob/Model templates, and Tuomas' Functional system</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-21-20">
+        <dc:date>2005-03-02T19:21:20Z</dc:date>
+        <dc:description>the languages?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-21-26">
+        <dc:date>2005-03-02T19:21:26Z</dc:date>
+        <dc:description>yeah...</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-21-48">
+        <dc:date>2005-03-02T19:21:48Z</dc:date>
+        <dc:description>what's up next =)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-21-58">
+        <dc:date>2005-03-02T19:21:58Z</dc:date>
+        <dc:description>turn it all into common lisp %-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-22-03">
+        <dc:date>2005-03-02T19:22:03Z</dc:date>
+        <dc:description>=*)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-22-33">
+        <dc:date>2005-03-02T19:22:33Z</dc:date>
+        <dc:description>hmmm</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-22-44">
+        <dc:date>2005-03-02T19:22:44Z</dc:date>
+        <dc:description>or haskell that can output either Java and use AWT or C++ and use OpenGL</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-23-04">
+        <dc:date>2005-03-02T19:23:04Z</dc:date>
+        <dc:description>lobs are an object system, really, but the template system is used as a kind of programming language</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-23-43">
+        <dc:date>2005-03-02T19:23:43Z</dc:date>
+        <dc:description>models are something of a cross between an object and a function, or set of functions</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-23-47">
+        <dc:date>2005-03-02T19:23:47Z</dc:date>
+        <dc:description>21:23 &lt; benja_&gt; lobs are an object system, really, but the template system is </dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-23-48">
+        <dc:date>2005-03-02T19:23:48Z</dc:date>
+        <dc:description>hups</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-23-51">
+        <dc:date>2005-03-02T19:23:51Z</dc:date>
+        <dc:description>                used as a kind of programming language</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-24-51">
+        <dc:date>2005-03-02T19:24:51Z</dc:date>
+        <dc:description>and then, lobs and models and graphs are observable</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-25-18">
+        <dc:date>2005-03-02T19:25:18Z</dc:date>
+        <dc:description>there must be a way to simplify all this</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-25-25">
+        <dc:date>2005-03-02T19:25:25Z</dc:date>
+        <dc:description>separate it into orthogonal parts</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-25-41">
+        <dc:date>2005-03-02T19:25:41Z</dc:date>
+        <dc:description>in a way, a template is a function returning an object</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-26-37">
+        <dc:date>2005-03-02T19:26:37Z</dc:date>
+        <dc:description>templates use parameter lists with named parameters, potion uses positional parameter lists, the functional stuff uses one parameter per function</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-28-00">
+        <dc:date>2005-03-02T19:28:00Z</dc:date>
+        <dc:description>those all can be represented as one parameter that can be a dictionary with indexes as keys :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-29-01">
+        <dc:date>2005-03-02T19:29:01Z</dc:date>
+        <dc:description>which reminds me: functions and lobs have some constraints w.r.t. speed</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-29-16">
+        <dc:date>2005-03-02T19:29:16Z</dc:date>
+        <dc:description>perhaps potions does too, when mixed with the two above</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-29-30">
+        <dc:date>2005-03-02T19:29:30Z</dc:date>
+        <dc:description>i.e., when we use potions to specify views (view parameters)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-30-41">
+        <dc:date>2005-03-02T19:30:41Z</dc:date>
+        <dc:description>I failed an exam in "fundamentals of theoretical computer science"</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-31-38">
+        <dc:date>2005-03-02T19:31:38Z</dc:date>
+        <dc:description>:-( graphs, logic, type theory?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-31-58">
+        <dc:date>2005-03-02T19:31:58Z</dc:date>
+        <dc:description>no. computability, turing machines, P/NP, languages</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-32-12">
+        <dc:date>2005-03-02T19:32:12Z</dc:date>
+        <dc:description>oh, that stuff :-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-32-20">
+        <dc:date>2005-03-02T19:32:20Z</dc:date>
+        <dc:description>I don't think I would have failed graphs, logic, type theory ;-)</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-32-54">
+        <dc:date>2005-03-02T19:32:54Z</dc:date>
+        <dc:description>where these two classes track A and track B?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-33-18">
+        <dc:date>2005-03-02T19:33:18Z</dc:date>
+        <dc:description>majukati has documented some really funny procmail hackery</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-36-14">
+        <dc:date>2005-03-02T19:36:14Z</dc:date>
+        <dc:description>tuukkah: they have nothing to do with this course</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-36-37">
+        <dc:date>2005-03-02T19:36:37Z</dc:date>
+        <dc:description>neither a nor b?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-36-39">
+        <dc:date>2005-03-02T19:36:39Z</dc:date>
+        <dc:description>tuukkah: yep, that was awesome.</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-37-15">
+        <dc:date>2005-03-02T19:37:15Z</dc:date>
+        <dc:description>don't the message headers break procmail reading the message as .procmailrc?</dc:description>
+        <dc:creator><wn:Person foaf:nick="tuukkah"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-38-14">
+        <dc:date>2005-03-02T19:38:14Z</dc:date>
+        <dc:description>fflogbot you are illegal to be run from eppi. we had only right to run archive changes commit bot</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-41-35">
+        <dc:date>2005-03-02T19:41:35Z</dc:date>
+        <dc:description>benja_: you need to use another host</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-42-20">
+        <dc:date>2005-03-02T19:42:20Z</dc:date>
+        <dc:description>majukati: I recall the conversation differently, I believe we explicitly talked about logging</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-42-46">
+        <dc:date>2005-03-02T19:42:46Z</dc:date>
+        <dc:description>we explicitly talked about logging and the answer was no</dc:description>
+        <dc:creator><wn:Person foaf:nick="majukati"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-42-55">
+        <dc:date>2005-03-02T19:42:55Z</dc:date>
+        <dc:description>so what was the plan?</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+      <rdf:li>
+       <foaf:chatEvent rdf:ID="T19-43-10">
+        <dc:date>2005-03-02T19:43:10Z</dc:date>
+        <dc:description>since they don't want us to run a web server on siksak</dc:description>
+        <dc:creator><wn:Person foaf:nick="benja_"/></dc:creator>
+       </foaf:chatEvent>
+      </rdf:li>
+    </rdf:Seq>
+  </foaf:chatEventList>
+</foaf:ChatChannel>
+</rdf:RDF>
